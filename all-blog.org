@@ -1,0 +1,15 @@
+#+hugo_base_dir: D:/home/blog/
+#+hugo_section: post
+#+hugo_auto_set_lastmode: t
+#+hugo_custom_front_matter: :author zhangxingong
+#+hugo_code_fence: nil
+#+STARTUP: logdrawer
+
+* Blog Ideas
+** TODO my-first-blog
+:PROPERTIES:
+:EXPORT_FILE_NAME: my-first-blog
+:END:
+
+*** 第一个博客
+
