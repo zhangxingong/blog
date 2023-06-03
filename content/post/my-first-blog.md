@@ -1,6 +1,6 @@
 +++
 title = "my-first-blog"
-draft = true
+draft = false
 author = "zhangxingong"
 +++
 
