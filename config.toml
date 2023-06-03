@@ -1,6 +1,5 @@
 baseURL = "https://zhangxingong.github.io/"
 defaultContentLanguage = "zh-hans"
-defaultContentLanguageInSubdir = false
 hasCJKLanguage = true
 languageCode = "zh-Hans"
 title = "Ethan的博客"
