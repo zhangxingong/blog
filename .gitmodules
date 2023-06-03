@@ -1,3 +1,9 @@
 [submodule "themes/even"]
 	path = themes/even
 	url = https://github.com/olOwOlo/hugo-theme-even
+[submodule "maupassant-hugo"]
+	path = maupassant-hugo
+	url = https://github.com/flysnow-org/maupassant-hugo
+[submodule "themes/maupassant"]
+	path = themes/maupassant
+	url = https://github.com/flysnow-org/maupassant-hugo
