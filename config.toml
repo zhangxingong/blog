@@ -1,5 +1,8 @@
 baseURL = "https://zhangxingong.github.io/"
-languageCode = "zh-CN"
+defaultContentLanguage = "zh-hans"
+defaultContentLanguageInSubdir = false
+hasCJKLanguage = true
+languageCode = "zh-Hans"
 title = "Ethan的博客"
 theme = "maupassant"
 googleAnalytics = ""  # UA-XXXXXXXX-X/G-XXXXXXXXXX

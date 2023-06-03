@@ -1,0 +1,25 @@
+[zh-hans]
+  languageName = "中文（简体）"
+  languageCode = "zh-Hans"
+  timeZone = "Asia/Shanghai"
+  weight = 131
+  [[zh-hans.menu.main]]
+    identifier = "about"
+    name = "关于"
+    url = "/about/"
+    weight = 4
+  [[zh-hans.menu.main]]
+    identifier = "archives"
+    name = "归档"
+    url = "/archives/"
+    weight = 3
+  [[zh-hans.menu.main]]
+    identifier = "archives"
+    name = "工具"
+    url = "/tools/"
+    weight = 2
+  [[zh-hans.menu.main]]
+    identifier = "Home"
+    name = "首页"
+    url = "/"
+    weight = 1
