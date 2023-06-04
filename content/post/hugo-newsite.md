@@ -1,5 +1,9 @@
 +++
 title = "使用hugo本地建站"
+tags = ["hugo","emacs","github"]
+categories = ["建站"]
+toc = true
+hiddenFromHomePage = false
 date = 2023-06-04T19:08:00+08:00
 draft = false
 author = "zhangxingong"

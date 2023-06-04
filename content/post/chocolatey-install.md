@@ -1,5 +1,9 @@
 +++
 title = "chocolatey安装教程"
+tags = ["chocolatey"]
+categories = ["建站"]
+toc = true
+hiddenFromHomePage = false
 draft = false
 author = "zhangxingong"
 +++

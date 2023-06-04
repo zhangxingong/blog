@@ -1,5 +1,9 @@
 +++
 title = "搭建博客参考资料"
+tags = ["hugo","emacs","github"]
+categories = ["建站"]
+toc = true
+hiddenFromHomePage = false
 date = 2023-06-04T20:07:00+08:00
 draft = false
 author = "zhangxingong"

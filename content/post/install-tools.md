@@ -1,5 +1,9 @@
 +++
 title = "使用巧克力包管理安装其他工具"
+tags = ["hugo","emacs","github"]
+categories = ["建站"]
+toc = true
+hiddenFromHomePage = false
 date = 2023-06-04T17:58:00+08:00
 draft = false
 author = "zhangxingong"

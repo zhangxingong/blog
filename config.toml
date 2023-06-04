@@ -11,7 +11,7 @@ preserveTaxonomyNames = true
 ## 是否禁止URL Path转小写
 disablePathToLower = true
 
-summaryLength = 140
+summaryLength = 107 ##默认70
 
 disqusShortname = "yourdiscussshortname"  ## 是否开启disqus评论，不要和utteranc同时开启
 
@@ -105,3 +105,30 @@ disqusShortname = "yourdiscussshortname"  ## 是否开启disqus评论，不要�
     name = "关于"
     url = "/about/"
     weight = 4
+    
+[params]
+  beian = "粤ICP备XXXXXXX号-1"
+
+[params]
+  fancybox = true
+
+[params.image_cdn]
+    enable = true
+    Host = "https://cdn.jsdelivr.net/gh/zhangxingong/zhangxingong.github.io"
+
+[params.sequenceDiagrams]
+    enable = true
+    options = ""            # default: "{theme: 'simple'}"
+
+sequenceDiagrams
+  enable: true
+
+[params.flowchartDiagrams]
+  enable = true
+  options = ""
+
+flowchartDiagrams:
+  enable: true
+
+graphviz:
+  enable: true
