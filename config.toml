@@ -44,7 +44,8 @@ disqusShortname = "yourdiscussshortname"  ## 是否开启disqus评论，不要�
 [[params.links]]
   title = "Ethan的博客"
   name = "Ethan"
-  url = "https://zhangxingong.github.io/"
+  url = "https://zhangxingong.fun/"
+  ## url = "https://zhangxingong.github.io/"
 
 [[params.links]]
   title = "Emacs China"
