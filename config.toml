@@ -117,16 +117,15 @@ disqusShortname = "yourdiscussshortname"  ## 是否开启disqus评论，不要�
 [params.sequenceDiagrams]
     enable = true
     options = ""            # default: "{theme: 'simple'}"
-
-sequenceDiagrams
-  enable: true
+    #sequenceDiagrams
+    #enable: true
 
 [params.flowchartDiagrams]
   enable = true
   options = ""
-
-flowchartDiagrams:
+  graphviz:
   enable: true
-
-graphviz:
-  enable: true
+  #flowchartDiagrams: 
+  #enable: true
+  
+  
