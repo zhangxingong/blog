@@ -1,5 +1,5 @@
 +++
-title = "chocolatey-install"
+title = "chocolatey安装教程"
 draft = false
 author = "zhangxingong"
 +++
