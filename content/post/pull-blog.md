@@ -13,4 +13,4 @@ author = "zhangxingong"
 4.  org-mode ox-hugo easy-hugo
 5.  git bash
 6.  github action
-    1.  腾讯云域名 CDN加速
+7.  腾讯云域名 CDN加速
