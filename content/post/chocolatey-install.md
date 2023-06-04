@@ -1,5 +1,5 @@
 +++
-title = "chocolatey-install"
+title = "chocolatey安装教程"
 draft = false
 author = "zhangxingong"
 +++
@@ -13,4 +13,4 @@ author = "zhangxingong"
     Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
     {{< /highlight >}}
     安装完后，在 powershell 中输入 choco, 你会得到如下截图则说明安装成功：
-    [![](https://book.emacs-china.org/img/2022-10-16_20-36-02_screenshot.jpg)]
+    ![](https://book.emacs-china.org/img/2022-10-16_20-36-02_screenshot.jpg)
