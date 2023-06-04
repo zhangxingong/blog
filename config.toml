@@ -136,7 +136,7 @@ disqusShortname = "yourdiscussshortname"  ## 是否开启disqus评论，不要�
 
 
 [params.image_cdn]
-    enable = true
+    enable = false
     Host = "https://cdn.jsdelivr.net/gh/zhangxingong/zhangxingong.github.io"
 
 [params.sequenceDiagrams]
