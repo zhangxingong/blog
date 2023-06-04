@@ -1,6 +1,6 @@
 +++
 title = "chocolatey-install"
-draft = true
+draft = false
 author = "zhangxingong"
 +++
 
