@@ -1,6 +1,6 @@
 +++
 title = "使用巧克力包管理安装其他工具"
-tags = ["hugo","emacs","github"]
+tags = ["hugo","emacs","github","管理","工具","建站","自学","博客","能量","磁场","高科技","饭搭子"]
 categories = ["建站"]
 toc = true
 hiddenFromHomePage = false

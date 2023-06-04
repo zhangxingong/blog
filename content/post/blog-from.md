@@ -1,6 +1,6 @@
 +++
 title = "搭建博客参考资料"
-tags = ["hugo","emacs","github"]
+tags = ["hugo","emacs","github","友情","共享","进步"]
 categories = ["建站"]
 toc = true
 hiddenFromHomePage = false
@@ -36,3 +36,4 @@ author = "zhangxingong"
 | even主题无法使用                                                                  | [飞雪无情的博客](https://www.flysnow.org/2018/07/29/from-hexo-to-hugo#hugo%E7%9A%84maupassant%E4%B8%BB%E9%A2%98) | 飞雪无情 |                                                                                          |
 | 廖雪峰git课程                                                                     | [廖雪峰的官方网站](https://www.liaoxuefeng.com/wiki/896043488029600)                                      | 廖雪峰 |                                                                                          |
 | 本地图片生产链接                                                                  | [微梦图床](https://img.vinua.cn/)                                                                         | 佚名  |                                                                                          |
+|github pages 无法加载css的问题|[点我链接](https://blog.csdn.net/qq_38048756/article/details/120151920)|馋学习的身子||

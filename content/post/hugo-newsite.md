@@ -1,6 +1,6 @@
 +++
 title = "使用hugo本地建站"
-tags = ["hugo","emacs","github"]
+tags = ["hugo","emacs","github","博客","建站","妙招","致中和","动态","平衡","认知","心态"]
 categories = ["建站"]
 toc = true
 hiddenFromHomePage = false
