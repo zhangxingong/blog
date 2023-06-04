@@ -7,7 +7,7 @@ author = "zhangxingong"
 
 ## 使用命令创建站点 {#使用命令创建站点}
 
-{{< highlight bash >}}
+{{< highlight python >}}
 hugo new site hugoblog
 {{< /highlight >}}
 
@@ -17,14 +17,14 @@ hugo new site hugoblog
 
 ## 下载主题 {#下载主题}
 
-{{< highlight bash >}}
+{{< highlight python >}}
 git submodule add git@github.com:flysnow-org/maupassant-hugo.git themes/maupassant
 {{< /highlight >}}
 
 
 ## 启动本地博客服务 {#启动本地博客服务}
 
-{{< highlight bash >}}
+{{< highlight python >}}
 hugo server -D -t maupassant
 {{< /highlight >}}
 
@@ -32,3 +32,12 @@ hugo server -D -t maupassant
 执行完后显示如下
 <https://img.vinua.cn/image/Otu9E>
 打印构建过程，然后显示本地访问地址<http://localhost:1313/>
+
+
+## 写新博客 {#写新博客}
+
+{{< highlight python >}}
+hugo new post/hello-world.md
+{{< /highlight >}}
+
+[如何使用hugo new](https://www.5axxw.com/questions/simple/1860nw)
