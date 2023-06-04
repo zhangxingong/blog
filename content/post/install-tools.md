@@ -27,7 +27,7 @@ author = "zhangxingong"
 
 ### 安装博客必要包 {#安装博客必要包}
 
-{{< highlight nil >}}
+{{< highlight python >}}
 chocolatey install hugo emacs git
 {{< /highlight >}}
 
