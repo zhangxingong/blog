@@ -47,6 +47,30 @@ disqusShortname = "yourdiscussshortname"  ## 是否开启disqus评论，不要�
   url = "https://zhangxingong.github.io/"
 
 [[params.links]]
+  title = "Emacs China"
+  name = "Emacs China"
+  url = "https://emacs-china.org/"  
+
+
+[[params.links]]
+  title = "小小的幸福"
+  name = "小小的幸福"
+  url = "http://www.vimer.cn/"  
+
+
+[[params.links]]
+  title = "cabins"
+  name = "cabins"
+  url = "https://github.com/cabins/"
+
+
+[[params.links]]
+  title = "子龙"
+  name = "子龙"
+  url = "https://gitee.com/emacs-china/emacs.d/"  
+  
+
+[[params.links]]
   title = "Android Gradle权威指南"
   name = "Android Gradle权威指南"
   url = "http://yuedu.baidu.com/ebook/14a722970740be1e640e9a3e"
