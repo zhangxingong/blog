@@ -123,8 +123,8 @@ disqusShortname = "yourdiscussshortname"  ## 是否开启disqus评论，不要�
 [params.flowchartDiagrams]
   enable = true
   options = ""
-  graphviz:
-  enable: true
+  #graphviz:
+  #enable: true
   #flowchartDiagrams: 
   #enable: true
   
