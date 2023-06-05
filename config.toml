@@ -98,8 +98,9 @@ summaryLength = 80 ##默认70
 ## 配置 utteranc评论,教程参考 https://utteranc.es/
 [params.utteranc]
   enable = true
-  repo = "zhangxingong/Issue" ##换成自己得
+  repo = "zhangxingong/blog" ##换成自己得
   issueTerm = "pathname"
+  label = "发言"
   theme = "github-light"
 ## 配置 waline 评论系统,教程参考 https://waline.js.org/
 [params.waline]
