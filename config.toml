@@ -48,6 +48,11 @@ disqusShortname = "yourdiscussshortname"  ## 是否开启disqus评论，不要�
   ## url = "https://zhangxingong.github.io/"
 
 [[params.links]]
+  title = "大佬开发的免注册无需翻墙的人工智能"
+  name = "Chat GPT"
+  url = "https://zhonghuipro.com/"
+  
+[[params.links]]
   title = "Emacs China"
   name = "Emacs China"
   url = "https://emacs-china.org/"  
