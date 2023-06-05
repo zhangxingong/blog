@@ -37,3 +37,5 @@ author = "zhangxingong"
 | 廖雪峰git课程                                                                     | [廖雪峰的官方网站](https://www.liaoxuefeng.com/wiki/896043488029600)                                      | 廖雪峰 |                                                                                          |
 | 本地图片生产链接                                                                  | [微梦图床](https://img.vinua.cn/)                                                                         | 佚名  |                                                                                          |
 |github pages 无法加载css的问题|[点我链接](https://blog.csdn.net/qq_38048756/article/details/120151920)|馋学习的身子||
+|标签页没有icon|[Bright's Blog](https://ibrights.github.io/post/blog20210527/)|Bright Chan|无|
+|标签页没有icon|[生成icon工具](https://realfavicongenerator.net/)|Bright Chan|无|
