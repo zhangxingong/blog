@@ -31,11 +31,18 @@ author = "zhangxingong"
 
 | 描述                                                                              | 参考博客                                                                                                  | 博主名称 | 博主头像                                                                                 |
 |---------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|------|--------------------------------------------------------------------------------------|
-| [访问github无css样式的解决方案](https://blog.csdn.net/qq_31393401/article/details/80729765) | [访问github无css样式的解决方案](https://blog.csdn.net/qq_31393401/article/details/80729765)               | 光就一个字 | [光就一个字](https://blog.csdn.net/qq_31393401)                                          |
-| [Github绑定腾讯云申请的域名](https://blog.csdn.net/geidongdong/article/details/122786896) |                                                                                                           | 梁栋沉 | [栋沉](https://profile-avatar.csdnimg.cn/36b0da7c8018464ea7e81329eefefec5_geidongdong.jpg) |
-| even主题无法使用                                                                  | [飞雪无情的博客](https://www.flysnow.org/2018/07/29/from-hexo-to-hugo#hugo%E7%9A%84maupassant%E4%B8%BB%E9%A2%98) | 飞雪无情 |                                                                                          |
-| 廖雪峰git课程                                                                     | [廖雪峰的官方网站](https://www.liaoxuefeng.com/wiki/896043488029600)                                      | 廖雪峰 |                                                                                          |
-| 本地图片生产链接                                                                  | [微梦图床](https://img.vinua.cn/)                                                                         | 佚名  |                                                                                          |
-|github pages 无法加载css的问题|[点我链接](https://blog.csdn.net/qq_38048756/article/details/120151920)|馋学习的身子||
-|标签页没有icon|[Bright's Blog](https://ibrights.github.io/post/blog20210527/)|Bright Chan|无|
-|标签页没有icon|[生成icon工具](https://realfavicongenerator.net/)|Bright Chan|无|
+| [访问github无css样式的解决方案](https://blog.csdn.net/qq_31393401/article/details/80729765) | [访问github无css样式的解决方案](https://blog.csdn.net/qq_31393401/article/details/80729765)               | `光就一个字` | [光就一个字](https://blog.csdn.net/qq_31393401)                                          |
+| [Github绑定腾讯云申请的域名](https://blog.csdn.net/geidongdong/article/details/122786896) |                                                                                                           | `梁栋沉` | [栋沉](https://profile-avatar.csdnimg.cn/36b0da7c8018464ea7e81329eefefec5_geidongdong.jpg) |
+| even主题无法使用                                                                  | [飞雪无情的博客](https://www.flysnow.org/2018/07/29/from-hexo-to-hugo#hugo%E7%9A%84maupassant%E4%B8%BB%E9%A2%98) | `飞雪无情` |                                                                                          |
+| 廖雪峰git课程                                                                     | [廖雪峰的官方网站](https://www.liaoxuefeng.com/wiki/896043488029600)                                      | `廖雪峰` |                                                                                          |
+| 本地图片生产链接                                                                  | [微梦图床](https://img.vinua.cn/)                                                                         | `佚名`  |                                                                                          |
+|github pages 无法加载css的问题|[点我链接](https://blog.csdn.net/qq_38048756/article/details/120151920)|`馋学习的身子`||
+|标签页没有icon|[Bright's Blog](https://ibrights.github.io/post/blog20210527/)|`Bright Cha`n|无|
+|标签页没有icon|[生成icon工具](https://realfavicongenerator.net/)|`Bright Chan`|无|
+
+## Hugo 主题汇总
+
+|主题名称 |主题地址| 来源|
+|:---------|:-----------------------------|:------------|
+|**maupassant**      |[点我查看](https://github.com/flysnow-org/maupassant-hugo/)|github|
+|Fuji      |[点我查看](https://github.com/dsrkafuu/hugo-theme-fuji/)|github|
