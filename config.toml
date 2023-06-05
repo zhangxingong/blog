@@ -15,13 +15,6 @@ summaryLength = 80 ##默认70
 
 # disqusShortname = "yourdiscussshortname"  ## 是否开启disqus评论，不要和utteranc同时开启
 
-[params.utteranc]
-    enable = true
-    repo = "zhangxingong/Issue"    # 存储评论的Repo，格式为 owner/repo
-    issueTerm = "pathname"  #表示你选择以那种方式让github issue的评论和你的文章关联。
-    theme = "github-light" # 样式主题，有github-light和github-dark两种
-
-
 [author]
   name = "Ethan"
 
@@ -105,7 +98,7 @@ summaryLength = 80 ##默认70
 ## 配置 utteranc评论,教程参考 https://utteranc.es/
 [params.utteranc]
   enable = true
-  repo = "https://github.com/zhangxingong/blog" ##换成自己得
+  repo = "zhangxingong/Issue" ##换成自己得
   issueTerm = "pathname"
   theme = "github-light"
 ## 配置 waline 评论系统,教程参考 https://waline.js.org/
