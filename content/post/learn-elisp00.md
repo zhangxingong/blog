@@ -7,17 +7,6 @@ hiddenFromHomePage = false
 draft = false
 author = "zhangxingong"
 +++
-
-### leanr gtd 
-
-<span class="timestamp-wrapper"><span class="timestamp">[2023-05-22 Mon 09:52]</span></span>
-
-
-
-
-<span class="timestamp-wrapper"><span class="timestamp">[2023-05-22 Mon 15:51]</span></span>
-
-
 ### 阅读gtd
 
 Entered on <span class="timestamp-wrapper"><span class="timestamp">[2023-05-22 Mon 09:42]</span></span>
