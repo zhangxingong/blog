@@ -1,5 +1,5 @@
 +++
-title = "GTD,脚本教程"
+title = "GTD,ELisp教程"
 tags = ["gtd","极客","语言","脚本","批处理","geek","过程","函数","重复","自动化"]
 categories = ["建站"]
 toc = true
@@ -7,25 +7,6 @@ hiddenFromHomePage = false
 draft = false
 author = "zhangxingong"
 +++
-
-
-
-
-### <span class="org-todo done DONE">DONE</span> learn GTD 
-
-<span class="timestamp-wrapper"><span class="timestamp">[2023-05-22 Mon 09:53]</span></span>
-
-
-### <span class="org-todo todo DOING">DOING</span> fix 部门课程数量 {#fix-部门课程数量}
-
--   State "DOING"      from "TODO"       <span class="timestamp-wrapper"><span class="timestamp">[2023-05-22 Mon 10:01] </span></span> <br />
-    可能是缓存问题
-
-<span class="timestamp-wrapper"><span class="timestamp">[2023-05-22 Mon 09:59]</span></span>
-
-
-### Event 
-
 
 ### leanr gtd 
 
