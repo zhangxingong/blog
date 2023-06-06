@@ -21,7 +21,7 @@ hugo new site hugoblog
 
 ## 下载主题 {#下载主题}
 
-{{< highlight python >}}
+{{< highlight nil >}}
 git submodule add git@github.com:flysnow-org/maupassant-hugo.git themes/maupassant
 {{< /highlight >}}
 
