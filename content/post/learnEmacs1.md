@@ -32,6 +32,6 @@ M + | command (shell-command-on-region)
 ## elisp调用 {#elisp调用}
 
 {{< highlight emacs-lisp >}}
-(call-process-shell-command COMMAND &optional INFILE BUFFER DISPLAY)<br>
+(call-process-shell-command COMMAND &optional INFILE BUFFER DISPLAY)
 help-mode C-h f  call-process-shell-command
 {{< /highlight >}}
