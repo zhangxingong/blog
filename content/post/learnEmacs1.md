@@ -3,7 +3,7 @@ title = "emacs掉用外部命令的几种方式"
 date = 2023-06-12
 tags = ["笔记"]
 categories = ["emacs"]
-draft = true
+draft = false
 weight = 2003
 author = "zhangxingong"
 +++
