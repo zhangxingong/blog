@@ -46,6 +46,7 @@ author = "zhangxingong"
 |emacs特殊列表|[elisp条件三种写法](https://www.gnu.org/software/emacs/manual/html_node/elisp/Conditionals.html)|||
 |python pip包管理工具|[pip教程](https://www.runoob.com/w3cnote/python-pip-install-usage.html)|`bunoob`||
 |pyton2.7教程|[python管方入门文档](https://docs.python.org/2.7/tutorial/)|||
+|pyGithub|[pyGitApi](https://pygithub.readthedocs.io/en/latest/examples/Repository.html#update-a-file-in-the-repository)|||
 
 ## Hugo 主题汇总
 
