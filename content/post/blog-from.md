@@ -40,6 +40,10 @@ author = "zhangxingong"
 |标签页没有icon|[Bright's Blog](https://ibrights.github.io/post/blog20210527/)|`Bright Cha`n|无|
 |标签页没有icon|[生成icon工具](https://realfavicongenerator.net/)|`Bright Chan`|无|
 |github默认分支修改|[默认分支从master改为main](https://www.git-tower.com/learn/git/faq/git-rename-master-to-main)|tower|无|
+|httpDelete没有entityBody|[restAPI delete没有body问题](https://daweini.wordpress.com/2013/12/20/apache-httpclient-send-entity-body-in-a-http-delete-request/)|DNI DEVELOPING NOTES|无|
+|命令行 java -jar 执行jar包|[执行jar包](https://blog.csdn.net/dreamstar613/article/details/107065826)|dream_heheda|无|
+|Emacs之elisp调用shell命令|[Emacs调用命令的三种方式](https://blog.csdn.net/u010164190/article/details/130481350)|Android系统攻城狮|无|
+|emacs特殊列表|[elisp条件三种写法](https://www.gnu.org/software/emacs/manual/html_node/elisp/Conditionals.html)|||
 
 ## Hugo 主题汇总
 
