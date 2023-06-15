@@ -39,6 +39,7 @@ author = "zhangxingong"
 |github pages 无法加载css的问题|[点我链接](https://blog.csdn.net/qq_38048756/article/details/120151920)|`馋学习的身子`||
 |标签页没有icon|[Bright's Blog](https://ibrights.github.io/post/blog20210527/)|`Bright Cha`n|无|
 |标签页没有icon|[生成icon工具](https://realfavicongenerator.net/)|`Bright Chan`|无|
+|github默认分支修改|[默认分支从master改为main](https://www.git-tower.com/learn/git/faq/git-rename-master-to-main)|tower|无|
 
 ## Hugo 主题汇总
 
