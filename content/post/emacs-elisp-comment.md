@@ -1,6 +1,6 @@
 +++
-title = "Emacs Lip: Comment"
-date = 2023-06-18
+title = "Emacs Lip: 代码注释"
+date = 2023-06-18T20:07:00+08:00
 tags = ["基础"]
 categories = ["emacs"]
 draft = false
