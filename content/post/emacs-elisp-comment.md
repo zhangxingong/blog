@@ -1,6 +1,6 @@
 +++
-title = "Emacs Lisp: Comment"
-date = 2023-06-18T19:55:00+08:00
+title = "Emacs Lip: Comment"
+date = 2023-06-18T20:06:00+08:00
 tags = ["基础"]
 categories = ["emacs"]
 draft = false
@@ -17,12 +17,16 @@ author = "zhangxingong"
 没有其他语法。
 
 {{< highlight emacs-lisp >}}
-  ;; this is a comment
+;; this is a comment
 
 (+ 1 2) ; result is 3
 
-;; by emacs convention, comment on a line by itself starts with 2 semicolons
+;; by emacs convention,
+;; comment on a line by itself
+;; starts with 2 semicolons
 
 ;;; HEADER COMMENT
-;; by emacs convention, comment starting with 3 semicolons is a header, e.g. section title
+;; by emacs convention,
+;; comment starting with 3
+;; semicolons is a header, e.g. section title
 {{< /highlight >}}
