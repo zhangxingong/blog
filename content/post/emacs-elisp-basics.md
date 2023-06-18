@@ -1,6 +1,8 @@
 +++
 title = "(Emacs) Lisp基础"
 date = 2023-06-18T19:35:00+08:00
+tags = ["基础"]
+categories = ["emacs"]
 draft = false
 weight = 2001
 author = "zhangxingong"
