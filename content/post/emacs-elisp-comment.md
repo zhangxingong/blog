@@ -1,6 +1,6 @@
 +++
 title = "Emacs Lip: Comment"
-date = 2023-06-18T20:06:00+08:00
+date = 2023-06-18
 tags = ["基础"]
 categories = ["emacs"]
 draft = false
