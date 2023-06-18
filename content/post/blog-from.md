@@ -47,6 +47,7 @@ author = "zhangxingong"
 |python pip包管理工具|[pip教程](https://www.runoob.com/w3cnote/python-pip-install-usage.html)|`bunoob`||
 |pyton2.7教程|[python管方入门文档](https://docs.python.org/2.7/tutorial/)|||
 |pyGithub|[pyGitApi](https://pygithub.readthedocs.io/en/latest/examples/Repository.html#update-a-file-in-the-repository)|||
+|emacs用户输入|[user input](http://xahlee.info/emacs/emacs/elisp_idioms_prompting_input.html)|xha||
 
 ## Hugo 主题汇总
 
