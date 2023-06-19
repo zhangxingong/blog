@@ -1,6 +1,8 @@
 +++
 title = "Linux基础"
 date = 2023-06-19T16:21:00+08:00
+tags = ["基础"]
+categories = ["linux"]
 draft = false
 weight = 2001
 author = "zhangxingong"
