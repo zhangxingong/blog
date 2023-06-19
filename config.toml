@@ -77,9 +77,9 @@ summaryLength = 80 ##默认70
   
 
 [[params.links]]
-  title = "Android Gradle权威指南"
-  name = "Android Gradle权威指南"
-  url = "http://yuedu.baidu.com/ebook/14a722970740be1e640e9a3e"
+  title = "本人的Emacs个性化配置"
+  name = "Emacs个性化配置"
+  url = "https://gitee.com/zhangxingong/.emacs.d"
 
 ## 侧边栏广告位
 [[params.ads]]
