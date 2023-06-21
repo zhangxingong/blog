@@ -56,6 +56,4 @@ Web产品(例如网站, WebApp)在做新版本发布时, 一般我们需要提�
 
 ————————————————  
 
-版权声明：本文为CSDN博主「GoverChan」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。  
-
 原文链接：<https://blog.csdn.net/qq_15766181/article/details/80116240>
