@@ -15,11 +15,17 @@ C-x r r 复制一个矩形区域到寄存器
 C-x r k 剪切一个矩形块
 
 C-x r y 粘贴一个矩形块
+
 C-x r o 插入一个矩形块
+
 C-x r c 清除一个矩形块(使其变成空白)
+
 C-x r t 在选定区域的所有列前插入样的字符
+
 move char forward
+
 replace-rectangle
+
 universal-argement rectangle-line-number
 
 C-u SPC 或者M-,
