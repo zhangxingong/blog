@@ -9,12 +9,17 @@ author = "zhangxingong"
 +++
 
 !!!DS and why?
+
 Thy are essential ingredients in creating fast and powerful algorithms.
+
 They help to manage and organize data.
+
 They make code cleaner and easier to understand.
 
 ADT (list, queue, map, vehicle)
 
 Complexity Analysis
+
 how much time does this algorithm need to finish?
+
 how much space does this algorithm need for its computation?
