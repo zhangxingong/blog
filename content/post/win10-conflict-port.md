@@ -1,6 +1,8 @@
 +++
 title = "win10端口占用"
 date = 2023-06-21T10:31:00+08:00
+tags = ["端口", "占用", "win10", "工具", "cmd"]
+categories = ["shell"]
 draft = false
 weight = 2001
 author = "zhangxingong"
