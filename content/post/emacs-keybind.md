@@ -9,8 +9,11 @@ author = "zhangxingong"
 +++
 
 emacs
+
 C-x r r 复制一个矩形区域到寄存器
+
 C-x r k 剪切一个矩形块
+
 C-x r y 粘贴一个矩形块
 C-x r o 插入一个矩形块
 C-x r c 清除一个矩形块(使其变成空白)
@@ -20,6 +23,7 @@ replace-rectangle
 universal-argement rectangle-line-number
 
 C-u SPC 或者M-,
+
 C-d (delete-char)，删除光标处的字符。
 
 Backspace (delete-backward-char)，删除光标前字符。
