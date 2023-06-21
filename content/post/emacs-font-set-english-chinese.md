@@ -8,10 +8,6 @@ weight = 2002
 author = "zhangxingong"
 +++
 
-emacs支持中英文设置不同的语言:
-
-1.（同时解决org-mode的表格可以中英文对齐）
-
 2.（同时解决emacs使用卡顿现象）
 
 {{< highlight emacs-lisp >}}
