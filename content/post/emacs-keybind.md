@@ -33,20 +33,28 @@ C-x C-o (delete-blank-lines)，删除光标周围的空白行，保留当前行�
 M-^ (delete-indentation)，将两行合为一行，删除之间的空白和缩进。参见下面两图。
 
 Paragraph
+
 M-{
 Move back to previous paragraph beginning (backward-paragraph).
+
 M-}
 Move forward to next paragraph end (forward-paragraph).
+
 M-h
 Put point and mark around this or next paragraph (mark-paragraph).
+
 Pages
 M-x
 what-page Display the page number of point, and the line number within that page.
+
 C-x [
 Move point to previous page boundary (backward-page).
+
 C-x ]
 Move point to next page boundary (forward-page).
+
 C-x C-p
 Put point and mark around this page (or another page) (mark-page).
+
 C-x l
 Count the lines in this page (count-lines-page).
