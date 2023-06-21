@@ -52,7 +52,10 @@ Web产品(例如网站, WebApp)在做新版本发布时, 一般我们需要提�
     svn diff -r {2015-05-04}:{2015-05-05} --summarize <https://192.168.198.2/svn >> changedfiles.txt
 {{< /highlight >}}
 
-这样我们就能够实现自动化发布了...
-————————————————
-版权声明：本文为CSDN博主「GoverChan」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
+这样我们就能够实现自动化发布了...  
+
+————————————————  
+
+版权声明：本文为CSDN博主「GoverChan」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。  
+
 原文链接：<https://blog.csdn.net/qq_15766181/article/details/80116240>
