@@ -3,7 +3,7 @@ title = "如何获取svn一段时间内改动文件列表"
 date = 2023-06-21T16:36:00+08:00
 tags = ["svn","自动化","上线"]
 categories = ["shell","工具"]
-draft = false
+draft = true
 weight = 2001
 author = "zhangxingong"
 +++
@@ -22,20 +22,35 @@ Web产品(例如网站, WebApp)在做新版本发布时, 一般我们需要提�
 
 还需要我们逐个进行整理. 我需要的是一个列表明确地告诉我在此次版本期间, 我们新增, 修改, 删除了哪些文件就好了.
 
-在困惑了一段日子后, 终于有机会来寻找解决方法了, 其实通过 svn 命令行(TortoiseSVN不行, 需要先安装 svn 命令行工具)是可以获得这个列表的.
-命令格式如下:
-    svn diff -r REVNO:HEAD --summarize <http://svn-url>
+在困惑了一段日子后, 终于有机会来寻找解决方法了, 其实通过 svn 命令行(TortoiseSVN不行, 需要先安装 svn 命令行工具)是可以获得这个列表的.  
+
+命令格式如下:  
+    
+{{< highlight emacs-lisp >}}
+    svn diff -r REVNO:HEAD --summarize <http://svn-url>  
+{{</ highligh>}} 
 
 例如
-想检查从 724版本 开始到目前所有改动文件的列表
-    svn diff -r 724:HEAD --summarize <https://192.168.198.2/svn >> changedfiles.txt
-可以简写成这样
-    svn diff -r 724 --summarize <https://192.168.198.2/svn >> changedfiles.txt
+想检查从 724版本 开始到目前所有改动文件的列表  
+{{< highlight emacs-lisp >}}
+    svn diff -r 724:HEAD --summarize <https://192.168.198.2/svn >> changedfiles.txt  
+{{</ highligh>}}  
+可以简写成这样  
+{{< highlight emacs-lisp >}}
+    svn diff -r 724 --summarize <https://192.168.198.2/svn >> changedfiles.txt  
+{{</ highligh>}} 
 
-或者你只知道需要检查版本的日期, 这就相当于检查从 2015-05-06(上次封版日期) 开始到目前(此次发版日期)所有的文件改动
-    svn diff -r {2015-05-06} --summarize <https://192.168.198.2/svn >> changedfiles.txt
-或者日期区间
+或者你只知道需要检查版本的日期, 这就相当于检查从 2015-05-06(上次封版日期)  
+
+开始到目前(此次发版日期)所有的文件改动  
+{{< highlight emacs-lisp >}}
+    svn diff -r {2015-05-06} --summarize <https://192.168.198.2/svn >> changedfiles.txt  
+{{</ highligh>}} 
+
+或者日期区间 
+{{< highlight emacs-lisp >}}
     svn diff -r {2015-05-04}:{2015-05-05} --summarize <https://192.168.198.2/svn >> changedfiles.txt
+{{</ highligh>}} 
 
 这样我们就能够实现自动化发布了...
 ————————————————
