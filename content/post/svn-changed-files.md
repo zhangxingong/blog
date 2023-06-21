@@ -28,29 +28,29 @@ Web产品(例如网站, WebApp)在做新版本发布时, 一般我们需要提�
     
 {{< highlight emacs-lisp >}}
     svn diff -r REVNO:HEAD --summarize <http://svn-url>  
-{{</ highligh>}} 
+{{< /highlight >}}
 
 例如
 想检查从 724版本 开始到目前所有改动文件的列表  
 {{< highlight emacs-lisp >}}
     svn diff -r 724:HEAD --summarize <https://192.168.198.2/svn >> changedfiles.txt  
-{{</ highligh>}}  
+{{< /highlight >}}
 可以简写成这样  
 {{< highlight emacs-lisp >}}
     svn diff -r 724 --summarize <https://192.168.198.2/svn >> changedfiles.txt  
-{{</ highligh>}} 
+{{< /highlight >}}
 
 或者你只知道需要检查版本的日期, 这就相当于检查从 2015-05-06(上次封版日期)  
 
 开始到目前(此次发版日期)所有的文件改动  
 {{< highlight emacs-lisp >}}
     svn diff -r {2015-05-06} --summarize <https://192.168.198.2/svn >> changedfiles.txt  
-{{</ highligh>}} 
+{{< /highlight >}}
 
 或者日期区间 
 {{< highlight emacs-lisp >}}
     svn diff -r {2015-05-04}:{2015-05-05} --summarize <https://192.168.198.2/svn >> changedfiles.txt
-{{</ highligh>}} 
+{{< /highlight >}}
 
 这样我们就能够实现自动化发布了...
 ————————————————
