@@ -1,8 +1,8 @@
 +++
 title = "oracle合并数据"
 date = 2023-06-21T11:11:00+08:00
-tags = ["oracle", "Data"]
-categories = ["sql"]
+tags = ["sql", "Data"]
+categories = ["oracle"]
 draft = false
 weight = 2001
 author = "zhangxingong"
