@@ -31,11 +31,12 @@ author = "zhangxingong"
 
 Emacs查看到了罪魁祸首使用了gbk, 一直以为是utf-8没跳出来
 
-emacs coding = gbk<br/>
-process coding = gbk<br/>
-cmd coding = utf-8<br/><br/>
+emacs coding = gbk  
+process coding = gbk  
+cmd coding = utf-8  
 
-最终解决。<br/><br/>
+最终解决。  
+
 
 {{< highlight emacs-lisp >}}
 (make-process
