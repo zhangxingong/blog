@@ -67,7 +67,7 @@ summaryLength = 80 ##默认70
 [[params.links]]
   title = "阮一峰"
   name = "阮一峰"
-  url = "http://www.ruanyifeng.com/home.html/"
+  url = "https://www.ruanyifeng.com/"
 
 
 [[params.links]]
