@@ -39,6 +39,8 @@ cmd coding = utf-8
 
 
 {{< highlight emacs-lisp >}}
+(set-language-environment 'chinese-gbk)
+
 (make-process
  :name "kkk"
  :buffer "*Messages*"
