@@ -53,9 +53,9 @@ summaryLength = 80 ##默认70
   url = "https://zhonghuipro.com/"
   
 [[params.links]]
-  title = "Emacs China"
-  name = "Emacs China"
-  url = "https://emacs-china.org/"  
+  title = "廖雪峰的网站"
+  name = "廖雪峰"
+  url = "https://www.liaoxuefeng.com/"  
 
 
 [[params.links]]
@@ -65,21 +65,21 @@ summaryLength = 80 ##默认70
 
 
 [[params.links]]
-  title = "cabins"
-  name = "cabins"
-  url = "https://github.com/cabins/"
+  title = "阮一峰"
+  name = "阮一峰"
+  url = "http://www.ruanyifeng.com/home.html/"
 
 
 [[params.links]]
-  title = "子龙"
-  name = "子龙"
-  url = "https://gitee.com/emacs-china/emacs.d/"  
+  title = "金步国"
+  name = "金步国"
+  url = "http://www.jinbuguo.com/"  
   
 
 [[params.links]]
-  title = "本人的Emacs个性化配置"
-  name = "Emacs个性化配置"
-  url = "https://gitee.com/zhangxingong/.emacs.d"
+  title = "骏马金龙的博客"
+  name = "一位非科班出身的运维"
+  url = "https://www.junmajinlong.com/"
 
 ## 侧边栏广告位
 [[params.ads]]
