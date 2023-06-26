@@ -1,6 +1,8 @@
 +++
 title = "博客按月归档"
 date = 2023-06-26T17:13:00+08:00
+tags = ["go", "archives"]
+categories = ["建站"]
 draft = false
 weight = 2001
 author = "zhangxingong"
@@ -9,7 +11,7 @@ author = "zhangxingong"
 使用Hugo安装的主题默认归档方式是按年分组
 希望改成每月归档一次
 于是在线编辑模板
-找到主题路径 themes/maupassant/layouts/archives/single.html
+找到主题路径 themes/maupassant/layouts/archives/single.html  :@建站:go:archives:
 一看有点傻眼，完全不懂
 搜索资料后发现是使用的 go html | text templating
 认真学习了下语法后，果然有点明白逻辑了
