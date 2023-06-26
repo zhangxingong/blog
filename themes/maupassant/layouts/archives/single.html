@@ -1,6 +1,6 @@
 {{ define "content"}}
 <div class="post-archive">
-    {{ range (where (where .Site.Pages "Type" "in" (slice "post" "posts")) "Kind" "page").GroupByDate "2006/01" }}
+    {{ range (where (where .Site.Pages "Type" "in" (slice "post" "posts")) "Kind" "page").GroupByDate "一月 2006年" }}
     <h2>{{ .Key }}</h2>
     <ul class="listing">
         {{ range .Pages }}
