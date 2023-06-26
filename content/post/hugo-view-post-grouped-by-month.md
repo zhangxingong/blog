@@ -49,5 +49,5 @@ author = "zhangxingong"
 {{< /highlight >}}
 
 参考博客：  
-[Hugo - View Posts Grouped By Month](https://digitaldrummerj.me/hugo-view-post-grouped-by-month/)
+[Hugo - View Posts Grouped By Month](https://digitaldrummerj.me/hugo-view-post-grouped-by-month/)   
 [go 模版中的日期格式](https://tricks.one/post/date-format-in-hugo-or-go-templates/)
