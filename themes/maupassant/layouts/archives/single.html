@@ -5,7 +5,7 @@
     <ul class="listing">
         {{ range .Pages }}
         <li>
-            <span class="date">{{ .Date.Format "06 Jan 02 Mon 15:04:05" }}</span>
+            <span class="date">{{ .Date.Format "06 Jan 02 Mon 15:04" }}</span>
             <a href="{{ .Permalink }}" title="{{ .Title }}" target="_blank">{{ .Title }}</a>
         </li>
         {{ end }}
