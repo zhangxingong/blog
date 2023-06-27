@@ -4,7 +4,7 @@ hasCJKLanguage = true
 languageCode = "zh-Hans"
 title = "Ethan的博客"
 theme = "maupassant"
-googleAnalytics = ""  # UA-XXXXXXXX-X/G-XXXXXXXXXX
+googleAnalytics = "G-GNMC997HW5"  # UA-XXXXXXXX-X/G-XXXXXXXXXX
 
 ## 保持分类的原始名字（false会做转小写处理）
 preserveTaxonomyNames = true
