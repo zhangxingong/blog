@@ -3,7 +3,7 @@ title = "emacs记住光标位置"
 date = 2023-06-28
 tags = ["place"]
 categories = ["emacs"]
-draft = true
+draft = false
 weight = 2002
 author = "zhangxingong"
 +++
