@@ -1,6 +1,6 @@
 +++
 title = "emacs记住光标位置"
-date = 2023-06-28
+date = 2023-06-28T17:02:00+08:00
 tags = ["place"]
 categories = ["emacs"]
 draft = false
