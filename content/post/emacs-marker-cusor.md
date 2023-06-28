@@ -18,19 +18,20 @@ emacs自带功能
 4.  point-to-register
 
 
-## 快捷键 {#快捷键}
+## 快捷键 {#快捷键}  
 
-C-c %
-C-c &
-C r m
-C r b
-C r l
+C-c %  
+C-c &  
+C r m  
+C r b  
+C r l  
 
 
-## 自定义插件 {#自定义插件}
+## 自定义插件 {#自定义插件}  
 
-(defun remember-init ()
-  "记住当前位置."
+{{< highlight emacs-lisp >}}
+(defun remember-init ()  
+  "记住当前位置." 
   (interactive)
   (point-to-register 8)
   (message "Have remember one position"))
@@ -42,3 +43,4 @@ C r l
     (jump-to-register 8)
     (set-register 8 tmp))
   (message "Have back to remember position"))
+{{< /highlight >}}
