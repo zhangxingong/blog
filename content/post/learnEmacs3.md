@@ -6,7 +6,7 @@ weight = 2001
 author = "zhangxingong"
 +++
 
-GNU [Emacs](https://link.zhihu.com/?target=https%3A//www.gnu.org/software/emacs/) 是由 C 和 Emacs Lisp（Elisp，Lisp 编程语言的一种方言）写成，
+GNU [Emacs](https://www.gnu.org/software/emacs/) 是由 C 和 Emacs Lisp（Elisp，Lisp 编程语言的一种方言）写成，
 它是一个编辑器的同时，又碰巧是 Elisp 的沙盒。
 因此，理解 Elisp 中的一些基本编程概念会对你有一些帮助。
 
