@@ -1,6 +1,8 @@
 +++
 title = "emacs初学者"
 date = 2023-06-29T16:27:00+08:00
+tags = ["笔记"]
+categories = ["emacs"]
 draft = false
 weight = 2001
 author = "zhangxingong"
