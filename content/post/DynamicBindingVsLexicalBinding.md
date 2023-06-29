@@ -12,4 +12,6 @@ author = "zhangxingong"
 
 局部绑定
 
+[Lisp 已死，Lisp 万岁！](http://www.yinwang.org/blog-cn/2013/03/26/lisp-dead-alive)
+
 [DynamicBindingVsLexicalBinding](https://www.emacswiki.org/emacs/DynamicBindingVsLexicalBinding)
