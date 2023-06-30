@@ -15,5 +15,5 @@ author = "zhangxingong"
 3.  把图片转换成base64
 4.  调用gitApi3 rest接口
 
-参考博客：
+参考博客：  
 [python 通过 github api 上传图片，实现免费的图床](https://xiaoniuhululu.com/2021-10-20_python-github-api-upload-picture/)
