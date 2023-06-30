@@ -31,3 +31,5 @@ author = "zhangxingong"
 6.  模仿学习法
     -   观察
     -   复现
+
+![](/img/learn-method.jpg)
