@@ -45,17 +45,17 @@
         {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
     {{ end -}}
     <script type="text/javascript" src="//cdn.bootcdn.net/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-
+    {{ if .Site.Params.baiduAnalytics }}
     <script>
     var _hmt = _hmt || [];
     (function() {
       var hm = document.createElement("script");
-      hm.src = "https://hm.baidu.com/hm.js?{{ .Params.baiduAnalytics }}";
+      hm.src = "https://hm.baidu.com/hm.js?{{ .Site.Params.baiduAnalytics }}";
       var s = document.getElementsByTagName("script")[0]; 
       s.parentNode.insertBefore(hm, s);
     })();
     </script>    
-    
+    {{ end }}  
     {{ if .Site.Params.googleAd }}
     <script data-ad-client="{{ .Site.Params.googleAd }}" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     {{ end }}
