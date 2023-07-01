@@ -140,6 +140,8 @@ summaryLength = 80 ##默认70
     url = "/about/"
     weight = 4
 
+[params]
+  cdnJsSite = "cdn.bootcdn.net" # 默认：cdnjs.cloudflare.com
 
 [params.image_cdn]
     enable = true
