@@ -142,8 +142,8 @@ summaryLength = 80 ##默认70
 
 
 [params.image_cdn]
-    enable = false
-    Host = "https://gcore.jsdelivr.net/gh/zhangxingong/blog@main"
+    enable = true
+    Host = "https://gcore.jsdelivr.net/gh/zhangxingong/zhangxingong.github.io"
     ## "https://cdn.jsdelivr.net/gh/zhangxingong/zhangxingong.github.io"
 
 [params.sequenceDiagrams]
