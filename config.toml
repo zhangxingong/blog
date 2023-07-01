@@ -28,7 +28,7 @@ summaryLength = 80 ##默认70
   localSearch = true # 启用本地搜索
   beian = "粤ICP备XXXXXXX号-1"
   fancybox = true
-
+  cdnJsSite = "cdn.bootcdn.net" # 默认：cdnjs.cloudflare.com
 
   # 这里我存放在了主题的static文件夹里，根目录的似乎也可以
   # customCSS = ['douban.css', 'other.css']
@@ -139,9 +139,6 @@ summaryLength = 80 ##默认70
     name = "关于"
     url = "/about/"
     weight = 4
-
-[params]
-  cdnJsSite = "cdn.bootcdn.net" # 默认：cdnjs.cloudflare.com
 
 [params.image_cdn]
     enable = true
