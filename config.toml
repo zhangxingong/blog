@@ -83,17 +83,17 @@ summaryLength = 80 ##默认70
 
 ## 侧边栏广告位
 [[params.ads]]
-  title = "【2019双12】ALL IN CLoud 低至1折"
-  url = "https://www.aliyun.com/minisite/goods?userCode=jdg9oj97&share_source=copy_link"
-  img = "https://img.alicdn.com/tfs/TB1_rYHo7P2gK0jSZPxXXacQpXa-690-388.jpg"
+  title = "【腾讯云】推广者专属福利，新客户无门槛领取总价值高达2860元代金券，每种代金券限量500张，先到先得。"
+  url = "https://cloud.tencent.com/act/cps/redirect?redirect=1040&cps_key=c7c743b60bfe454f8c8672e0aed0de92&from=console"
+  img = "https://upload-dianshi-1255598498.file.myqcloud.com/345x200--2953d058277cb63c6b1cd127285163335cd6751e.jpg"
 [[params.ads]]
-  title = "助力产业智慧升级，云服务器首年88元起，更有千元代金券礼包免费领！"
-  url = "https://cloud.tencent.com/act/cps/redirect?redirect=1048&cps_key=14ff722692ac784fa8c3301c8c28d924&from=console"
-  img = "https://upload-dianshi-1255598498.file.myqcloud.com/345-7c71532bd4935fbdd9a67c1a71e577b1767b805c.200%E7%89%88%E6%9C%ACB.jpg"
-[[params.ads]]
-  title = "【渠道专享低折扣】11月特惠 限时2折"
-  url = "https://www.aliyun.com/acts/limit-buy?userCode=jdg9oj97"
-  img = "https://img.alicdn.com/tfs/TB1hblJl7Y2gK0jSZFgXXc5OFXa-750-400.jpg"
+  title = "【腾讯云】腾讯云图，像PPT一样简单的数据可视化工具。5元搞定数据可视化，模板丰富，拖拖拽拽就能做出好看的可视化大屏。"
+  url = "https://cloud.tencent.com/act/cps/redirect?redirect=1046&cps_key=c7c743b60bfe454f8c8672e0aed0de92&from=console"
+  img = "https://upload-dianshi-1255598498.file.myqcloud.com/345x200-89eeba55a2f49008e686e1a51e14bfe79f63af13.png"
+[[params.ads]] 
+  title = "【腾讯云】视频通信爆款 9.9 元起， 提供电商、教育、社交娱乐等多行业多场景的一站式解决方案，最快 1 天布局火爆赛道"
+  url = "https://cloud.tencent.com/act/cps/redirect?redirect=1051&cps_key=c7c743b60bfe454f8c8672e0aed0de92&from=console"
+  img = "https://upload-dianshi-1255598498.file.myqcloud.com/345_200-51cc0ac5a1b375c4269c679987e3bc7c62a2c592.png"
 
 ## 配置 utteranc评论,教程参考 https://utteranc.es/
 [params.utteranc]
