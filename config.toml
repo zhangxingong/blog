@@ -91,9 +91,9 @@ summaryLength = 80 ##默认70
   url = "https://cloud.tencent.com/act/cps/redirect?redirect=1046&cps_key=c7c743b60bfe454f8c8672e0aed0de92&from=console"
   img = "https://upload-dianshi-1255598498.file.myqcloud.com/345x200-89eeba55a2f49008e686e1a51e14bfe79f63af13.png"
 [[params.ads]] 
-  title = "【腾讯云】视频通信爆款 9.9 元起， 提供电商、教育、社交娱乐等多行业多场景的一站式解决方案，最快 1 天布局火爆赛道"
-  url = "https://cloud.tencent.com/act/cps/redirect?redirect=1051&cps_key=c7c743b60bfe454f8c8672e0aed0de92&from=console"
-  img = "https://upload-dianshi-1255598498.file.myqcloud.com/345_200-51cc0ac5a1b375c4269c679987e3bc7c62a2c592.png"
+  title = "【腾讯云】视频通信爆款 9.9 元起， 提供电商、教育、社交娱乐等多行业多场景的一站式解决方案，最快 1 天布局火爆赛道【腾讯云】云服务器、云数据库、COS、CDN、短信等云产品特惠热卖中"
+  url = "https://cloud.tencent.com/act/cps/redirect?redirect=2446&cps_key=c7c743b60bfe454f8c8672e0aed0de92&from=console"
+  img = "https://upload-dianshi-1255598498.file.myqcloud.com/upload/nodir/345X200-9ae456f58874df499adf7c331c02cb0fed12b81d.jpg"
 
 ## 配置 utteranc评论,教程参考 https://utteranc.es/
 [params.utteranc]
