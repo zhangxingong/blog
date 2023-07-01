@@ -32,4 +32,4 @@ imagemagick/convert
 
 命令 \`org-download-clipboard\`即可插入剪贴板图片
 
-{{< figure src="/ox-hugo/paste-clipboard-sample.png" >}}
+{{< figure src="/img/paste-clipboard-sample.png" >}}
