@@ -47,4 +47,4 @@ imagemagick/convert
 
 命令`org-download-clipboard`即可插入剪贴板图片
 
-![]("/img/17-11-45_screenshot.png")
+![](/img/paste-clipboard-sample.png)
