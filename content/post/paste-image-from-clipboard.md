@@ -1,7 +1,7 @@
 +++
 title = "org-mode模式下从剪贴板插入图片"
 date = 2023-07-01T22:21:00+08:00
-tags = ["Org", "图片", "ATTACH"]
+tags = ["Org", "图片"]
 categories = ["emacs"]
 draft = false
 weight = 2001
