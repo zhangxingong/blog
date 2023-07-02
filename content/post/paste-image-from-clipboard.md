@@ -32,4 +32,4 @@ imagemagick/convert
 
 命令 \`org-download-clipboard\`即可插入剪贴板图片
 
-[[</img/15-38-29_screenshot>.
+[[![](/ox-hugo/15-44-07_screenshot.png)][c:/img/15-44-07_screenshot.
