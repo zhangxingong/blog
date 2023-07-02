@@ -31,5 +31,3 @@ imagemagick/convert
 {{< /highlight >}}
 
 命令 \`org-download-clipboard\`即可插入剪贴板图片
-
-[[/img/16-08-31_screenshot.png][]]
