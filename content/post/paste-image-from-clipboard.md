@@ -31,5 +31,3 @@ imagemagick/convert
 {{< /highlight >}}
 
 命令 \`org-download-clipboard\`即可插入剪贴板图片
-
-{{< figure src="/ox-hugo/2023-07-02_13-16-50_screenshot.png" >}}
