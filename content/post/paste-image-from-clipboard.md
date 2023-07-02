@@ -31,5 +31,3 @@ imagemagick/convert
 {{< /highlight >}}
 
 命令 \`org-download-clipboard\`即可插入剪贴板图片
-
-[[![](/ox-hugo/15-44-07_screenshot.png)][c:/img/15-44-07_screenshot.
