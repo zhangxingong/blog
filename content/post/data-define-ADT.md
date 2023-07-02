@@ -2,7 +2,7 @@
 title = "抽象数据类型"
 date = 2023-06-21T13:14:00+08:00
 tags = ["抽象"]
-categories = ["结构", "算法"]
+categories = ["subject"]
 draft = false
 weight = 2009
 author = "zhangxingong"
