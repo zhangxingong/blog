@@ -1,8 +1,8 @@
 +++
 title = "如何获取svn一段时间内改动文件列表"
 date = 2023-06-21T16:36:00+08:00
-tags = ["svn","自动化","上线"]
-categories = ["shell","工具"]
+tags = ["svn","自动化","上线","工具"]
+categories = ["shell"]
 draft = false
 weight = 2001
 author = "zhangxingong"
