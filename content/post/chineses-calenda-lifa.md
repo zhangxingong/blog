@@ -2,7 +2,7 @@
 title = "天干地支"
 date = 2023-06-21T13:14:00+08:00
 tags = ["八卦", "五行"]
-categories = ["冷知识"]
+categories = ["subject"]
 draft = false
 weight = 2011
 author = "zhangxingong"
