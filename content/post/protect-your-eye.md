@@ -2,7 +2,7 @@
 title = "电脑护眼颜色值"
 date = 2023-06-21T13:14:00+08:00
 tags = ["RGB", "颜色"]
-categories = ["冷知识"]
+categories = ["subject"]
 draft = false
 weight = 2010
 author = "zhangxingong"
