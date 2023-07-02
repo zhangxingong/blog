@@ -1,8 +1,8 @@
 +++
 title = "java重构"
 date = 2023-06-21T13:14:00+08:00
-tags = ["重构"]
-categories = ["java"]
+tags = ["重构","java"]
+categories = ["subject"]
 draft = false
 weight = 2006
 author = "zhangxingong"
