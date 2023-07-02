@@ -2,7 +2,7 @@
 title = "把github当作图床"
 date = 2023-06-30T17:36:00+08:00
 tags = ["学习"]
-categories = ["思想"]
+categories = ["subject"]
 draft = false
 weight = 2003
 author = "zhangxingong"
