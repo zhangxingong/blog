@@ -31,5 +31,3 @@ imagemagick/convert
 {{< /highlight >}}
 
 命令 \`org-download-clipboard\`即可插入剪贴板图片
-
-<span class="org-target" id="org-target--img-16-58-25-screenshot-png"></span>
