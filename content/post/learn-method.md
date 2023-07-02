@@ -2,7 +2,7 @@
 title = "学习方法"
 date = 2023-06-30T11:54:00+08:00
 tags = ["认知", "规则", "学习"]
-categories = ["思想"]
+categories = ["subject"]
 draft = false
 weight = 2002
 author = "zhangxingong"
