@@ -1,7 +1,7 @@
 +++
 title = "org-mode模式下从剪贴板插入图片"
 date = 2023-07-01T22:21:00+08:00
-tags = ["Org", "图片", "ATTACH"]
+tags = ["Org", "图片"]
 categories = ["emacs"]
 draft = false
 weight = 2001
@@ -30,6 +30,6 @@ imagemagick/convert
 (setq-default org-download-image-dir "~/Pictures/")
 {{< /highlight >}}
 
-命令 \`org-download-clipboard\`即可插入剪贴板图片
+命令 `org-download-clipboard`即可插入剪贴板图片
 
-[17-11-45_screenshot](/img/17-11-45_screenshot.png)
+![](/img/paste-clipboard-sample.png)
