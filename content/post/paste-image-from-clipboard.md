@@ -32,4 +32,4 @@ imagemagick/convert
 
 命令 \`org-download-clipboard\`即可插入剪贴板图片
 
-{{< figure src="/img/17-01-24_screenshot.png" >}}
+[jklajdkla](/img/17-01-24_screenshot.png)
