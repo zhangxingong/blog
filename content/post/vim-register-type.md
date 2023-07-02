@@ -2,7 +2,7 @@
 title = "Vim寄存器"
 date = 2023-06-21T13:14:00+08:00
 tags = ["寄存器"]
-categories = ["Vim"]
+categories = ["subject"]
 draft = false
 weight = 2008
 author = "zhangxingong"
