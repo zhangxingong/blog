@@ -34,15 +34,17 @@ imagemagick/convert
 
 
 {{< highlight emacs-lisp >}}
+
 (require 'org-download)
 
 ;; Drag-and-drop to `dired`
 (add-hook 'dired-mode-hook 'org-download-enable)
 
 (setq-default org-download-image-dir "~/Pictures/")
+
 {{< /highlight >}}
 
 
-命令 \`org-download-clipboard\`即可插入剪贴板图片
+命令`org-download-clipboard`即可插入剪贴板图片
 
-{{< figure src="/img/17-11-45_screenshot.png" >}}
+![]("/img17-11-45_screenshot.png")
