@@ -2,7 +2,7 @@
 title = "编程思想"
 date = 2023-06-21T13:14:00+08:00
 tags = ["编程", "规则"]
-categories = ["思想"]
+categories = ["subject"]
 draft = false
 weight = 2012
 author = "zhangxingong"
