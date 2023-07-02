@@ -2,7 +2,7 @@
 title = "问题快速定位"
 date = 2023-06-30T11:30:00+08:00
 tags = ["认知", "规则"]
-categories = ["思想"]
+categories = ["subject"]
 draft = false
 weight = 2001
 author = "zhangxingong"
