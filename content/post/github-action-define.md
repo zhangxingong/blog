@@ -1,7 +1,7 @@
 +++
 title = "Github术语"
 date = 2023-06-21T13:14:00+08:00
-tags = ["术语"]
+tags = ["术语","github"]
 categories = ["subject"]
 draft = false
 weight = 2007
