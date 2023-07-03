@@ -1,7 +1,7 @@
 baseURL = "https://zhangxingong.fun/"
-defaultContentLanguage = "zh-hans"
+defaultContentLanguage = "zh-cn"
 hasCJKLanguage = true
-languageCode = "zh-Hans"
+languageCode = "zh-cn"
 title = "Ethan的博客"
 theme = "maupassant"
 googleAnalytics = ""  # UA-XXXXXXXX-X/G-XXXXXXXXXX G-GNMC997HW5
