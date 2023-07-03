@@ -29,7 +29,7 @@ summaryLength = 80 ##默认70
   beian = "粤ICP备XXXXXXX号-1"
   fancybox = true
   cdnJsSite = "cdn.bootcdn.net" # 默认：cdnjs.cloudflare.com
-  baiduAnalytics = "9f7acdbae9992089f1dffc1e4c5c92e9"  # 百度统计
+  baiduAnalytics = "b4bf6ed501b47a5473e135e2b6e481f0"  # 百度统计
   # 这里我存放在了主题的static文件夹里，根目录的似乎也可以
   # customCSS = ['douban.css', 'other.css']
   # if ['custom.css'], load '/static/css/custom.css' file
