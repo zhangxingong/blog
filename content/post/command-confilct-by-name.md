@@ -77,4 +77,4 @@ author = "zhangxingong"
 
 [18-22-02_screenshot](/img/18-22-02_screenshot.png)
 
-[[/img/18-40-22_screenshot.png][]]
+{{< figure src="/img/18-40-22_screenshot.png" >}}
