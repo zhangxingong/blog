@@ -69,14 +69,10 @@ author = "zhangxingong"
 
 ### 效果如下： {#效果如下}
 
-![](c:/img/18-19-29_screenshot.png)
-.
+![](/img/18-19-29_screenshot.png)
 
-![](c:/img/18-20-28_screenshot.png)
-.
+![](/img/18-20-28_screenshot.png)
 
-![](c:/img/18-21-14_screenshot.png)
-.
+![](/img/18-21-14_screenshot.png)
 
-![](c:/img/18-22-02_screenshot.png)
-.
+![](/img/18-22-02_screenshot.png)
