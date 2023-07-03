@@ -77,4 +77,4 @@ author = "zhangxingong"
 
 [18-22-02_screenshot](/img/18-22-02_screenshot.png)
 
-{{< figure src="/img/18-40-22_screenshot.png" caption="<span class=\"figure-number\">Figure 1: </span>家里的接口" >}}
+[[/img/18-58-24_screenshot.png][]]
