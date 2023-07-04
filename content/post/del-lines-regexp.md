@@ -37,7 +37,5 @@ author = "zhangxingong"
 ## 效果如下： {#效果如下}
 
 ![](/img/13-22-21_screenshot.png)
-.
 
 ![](/img/13-24-14_screenshot.png)
-.
