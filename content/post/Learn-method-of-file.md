@@ -38,3 +38,9 @@ body 保存光标所在buffer并执行form
 ## 示例如下： {#示例如下}
 
 ![](/img/17-28-01_screenshot.png)
+
+## 参考博客如下：
+
+[如何用elisp处理一系列文件？](https://www.likecs.com/ask-7503439.html)
+
+[写了个删除空行的函数](https://emacs-china.org/t/topic/1075)
