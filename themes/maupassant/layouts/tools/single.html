@@ -1,0 +1,22 @@
+ <script>
+        $(document).ready(function() {
+                var city = 'Shanghai';
+                var apiKey = '42cefaea0ec4e2cdb635878bcd1d568f'; // Replace with your actual API key
+                var apiUrl = 'https://api.weatherapi.com/v1/current.json?key=' + apiKey + '&q=' + city;
+                 $.ajax({
+                    url: apiUrl,
+                    dataType: 'json',
+                    success: function(data) {
+                        var temperature = data.current.temp_c;
+                        var condition = data.current.condition.text;
+                        var output = 'Current weather in ' + city + ': ' + temperature + '°C, ' + condition;
+                        $('#weatherOutput').text(output);
+                    },
+                    error: function() {
+                        $('#weatherOutput').text('Error retrieving weather data.');
+                    }
+                }); 
+        });
+    </script>
+
+    <p id="weatherOutput"></p>
