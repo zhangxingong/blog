@@ -22,4 +22,4 @@ author = "zhangxingong"
 
 [snow](https://github.com/honmaple/snow)
 
-\![](![](https://cdn.v2ex.com/avatar/f380/cb25/120533_large.png?m=1655365332))
+![](https://cdn.v2ex.com/avatar/f380/cb25/120533_large.png?m=1655365332)
