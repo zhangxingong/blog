@@ -1,4 +1,5 @@
- <script>
+{{ define "content"}}
+<script>
         $(document).ready(function() {
                 var city = 'Shanghai';
                 var apiKey = '42cefaea0ec4e2cdb635878bcd1d568f'; // Replace with your actual API key
@@ -20,3 +21,4 @@
     </script>
 
     <p id="weatherOutput"></p>
+{{ end }}
