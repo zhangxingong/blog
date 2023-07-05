@@ -22,6 +22,23 @@ $.shuicheMouse({
 })
 
 
+  L2Dwidget.init({
+  "model": {
+      jsonPath: "https://unpkg.com/live2d-widget-model-shizuku@1.0.5/assets/shizuku.model.json",
+      "scale": 1
+  },        
+  "display": {
+      "superSample": 2,
+      "width": 200,//宽度
+      "height": 400,//高度
+      "position": "right",//位置，right,left
+      "hOffset": 0,
+      "vOffset": 0
+  }
+  });
+
+
+
 /* 鼠标特效*/ 
 var a_idx = 0;
 jQuery(document).ready(function($) {
