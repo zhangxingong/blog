@@ -25,3 +25,5 @@ author = "zhangxingong"
 ![](https://cdn.v2ex.com/avatar/f380/cb25/120533_large.png?m=1655365332)
 
 [hugo Template](https://gohugo.io/templates/introduction/)
+
+[用Org Mode + Hugo写博客，并通过Github Action自动部署到Github Pages](https://superbear.github.io/post/2021/11/use-org-mode-and-hugo-to-write-blog/)
