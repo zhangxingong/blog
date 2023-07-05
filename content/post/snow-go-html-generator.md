@@ -34,3 +34,7 @@ author = "zhangxingong"
 [emacs-china](https://github.com/emacs-china)
 
 [天气插件](https://openweathermap.org/widgets-constructor)
+
+[零知实验室](http://lingzhilab.com/wireless.html)
+
+[天气预报](https://www.pianshen.com/article/19871093133/)
