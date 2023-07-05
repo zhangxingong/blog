@@ -57,17 +57,7 @@
     </script>    
     {{ end }}  
     
-<script src='{{ "js/mouse.min.js" | relURL}}'></script>
-<script type="text/javascript">   
-    function getRandomInt(max) {
-      return Math.floor(Math.random() * max);
-    }    
-    $.shuicheMouse({
-        type:10, 
-        color:false
-    })
-</script>
-    
+    <script src='{{ "js/mouse.min.js" | relURL}}'></script>
     
     {{ if .Site.Params.googleAd }}
     <script data-ad-client="{{ .Site.Params.googleAd }}" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
