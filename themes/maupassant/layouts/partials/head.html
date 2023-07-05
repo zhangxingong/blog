@@ -59,8 +59,11 @@
     
 <script src='{{ "js/mouse.min.js" | relURL}}'></script>
 <script type="text/javascript">   
+    function getRandomInt(max) {
+      return Math.floor(Math.random() * max);
+    }    
     $.shuicheMouse({
-        type:12, 
+        type:10, 
         color:false
     })
 </script>
