@@ -56,6 +56,20 @@
     })();
     </script>    
     {{ end }}  
+    
+<script src="https://blog-static.cnblogs.com/files/xuange306/mouse.min.js"></script>
+<script type="text/javascript">
+    function getRandomInt(max) {
+      return Math.floor(Math.random() * max);
+    }    
+    var randType = getRandomInt(11) + 1;
+    $.shuicheMouse({
+        type:randType, 
+        color:"rgba(187,67,128,1)"
+    })
+</script>
+    
+    
     {{ if .Site.Params.googleAd }}
     <script data-ad-client="{{ .Site.Params.googleAd }}" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     {{ end }}
