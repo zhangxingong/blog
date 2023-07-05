@@ -27,3 +27,5 @@ author = "zhangxingong"
 [hugo Template](https://gohugo.io/templates/introduction/)
 
 [用Org Mode + Hugo写博客，并通过Github Action自动部署到Github Pages](https://superbear.github.io/post/2021/11/use-org-mode-and-hugo-to-write-blog/)
+
+[使用 orgmode & hugo 撰写博文的流程介绍](https://emacs-china.org/t/topic/5427?u=zhangxingong)
