@@ -11,6 +11,17 @@ $("#rocket").click(function() {
     return false;
 });
 
+   
+function getRandomInt(max) {
+  return Math.floor(Math.random() * max);
+} 
+
+$.shuicheMouse({
+    type:getRandomInt(11)+1, 
+    color:false
+})
+
+
 /* 鼠标特效 
 var a_idx = 0;
 jQuery(document).ready(function($) {
