@@ -32,3 +32,5 @@ author = "zhangxingong"
 
 
 [emacs-china](https://github.com/emacs-china)
+
+[天气插件](https://openweathermap.org/widgets-constructor)
