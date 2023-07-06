@@ -32,8 +32,8 @@ $.shuicheMouse({
       "width": 200,//宽度
       "height": 400,//高度
       "position": "right",//位置，right,left
-      "hOffset": 0,
-      "vOffset": 155
+      "hOffset": 25,
+      "vOffset": 100
   }
   });
 
