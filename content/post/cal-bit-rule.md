@@ -18,7 +18,32 @@ author = "zhangxingong"
 | ^        | 按位异或 | 两个操作数相同，结果为0；不相同结果为1                 |
 | &lt;&lt; | 左移 | 右侧空位补0，左侧溢出舍弃                              |
 | &gt;&gt; | 右移 | 右端溢出舍弃，对于无符号数，高位补0。对于有符号数，某些机器将对左边空出的部分用符号位填补（即“算术移位”） |
-|          |      |                                                        |
+
+
+## 加法器实现 {#加法器实现}
+
+{{< highlight c >}}
+
+// 递归写法
+int add(int num1, int num2){
+if(num2 == 0)
+return num1;
+int sum = num1 ^ num2;
+int carry = (num1 & num2) << 1;
+return add(sum, carry);
+
+// 迭代写法
+int add(int num1, int num2){
+int sum = num1 ^ num2;
+int carry = (num1 & num2) << 1;
+while(carry != 0){
+int a = sum;
+int b = carry;
+sum = a ^ b;
+carry = (a & b) << 1;
+}
+return sum;
+{{< /highlight >}}
 
 [org-mode 表格](http://www.langdebuqing.com/emacs%20notebook/org-mode%20%E8%A1%A8%E6%A0%BC.html)
 
