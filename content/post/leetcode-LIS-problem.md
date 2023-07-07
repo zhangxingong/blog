@@ -75,3 +75,5 @@ return max;
 ![](https://pic.leetcode.cn/1682040911-wtlNlA-image.png)
 
 [org-key](https://orgmode.org/orgcard.txt)
+
+[org-note](https://github.com/EvanMeek/Learn-Org/blob/master/org-note.org)
