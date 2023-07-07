@@ -46,10 +46,11 @@ document.oncopy = function addLink(e){
  	var appendLink =  $('.post-archive').text();
 	var text = e.clipboardData.getData("text");
  	var copyText = "";
+	var conn = '\n\n';
  	if (selection) {
-		copyText = selection + appendLink;		
+		copyText = selection + conn + appendLink;		
 	}else {
-		copyText = text + appendLink;		 		
+		copyText = text + conn + appendLink;		 		
 	}     
 
  	if(e.clipboardData){
