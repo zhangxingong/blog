@@ -37,14 +37,14 @@ $.shuicheMouse({
   }
   });
 
- document.oncopy = function addLink(e){
+document.oncopy = function addLink(e){
  	e.preventDefault();
  	//获取复制的文本内容
  	var selection = window.getSelection();
  	//获取当前网页地址
  	// var localLink = document.location.href;
  	var appendLink =  $('.post-archive').text();
-	var text = clipboardData.getData("text");
+	var text = e.clipboardData.getData("text");
  	var copyText = "";
  	if (selection) {
 		copyText = selection + appendLink;		
