@@ -8,7 +8,9 @@ on:
     paths:
       - '**.md'
       - '**.toml'
+      - '**.html'
       - '**.js'
+      - '**.css'
     # paths-ignore:
      # - 'static/**'
 
