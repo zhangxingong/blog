@@ -10,7 +10,7 @@ author = "zhangxingong"
 
 ## 思路 {#思路}
 
-遍历字符串，判断\*\*下一个字符\*\*和当前字符是否连续，连续计数加1，不连续就重置计算为1.
+遍历字符串，判断**下一个字符**和当前字符是否连续，连续计数加1，不连续就重置计算为1.
 
 
 ## 解题方法 {#解题方法}
@@ -24,7 +24,7 @@ char[] chars = s.toCharArray();
 int num=1;//连续字符出现数量
 {{< /highlight >}}
 
-2.遍历字符串，判断\*\*下一个字符\*\*和当前字符是否连续，连续计数加1，不连续就重置计算为1.
+2.遍历字符串，判断**下一个字符**和当前字符是否连续，连续计数加1，不连续就重置计算为1.
 
 {{< highlight java >}}
 
@@ -72,6 +72,6 @@ return max;
 
 ## 执行效果 {#执行效果}
 
-{{< figure src="https://pic.leetcode.cn/1682040911-wtlNlA-image.png" >}}
+![](https://pic.leetcode.cn/1682040911-wtlNlA-image.png)
 
 [org-key](https://orgmode.org/orgcard.txt)
