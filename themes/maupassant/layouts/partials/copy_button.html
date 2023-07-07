@@ -43,7 +43,7 @@ div.highlight:hover .copy-code,pre:hover .copy-code {
 
         copybutton.addEventListener('click', (cb) => {
             if ('clipboard' in navigator) {
-                navigator.clipboard.writeText(codeblock.textContent);
+                navigator.clipboard.writeText(codeblock.textContent + '\n\n' + $('.post-archive').text());
                 copyingDone();
                 return;
             }
