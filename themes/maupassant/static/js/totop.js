@@ -37,6 +37,22 @@ $.shuicheMouse({
   }
   });
 
+ document.oncopy = function addLink(e){
+ 	e.preventDefault();
+ 	//获取复制的文本内容
+ 	var selection = window.getSelection();
+ 	//获取当前网页地址
+ 	// var localLink = document.location.href;
+ 	var appendLink = "\n\r" + $('.post-archive').text() + "\n\r";
+ 	var copyText = selection + appendLink;
+ 	if(e.clipboardData){
+		e.clipboardData.setData('text',copyText)
+	}else{
+		//在ie中 clipboardData是window的属性
+		window.clipboardData.setData('text',copyText);
+	}
+ }
+
 
 
 /* 鼠标特效*/ 
