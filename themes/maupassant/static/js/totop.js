@@ -21,7 +21,7 @@ $.shuicheMouse({
     color:false
 })
 
-
+if(L2Dwidget){
   L2Dwidget.init({
   "model": {
       jsonPath: "https://unpkg.com/live2d-widget-model-shizuku@1.0.5/assets/shizuku.model.json",
@@ -36,6 +36,7 @@ $.shuicheMouse({
       "vOffset": 95
   }
   });
+}
 
 document.oncopy = function addLink(e){
  	e.preventDefault();
