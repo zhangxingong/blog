@@ -142,10 +142,11 @@ summaryLength = 80 ##默认70
 
   [[menu.main]]
     identifier = "friend"
-    parent = "tools"
+    parent = "工具"
     name = "友链"
+    weight = 2  
     # url = "/friend/"
-    weight = 2    
+  
 
 [params.image_cdn]
     enable = true
