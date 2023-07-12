@@ -140,6 +140,12 @@ summaryLength = 80 ##默认70
     url = "/about/"
     weight = 4
 
+  [[menu.main]]
+    identifier = "friend"
+    name = "友链"
+    url = "/friend/"
+    weight = 5    
+
 [params.image_cdn]
     enable = true
     Host = "https://gcore.jsdelivr.net/gh/zhangxingong/blog@main/static"
