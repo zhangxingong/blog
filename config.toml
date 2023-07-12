@@ -43,8 +43,8 @@ summaryLength = 80 ##默认70
 
 [[params.links]]
   title = "Ethan的博客"
-  name = "Ethan"
-  url = "https://zhangxingong.fun/"
+  name = "友情链接"
+  url = "https://zhangxingong.fun/friend/"
   ## url = "https://zhangxingong.github.io/"
 
 [[params.links]]
@@ -139,13 +139,6 @@ summaryLength = 80 ##默认70
     name = "关于"
     url = "/about/"
     weight = 4
-
-  [[menu.main]]
-    identifier = "friend"
-    parent = "工具"
-    name = "友链"
-    weight = 2  
-    # url = "/friend/"
   
 
 [params.image_cdn]
