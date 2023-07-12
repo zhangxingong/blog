@@ -43,8 +43,8 @@ summaryLength = 80 ##默认70
 
 [[params.links]]
   title = "Ethan的博客"
-  name = "友情链接"
-  url = "https://zhangxingong.fun/friend/"
+  name = "Ethan"
+  url = "https://gcore.jsdelivr.net/gh/zhangxingong/blog@main/static/img/qrcode_for_weixin.jpg"
   ## url = "https://zhangxingong.github.io/"
 
 [[params.links]]
