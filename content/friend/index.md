@@ -1,5 +1,5 @@
 ---
-title: "Myfriends"
+title: "友链"
 date: 2018-11-02
 layout: "links"
 ---
