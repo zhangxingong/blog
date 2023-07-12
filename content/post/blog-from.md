@@ -50,6 +50,9 @@ author = "zhangxingong"
 |emacs用户输入|[user input](http://xahlee.info/emacs/emacs/elisp_idioms_prompting_input.html)|xha||
 |构建静态网站 python|[pelican](https://github.com/getpelican/pelican)|||
 |hugoTemplate|[Introduction to Hugo Templating](https://gohugo.io/templates/introduction/)|||
+|基于Hugo在Github上搭建个人博客|[build blog by hugo](https://juejin.cn/post/6844904070658916359)|||
+
+
 ## Hugo 主题汇总
 
 |主题名称 |主题地址| 来源|
