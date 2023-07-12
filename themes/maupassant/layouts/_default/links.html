@@ -1,3 +1,7 @@
+<!doctype html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}zh-CN{{end}}">
+{{ partial "head" . }}
+<body>
 <style type="text/css">
 .myfriends {
 	text-align: center;
@@ -71,6 +75,23 @@
 	white-space: nowrap;
 }
 </style>
-<div class="myfriends">
-{{ .Content }}
-</div>
+
+    {{ partial "header" . }}
+    <div id="body">
+        <div class="container">
+            <div class="col-group">
+
+                <div class="col-8" id="main">
+			<div class="myfriends">
+			  {{ .Content }}
+			</div>
+                    {{ partial "footer" . }}
+                </div>
+
+                {{ partial "sidebar" . }}
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
