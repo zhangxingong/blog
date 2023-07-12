@@ -1,6 +1,6 @@
 {{ with .Site.Params.links }}
 <section class="widget">
-    <h3 class="widget-title">{{ i18n "links" }}</h3>
+    <h3 class="widget-title"><a href='{{ "friend/" | relURL }}'>{{ i18n "links" }}</a></h3>
     <ul class="widget-list">
         {{ range . }}
         <li>
