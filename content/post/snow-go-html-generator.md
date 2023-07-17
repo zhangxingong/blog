@@ -22,7 +22,7 @@ author = "zhangxingong"
 
 [snow](https://github.com/honmaple/snow)
 
-![](https://cdn.v2ex.com/avatar/f380/cb25/120533_large.png?m=1655365332)
+![](/img/120533_large.png?m=1655365332)
 
 [hugo Template](https://gohugo.io/templates/introduction/)
 
