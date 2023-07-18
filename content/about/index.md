@@ -12,4 +12,4 @@ description: 《Go 实战笔记》系列作者，《Golang Gin 实战》系列�
 
 ![扫码关注](/img/qrcode_for_weixin.jpg)
 
-
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=3&id=2526231705&auto=1&height=66"></iframe>
