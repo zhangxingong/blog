@@ -40,6 +40,18 @@ return new int[0];
 }
 {{< /highlight >}}
 
+{{< highlight go >}}
+func twoSum(nums []int, target int) []int {
+for i, x := range nums {
+for j := i + 1; j < len(nums); j++ {
+if x+nums[j] == target {
+return []int{i, j}
+}
+}
+}
+return nil
+{{< /highlight >}}
+
 1.  方法二：哈希表
 
 **思路及算法**
@@ -65,6 +77,18 @@ hashtable.put(nums[i], i);
 }
 return new int[0];
 }
+{{< /highlight >}}
+
+{{< highlight go >}}
+func twoSum(nums []int, target int) []int {
+hashTable := map[int]int{}
+for i, x := range nums {
+if p, ok := hashTable[target-x]; ok {
+return []int{p, i}
+}
+hashTable[x] = i
+}
+return nil
 {{< /highlight >}}
 
 作者：LeetCode-Solution
