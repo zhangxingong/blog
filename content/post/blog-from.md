@@ -51,6 +51,7 @@ author = "zhangxingong"
 |构建静态网站 python|[pelican](https://github.com/getpelican/pelican)|||
 |hugoTemplate|[Introduction to Hugo Templating](https://gohugo.io/templates/introduction/)|||
 |基于Hugo在Github上搭建个人博客|[build blog by hugo](https://juejin.cn/post/6844904070658916359)|||
+|Hugo org Mode |[peter](https://lucidmanager.org/productivity/create-websites-with-org-mode-and-hugo/) |||
 
 
 ## Hugo 主题汇总
