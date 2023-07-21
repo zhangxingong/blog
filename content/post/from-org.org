@@ -1,0 +1,13 @@
+#+title: form-org 
+#+author: zhangxingong 
+#+date: 07/21/23 09:51:25
+#+categories[emacs]:
+#+tags[笔记]:
+#+weight: 2001
+#+draft: false
+
+* aaa
+
+** bbb
+
+*** cc
