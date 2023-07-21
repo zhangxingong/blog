@@ -33,15 +33,6 @@ select TRUNC(sysdate) from dual;
 select TRUNC(sysdate) field1, sysdate field2, to_char(sysdate , 'yyyy-mm-dd hh24:mi:ss') from dual; -- Oracle 大小写不敏感
 {{< /highlight >}}
 
-``` java
- class Person{
-  private String aaa;
-
-  void print(){
-  System.out.println("SSSS");
-}
-}
-```
 
 结果如下：
 
