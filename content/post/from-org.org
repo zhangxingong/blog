@@ -1,8 +1,11 @@
 #+title: form-org 
 #+author: zhangxingong 
-#+date: 07/21/23 09:51:25
-#+categories[]:emacs
-#+tags[]:笔记
+#+HUGO_AUTO_SET_LASTMOD: t
+#+HUGO_DRAFT: false
+#+DATE: [2021-11-28 Sun 19:28]
+#+HUGO_CUSTOM_FRONT_MATTER: :toc true
+#+categories:emacs
+#+tags:笔记
 #+weight: 2001
 #+draft: false
 
