@@ -52,6 +52,7 @@ author = "zhangxingong"
 |hugoTemplate|[Introduction to Hugo Templating](https://gohugo.io/templates/introduction/)|||
 |基于Hugo在Github上搭建个人博客|[build blog by hugo](https://juejin.cn/post/6844904070658916359)|||
 |Hugo org Mode |[peter](https://lucidmanager.org/productivity/create-websites-with-org-mode-and-hugo/) |||
+|我怎么同时掌握Vim和Emacs|[查看链接](https://zilongshanren.com/post/2015-08-16-how-could-i-master-vim-and-emacs/)|`子龙山人`||
 
 
 ## Hugo 主题汇总
