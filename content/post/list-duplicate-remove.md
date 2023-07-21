@@ -22,6 +22,7 @@ list.clear();
 //把HashSet对象添加至List集合
 list.addAll(set);
 return list;
+}
 {{< /highlight >}}
 
 
@@ -39,6 +40,7 @@ list.clear();
 //把HashSet对象添加至List集合
 list.addAll(set);
 return list;
+}
 {{< /highlight >}}
 
 作者：程序员白楠楠
