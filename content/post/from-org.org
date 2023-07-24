@@ -7,7 +7,7 @@
 #+categories:emacs
 #+tags:笔记
 #+weight: 2001
-#+draft: false
+#+draft: true
 
 * aaa
 test test test
