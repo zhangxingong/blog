@@ -37,7 +37,7 @@ author = "zhangxingong"
 | 廖雪峰git课程                                                                     | [廖雪峰的官方网站](https://www.liaoxuefeng.com/wiki/896043488029600)                                      | `廖雪峰` |                                                                                          |
 | 本地图片生产链接                                                                  | [微梦图床](https://img.vinua.cn/)                                                                         | `佚名`  |                                                                                          |
 |github pages 无法加载css的问题|[点我链接](https://blog.csdn.net/qq_38048756/article/details/120151920)|`馋学习的身子`||
-|标签页没有icon|[Bright's Blog](https://ibrights.github.io/post/blog20210527/)|`Bright Cha`n|无|
+|标签页没有icon|[Bright's Blog](https://ibrights.github.io/post/blog20210527/)|`Bright Chan`|无|
 |标签页没有icon|[生成icon工具](https://realfavicongenerator.net/)|`Bright Chan`|无|
 |github默认分支修改|[默认分支从master改为main](https://www.git-tower.com/learn/git/faq/git-rename-master-to-main)|`tower`|无|
 |httpDelete没有entityBody|[restAPI delete没有body问题](https://daweini.wordpress.com/2013/12/20/apache-httpclient-send-entity-body-in-a-http-delete-request/)|`DNI DEVELOPING NOTES`|无|
@@ -47,12 +47,13 @@ author = "zhangxingong"
 |python pip包管理工具|[pip教程](https://www.runoob.com/w3cnote/python-pip-install-usage.html)|`bunoob`||
 |pyton2.7教程|[python管方入门文档](https://docs.python.org/2.7/tutorial/)|||
 |pyGithub|[pyGitApi](https://pygithub.readthedocs.io/en/latest/examples/Repository.html#update-a-file-in-the-repository)|||
-|emacs用户输入|[user input](http://xahlee.info/emacs/emacs/elisp_idioms_prompting_input.html)|xha||
+|emacs用户输入|[user input](http://xahlee.info/emacs/emacs/elisp_idioms_prompting_input.html)|`xha`||
 |构建静态网站 python|[pelican](https://github.com/getpelican/pelican)|||
 |hugoTemplate|[Introduction to Hugo Templating](https://gohugo.io/templates/introduction/)|||
 |基于Hugo在Github上搭建个人博客|[build blog by hugo](https://juejin.cn/post/6844904070658916359)|||
 |Hugo org Mode |[peter](https://lucidmanager.org/productivity/create-websites-with-org-mode-and-hugo/) |||
 |我怎么同时掌握Vim和Emacs|[查看链接](https://zilongshanren.com/post/2015-08-16-how-could-i-master-vim-and-emacs/)|`子龙山人`||
+|程序员自由职业|[查看链接](http://www.studytimes.com.cn/yangsheng/5995.html)|||
 
 
 ## Hugo 主题汇总
