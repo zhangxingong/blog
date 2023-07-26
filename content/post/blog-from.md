@@ -55,6 +55,7 @@ author = "zhangxingong"
 |我怎么同时掌握Vim和Emacs|[查看链接](https://zilongshanren.com/post/2015-08-16-how-could-i-master-vim-and-emacs/)|`子龙山人`||
 |程序员自由职业|[查看链接](http://www.studytimes.com.cn/yangsheng/5995.html)|||
 |Org as 地表最强的管理与计划的助手工具  |[查看链接](https://emacs-china.org/t/05-org-as/12092/12) | | |
+|Vim快捷键大全|[查看链接](https://www.cnblogs.com/codehome/p/10214801.html) |||
 
 
 ## Hugo 主题汇总
