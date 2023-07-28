@@ -44,10 +44,10 @@ document.oncopy = function addLink(e){
  	var selection = window.getSelection();
  	//获取当前网页地址
  	// var localLink = document.location.href;
- 	var appendLink =  $('.post-archive').text();
+ 	var appendLink =  '————————————————' + '\r\n' + $('.post-archive').text();
 	var text = e.clipboardData.getData("text");
  	var copyText = "";
-	var conn = '\n\n';
+	var conn = '\r\n';
  	if (selection) {
 		copyText = selection + conn + appendLink;		
 	}else {
