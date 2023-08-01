@@ -8,7 +8,7 @@ weight = 2001
 author = "zhangxingong"
 +++
 
-##清理垃圾
+## 清理垃圾
 
 WIN+R输入 `cleanmgr` ，如下：
 
@@ -20,7 +20,7 @@ WIN+R输入 `cleanmgr` ，如下：
 
 ![](/img/Snipaste_2023-08-01_15-51-20.png)
 
-##校验系统
+## 校验系统
 
 WIN+R输入 `cmd`
 
