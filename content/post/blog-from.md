@@ -60,6 +60,7 @@ author = "zhangxingong"
 |Vim与Emacs|[查看链接](https://zhuanlan.zhihu.com/p/87527003)| ||
 |Meow Emacs编辑映射| [查看链接](https://github.com/meow-edit)| ||
 |Emac手册大全 | [查看链接](https://www.gnu.org/software/emacs/manual/html_node/emacs/index.html) |  ||
+|Emacs删除 | [查看链接](https://www.gnu.org/software/emacs/manual/html_node/emacs/Deletion.html) | ||
 
 
 ## Hugo 主题汇总
