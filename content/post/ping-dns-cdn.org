@@ -1,5 +1,5 @@
 #+title: win10网络检测 | win10 
-#+DATE: [20230811T145220.798366]
+#+DATE: 20230811T145220.798366
 #+author: zhangxingong
 #+SLUG: win10-network-check
 #+HUGO_AUTO_SET_LASTMOD: t
