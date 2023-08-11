@@ -61,6 +61,7 @@ author = "zhangxingong"
 |Meow Emacs编辑映射| [查看链接](https://github.com/meow-edit)| ||
 |Emac手册大全 | [查看链接](https://www.gnu.org/software/emacs/manual/html_node/emacs/index.html) |  ||
 |Emacs删除 | [查看链接](https://www.gnu.org/software/emacs/manual/html_node/emacs/Deletion.html) | ||
+|hugo建站| [查看链接](https://wowow005.github.io/posts/2022/04/%E5%A6%82%E4%BD%95%E7%94%A8hugo%E5%92%8Corg-mode%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/) | ||
 
 
 ## Hugo 主题汇总
