@@ -4,6 +4,8 @@
 #+SLUG: win10-network-check
 #+HUGO_AUTO_SET_LASTMOD: t
 #+HUGO_CUSTOM_FRONT_MATTER: :toc true
+#+categories:shell
+#+tags:笔记
 #+weight: 2001
 #+draft: false
 #+STARTUP: noptag
@@ -12,7 +14,7 @@
 #+STARTUP: overview
 #+STARTUP: showeverything
 
-* 网络检测步骤
+* 网络检测步骤                                             :工具:学习:批处理:
 
   1. 检测电脑本地回环
 
