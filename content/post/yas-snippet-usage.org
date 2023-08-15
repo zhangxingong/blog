@@ -1,5 +1,5 @@
 #+title: 代码模板插件应用 
-#+DATE: [2023-08-15 10:07]
+#+DATE: [2023-08-15T10:07:47+0800]
 #+author: zhangxingong
 #+SLUG: yas-snippet-usage
 #+HUGO_AUTO_SET_LASTMOD: t
@@ -75,6 +75,18 @@ Meta + x 选择 yas-new-snippet RET
 #+DOWNLOADED: screenshot @ 2023-08-15 10:27:09
 [[/img/10-27-09_2_screenshot.png]]
 
+**** 使用sexp表达式，将表达式放入反引号之间
+
+例如：
+
+#+begin_src emacs-lisp
+  #+DATE: [`(format-time-string "%Y-%m-%d %a %H:%M")`]
+
+  ${0:`(current-date-string)`}
+#+end_src
+
+
+
 *** 使用模板
 
 在org模式下打<tt后，按TAB扩展模板
@@ -90,3 +102,5 @@ Meta + x 选择 yas-new-snippet RET
 [[https://martijnvanvreeden.nl/optimizing-the-youtube-shortcode-for-hugo/][youtube ShortCode]]
 
 [[https://www.youtube.com/watch?v=W-bRZlseNm0][luck Emacs]]
+
+[[https://runebook.dev/zh/docs/elisp/time-parsing][EList DateParse]]
