@@ -1,0 +1,45 @@
+#+title: 创建并打开新的scratch Buffer
+#+DATE: 2023-08-15T14:53:52+0800
+#+author: zhangxingong
+#+SLUG: learnEmacs-01
+#+HUGO_AUTO_SET_LASTMOD: t
+#+HUGO_CUSTOM_FRONT_MATTER: :toc true
+#+categories: emacs 
+#+tags: 基础 省心
+#+weight: 2001
+#+draft: false
+#+STARTUP: noptag
+#+STARTUP: logdrawer
+#+STARTUP: indent
+#+STARTUP: overview
+#+STARTUP: showeverything
+
+* 使用场景
+
+在原有的scratch保存新文件时，scratch buffer会消失
+
+创建新命令
+
+#+begin_src emacs-lisp
+;;create-new-scratch-buffer
+(defun create-scratch-buffer nil
+  "create a scratch buffer"
+  (interactive)
+  (switch-to-buffer (get-buffer-create "*scratch*"))
+  (lisp-interaction-mode))
+
+(defun switch-to-scratch-and-back ()
+    "Toggle between *scratch* buffer and the current buffer.
+     If the *scratch* buffer does not exist, create it."
+    (interactive)
+    (let ((scratch-buffer-name (get-buffer-create "*scratch*")))
+        (if (equal (current-buffer) scratch-buffer-name)
+            (switch-to-buffer (other-buffer))
+            (switch-to-buffer scratch-buffer-name (lisp-interaction-mode)))))
+  
+#+end_src
+
+
+参考链接如下：
+
+[[https://www.emacswiki.org/emacs/RecreateScratchBuffer][RecreateScratchBuffer]]
