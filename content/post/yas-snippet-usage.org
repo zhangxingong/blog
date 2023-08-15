@@ -1,0 +1,87 @@
+#+title: 代码模板插件应用 
+#+DATE: [2023-08-15 Tue 10:07]
+#+author: zhangxingong
+#+SLUG: yas-snippet-usage
+#+HUGO_AUTO_SET_LASTMOD: t
+#+HUGO_CUSTOM_FRONT_MATTER: :toc true
+#+categories: emacs
+#+tags: 工具 省心
+#+weight: 2001
+#+draft: true
+#+STARTUP: noptag
+#+STARTUP: logdrawer
+#+STARTUP: indent
+#+STARTUP: overview
+#+STARTUP: showeverything
+
+* 代码模板应用场景
+
+  面对经常使用的格式化内容，重复频率多的内容可以让程序自动生成
+
+  比如头部描述 matter
+
+  #+title: xxx
+  #+author: xxx
+  #+date: xxx-xxx-xxx
+
+  比如代码片段
+
+  if(xxx){
+    body
+  } else{
+    body
+  }
+
+* 插件yas-snippet安装，使用  
+
+** 安装
+#+begin_src emacs-lisp 
+  (use-package yasnippet
+    :ensure t
+    :commands (org-mode)
+    :config
+    (yas-reload-all)
+    (setq yas-prompt-functions '(yas-ido-prompt))
+    (defun help/yas-after-exit-snippet-hook-fn ()
+      (prettify-symbols-mode)
+      (prettify-symbols-mode))
+    (add-hook 'yas-after-exit-snippet-hook #'help/yas-after-exit-snippet-hook-fn)
+    :diminish yas-minor-mode)
+
+    (use-package yasnippet-snippets
+      :ensure t
+      :after (yasnippet)
+      :commands (org-mode))  
+
+    (yas-global-mode t)     
+#+end_src
+
+** 使用
+Meta + x 选择 yas-new-snippet RET
+
+#+DOWNLOADED: screenshot @ 2023-08-15 10:20:07
+[[/img/10-20-07_2_screenshot.png]]
+.
+
+**** 输入模板代码
+
+
+#+DOWNLOADED: screenshot @ 2023-08-15 10:27:09
+[[/img/10-27-09_2_screenshot.png]]
+.
+
+*** 使用模板
+
+在org模式下打<tt后，按TAB扩展模板
+
+
+** 参考视频
+
+{{< youtube id="W-bRZlseNm0" autoplay="true" color="white" yt_start="12" yt_end="24">}}
+
+
+** 参考链接
+
+[[https://martijnvanvreeden.nl/optimizing-the-youtube-shortcode-for-hugo/][youtube ShortCode]]
+
+[[https://www.youtube.com/watch?v=W-bRZlseNm0][luck Emacs]]
