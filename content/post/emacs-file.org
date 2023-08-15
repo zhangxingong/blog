@@ -1,0 +1,41 @@
+#+title: 文件操作 | emacs基础
+#+DATE: 2023-08-05T13:59:24+0800
+#+author: zhangxingong
+#+SLUG: emacs-file
+#+HUGO_AUTO_SET_LASTMOD: t
+#+HUGO_CUSTOM_FRONT_MATTER: :toc true
+#+categories: emacs
+#+tags: 基础
+#+weight: 2001
+#+draft: false
+#+STARTUP: noptag
+#+STARTUP: logdrawer
+#+STARTUP: indent
+#+STARTUP: overview
+#+STARTUP: showeverything
+
+* 模板优化, 获取文件名当作博客名称
+
+使用到两个函数
+
+ 1. string-replace
+
+ 2. buffer-name
+
+ #+DOWNLOADED: screenshot @ 2023-08-15 14:05:25
+ [[/img/14-05-25_2_screenshot.png]]
+
+* 博客文件模板
+
+#+begin_src emacs-lisp
+#+title: ${1:Title}
+#+DATE: `(format-time-string org-hugo-date-format)`
+#+author: zhangxingong
+#+SLUG: ${2:`(string-replace ".org" "" (buffer-name))`}  
+
+#Result
+"emacs-file"
+#+end_src
+
+
+
