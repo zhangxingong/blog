@@ -37,5 +37,7 @@
 "emacs-file"
 #+end_src
 
+参考博客： 
 
+[[http://smacs.github.io/elisp/14-file.html][操作对象之三 ── 文件]]
 
