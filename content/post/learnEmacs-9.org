@@ -1,0 +1,33 @@
+#+title: Emacs里自带的vi模式
+#+DATE: 2023-08-01T14:45:36+0800
+#+author: zhangxingong
+#+SLUG: learnEmacs-9
+#+HUGO_AUTO_SET_LASTMOD: t
+#+HUGO_CUSTOM_FRONT_MATTER: :toc true
+#+categories: emacs
+#+tags: 基础 省心
+#+weight: 2001
+#+draft: false
+#+STARTUP: noptag
+#+STARTUP: logdrawer
+#+STARTUP: indent
+#+STARTUP: overview
+#+STARTUP: showeverything
+
+* Emacs里如何使用vim映射
+
+** 使用自带的模式viper-mode
+
+
+#+DOWNLOADED: screenshot @ 2023-08-15 14:48:40
+[[/img/14-48-40_2_screenshot.png]]
+
+** 使用插件Evil
+
+
+#+DOWNLOADED: screenshot @ 2023-08-15 14:49:49
+[[/img/14-49-49_2_screenshot.png]]
+
+** 参考链接如下：
+
+[[https://emacs-china.org/t/emacs-vim/25127][Emacs键盘映射效率与vim映射效率哪个更快]]
