@@ -7,7 +7,7 @@
 #+categories: emacs
 #+tags: 工具 省心
 #+weight: 2001
-#+draft: true
+#+draft: false
 #+STARTUP: noptag
 #+STARTUP: logdrawer
 #+STARTUP: indent
