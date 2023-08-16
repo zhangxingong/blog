@@ -71,3 +71,4 @@ author = "zhangxingong"
 |:---------|:-----------------------------|:------------|
 |**maupassant**      |[点我查看](https://github.com/flysnow-org/maupassant-hugo/)|github|
 |Fuji      |[点我查看](https://github.com/dsrkafuu/hugo-theme-fuji/)|github|
+|volantis  |[点我查看](https://github.com/volantis-x/hexo-theme-volantis/)|github| 
