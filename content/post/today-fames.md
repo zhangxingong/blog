@@ -2,7 +2,7 @@
 title = "名人名言"
 date = 2023-06-25T13:28:00+08:00
 tags = ["心理", "笔记", "想法", "劝诫"]
-categories = ["subject"]
+categories = ["思想"]
 draft = false
 weight = 2003
 author = "zhangxingong"
