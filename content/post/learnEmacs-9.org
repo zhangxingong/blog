@@ -20,13 +20,13 @@
 
 
 #+DOWNLOADED: screenshot @ 2023-08-15 14:48:40
-[[/img/14-48-40_2_screenshot.png]]
+[[https://gcore.jsdelivr.net/gh/zhangxingong/blog@main/static/img/14-48-40_2_screenshot.png]]
 
 ** 使用插件Evil
 
 
 #+DOWNLOADED: screenshot @ 2023-08-15 14:49:49
-[[/img/14-49-49_2_screenshot.png]]
+[[https://gcore.jsdelivr.net/gh/zhangxingong/blog@main/static/img/14-49-49_2_screenshot.png]]
 
 ** 参考链接如下：
 
