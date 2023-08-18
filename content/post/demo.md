@@ -1,6 +1,5 @@
 +++
 title = "这是单独文件"
-author = ["ethan"]
 date = 2023-08-18T00:00:00+08:00
 slug = "post-demo"
 tags = ["emacs"]
