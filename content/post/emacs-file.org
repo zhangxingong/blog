@@ -23,7 +23,7 @@
  2. buffer-name
 
  #+DOWNLOADED: screenshot @ 2023-08-15 14:05:25
- [[/img/14-05-25_2_screenshot.png]]
+ [[https://gcore.jsdelivr.net/gh/zhangxingong/blog@main/static/img/14-05-25_2_screenshot.png]]
 
 * 博客文件模板
 
