@@ -103,4 +103,4 @@ Meta + x 选择 yas-new-snippet RET
 
 [[https://www.youtube.com/watch?v=W-bRZlseNm0][luck Emacs]]
 
-[[https://runebook.dev/zh/docs/elisp/time-parsing][EList DateParse]]
+[[https://runebook.dev/zh/docs/elisp/time-parsing][ELisp DateParse]]
