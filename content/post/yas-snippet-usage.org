@@ -66,14 +66,14 @@
 Meta + x 选择 yas-new-snippet RET
 
 #+DOWNLOADED: screenshot @ 2023-08-15 10:20:07
-[[/img/10-20-07_2_screenshot.png]]
+[[https://gcore.jsdelivr.net/gh/zhangxingong/blog@main/static/img/10-20-07_2_screenshot.png]]
 
 
 **** 输入模板代码
 
 
 #+DOWNLOADED: screenshot @ 2023-08-15 10:27:09
-[[/img/10-27-09_2_screenshot.png]]
+[[https://gcore.jsdelivr.net/gh/zhangxingong/blog@main/static/img/10-27-09_2_screenshot.png]]
 
 **** 使用sexp表达式，将表达式放入反引号之间
 
