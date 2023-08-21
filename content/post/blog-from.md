@@ -65,6 +65,8 @@ author = "zhangxingong"
 |設定 hugo 和 org-mode | [查看链接](https://blog.superbil.org/posts/setup-hugo/) | ||
 |yunzi博客 |[查看链接](https://yunzi.vercel.app/categories/Blog/) & [实例](https://volantis.js.org/)|  ||
 |rectangle command | [查看链接](http://xahlee.info/emacs/emacs/emacs_string-rectangle_ascii-art.html)| ||
+|Elisp基础知识 | [查看链接](http://smacs.github.io/elisp/02-elisp-basic.html)| ||
+
 
 
 
