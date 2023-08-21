@@ -1,0 +1,32 @@
+
+#+title: vim中表示当前目录和当前文件名的方法
+#+DATE: 2023-08-21T16:00:49+0800
+#+author: zhangxingong
+#+SLUG: vim-current-file
+#+HUGO_AUTO_SET_LASTMOD: t
+#+HUGO_CUSTOM_FRONT_MATTER: :toc true
+#+categories: emacs
+#+tags: org 基础 工具
+#+weight: 2001
+#+draft: false
+#+STARTUP: noptag
+#+STARTUP: logdrawer
+#+STARTUP: indent
+#+STARTUP: overview
+#+STARTUP: showeverything
+
+在命令行模式下：
+
+% 当前完整的文件名
+
+%:h 文件名的头部，即文件目录.例如../path/test.c就会为../path
+
+%:t 文件名的尾部.例如../path/test.c就会为test.c
+
+%:r 无扩展名的文件名.例如../path/test就会成为test
+
+%:e 扩展名
+
+
+————————————————
+原文链接：https://blog.csdn.net/pegasuswang_/article/details/22677855
