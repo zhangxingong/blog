@@ -162,5 +162,8 @@ enableRobotsTXT = true ## 允许爬虫抓取到搜索引擎，建议 true
   #enable: true
   #flowchartDiagrams: 
   #enable: true
+
+[markup.goldmark.renderer]
+      hardWraps = true  
   
   
