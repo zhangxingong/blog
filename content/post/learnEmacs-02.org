@@ -17,28 +17,48 @@
 * Emacs跳转
 
 1. 四个方向
-   C/M - f  
+
+#+begin_src  emacs-lisp 
+ 
+   C/M - f      
    C/M - b  
    C/M - p  
    C/M - n  
+#+end_src
+
 2. 行首行尾  
+#+begin_src  emacs-lisp 
    C - a  
    C - e  
-3. 段落首尾  
+#+end_src
+
+3. 段落首尾
+#+begin_src  emacs-lisp 
+   
    M - a  
    M - e  
+#+end_src
+
 4. 页首尾  
+#+begin_src  emacs-lisp 
    <  
    >  
+#+end_src
+
 5. 按照段落跳转  
+#+begin_src  emacs-lisp 
    M - }  
    M - {  
+#+end_src
 6. 按照页跳转  
+#+begin_src  emacs-lisp 
+
    C - x [  
    C - x ]                   
+#+end_src
 
 * Emacs 标记  
-
+#+begin_src  emacs-lisp 
 1. 标记单词  
    M - @  
 2. 标记sexp  
@@ -55,4 +75,6 @@
    C - c @  
 8. 标记相同字符  
    C - c Z                     
+#+end_src
+
   
