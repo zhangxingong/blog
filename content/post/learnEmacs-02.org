@@ -74,13 +74,6 @@
    C - c Z                     
 #+end_src
 
-  
- aaa  
-
- bbb
-
- ccc\
- ddd
-
- fff
- ggg
+aaaa
+bbbb
+ccc
