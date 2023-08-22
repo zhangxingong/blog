@@ -1,7 +1,7 @@
 #+title: Emacs跳转标记
 #+DATE: 2023-08-22T11:43:53+0800
 #+author: zhangxingong
-#+SLUG: learnEmacs+02
+#+SLUG: learnEmacs-02
 #+HUGO_AUTO_SET_LASTMOD: t
 #+HUGO_CUSTOM_FRONT_MATTER: :toc true
 #+categories: emacs
