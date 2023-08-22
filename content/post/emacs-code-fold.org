@@ -1,0 +1,46 @@
+#+title: emacs 代码折叠
+#+DATE: 2023-08-22T11:17:52+0800
+#+author: zhangxingong
+#+SLUG: emacs-code-fold
+#+HUGO_AUTO_SET_LASTMOD: t
+#+HUGO_CUSTOM_FRONT_MATTER: :toc true
+#+categories: emacs
+#+tags: 工具 编程 省心
+#+weight: 2001
+#+draft: false
+#+STARTUP: noptag
+#+STARTUP: logdrawer
+#+STARTUP: indent
+#+STARTUP: overview
+#+STARTUP: showeverything
+
+* 这里说的是emacs自带的HideShow mode.
+
+进入HideShow mode： M-x hs-minor-mode
+
+** 主要的功能：
+
+ * C-c @ C-M-s 显示所有的代码(hs-show-all)
+   
+ * C-c @ C-M-h 折叠所有的代码(hs-hide-all)
+    
+ * C-c @ C-s 显示当前代码区(hs-show-block)  
+
+ * C-c @ C-h 折叠当前代码区(hs-hide-block)
+
+ * C-c @ C-c 折叠/显示当前代码区(hs-toggle-hiding)
+
+ 
+ *直接用M-x hs-show-all都比这些繁琐的命令好使。。。。*
+
+ 
+
+* PS: Emacs HELP
+
+1，C-h m 这个命令可以最详细地显示当前模式下有哪些按键绑定
+
+2， C-x C-h 查询所有以c-x开头的按键绑定
+
+3， C-c C-h 查询所有以C-c开头的按键绑定
+
+4，C-h c　 提示用户输入一个按键组合，给出这个组合绑定了什么命令
