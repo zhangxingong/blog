@@ -66,6 +66,8 @@ author = "zhangxingong"
 |yunzi博客 |[查看链接](https://yunzi.vercel.app/categories/Blog/) & [实例](https://volantis.js.org/)|  ||
 |rectangle command | [查看链接](http://xahlee.info/emacs/emacs/emacs_string-rectangle_ascii-art.html)| ||
 |Elisp基础知识 | [查看链接](http://smacs.github.io/elisp/02-elisp-basic.html)| ||
+|Emacs代码折叠 | [查看链接](emacs 代码折叠)| ||
+
 
 
 
