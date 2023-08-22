@@ -17,42 +17,42 @@
 * Emacs跳转
 
 1. 四个方向
-   C/M - f
-   C/M - b
-   C/M - p
-   C/M - n
-2. 行首行尾
-   C - a
-   C - e
-3. 段落首尾
-   M - a
-   M - e
-4. 页首尾
-   <
-   >
-5. 按照段落跳转
-   M - }
-   M - {
-6. 按照页跳转
-   C - x [
-   C - x ]                 
+   C/M - f  
+   C/M - b  
+   C/M - p  
+   C/M - n  
+2. 行首行尾  
+   C - a  
+   C - e  
+3. 段落首尾  
+   M - a  
+   M - e  
+4. 页首尾  
+   <  
+   >  
+5. 按照段落跳转  
+   M - }  
+   M - {  
+6. 按照页跳转  
+   C - x [  
+   C - x ]                   
 
-* Emacs 标记
+* Emacs 标记  
 
-1. 标记单词
-   M - @
-2. 标记sexp
-   C - M - @
-3. 标记函数
-   C - M - h
-4. 标记page
-   C - x C - p
-5. 标记buffer
-   C - x h
-6. 标记org元素
-   M - h
-7. 标记org subtree
-   C - c @
-8. 标记相同字符
-   C - c Z                   
+1. 标记单词  
+   M - @  
+2. 标记sexp  
+   C - M - @  
+3. 标记函数  
+   C - M - h  
+4. 标记page  
+   C - x C - p  
+5. 标记buffer  
+   C - x h  
+6. 标记org元素  
+   M - h  
+7. 标记org subtree  
+   C - c @  
+8. 标记相同字符  
+   C - c Z                     
   
