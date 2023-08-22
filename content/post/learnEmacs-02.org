@@ -56,26 +56,20 @@
 
 * Emacs 标记  
 #+begin_src  emacs-lisp 
-1. 标记单词  
+;1. 标记单词  
    M - @  
-2. 标记sexp  
+;2. 标记sexp  
    C - M - @  
-3. 标记函数  
+;3. 标记函数  
    C - M - h  
-4. 标记page  
+;4. 标记page  
    C - x C - p  
-5. 标记buffer  
+;5. 标记buffer  
    C - x h  
-6. 标记org元素  
+;6. 标记org元素  
    M - h  
-7. 标记org subtree  
+;7. 标记org subtree  
    C - c @  
-8. 标记相同字符  
+;8. 标记相同字符  
    C - c Z                     
 #+end_src
-
-aaaa
-
-bbbb
-
-ccc
