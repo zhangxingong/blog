@@ -68,6 +68,8 @@ author = "zhangxingong"
 |Elisp基础知识 | [查看链接](http://smacs.github.io/elisp/02-elisp-basic.html)| ||
 |emacs 代码折叠 | [查看链接](https://www.cnblogs.com/cobbliu/archive/2013/03/27/2983997.html)| ||
 |ox-hugo | [查看链接](https://ox-hugo.scripter.co/images/one-post-per-file.png)| ||
+|learn Org Mode|[查看链接](https://www.cnblogs.com/qlwy/archive/2012/06/15/2551034.html)| ||
+
 
 
 
