@@ -1,0 +1,70 @@
+#+title: org文字处理
+#+DATE: 2023-08-24T10:47:23+0800
+#+author: zhangxingong
+#+SLUG: org-plain-life
+#+HUGO_AUTO_SET_LASTMOD: t
+#+HUGO_CUSTOM_FRONT_MATTER: :toc true
+#+categories: emacs
+#+tags: 省心 工具 笔记
+#+weight: 2001
+#+draft: false
+#+STARTUP: noptag
+#+STARTUP: logdrawer
+#+STARTUP: indent
+#+STARTUP: overview
+#+STARTUP: showeverything
+
+* 简介
+
+  org是emacs内置核心功能，用于笔记、计划任务、规划、项目，并可以导出多种\\
+  文件格式，比如Html，pdf， image 。=> [[https://orgmode.org/][org Mode for Emacs]]
+
+** 以下是官网介绍
+
+org模式\\
+简简单单的生活\\
+GNU Emacs的主要模式，用于在快速有效的纯文本系统中保存笔记、编写文档、计算笔记本、识字编程、维护待办事项列表、规划项目等。\\
+
+* 内容
+
+** 标题
+
+#+begin_src emacs-lisp -n -t
+  ,*
+  ,**
+  ,***
+  C - c *  ;; 当前行当作标题
+  C - c C - x b ;;新创建buffer显示目录
+  C - c w  ;;将当前标题移动
+
+#+end_src
+
+** 列表
+
+#+begin_src emacs-lisp -n -t
+  ,+/-/1./1)开头
+  C - c - ;; 更改列表样式
+#+end_src  
+
+** 表格
+
+#+begin_src emacs-lisp -n -t
+  table宽度 <x>
+  左对齐<l> / 右对齐<r> / 居中对齐<c> 
+#+end_src
+
+** 脚注
+
+ C - c x f
+
+** 链接
+
+[[链接][描述]]
+
+** 图片
+
+[[图片地址]]
+
+** 片段
+
+code , sample, center example, quote
