@@ -1,0 +1,31 @@
+#+title: 使用org写博客换行问题
+#+DATE: 2023-08-24T11:38:40+0800
+#+author: zhangxingong
+#+SLUG: org-hugo-lines
+#+HUGO_AUTO_SET_LASTMOD: t
+#+HUGO_CUSTOM_FRONT_MATTER: :toc true
+#+categories: emacs
+#+tags: 笔记 工具 org
+#+weight: 2001
+#+draft: false
+#+STARTUP: noptag
+#+STARTUP: logdrawer
+#+STARTUP: indent
+#+STARTUP: overview
+#+STARTUP: showeverything
+
+* 问题描述
+
+ 在使用org 加 hugo 写博客时，一个换行最后生成html时是会变成空格
+
+* 解决方案
+
+1) 在行结束处加两个 `\\` 换行\\
+2) 使用两个换行符号
+
+** 列如下边
+
+
+#+DOWNLOADED: screenshot @ 2023-08-24 11:45:33
+[[/img/11-45-33_4_screenshot.png]]
+
