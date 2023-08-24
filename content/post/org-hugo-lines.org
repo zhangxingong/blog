@@ -20,12 +20,11 @@
 
 * 解决方案
 
-1) 在行结束处加两个 `\\` 换行\\
+1) 在行结束处加两个 `\\` 换行
 2) 使用两个换行符号
 
 ** 列如下边
 
-
 #+DOWNLOADED: screenshot @ 2023-08-24 11:45:33
-[[/img/11-45-33_4_screenshot.png]]
+[[https://gcore.jsdelivr.net/gh/zhangxingong/blog@main/static/img/11-45-33_4_screenshot.png]]
 
