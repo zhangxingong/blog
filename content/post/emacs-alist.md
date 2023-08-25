@@ -31,14 +31,13 @@ is often written as
 (k2 . v2)
 {{< /highlight >}}
 
-{{< highlight text >}}
-
-What is the Difference Between Association List and Hash Table?
-Association List is ordered. Hash Table items are not.
-Association List can have duplicate keys. Hash Table keys are unique.
-Association List access time is proportional to number of items. Hash Table is constant time to access any item regardless of number of items.
-Association List entries are hard to modify. As a list, it's designed to only add or drop first item of the list. Hash Table entries are designed to be modified, or added or deleted.
-{{< /highlight >}}
+> What is the Difference Between Association List and Hash Table?
+> Association List is ordered. Hash Table items are not.
+> Association List can have duplicate keys. Hash Table keys are unique.
+> Association List access time is proportional to number of items.
+> Hash Table is constant time to access any item regardless of number of items.
+> Association List entries are hard to modify. As a list, it's designed to only add or drop first item of the list.
+> Hash Table entries are designed to be modified, or added or deleted.
 
 Using string as key:
 
@@ -83,7 +82,8 @@ xx
 > Symbol Key vs String Key
 > Usually, Symbol is used for key. eq tests if 2 symbols are equal.
 > You can also use String as key. To compare if 2 string is equal, equal works.
-> Some functions for alist use eq to test existence of key, and others use equal. Some lets you specify a function for equality test.
+> Some functions for alist use eq to test existence of key, and others use equal.
+> Some lets you specify a function for equality test.
 > So, it is important to know:
 > What datatype you are using as key in your alist
 > Which equality test is used by a specific alist function.
@@ -96,9 +96,11 @@ xx
 alist-get
 (alist-get key alist &optional default remove testfn)
 Return the first value of the key. If no exist, return default or nil.
-the remove should be nil. (it is used in advanced situation with setf. you shouldn't use that for beginning lisp. See doc.)
+the remove should be nil. (it is used in advanced situation with setf.
+you shouldn't use that for beginning lisp. See doc.)
 
-key existence is checked by testfn (must be a symbol of function). Default to eq. [see Emacs Lisp: Test Equality]
+key existence is checked by testfn (must be a symbol of function).
+Default to eq. [see Emacs Lisp: Test Equality]
 
 (setq xx
 '(("aa" . 23)
@@ -130,7 +132,8 @@ key existence is checked by testfn (must be a symbol of function). Default to eq
 {{< highlight nil >}}
 assoc
 (assoc key alist)
-Return the first pair with the key. If no exist, return nil. (key existence is checked by equal. [see Emacs Lisp: Test Equality] )
+Return the first pair with the key. If no exist, return nil.
+(key existence is checked by equal. [see Emacs Lisp: Test Equality] )
 (setq xx
 '(("aa" . 23)
 ("bb" . 24)
@@ -141,7 +144,7 @@ Return the first pair with the key. If no exist, return nil. (key existence is c
 ; return ("bb" . 24)
 assq
 (assq key alist)
-same as assoc except key is checked by eq. Use this if all keys are Symbols [see Emacs Lisp: Test Equality]
+same as assoc except key is checked by eq. Use this if all keys are Symbols
 (setq xx
 '((aa . 23)
 (bb . 24)
@@ -163,7 +166,7 @@ You can search alist by value.
 
 rassoc
 (rassoc val alist)
-Return the first pair that has specific value. Else return nil. Test is done by equal. [see Emacs Lisp: Test Equality]
+Return the first pair that has specific value. Else return nil. Test is done by equal.
 (setq xx
 '(("aa" . 23)
 ("bb" . 24)
@@ -251,7 +254,8 @@ Alist
 {{< highlight emacs-lisp >}}
 assoc-delete-all
 (assoc-delete-all KEY ALIST &optional TEST)
-Delete all elements that has key KEY. Keys are checkd by TEST. Defaults to equal. Return the modified alist. Elements of ALIST that are not conses are ignored.
+Delete all elements that has key KEY. Keys are checkd by TEST. Defaults to equal.
+Return the modified alist. Elements of ALIST that are not conses are ignored.
 (setq xx
 '(("aa" . 23)
 ("bb" . 24)
@@ -283,14 +287,18 @@ Property list is used extensively in emacs.
 
 The 2 major use of property list are:
 
-Symbol Property List. Each symbol, is associated with a property list. Used primarily to store info related to the symbol, such as compiler info, but can be anything.
-Text Properties. Any text in a buffer, can have a property list, used to store syntax color info, special keyboard shortcut, etc.
-Property list isn't a generic data structure. If you have more than ten items, you probably should use Association List or Hash Table .
+Symbol Property List. Each symbol, is associated with a property list.
+Used primarily to store info related to the symbol, such as compiler info, but can be anything.
+Text Properties. Any text in a buffer, can have a property list, used to store syntax color info,
+special keyboard shortcut, etc.
+Property list isn't a generic data structure. If you have more than ten items,
+you probably should use Association List or Hash Table .
 
 Get a Key's Value
 plist-get
 (plist-get PLIST PROP)
-return the value of key PROP from property list PLIST. If key does not exist, return nil. Existence of key is checked with eq. [see Emacs Lisp: Test Equality]
+return the value of key PROP from property list PLIST. If key does not exist, return nil.
+Existence of key is checked with eq. [see Emacs Lisp: Test Equality]
 (plist-get '(x 1 y 2) 'y) ; 2
 (plist-get '(x 1 y 2) 'b) ; nil
 lax-plist-get
@@ -298,7 +306,8 @@ similar to plist-get, but compare key using equal.
 Add/Modify item
 plist-put
 (plist-put PLIST PROP VAL)
-add or change the value of key PROP in PLIST to VAL. The new plist is returned. Old plist may or may not be changed. Always use setq on original variable.
+add or change the value of key PROP in PLIST to VAL. The new plist is returned.
+Old plist may or may not be changed. Always use setq on original variable.
 Existence of key is checked with eq.
 ;; create a var xx with value of property list
 (setq xx '(a 1 b 2))
@@ -309,11 +318,13 @@ Existence of key is checked with eq.
 xx
 ;; (a 1 b 3)
 lax-plist-put
-similar to plist-put, but compare key using equal. [see Emacs Lisp: Test Equality]
+similar to plist-put, but compare key using equal.
 Check Key Existence
 plist-member
 (plist-member PLIST PROP)
-Return true if PLIST has the property PROP. The PROP is a symbol. Unlike plist-get, this allows you to distinguish between a missing property and a property with the value nil. The return value is actual the tail of PLIST whose car is PROP. [see Emacs Lisp: Cons Pair]
+Return true if PLIST has the property PROP. The PROP is a symbol.
+Unlike plist-get, this allows you to distinguish between a missing property and a property with the value nil.
+The return value is actual the tail of PLIST whose car is PROP.
 (setq xx '(a 1 b 2))
 
 ;; check if a key exist
@@ -326,7 +337,8 @@ Return true if PLIST has the property PROP. The PROP is a symbol. Unlike plist-g
 
 > Each lisp symbol is associated with a Property List .
 > This property list is stored in the Symbol's property list cell.
-> Symbol Property List is used extensively in emacs. It is also very useful if you want to write a function with state. You can store the state info with the symbol itself, instead of using a global variable.
+> Symbol Property List is used extensively in emacs. It is also very useful if you want to write a function with state.
+> You can store the state info with the symbol itself, instead of using a global variable.
 
 {{< highlight emacs-lisp >}}
 Set Whole Plist
@@ -500,7 +512,8 @@ without the last n elements.
       (equal xx '(1 "a"))
 
     (member x list)
-    Check if x is in list. If so, return a list starting with the first occurrence of object. Else return nil. Comparison done using equal. [see Emacs Lisp: Test Equality]
+    Check if x is in list. If so, return a list starting with the first occurrence of object. Else return nil.
+    Comparison done using equal. [see Emacs Lisp: Test Equality]
     (member "4" '("3" "4" "5")) ;; ("4" "5")
     (member-ignore-case x list)
     same as member, except that x should be a string, and comparison ignores letter-case.
@@ -515,7 +528,7 @@ remq
 Remove all x in list.
 Returns a new list.
 The original list is unchanged.
-Comparison is done with eq. [see Emacs Lisp: Test Equality]
+Comparison is done with eq.
 (setq xx '(3 4 5))
 (remq 4 xx) ; (3 5)
 xx ; (3 4 5)
@@ -524,7 +537,7 @@ delq
 Remove all x in list.
 The original list is destroyed.
 Returns a new list.
-Comparison is done with eq. [see Emacs Lisp: Test Equality]
+Comparison is done with eq.
 (setq xx '(3 4 5))
 
 ;; always set result to the same var
@@ -532,7 +545,8 @@ Comparison is done with eq. [see Emacs Lisp: Test Equality]
 Delete Duplicates
 delete-dups
 (delete-dups list)
-This function destructively removes all duplicates from list, return a new list. The first one is kept among duplicates. Comparison done using equal. [see Emacs Lisp: Test Equality]
+This function destructively removes all duplicates from list, return a new list.
+The first one is kept among duplicates. Comparison done using equal.
 
 (setq xx '(3 4 5 3 2))
 (setq xx (delete-dups xx)) ; (3 4 5 2)
@@ -572,7 +586,8 @@ Syntax:
 
 `(x1 x2 rest)
 
-for each element that is a list you want to become elements, put “comma at” ,@ in front of it. e.g. spill x2 as elements:
+for each element that is a list you want to become elements,
+put “comma at” ,@ in front of it. e.g. spill x2 as elements:
 
 `(x1 ,@x2 x3)
 
