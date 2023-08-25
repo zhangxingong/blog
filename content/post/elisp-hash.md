@@ -4,7 +4,7 @@ date = 2023-08-25T13:49:00+08:00
 tags = ["笔记", "工具", "编程", "学习", "基础"]
 categories = ["emacs"]
 draft = false
-weight = 2001
+weight = 2002
 author = "zhangxingong"
 +++
 
