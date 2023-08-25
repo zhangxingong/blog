@@ -91,7 +91,7 @@ xx
 
 ## Get Value by Key {#get-value-by-key}
 
-{{< highlight nil >}}
+{{< highlight emacs-lisp >}}
 
 alist-get
 (alist-get key alist &optional default remove testfn)
@@ -129,7 +129,7 @@ Default to eq. [see Emacs Lisp: Test Equality]
 
 ## Get Pair by Key {#get-pair-by-key}
 
-{{< highlight nil >}}
+{{< highlight emacs-lisp >}}
 assoc
 (assoc key alist)
 Return the first pair with the key. If no exist, return nil.
@@ -161,7 +161,7 @@ Use assoc or assq.
 
 ## Get Pair by Value {#get-pair-by-value}
 
-{{< highlight nil >}}
+{{< highlight emacs-lisp >}}
 You can search alist by value.
 
 rassoc
@@ -367,7 +367,7 @@ Return the value of SYMBOL's PROPNAME property.
 
 ## list {#list}
 
-{{< highlight emacs-lisp >}}
+{{< highlight emacs-lisp "linenos=true, linenostart=1" >}}
 First, Rest
 (car list)
 first element
@@ -397,131 +397,131 @@ without the last n elements.
 (butlast '(0 1 2 3 4 5))
 '(0 1 2 3 4))
 
-        (equal
-         (butlast '(0 1 2 3 4 5) 2)
-         '(0 1 2 3))
-        Last, Last N
-        (last list)
-        last as a list. i.e. return (cons lastElement nil).
-        To get the actual last item of a list, do (car (last list))
+(equal
+(butlast '(0 1 2 3 4 5) 2)
+'(0 1 2 3))
+Last, Last N
+(last list)
+last as a list. i.e. return (cons lastElement nil).
+To get the actual last item of a list, do (car (last list))
 
-        (equal
-         (car (last (list "a" "b" "c")))
-         "c"
-         )
+(equal
+(car (last (list "a" "b" "c")))
+"c"
+)
 
-        (equal
-         (last (list "a" "b" "c"))
-         (cons "c" nil)
-         )
-        (last list &optional n)
-        last n items.
-        (equal
-         (last '(0 1 2 3 4 5 6) 2)
-         '(5 6)
-         )
+(equal
+(last (list "a" "b" "c"))
+(cons "c" nil)
+)
+(last list &optional n)
+last n items.
+(equal
+(last '(0 1 2 3 4 5 6) 2)
+'(5 6)
+)
 
-      Add Element
-      (push new listVar)
-      Add element to the front.
-      Modify the listVar.
-      Return the new value of listVar
-      (setq xx '(1))
+Add Element
+(push new listVar)
+Add element to the front.
+Modify the listVar.
+Return the new value of listVar
+(setq xx '(1))
 
-      ;; after push, the var is modified, and the var's new value is returned
-      (eq (push 2 xx) xx)
+;; after push, the var is modified, and the var's new value is returned
+(eq (push 2 xx) xx)
 
-      (equal xx '(2 1))
-      The variable is modified even if the pushed list is inside a list.
+(equal xx '(2 1))
+The variable is modified even if the pushed list is inside a list.
 
-      ;; a list of lists
-      (setq xx '((1 2) (3 4) (5 6)))
+;; a list of lists
+(setq xx '((1 2) (3 4) (5 6)))
 
-      ;; push b to one of the list
-      (equal
-       (push "b" (nth 1 xx))
-       '("b" 3 4))
+;; push b to one of the list
+(equal
+(push "b" (nth 1 xx))
+'("b" 3 4))
 
-      ;; the xx is modified
-      (equal
-       xx
-       '((1 2) ("b" 3 4) (5 6)))
-      also if the variable is a vector:
+;; the xx is modified
+(equal
+xx
+'((1 2) ("b" 3 4) (5 6)))
+also if the variable is a vector:
 
-      ;; a vector of lists
-      (setq xx [(1 2) (3 4) (5 6)])
+;; a vector of lists
+(setq xx [(1 2) (3 4) (5 6)])
 
-      ;; push b to one of the list
-      (equal
-       (push "b" (aref xx 1))
-       '("b" 3 4 ))
+;; push b to one of the list
+(equal
+(push "b" (aref xx 1))
+'("b" 3 4 ))
 
-      ;; the xx is modified
-      (equal
-       xx
-       [(1 2) ("b" 3 4 ) (5 6)]
-       )
-      (add-to-list listVar ELEMENT &optional APPEND COMPARE-FN)
-      Add to list when not already in it.
+;; the xx is modified
+(equal
+xx
+[(1 2) ("b" 3 4 ) (5 6)]
+)
+(add-to-list listVar ELEMENT &optional APPEND COMPARE-FN)
+Add to list when not already in it.
 
-      (setq xx '(1 2 3))
+(setq xx '(1 2 3))
 
-      ;; add "a" to it. return the modified var
-      (eq
-       (add-to-list 'xx "a" )
-       xx)
+;; add "a" to it. return the modified var
+(eq
+(add-to-list 'xx "a" )
+xx)
 
-      ;; check the new value
-      (equal
-       xx
-       '("a" 1 2 3))
-      (add-to-ordered-list listVar ELEMENT &optional ORDER)
-      Add to specific position in list, if it does not exist. The list is reordered.
+;; check the new value
+(equal
+xx
+'("a" 1 2 3))
+(add-to-ordered-list listVar ELEMENT &optional ORDER)
+Add to specific position in list, if it does not exist. The list is reordered.
 
-      Remove Element
-      (pop listVar)
-      Remove first element from the variable. Return the removed element.
+Remove Element
+(pop listVar)
+Remove first element from the variable. Return the removed element.
 
-      (setq xx '(1 2 3 4))
-      (equal (pop xx) 1)
-      (equal xx '(2 3 4))
-      (nbutlast listVar n)
-      Remove last n elements from the variable. Return the new value of the variable.
+(setq xx '(1 2 3 4))
+(equal (pop xx) 1)
+(equal xx '(2 3 4))
+(nbutlast listVar n)
+Remove last n elements from the variable. Return the new value of the variable.
 
-      (setq xx '(0 1 2 3))
-      (equal (nbutlast xx 1) '(0 1 2))
-      (equal xx '(0 1 2))
-      Replace Element
-      (setcar listVar new)
-      Replace the first element in listVar with new. Return new.
+(setq xx '(0 1 2 3))
+(equal (nbutlast xx 1) '(0 1 2))
+(equal xx '(0 1 2))
+Replace Element
+(setcar listVar new)
+Replace the first element in listVar with new. Return new.
 
-      (setq xx '(1 2 3 4))
-      (equal (setcar xx "a") "a")
-      (equal xx '("a" 2 3 4))
-      (setcdr listVar newTail)
-      Replace the rest of elements in listVar with newTail. Return newTail.
+(setq xx '(1 2 3 4))
+(equal (setcar xx "a") "a")
+(equal xx '("a" 2 3 4))
+(setcdr listVar newTail)
+Replace the rest of elements in listVar with newTail. Return newTail.
 
-      Warning: if you want the result to be a Proper List, the newTail should be a proper list.
+Warning: if you want the result to be a Proper List, the newTail should be a proper list.
 
-      (setq xx '(1 2 3 4))
+(setq xx '(1 2 3 4))
 
-      (equal
-       (setcdr xx (cons "a" nil))
-       (cons "a" nil))
+(equal
+(setcdr xx (cons "a" nil))
+(cons "a" nil))
 
-      (equal xx '(1 "a"))
+(equal xx '(1 "a"))
 
-    (member x list)
-    Check if x is in list. If so, return a list starting with the first occurrence of object. Else return nil.
-    Comparison done using equal. [see Emacs Lisp: Test Equality]
-    (member "4" '("3" "4" "5")) ;; ("4" "5")
-    (member-ignore-case x list)
-    same as member, except that x should be a string, and comparison ignores letter-case.
-    (member-ignore-case "A" '("b" "a")) ; ("a")
-    (memq x list)
-    Same as member, but comparison done using eq. Use this if all items are Symbols.
-    (memql x list)
-    Same as member, but comparison done using eql.
+(member x list)
+Check if x is in list. If so, return a list starting with the first occurrence of object. Else return nil.
+Comparison done using equal. [see Emacs Lisp: Test Equality]
+(member "4" '("3" "4" "5")) ;; ("4" "5")
+(member-ignore-case x list)
+same as member, except that x should be a string, and comparison ignores letter-case.
+(member-ignore-case "A" '("b" "a")) ; ("a")
+(memq x list)
+Same as member, but comparison done using eq. Use this if all items are Symbols.
+(memql x list)
+Same as member, but comparison done using eql.
 
 remq
 (remq x list)
