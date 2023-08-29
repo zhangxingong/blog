@@ -1,0 +1,53 @@
+#+title: 图片增加水印 | JAVA
+#+DATE: 2023-08-29T11:23:12+0800
+#+author: zhangxingong
+#+SLUG: thumbnails-add-water-image
+#+HUGO_AUTO_SET_LASTMOD: t
+#+HUGO_CUSTOM_FRONT_MATTER: :toc true
+#+categories: subject
+#+tags: 工具 笔记 学习
+#+weight: 2001
+#+draft: false
+#+STARTUP: noptag
+#+STARTUP: logdrawer
+#+STARTUP: indent
+#+STARTUP: overview
+#+STARTUP: showeverything
+
+* 使用Thumbnails包对图片添加水印效果
+
+#+begin_quote
+Thumbnails are ideally implemented on web pages as separate, smaller copies of the original image,
+in part because one purpose of a thumbnail image on a web page is to reduce bandwidth and download time.
+。。。
+[[https://en.wikipedia.org/wiki/Thumbnail][Thumbnail@wiki]]
+#+end_quote
+
+#+begin_src java
+  String dataUrl = form.getDataUrl();//获取图片链接
+  String separator = File.separator;//分隔符
+  String tempPath = getServlet().getServletContext().getRealPath("")
+      + separator+"data"+separator+"temp"+separator+ FileUtils.getRandomFileName()+".jpg"; //添加水印后的图片
+  ImageUtils.base64StringToImage(dataUrl, tempPath);
+  int width = 800;
+  int height = 542;
+  float opacity = 0.9f;
+  String watermark = getServlet().getServletContext().getRealPath("") + "/images/course/watermark_banner.png";
+  if (cert.isPortrait()) {
+      width = 542;
+      height = 800;
+      opacity = 0.9f;
+      watermark = getServlet().getServletContext().getRealPath("")  + "/images/course/watermark_portrait.png";
+  }
+  BufferedImage waterImage = Thumbnails.of(watermark).size((int)(width*0.8),(int)(height*0.8)) //获取水印
+      .asBufferedImage();
+  Thumbnails.of(tempPath).size(width, height)
+      .watermark(Positions.CENTER, waterImage, opacity).outputQuality(1).toFile(tempPath); //添加水印
+#+end_src
+
+* 水印效果
+
+
+#+DOWNLOADED: screenshot @ 2023-08-29 11:35:40
+[[https://gcore.jsdelivr.net/gh/zhangxingong/blog@main/static/img/11-35-40_2_screenshot.png]]
+
