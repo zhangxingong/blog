@@ -1,0 +1,120 @@
+#+title: java列表平均分割
+#+DATE: 2023-08-29T09:14:27+0800
+#+author: zhangxingong
+#+SLUG: java-list-to-batches
+#+HUGO_AUTO_SET_LASTMOD: t
+#+HUGO_CUSTOM_FRONT_MATTER: :toc true
+#+categories: subject
+#+tags: 学习 基础 工具
+#+weight: 2001
+#+draft: false
+#+STARTUP: noptag
+#+STARTUP: logdrawer
+#+STARTUP: indent
+#+STARTUP: overview
+#+STARTUP: showeverything
+
+* 问题描述
+
+#+begin_src sql
+oracle id in(a,b,c)
+语句如果选项长度超过了1000会引起jdbc异常，错误如下
+#+end_src 
+
+#+begin_src java
+ERROR [net.sf.hibernate.util.JDBCExceptionReporter:58] ORA-01795: maximum number of expressions in a list is 1000
+#+end_src
+
+* 解决方法
+
+将获取id数组的地方用java平均拆分成小于1000的数组，然后拼接成
+
+#+begin_src sql
+ id in (1,2,..1000) or id in (1001,1002,..2000)     
+ 的形式
+#+end_src
+
+** 拆分数组的方法
+
+#+begin_src java
+  //break list into a batches
+  public static <T> List<List<T>> getBatches(List<T> collection, int batchSize){
+      int i = 0;
+      List<List<T>> batches = new ArrayList<List<T>>();
+      while(i<collection.size()){
+          int nextInc = Math.min(collection.size()-i,batchSize);
+          List<T> batch = collection.subList(i,i+nextInc);
+          batches.add(batch);
+          i = i + nextInc;
+      }
+
+      return batches;
+  }
+
+
+  
+    public static Date getLastDayOfMonth(int y, int m){
+        Calendar c = new GregorianCalendar(y,m,1);
+        c.add(Calendar.DATE,-15);
+        return c.getTime();
+    }
+
+
+  public class Test1 {
+
+      private static final Log log = LogFactory.getLog(Test1.class);
+
+      public static void main(String[] args) throws Exception {
+
+          List<Integer> list = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14);
+          List<List<Integer>> batches = CollectionUtils.getBatches(list, 3);
+          System.out.println("batches = " + batches);
+
+      }     
+#+end_src
+
+*** 运行结果
+
+
+#+DOWNLOADED: screenshot @ 2023-08-29 09:27:02
+[[https://gcore.jsdelivr.net/gh/zhangxingong/blog@main/static/img/09-27-02_2_screenshot.png]]
+
+
+*** 改造后的逻辑
+
+#+begin_src java
+  public static String getGroupSql(Long parent_id) {
+          Collection pids = getGroupIds(parent_id);
+          String conn = "";
+          if(!CollectionUtils.isEmpty(pids)){
+              if(pids.size() > 1000){
+                  List<? extends List<?>> batches = CollectionUtils.getBatches((List<String>) pids, 1000);
+                  conn += "( t.parent.id in (-1) ";
+                  for (List<?> batch : batches) {
+                    conn += " or t.parent.id in " + SampleManager.getInstr(batch);
+                  }
+                  conn += ")";
+              }else{
+                  conn = " t.parent.id in " + SampleManager.getInstr(pids);
+              }
+          }else{
+              conn = " 1=2 " ;
+          }
+          return conn;
+      }
+
+  
+  public class Samplemanager {
+	public static String getInstr(Collection ids) {
+		StringBuffer sb = new StringBuffer();
+		sb.append("(-1");
+		if (ids != null && ids.size() > 0)
+			for (Iterator iterator = ids.iterator(); iterator.hasNext();) {
+				sb.append("," + iterator.next());
+			}
+		sb.append(")");
+		return sb.toString();
+	}
+
+  }
+#+end_src
