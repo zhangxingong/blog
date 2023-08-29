@@ -1,4 +1,4 @@
-#+title: java列表平均分割
+#+title: java列表平均分割 | JAVA
 #+DATE: 2023-08-29T09:14:27+0800
 #+author: zhangxingong
 #+SLUG: java-list-to-batches
@@ -118,3 +118,8 @@ ERROR [net.sf.hibernate.util.JDBCExceptionReporter:58] ORA-01795: maximum number
 
   }
 #+end_src
+
+* 参考链接
+
+[[https://stackoverflow.com/questions/12026885/is-there-a-common-java-utility-to-break-a-list-into-batches][Is there a common Java utility to break a list into batches?]]\\
+[[https://stackoverflow.com/questions/17842453/is-there-a-workaround-for-ora-01795-maximum-number-of-expressions-in-a-list-is][Is there a workaround for ORA-01795: maximum number of expressions in a list is 1000 error?]]
