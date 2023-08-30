@@ -15,32 +15,32 @@
 #+STARTUP: showeverything
 
 #+begin_quote
-Programming is all about problem solving. It requires creativity,
-ingenuity, and invention. Regardless of your profession, you probably
-also have to solve problems creatively. However, for programmers,
-combining rich, flexible human thought with the rigid constraints
-of a digital computer exposes the power and the deepest
+Programming is all about problem solving. It requires creativity,\\
+ingenuity, and invention. Regardless of your profession, you probably\\
+also have to solve problems creatively. However, for programmers,\\
+combining rich, flexible human thought with the rigid constraints\\
+of a digital computer exposes the power and the deepest\\
 flaws of both.
 
 translate to chinese
 
-编程就是解决问题。需要创意，
-独创性和发明。无论您的职业是什么，您可能
-还必须创造性地解决问题。然而对于程序员来说，
-将丰富、灵活的人类思维与刚性约束相结合
-数字计算机的力量和最深刻的
+编程就是解决问题。需要创意，\\
+独创性和发明。无论您的职业是什么，您可能\\
+还必须创造性地解决问题。然而对于程序员来说，\\
+将丰富、灵活的人类思维与刚性约束相结合\\
+数字计算机的力量和最深刻的\\
 两者都有缺陷。
 #+end_quote
 
 #+begin_quote
-it seems to me that the two most important modern skills are these:
-• Communication skills
+it seems to me that the two most important modern skills are these:\\
+• Communication skills\\
 • Learning and thinking skills
 
 chinese
 
-在我看来，两项最重要的现代技能是：
-• 沟通技巧
+在我看来，两项最重要的现代技能是：\\
+• 沟通技巧\\
 • 学习和思考能力
 #+end_quote
 
