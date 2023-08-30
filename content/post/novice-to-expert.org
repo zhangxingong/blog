@@ -138,6 +138,10 @@ to confusion when things go awry.
 #+DOWNLOADED: screenshot @ 2023-08-30 16:50:36
 [[https://gcore.jsdelivr.net/gh/zhangxingong/blog@main/static/img/16-50-36_3_screenshot.png]]
 
+#+begin_quote
+Software isn’t designed in an IDE or other tool. It’s imagined and\\
+created in our heads.
+#+end_quote
 
 #+DOWNLOADED: screenshot @ 2023-08-30 16:51:31
 [[https://gcore.jsdelivr.net/gh/zhangxingong/blog@main/static/img/16-51-31_3_screenshot.png]]
