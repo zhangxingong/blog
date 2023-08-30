@@ -135,3 +135,64 @@ to confusion when things go awry.
 #+DOWNLOADED: screenshot @ 2023-08-30 16:40:47
 [[https://gcore.jsdelivr.net/gh/zhangxingong/blog@main/static/img/16-40-47_3_screenshot.png]]
 
+#+DOWNLOADED: screenshot @ 2023-08-30 16:50:36
+[[https://gcore.jsdelivr.net/gh/zhangxingong/blog@main/static/img/16-50-36_3_screenshot.png]]
+
+
+#+DOWNLOADED: screenshot @ 2023-08-30 16:51:31
+[[https://gcore.jsdelivr.net/gh/zhangxingong/blog@main/static/img/16-51-31_3_screenshot.png]]
+
+
+#+DOWNLOADED: screenshot @ 2023-08-30 16:51:58
+[[https://gcore.jsdelivr.net/gh/zhangxingong/blog@main/static/img/16-51-58_3_screenshot.png]]
+
+
+#+DOWNLOADED: screenshot @ 2023-08-30 16:53:39
+[[https://gcore.jsdelivr.net/gh/zhangxingong/blog@main/static/img/16-53-39_3_screenshot.png]]
+
+
+#+DOWNLOADED: screenshot @ 2023-08-30 16:54:06
+[[https://gcore.jsdelivr.net/gh/zhangxingong/blog@main/static/img/16-54-06_3_screenshot.png]]
+
+
+#+DOWNLOADED: screenshot @ 2023-08-30 16:54:28
+[[https://gcore.jsdelivr.net/gh/zhangxingong/blog@main/static/img/16-54-28_3_screenshot.png]]
+
+
+#+DOWNLOADED: screenshot @ 2023-08-30 16:54:51
+[[https://gcore.jsdelivr.net/gh/zhangxingong/blog@main/static/img/16-54-51_3_screenshot.png]]
+
+
+#+DOWNLOADED: screenshot @ 2023-08-30 16:54:58
+[[https://gcore.jsdelivr.net/gh/zhangxingong/blog@main/static/img/16-54-58_3_screenshot.png]]
+
+
+#+DOWNLOADED: screenshot @ 2023-08-30 16:56:28
+[[https://gcore.jsdelivr.net/gh/zhangxingong/blog@main/static/img/16-56-28_3_screenshot.png]]
+
+#+begin_quote
+“I was only following orders” did not work in WWII,\\
+it did not work for the nursing profession, and it does not work in\\
+software development.
+#+end_quote
+
+
+#+DOWNLOADED: screenshot @ 2023-08-30 16:57:33
+[[https://gcore.jsdelivr.net/gh/zhangxingong/blog@main/static/img/16-57-33_3_screenshot.png]]
+
+
+#+DOWNLOADED: screenshot @ 2023-08-30 16:59:05
+[[https://gcore.jsdelivr.net/gh/zhangxingong/blog@main/static/img/16-59-05_3_screenshot.png]]
+
+
+#+DOWNLOADED: screenshot @ 2023-08-30 17:00:31
+[[https://gcore.jsdelivr.net/gh/zhangxingong/blog@main/static/img/17-00-31_3_screenshot.png]]
+
+
+#+DOWNLOADED: screenshot @ 2023-08-30 17:00:58
+[[https://gcore.jsdelivr.net/gh/zhangxingong/blog@main/static/img/17-00-58_3_screenshot.png]]
+
+
+#+DOWNLOADED: screenshot @ 2023-08-30 17:01:25
+[[https://gcore.jsdelivr.net/gh/zhangxingong/blog@main/static/img/17-01-25_3_screenshot.png]]
+
