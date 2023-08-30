@@ -1,0 +1,91 @@
+#+title: 思维锻炼
+#+DATE: 2023-08-30T16:07:58+0800
+#+author: zhangxingong
+#+SLUG: novice-to-expert
+#+HUGO_AUTO_SET_LASTMOD: t
+#+HUGO_CUSTOM_FRONT_MATTER: :toc true
+#+categories: subject
+#+tags: 学习 笔记
+#+weight: 2001
+#+draft: false
+#+STARTUP: noptag
+#+STARTUP: logdrawer
+#+STARTUP: indent
+#+STARTUP: overview
+#+STARTUP: showeverything
+
+* 新手与专家思维区别
+
+
+#+DOWNLOADED: screenshot @ 2023-08-30 16:11:26
+[[https://gcore.jsdelivr.net/gh/zhangxingong/blog@main/static/img/16-11-26_3_screenshot.png]]
+
+
+》》从总体出发
+
+
+* Stage 1: Novice
+
+
+#+DOWNLOADED: screenshot @ 2023-08-30 16:17:14
+[[https://gcore.jsdelivr.net/gh/zhangxingong/blog@main/static/img/16-17-14_3_screenshot.png]]
+
+
+
+#+DOWNLOADED: screenshot @ 2023-08-30 16:13:55
+[[https://gcore.jsdelivr.net/gh/zhangxingong/blog@main/static/img/16-13-55_3_screenshot.png]]
+
+** 特点
+
+#+begin_quote
+Novices don’t particularly want to\\
+learn; they just want to accomplish an immediate goal. They do\\
+not know how to respond to mistakes and so are fairly vulnerable\\
+to confusion when things go awry.
+#+end_quote
+
+
+* Stage 2: Improved Beginner
+
+#+DOWNLOADED: screenshot @ 2023-08-30 16:16:33
+[[https://gcore.jsdelivr.net/gh/zhangxingong/blog@main/static/img/16-16-33_3_screenshot.png]]
+
+
+
+#+DOWNLOADED: screenshot @ 2023-08-30 16:18:25
+[[https://gcore.jsdelivr.net/gh/zhangxingong/blog@main/static/img/16-18-25_3_screenshot.png]]
+
+
+
+* Stage 3: Competent
+
+
+#+DOWNLOADED: screenshot @ 2023-08-30 16:19:13
+[[https://gcore.jsdelivr.net/gh/zhangxingong/blog@main/static/img/16-19-13_3_screenshot.png]]
+
+
+
+#+DOWNLOADED: screenshot @ 2023-08-30 16:19:39
+[[https://gcore.jsdelivr.net/gh/zhangxingong/blog@main/static/img/16-19-39_3_screenshot.png]]
+
+* Stage 4: Proficient
+
+#+DOWNLOADED: screenshot @ 2023-08-30 16:20:18
+[[https://gcore.jsdelivr.net/gh/zhangxingong/blog@main/static/img/16-20-18_3_screenshot.png]]
+
+
+#+DOWNLOADED: screenshot @ 2023-08-30 16:20:58
+[[https://gcore.jsdelivr.net/gh/zhangxingong/blog@main/static/img/16-20-58_3_screenshot.png]]
+
+
+* Stage 5: Expert
+
+
+#+DOWNLOADED: screenshot @ 2023-08-30 16:21:41
+[[https://gcore.jsdelivr.net/gh/zhangxingong/blog@main/static/img/16-21-41_3_screenshot.png]]
+
+
+
+#+DOWNLOADED: screenshot @ 2023-08-30 16:22:15
+[[https://gcore.jsdelivr.net/gh/zhangxingong/blog@main/static/img/16-22-15_3_screenshot.png]]
+
