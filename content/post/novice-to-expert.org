@@ -81,6 +81,11 @@ to confusion when things go awry.
 * Stage 5: Expert
 
 
+#+DOWNLOADED: screenshot @ 2023-08-30 16:29:52
+[[https://gcore.jsdelivr.net/gh/zhangxingong/blog@main/static/img/16-29-52_3_screenshot.png]]
+
+
+
 #+DOWNLOADED: screenshot @ 2023-08-30 16:21:41
 [[https://gcore.jsdelivr.net/gh/zhangxingong/blog@main/static/img/16-21-41_3_screenshot.png]]
 
@@ -88,4 +93,45 @@ to confusion when things go awry.
 
 #+DOWNLOADED: screenshot @ 2023-08-30 16:22:15
 [[https://gcore.jsdelivr.net/gh/zhangxingong/blog@main/static/img/16-22-15_3_screenshot.png]]
+
+
+
+#+DOWNLOADED: screenshot @ 2023-08-30 16:30:41
+[[https://gcore.jsdelivr.net/gh/zhangxingong/blog@main/static/img/16-30-41_3_screenshot.png]]
+
+
+#+DOWNLOADED: screenshot @ 2023-08-30 16:32:38
+[[https://gcore.jsdelivr.net/gh/zhangxingong/blog@main/static/img/16-32-38_3_screenshot.png]]
+
+
+#+DOWNLOADED: screenshot @ 2023-08-30 16:33:13
+[[https://gcore.jsdelivr.net/gh/zhangxingong/blog@main/static/img/16-33-13_3_screenshot.png]]
+
+
+#+DOWNLOADED: screenshot @ 2023-08-30 16:33:55
+[[https://gcore.jsdelivr.net/gh/zhangxingong/blog@main/static/img/16-33-55_3_screenshot.png]]
+
+
+#+DOWNLOADED: screenshot @ 2023-08-30 16:34:47
+[[https://gcore.jsdelivr.net/gh/zhangxingong/blog@main/static/img/16-34-47_3_screenshot.png]]
+
+
+#+DOWNLOADED: screenshot @ 2023-08-30 16:35:23
+[[https://gcore.jsdelivr.net/gh/zhangxingong/blog@main/static/img/16-35-23_3_screenshot.png]]
+
+
+#+DOWNLOADED: screenshot @ 2023-08-30 16:36:05
+[[https://gcore.jsdelivr.net/gh/zhangxingong/blog@main/static/img/16-36-05_3_screenshot.png]]
+
+
+#+DOWNLOADED: screenshot @ 2023-08-30 16:36:50
+[[https://gcore.jsdelivr.net/gh/zhangxingong/blog@main/static/img/16-36-50_3_screenshot.png]]
+
+
+#+DOWNLOADED: screenshot @ 2023-08-30 16:37:16
+[[https://gcore.jsdelivr.net/gh/zhangxingong/blog@main/static/img/16-37-16_3_screenshot.png]]
+
+
+#+DOWNLOADED: screenshot @ 2023-08-30 16:40:47
+[[https://gcore.jsdelivr.net/gh/zhangxingong/blog@main/static/img/16-40-47_3_screenshot.png]]
 
