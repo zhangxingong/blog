@@ -70,7 +70,8 @@ author = "zhangxingong"
 |ox-hugo | [查看链接](https://ox-hugo.scripter.co/images/one-post-per-file.png)| ||
 |learn Org Mode|[查看链接](https://www.cnblogs.com/qlwy/archive/2012/06/15/2551034.html)| ||
 |learn Emacs|[查看链接](https://www.cnblogs.com/qlwy/archive/2012/02/23/2365222.html)| ||
-|课表 |[链接](https://emacs-china.org/t/org-mode/18450)| ||
+|课表 |[查看链接](https://emacs-china.org/t/org-mode/18450)| ||
+|柏码 |[查看链接](https://itbaima.net/curriculum)| ||
 
 
 
