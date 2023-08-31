@@ -1,6 +1,6 @@
 +++
 title = "AI抽象油墨画作 | 文心一言"
-date = 2023-08-31T11:50:00+08:00
+date = 2023-08-31T00:00:00+08:00
 slug = "abstract-ink"
 tags = ["省心", "工具"]
 categories = ["subject"]
@@ -36,3 +36,12 @@ toc = true
 
 ![](/img/13-42-52_4_screenshot.png)
 
+![](/img/13-53-25_4_screenshot.png)
+
+![](/img/13-54-22_4_screenshot.png)
+
+![](/img/13-55-00_4_screenshot.png)
+
+![](/img/13-56-43_4_screenshot.png)
+
+![](/img/13-57-48_4_screenshot.png)
