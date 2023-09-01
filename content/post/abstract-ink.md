@@ -1,4 +1,4 @@
-![image](https://github.com/zhangxingong/blog/assets/7637443/93fda421-14ad-49e5-b6fc-717868239086)![image](https://github.com/zhangxingong/blog/assets/7637443/98c4d418-890e-445f-bd64-d623b7cba18c)+++
++++
 title = "AI抽象油墨画作 | 文心一言"
 date = 2023-08-31T11:50:00+08:00
 slug = "abstract-ink"
