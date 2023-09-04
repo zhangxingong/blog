@@ -71,6 +71,8 @@ author = "zhangxingong"
 |learn Org Mode|[查看链接](https://www.cnblogs.com/qlwy/archive/2012/06/15/2551034.html)| ||
 |learn Emacs|[查看链接](https://www.cnblogs.com/qlwy/archive/2012/02/23/2365222.html)| ||
 |课表 |[查看链接](https://emacs-china.org/t/org-mode/18450)| ||
+|sequence-diagrams |[查看链接](https://bramp.github.io/js-sequence-diagrams/)| ||
+|flowchart |[查看链接](https://github.com/adrai/flowchart.js)| ||
 |柏码 |[查看链接](https://itbaima.net/curriculum)| ||
 
 
