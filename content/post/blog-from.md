@@ -89,13 +89,13 @@ author = "zhangxingong"
 
 # markdown 流程图
 
-```sequence
+```sequence  
 Alice->Bob: Hello Bob, how are you?
 Note right of Bob: Bob thinks
 Bob-->Alice: I am good thanks!
 ​```
 
-```flow
+```flow  
 st=>start: Start:>http://www.google.com[blank]
 e=>end:>http://www.google.com
 op1=>operation: My Operation
