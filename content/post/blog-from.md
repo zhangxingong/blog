@@ -73,6 +73,7 @@ author = "zhangxingong"
 |课表 |[查看链接](https://emacs-china.org/t/org-mode/18450)| ||
 |sequence-diagrams |[查看链接](https://bramp.github.io/js-sequence-diagrams/)| ||
 |flowchart |[查看链接](https://github.com/adrai/flowchart.js)| ||
+|GUID生成器|[查看链接](https://www.guidgen.com/)| ||
 |柏码 |[查看链接](https://itbaima.net/curriculum)| ||
 
 
