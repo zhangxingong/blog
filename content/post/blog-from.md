@@ -64,6 +64,7 @@ author = "zhangxingong"
 |hugo建站| [查看链接](https://wowow005.github.io/posts/2022/04/%E5%A6%82%E4%BD%95%E7%94%A8hugo%E5%92%8Corg-mode%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/) | ||
 |設定 hugo 和 org-mode | [查看链接](https://blog.superbil.org/posts/setup-hugo/) | ||
 |yunzi博客 |[查看链接](https://yunzi.vercel.app/categories/Blog/) & [实例](https://volantis.js.org/)|  ||
+|Hanmei| [查看链接](https://hanmei.netlify.app/ideas/)| ||
 |rectangle command | [查看链接](http://xahlee.info/emacs/emacs/emacs_string-rectangle_ascii-art.html)| ||
 |Elisp基础知识 | [查看链接](http://smacs.github.io/elisp/02-elisp-basic.html)| ||
 |emacs 代码折叠 | [查看链接](https://www.cnblogs.com/cobbliu/archive/2013/03/27/2983997.html)| ||
