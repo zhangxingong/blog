@@ -74,6 +74,7 @@ author = "zhangxingong"
 |sequence-diagrams |[查看链接](https://bramp.github.io/js-sequence-diagrams/)| ||
 |Java 正则表达式查找/替换|[查看链接](https://www.w3cschool.cn/java/java-string-find-replace.html)| ||
 |StringJoiner |[查看链接](https://www.liaoxuefeng.com/wiki/1252599548343744/1271993169413952)| ||
+|JAVA Array to List|[查看链接](https://www.baeldung.com/convert-array-to-list-and-list-to-array)| ||
 |flowchart |[查看链接](https://github.com/adrai/flowchart.js)| ||
 |GUID生成器|[查看链接](https://www.guidgen.com/)| ||
 |柏码 |[查看链接](https://itbaima.net/curriculum)| ||
