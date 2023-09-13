@@ -66,6 +66,7 @@ author = "zhangxingong"
 |yunzi博客 |[查看链接](https://yunzi.vercel.app/categories/Blog/) & [实例](https://volantis.js.org/)|  ||
 |Hanmei| [查看链接](https://hanmei.netlify.app/ideas/)| ||
 |Hanmei github|[查看链接](https://github.com/NicoleMayer)| ||
+|weixin avartar|[查看链接](https://wework.qpic.cn/bizmail/zHcTjChlll1D5kkevhrjjeR4xO9FqgSFa2wY0Pn3ZHnib8bCMdBCNibA/0)| ||
 |免费域名 |[查看链接](https://www.u.tsukuba.ac.jp/~s2036012/tech/webmaster/start-blog-netlify.html)| ||
 |rectangle command | [查看链接](http://xahlee.info/emacs/emacs/emacs_string-rectangle_ascii-art.html)| ||
 |Elisp基础知识 | [查看链接](http://smacs.github.io/elisp/02-elisp-basic.html)| ||
