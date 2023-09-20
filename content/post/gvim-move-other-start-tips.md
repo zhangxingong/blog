@@ -33,5 +33,4 @@ author = "zhangxingong"
 
 还发现了有两个启动文件，一个就是不带OLE的
 
-    ![](/img/14-43-18_3_screenshot.png)
-    .
+![](/img/14-43-18_3_screenshot.png)
