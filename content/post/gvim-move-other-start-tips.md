@@ -1,7 +1,7 @@
 +++
 title = "gvim无法加载已注册的类型库 | VIM"
 date = 2023-09-20T14:44:00+08:00
-tags = ["工具", "想法", "妙招"]
+tags = ["vim", "工具", "想法", "妙招"]
 categories = ["subject"]
 draft = false
 weight = 2001
