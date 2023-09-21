@@ -61,6 +61,8 @@ author = "zhangxingong"
 |Meow Emacs编辑映射| [查看链接](https://github.com/meow-edit)| ||
 |Emac手册大全 | [查看链接](https://www.gnu.org/software/emacs/manual/html_node/emacs/index.html) |  ||
 |Emacs删除 | [查看链接](https://www.gnu.org/software/emacs/manual/html_node/emacs/Deletion.html) | ||
+|Emacs快捷键总结 | [查看链接](https://css8.cn/post/2869580.html)| ||
+|从零开始vim搭建Java开发环境之coc.nvim 篇| [查看链接](https://blog.csdn.net/lxyoucan/article/details/115460229)| ||
 |hugo建站| [查看链接](https://wowow005.github.io/posts/2022/04/%E5%A6%82%E4%BD%95%E7%94%A8hugo%E5%92%8Corg-mode%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/) | ||
 |設定 hugo 和 org-mode | [查看链接](https://blog.superbil.org/posts/setup-hugo/) | ||
 |yunzi博客 |[查看链接](https://yunzi.vercel.app/categories/Blog/) & [实例](https://volantis.js.org/)|  ||
