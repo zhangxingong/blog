@@ -76,6 +76,7 @@ author = "zhangxingong"
 |learn Emacs|[查看链接](https://www.cnblogs.com/qlwy/archive/2012/02/23/2365222.html)| ||
 |课表 |[查看链接](https://emacs-china.org/t/org-mode/18450)| ||
 |sequence-diagrams |[查看链接](https://bramp.github.io/js-sequence-diagrams/)| ||
+|JS几种数组遍历方式总结 |[查看链接](https://blog.csdn.net/function__/article/details/79555301)| ||
 |Java 正则表达式查找/替换|[查看链接](https://www.w3cschool.cn/java/java-string-find-replace.html)| ||
 |StringJoiner |[查看链接](https://www.liaoxuefeng.com/wiki/1252599548343744/1271993169413952)| ||
 |JAVA Array to List|[查看链接](https://www.baeldung.com/convert-array-to-list-and-list-to-array)| ||
