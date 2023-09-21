@@ -29,3 +29,5 @@ win11新版微信输入法快捷键占用问题
 ## 参考链接 {#参考链接}
 
 [微软拼音输入法占用Shift+F6快捷键](https://answers.microsoft.com/zh-hans/windows/forum/all/%e5%be%ae%e8%bd%af%e6%8b%bc%e9%9f%b3%e8%be%93/456b9c2a-b4cd-4add-b84f-4c174afced32?page=1)
+
+[SHIFT+F6 doesn't work for Windows 11](https://intellij-support.jetbrains.com/hc/en-us/community/posts/8828429005586-SHIFT-F6-doesn-t-work-for-Windows-11)
