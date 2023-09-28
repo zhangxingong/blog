@@ -314,7 +314,7 @@ textarea {
 }
 
 .col-8 {
-    width: 700px;
+    width: 850px;
 }
 
 .col-12 {
@@ -323,7 +323,7 @@ textarea {
 
 .container {
     /* width: 1150px;  m*/
-    width: 1000px;
+    width: 1150px;
     padding: 0 60px;
     margin: 0 auto;
 }
