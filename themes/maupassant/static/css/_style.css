@@ -756,9 +756,9 @@ textarea.textarea {
 }
 
 #footer {
-    padding: .8em 0 3.6em;
-    line-height: 1.5;
-    color: #999;
+    padding:.8em 0 3.6em;
+    color:#999;
+    text-align: center;
 }
 
 .error-page {
