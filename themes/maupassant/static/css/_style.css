@@ -317,7 +317,7 @@ textarea {
 }
 
 .col-8 {
-    width: 780px;
+    width: 800px;
 }
 
 .col-12 {
@@ -333,12 +333,12 @@ textarea {
 
 #secondary {
     float: right;
-    width: 320px;
+    width: 330px;
     /* border-left: 1px solid #ddd; */
     padding-left: 35px;
     word-wrap: break-word;
     display: block;
-    padding-top: 20px;
+     /* padding-top: 20px;*/
 }
 
 #main {
