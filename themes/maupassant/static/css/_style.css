@@ -317,7 +317,7 @@ textarea {
 }
 
 .col-8 {
-    width: 800px;
+    width: 700px;
 }
 
 .col-12 {
@@ -326,19 +326,19 @@ textarea {
 
 .container {
     /* width: 1150px;  m*/
-    width: 1150px;
+    width: 1000px;
     padding: 0 60px;
     margin: 0 auto;
 }
 
 #secondary {
     float: right;
-    width: 330px;
+    width: 255px;
     /* border-left: 1px solid #ddd; */
     padding-left: 35px;
     word-wrap: break-word;
     display: block;
-     /* padding-top: 20px;*/
+    padding-top: 20px;
 }
 
 #main {
