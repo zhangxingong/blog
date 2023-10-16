@@ -68,6 +68,7 @@ author = "zhangxingong"
 |yunzi博客 |[查看链接](https://yunzi.vercel.app/categories/Blog/) & [实例](https://volantis.js.org/)|  ||
 |You-need-to-know-css|[查看链接](https://lhammer.cn/You-need-to-know-css/#/zh-cn/introduce?v=1)| ||
 |CS-Notes 面试笔记|[查看链接](https://www.cyc2018.xyz/)| ||
+|免费的计算机编程类中文书籍|[查看链接](https://github.com/justjavac/free-programming-books-zh_CN)| ||
 |Hanmei| [查看链接](https://hanmei.netlify.app/ideas/)| ||
 |Hanmei github|[查看链接](https://github.com/NicoleMayer)| ||
 |weixin avartar|[查看链接](https://wework.qpic.cn/bizmail/zHcTjChlll1D5kkevhrjjeR4xO9FqgSFa2wY0Pn3ZHnib8bCMdBCNibA/0)| ||
