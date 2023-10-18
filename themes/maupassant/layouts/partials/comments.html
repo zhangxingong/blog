@@ -1,4 +1,4 @@
-{{ if and .IsPage (ne .Params.comment false) }}
+{{- if and .IsPage (ne .Params.comment false) }}
     {{ template "_internal/disqus.html" . }}
 
     <!-- utteranc -->
@@ -38,4 +38,4 @@
         })
     </script>
     {{ end }}
-{{ end }}
+{{- end }}
