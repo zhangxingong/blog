@@ -1,7 +1,8 @@
 {{ define "content"}}
 <div class="res-cons">
-   {{ with .Site.GetPage "/ideas" }}
-    {{ range  .Pages }}
+  {{- $paginator := .Paginate (where .Site.RegularPages "Type" "in" (slice "post" "posts")) }}
+    {{ range $index,$data := $paginator.Pages }}
+    {{if not .Params.hiddenFromHomePage }}
     <article class="post">
         <date class="post-meta meta-date">{{ time.Format "2022年5月7日 21时41分54秒" .PublishDate }}</date>
         <div class="post-content">
