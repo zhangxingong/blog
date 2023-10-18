@@ -66,8 +66,9 @@
     content: "\e60d";
 }
 body {
-    background-color:#FFF;
+      /** background-color:#FFF; **/
     color:#444;
+    background-color: #f9f9f9;
     font-size: 15px;
     /**
     font-family:"TIBch", "Classic Grotesque W01", "Helvetica Neue", Arial, "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "WenQuanYi Micro Hei", SimSun, sans-serif;
@@ -274,7 +275,12 @@ textarea {
     float:left;
 }
 .post {
-    padding:25px 0 15px;
+   /* padding:25px 0 15px; */
+    padding: 25px 15px 30px;
+    padding-right: 20px;
+    margin-bottom: 40px;
+    box-shadow: 0 0 0 1px #FFFFFF, 0 0 0 2px #ddd, 0 1px 5px 3px #EEEEEE;
+    background-color: #fff;
 }
 .post-title {
     margin:0;
@@ -977,7 +983,7 @@ img.alignright {
     } 
 }
 
-/* read more*/
+/* read more */
 .readmore a {
     font-size: 14px;
     color: #444;
@@ -990,6 +996,28 @@ img.alignright {
 .readmore a:hover {
     background: #F8F8F8;
     border-bottom-color: #D26911; 
+}
+
+/* read more*/
+
+.readmore {
+    padding-top: 10px;
+}
+
+.readmore a {
+    font-size: 14px;
+    color: #444;
+    margin: -10px 0;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    /* float: right; */
+}
+
+.readmore a:hover {
+    background: #F8F8F8;
+    /* border-bottom-color: #D26911; */
+    border-bottom-color: rgb(83, 74, 68);
 }
 /* 版权声明 */
 .post-copyright {
