@@ -11,3 +11,10 @@ description: 《Go 实战笔记》系列作者，《Golang Gin 实战》系列�
 公众号，扫码关注
 
 ![扫码关注](/img/qrcode_for_weixin.jpg)
+
+
+2023-10-18 [更新日志]
+
+更换了评论插件，使用 Valine 插件
+
+---
