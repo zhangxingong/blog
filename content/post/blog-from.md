@@ -49,6 +49,8 @@ author = "zhangxingong"
 |pyGithub|[pyGitApi](https://pygithub.readthedocs.io/en/latest/examples/Repository.html#update-a-file-in-the-repository)|||
 |emacs用户输入|[user input](http://xahlee.info/emacs/emacs/elisp_idioms_prompting_input.html)|`xha`||
 |构建静态网站 python|[pelican](https://github.com/getpelican/pelican)|||
+|评论插件Valine|[查看链接](https://valine.js.org/quickstart.html)| ||
+|Valine后台|[查看链接](https://console.leancloud.cn/)| ||
 |hugoTemplate|[Introduction to Hugo Templating](https://gohugo.io/templates/introduction/)|||
 |基于Hugo在Github上搭建个人博客|[build blog by hugo](https://juejin.cn/post/6844904070658916359)|||
 |Hugo org Mode |[peter](https://lucidmanager.org/productivity/create-websites-with-org-mode-and-hugo/) |||
