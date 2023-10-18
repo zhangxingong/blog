@@ -28,7 +28,8 @@
         {{ partial "post-meta.html" . }}
         <div class="post-content">
             {{ .Summary }}……
-            <p class="readmore"><a href="{{ .Permalink }}" target="_blank">{{ i18n "continueReading" }}</a></p>
+            <!-- <p class="readmore"><a href="{{ .Permalink }}" target="_blank">{{ i18n "continueReading" }}</a></p> -->
+            <p class="readmore"><a href="{{ .Permalink }}">{{ i18n "continueReading" }}</a></p>
         </div>
     </article>
     {{ end }}
