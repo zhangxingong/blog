@@ -1,1 +1,16 @@
-2
+{{ define "content"}}
+<div class="res-cons">
+    {{- $paginator := .Paginate (where .Site.RegularPages "Type" "in" (slice "post" "ideas")) }}
+    {{ range $index,$data := $paginator.Pages }}
+    {{if not .Params.hiddenFromHomePage }}
+    <article class="post">
+        <date class="post-meta meta-date"></date>
+        <div class="post-content">
+            {{ .Content }}
+        </div>
+    </article>
+    {{ end }}
+    {{ end }}
+    {{ partial "paginator" . }}
+</div>
+{{ end }}
