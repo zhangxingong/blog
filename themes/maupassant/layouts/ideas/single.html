@@ -1,8 +1,7 @@
 {{ define "content"}}
 <div class="res-cons">
    {{ with .Site.GetPage "/ideas" }}
-    {{ range $index,$data := .Pages }}
-    {{if not .Params.hiddenFromHomePage }}
+    {{ range  .Pages }}
     <article class="post">
         <date class="post-meta meta-date">{{ time.Format "2022年5月7日 21时41分54秒" .PublishDate }}</date>
         <div class="post-content">
