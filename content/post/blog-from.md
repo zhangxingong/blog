@@ -67,6 +67,9 @@ author = "zhangxingong"
 |設定 hugo 和 org-mode | [查看链接](https://blog.superbil.org/posts/setup-hugo/) | ||
 |yunzi博客 |[查看链接](https://yunzi.vercel.app/categories/Blog/) & [实例](https://volantis.js.org/)|  ||
 |You-need-to-know-css|[查看链接](https://lhammer.cn/You-need-to-know-css/#/zh-cn/introduce?v=1)| ||
+|二哥的JAVA进阶之路|[查看链接](https://javabetter.cn/)| ||
+|用Org Mode + Hugo写博客|[查看链接](https://superbear.github.io/post/2021/11/use-org-mode-and-hugo-to-write-blog/)| ||
+|阿里JAVA代码规范|[查看链接](https://github.com/alibaba/p3c/blob/master/Java%E5%BC%80%E5%8F%91%E6%89%8B%E5%86%8C(%E9%BB%84%E5%B1%B1%E7%89%88).pdf)| ||
 |CS-Notes 面试笔记|[查看链接](https://www.cyc2018.xyz/)| ||
 |免费的计算机编程类中文书籍|[查看链接](https://github.com/justjavac/free-programming-books-zh_CN)| ||
 |Hanmei| [查看链接](https://hanmei.netlify.app/ideas/)| ||
