@@ -143,10 +143,17 @@ enableRobotsTXT = true ## 允许爬虫抓取到搜索引擎，建议 true
     weight = 3
 
   [[menu.main]]
+    identifier = "ideas"
+    name = "碎碎念"
+    url = "/ideas/"
+    weight = 4
+    
+
+  [[menu.main]]
     identifier = "about"
     name = "关于"
     url = "/about/"
-    weight = 4
+    weight = 5
   
 
 [params.image_cdn]
