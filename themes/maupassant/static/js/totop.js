@@ -95,6 +95,7 @@ jQuery(document).ready(function($) {
 
 $("#themes li").click(function(){ 
  var style = $(this).attr("id"); 
+	$.cookie("mystyle",style,{expires:30});
 	if('default' == style){
 		 $("link[title='default']").removeAttr("disabled"); 
 		 $("link[title='latest']").attr("disabled","disabled"); 
@@ -103,3 +104,18 @@ $("#themes li").click(function(){
 		 $("link[title='default']").attr("disabled","disabled"); 
 	}
 }); 
+
+var cookie_style = $.cookie("mystyle"); 
+if(cookie_style==null){ 
+  $("link[title='default']").attr("disabled","disabled"); 
+  $("link[title='latest']")..removeAttr("disabled"); 
+}else{ 
+	if('default' == cookie_style){
+		 $("link[title='default']").removeAttr("disabled"); 
+		 $("link[title='latest']").attr("disabled","disabled"); 
+	}else{
+		 $("link[title='latest']")..removeAttr("disabled"); 
+		 $("link[title='default']").attr("disabled","disabled"); 
+	}
+} 
+
