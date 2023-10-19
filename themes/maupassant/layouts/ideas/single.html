@@ -1,6 +1,6 @@
 {{ define "content"}}
 <div class="res-cons">
-  {{ range  .Site.RegularPages "Type" "in" (slice "idea" "ideas") }}
+  {{ range  (where .Site.RegularPages "Type" "in" (slice "idea" "ideas")) }}
     {{ printf "%#v" .Content }}
 {{ end }}
   {{- $paginator := .Paginate (where .Site.RegularPages "Type" "in" (slice "idea" "ideas")) }}
