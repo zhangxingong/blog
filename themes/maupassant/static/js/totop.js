@@ -92,35 +92,3 @@ jQuery(document).ready(function($) {
         });
     });
 });
-
-$(function(){
-
-$(".themes").click(function(){ 
- var style = $(this).attr("id"); 
-console.log(style);	
-sessionStorage.setItem("mystyle",style);	
-if('default' == style){
-	 $("link[title='default']").removeAttr("disabled"); 
-	 $("link[title='latest']").attr("disabled","disabled"); 
-}else{
-	 $("link[title='latest']")..removeAttr("disabled"); 
-	 $("link[title='default']").attr("disabled","disabled"); 
-}
-}); 
-
-var cookie_style = sessionStorage.getItem(("mystyle"); 
-console.log(cookie_style);	
-if(cookie_style==null){ 
-  $("link[title='default']").attr("disabled","disabled"); 
-  $("link[title='latest']")..removeAttr("disabled"); 
-}else{ 
-	if('default' == cookie_style){
-		 $("link[title='default']").removeAttr("disabled"); 
-		 $("link[title='latest']").attr("disabled","disabled"); 
-	}else{
-		 $("link[title='latest']")..removeAttr("disabled"); 
-		 $("link[title='default']").attr("disabled","disabled"); 
-	}
-} 
-	
-})
