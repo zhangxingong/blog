@@ -95,16 +95,11 @@ jQuery(document).ready(function($) {
 
 $("#themes li").click(function(){ 
  var style = $(this).attr("id"); 
- $("link[title='theme']").attr("disabled","disabled"); 
- $("#"+style).removeAttr("disabled"); 
- $.cookie("mystyle",style,{expires:30}); 
+	if('default' == style){
+		 $("link[title='default']").removeAttr("disabled"); 
+		 $("link[title='latest']").attr("disabled","disabled"); 
+	}else{
+		 $("link[title='latest']")..removeAttr("disabled"); 
+		 $("link[title='default']").attr("disabled","disabled"); 
+	}
 }); 
-
-var cookie_style = $.cookie("mystyle"); 
-if(cookie_style==null){ 
- $("#default").removeAttr("disabled"); 
-}else{ 
- $("link[title='theme']").attr("disabled","disabled"); 
- $("#"+cookie_style).removeAttr("disabled"); 
-} 
-
