@@ -93,19 +93,21 @@ jQuery(document).ready(function($) {
     });
 });
 
-$("#themes li").click(function(){ 
+$(".themes").click(function(){ 
  var style = $(this).attr("id"); 
-	$.cookie("mystyle",style,{expires:30});
-	if('default' == style){
-		 $("link[title='default']").removeAttr("disabled"); 
-		 $("link[title='latest']").attr("disabled","disabled"); 
-	}else{
-		 $("link[title='latest']")..removeAttr("disabled"); 
-		 $("link[title='default']").attr("disabled","disabled"); 
-	}
+console.log(style);	
+$.cookie("mystyle",style,{expires:30});
+if('default' == style){
+	 $("link[title='default']").removeAttr("disabled"); 
+	 $("link[title='latest']").attr("disabled","disabled"); 
+}else{
+	 $("link[title='latest']")..removeAttr("disabled"); 
+	 $("link[title='default']").attr("disabled","disabled"); 
+}
 }); 
 
 var cookie_style = $.cookie("mystyle"); 
+console.log(cookie_style);	
 if(cookie_style==null){ 
   $("link[title='default']").attr("disabled","disabled"); 
   $("link[title='latest']")..removeAttr("disabled"); 
