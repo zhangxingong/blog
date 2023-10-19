@@ -11,6 +11,7 @@
     <a href='{{ "categories/" | relURL }}{{ . | urlize }}' target="_blank">{{ . }}</a>
   {{ end }}
 </div>
+{{ end }}
 <div class="post-meta">
   <span>&nbsp;|</span>
   <span>{{ .WordCount }}字</span>
@@ -19,4 +20,3 @@
   <span>&nbsp;|</span>
   <span>需要{{ .ReadingTime }}分钟</span>
 </div>  
-{{ end }}
