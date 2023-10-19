@@ -40,8 +40,8 @@
     <link rel="shortcut icon" href='{{ "favicon.ico" | relURL }}' type="image/x-icon">
 
     <link rel="stylesheet" href='{{ "css/normalize.css" | relURL}}'>
-    <link rel="stylesheet" href='{{ "css/_style.css" | relURL }}'>
-    
+    <link rel="stylesheet" href='{{ "css/_style.css" | relURL }}' id="default">
+    <link rel="stylesheet" href='{{ "css/style.css" | relURL }}' id="latest">
     {{ range .AlternativeOutputFormats -}}
         {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
     {{ end -}}
