@@ -1,6 +1,7 @@
 {{ define "content"}}
 <div class="res-cons">
   {{- $paginator := .Paginate (where .Site.RegularPages "Type" "in" (slice "idea" "ideas")) }}
+  {{ printf "%#v" $paginator }}
     {{ range $index,$data := $paginator.Pages }}
     {{if not .Params.hiddenFromHomePage }}
     <article class="post">
