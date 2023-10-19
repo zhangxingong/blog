@@ -93,6 +93,8 @@ jQuery(document).ready(function($) {
     });
 });
 
+$(function(){
+
 $(".themes").click(function(){ 
  var style = $(this).attr("id"); 
 console.log(style);	
@@ -120,4 +122,5 @@ if(cookie_style==null){
 		 $("link[title='default']").attr("disabled","disabled"); 
 	}
 } 
-
+	
+})
