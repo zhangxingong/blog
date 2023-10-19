@@ -41,7 +41,7 @@
 
     <link rel="stylesheet" href='{{ "css/normalize.css" | relURL}}'>
     <link rel="stylesheet" href='{{ "css/_style.css" | relURL }}' title="latest">
-    <link rel="stylesheet" href='{{ "css/style.css" | relURL }}'  disabled="disabled"  title="default">
+    <link rel="stylesheet" href='{{ "css/style.css" | relURL }}'  title="default">
     {{ range .AlternativeOutputFormats -}}
         {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
     {{ end -}}
@@ -68,7 +68,6 @@
 
     <script type="text/javascript" src='{{ "js/writingDates.js?v=0.0.0" | relURL }}' charset="utf-8"></script>
     <script type="text/javascript" src='{{ "js/myCalendar.js?v=0.0.0" | relURL }}' charset="utf-8"></script>
-    <script type="text/javascript" src='{{ "js/jquery.cookie.js?v=0.0.0" | relURL }}' charset="utf-8"></script>
     
     {{ if .Site.Params.googleAd }}
     <script data-ad-client="{{ .Site.Params.googleAd }}" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
