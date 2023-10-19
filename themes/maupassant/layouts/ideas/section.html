@@ -1,10 +1,11 @@
 {{ define "content"}}
 <div class="res-cons">
+  {{- $datetime_format := i18n "Datetime_format" -}}
   {{- $paginator := .Paginate (where .Site.RegularPages "Type" "in" (slice "idea" "ideas")).ByDate.Reverse 10 }}
     {{ range $index,$data := $paginator.Pages }}
     {{if not .Params.hiddenFromHomePage }}
     <article class="post">
-        <date class="post-meta meta-date">{{ .Date.Format "2022年5月7日 21时41分54秒" }}</date>
+        <date class="post-meta meta-date"> {{ time.Format $datetime_format .PublishDate }}</date>
         <div class="post-content">
             {{ .Content }}
         </div>
