@@ -5,7 +5,7 @@
     {{if not .Params.hiddenFromHomePage }}
     <article class="post">
         <date class="post-meta meta-date"> 
-          {{ .Date.Format i18n "23 Jan 02 Mon 15:04" }}
+          {{ .PublishDate.Local.Format "2006年01月02日15时04分05秒" }}
        </date>
         <div class="post-content">
             {{ .Content }}
