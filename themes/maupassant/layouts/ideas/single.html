@@ -1,8 +1,7 @@
 {{ define "content"}}
 <div class="res-cons">
   {{- $paginator := .Paginate (((where .Site.RegularPages "Type" "in" (slice "idea" "ideas")).ByParam "id").Reverse ) }}
-   {{ with $paginator }}
-    {{ range $index,$data := .Pages }}
+    {{ range $index,$data := $paginator.Pages }}
     {{if not .Params.hiddenFromHomePage }}
     <article class="post">
         <date class="post-meta meta-date">2222</date>
@@ -10,7 +9,6 @@
             {{ .Content }}
         </div>
     </article>
-    {{ end }}
     {{ end }}
     {{ end }}
     {{ partial "paginator" . }}
