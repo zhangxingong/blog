@@ -1,5 +1,5 @@
 {{ define "content"}}
-
+<div class="res-cons">
   {{ range  (where .Site.RegularPages "Type" "in" (slice "idea" "ideas")) }}
     {{ printf "%#v" .Content }}
 {{ end }}
@@ -17,5 +17,5 @@
     {{ end }}
     {{ end }}
     {{ partial "paginator" . }}
-
+</div>
 {{ end }}
