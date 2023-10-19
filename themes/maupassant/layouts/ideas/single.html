@@ -2,7 +2,7 @@
 <div class="res-cons">
   {{- $paginator := .Paginate ((where (where .Site.RegularPages "Type" "in" (slice "idea" "ideas")) "Kind" "page").GroupByDate "January 2006") }}
    {{ with $paginator }}
-    {{ range $index,$data := $paginator.Pages }}
+    {{ range $index,$data := .Pages }}
     {{if not .Params.hiddenFromHomePage }}
     <article class="post">
         <date class="post-meta meta-date">{{ time.Format "2022年5月7日 21时41分54秒" }}</date>
