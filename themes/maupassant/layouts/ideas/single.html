@@ -1,6 +1,6 @@
 {{ define "content"}}
 <div class="res-cons">
-  {{- $paginator := .Paginate ((where (where .Site.RegularPages "Type" "in" (slice "idea" "ideas")) "Kind" "page").GroupByDate "January 2006") }}
+  {{- $paginator := .Paginate (((where .Site.RegularPages "Type" "in" (slice "idea" "ideas")).ByParam "id").Reverse ) }}
    {{ with $paginator }}
     {{ range $index,$data := .Pages }}
     {{if not .Params.hiddenFromHomePage }}
