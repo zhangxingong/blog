@@ -6,7 +6,7 @@
     {{if not .Params.hiddenFromHomePage }}
     <article class="post">
         <date class="post-meta meta-date"> 
-          {{ time.Format $datetime_format }}
+          {{ time.Format $datetime_format .Date }}
        </date>
         <div class="post-content">
             {{ .Content }}
