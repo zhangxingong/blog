@@ -1,9 +1,6 @@
 {{ define "content"}}
 <div class="res-cons">
-  {{ range  (where .Site.RegularPages "Type" "in" (slice "idea" "ideas")) }}
-    {{ printf "%#v" .Content }}
-{{ end }}
-  {{- $paginator := .Paginate ((where (where .Site.Pages "Type" "in" (slice "idea" "ideas")) "Kind" "page").GroupByDate "January 2006") }}
+  {{- $paginator := .Paginate ((where (where .Site.RegularPages "Type" "in" (slice "idea" "ideas")) "Kind" "page").GroupByDate "January 2006") }}
    {{ with $paginator }}
     {{ range $index,$data := $paginator.Pages }}
     {{if not .Params.hiddenFromHomePage }}
