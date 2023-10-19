@@ -96,7 +96,7 @@ jQuery(document).ready(function($) {
 $(".themes").click(function(){ 
  var style = $(this).attr("id"); 
 console.log(style);	
-$.cookie("mystyle",style,{expires:30});
+sessionStorage.setItem("mystyle",style);	
 if('default' == style){
 	 $("link[title='default']").removeAttr("disabled"); 
 	 $("link[title='latest']").attr("disabled","disabled"); 
@@ -106,7 +106,7 @@ if('default' == style){
 }
 }); 
 
-var cookie_style = $.cookie("mystyle"); 
+var cookie_style = sessionStorage.getItem(("mystyle"); 
 console.log(cookie_style);	
 if(cookie_style==null){ 
   $("link[title='default']").attr("disabled","disabled"); 
