@@ -5,11 +5,11 @@
     {{ range $index,$data := $paginator.Pages }}
     {{if not .Params.hiddenFromHomePage }}
     <article class="post">
-        <div class="post-meta meta-date"> 
+        <date class="post-meta meta-date"> 
         <time datetime="{{ .PublishDate.UTC.Format "2006-01-02T15:04:05Z07:00" }}" class="post-meta meta-date dt-published">
-          {{ time.Format $datetime_format .PublishDate }}
+          {{ time.Format $datetime_format .date }}
         </time>
-       </div>
+       </date>
         <div class="post-content">
             {{ .Content }}
         </div>
