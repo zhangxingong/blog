@@ -96,9 +96,10 @@
             } 
         }
 
-        var theme = getLS(modeStorageKey);
-        if(theme){
-           doSwitchTheme(theme); 
+        var local_theme = getLS(modeStorageKey);
+        console.log('local_theme', local_theme);
+        if(local_theme){
+           doSwitchTheme(local_theme); 
         }else{
           setLS(modeStorageKey, 'modern');  
         }
