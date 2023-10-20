@@ -85,9 +85,9 @@
             if(targetSheet && targetSheet.length>0){
                console.log(222); 
                console.log(targetSheet.attr('href')); 
-               $('link[rel="stylesheet"][title]')each(function(index){
+               $('link[rel="stylesheet"][title]').each(function(index){
                    var sheetTitle = $(this).attr('title');
-                   console.log('title', sheetTitle);
+                   console.log('title'+index, sheetTitle);
                    if(sheetTitle != theme){
                       $(this).attr('disabled', 'disabled'); 
                    }
