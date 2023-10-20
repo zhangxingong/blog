@@ -63,20 +63,19 @@
             : "light";
         };
 
-        (function() {
-            $('#theme-button').click(function(){
-                var current_theme = getLS(modeStorageKey);
-                if(current_theme){
-                   if("modern" ==  current_theme){
-                      current_theme = "classic"; 
-                   }else{
-                      current_theme = "modern";
-                   }
-                   setLS(modeStorageKey, current_theme);   
-                   window.location.href  = 'https://zhangxingong.fun/';
-                }
-            });
-        })();
+        
+      $('#theme-button').click(function(){
+          var current_theme = getLS(modeStorageKey);
+          if(current_theme){
+             if("modern" ==  current_theme){
+                current_theme = "classic"; 
+             }else{
+                current_theme = "modern";
+             }
+             setLS(modeStorageKey, current_theme);   
+             window.location.href  = 'https://zhangxingong.fun/';
+          }
+      });
         
 
         var theme = getLS(modeStorageKey);
