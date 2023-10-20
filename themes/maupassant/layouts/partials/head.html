@@ -66,8 +66,8 @@
         
         function switchTheme(){
             var current_theme = getLS(modeStorageKey);
-            console.log("current_theme", current_theme);
-            console.log("current_theme", modeStorageKey);
+            // console.log("current_theme", current_theme);
+            // console.log("current_theme", modeStorageKey);
             if(current_theme){
                 if("modern" ==  current_theme){
                 current_theme = "classic"; 
@@ -80,14 +80,14 @@
         }
 
         function doSwitchTheme(theme){
-           console.log(111); 
+           // console.log(111); 
            var targetSheet = $('link[rel="stylesheet"][title="'+theme+'"]');
             if(targetSheet && targetSheet.length>0){
-               console.log(222); 
-               console.log(targetSheet.attr('href')); 
+               // console.log(222); 
+               // console.log(targetSheet.attr('href')); 
                $('link[rel="stylesheet"][title]').each(function(index){
                    var sheetTitle = $(this).attr('title');
-                   console.log('title'+index, sheetTitle);
+                   // console.log('title'+index, sheetTitle);
                    if(sheetTitle != theme){
                       $(this).attr('disabled', 'disabled'); 
                    }
