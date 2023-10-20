@@ -40,7 +40,8 @@
     <link rel="shortcut icon" href='{{ "favicon.ico" | relURL }}' type="image/x-icon">
 
     <link rel="stylesheet" href='{{ "css/normalize.css" | relURL}}'>
-    <link rel="stylesheet" href='{{ "css/style.css" | relURL }}' title="modern">
+    <link rel="stylesheet" href='{{ "css/_style.css" | relURL }}' title="modern">
+    <link rel="stylesheet" href='{{ "css/style.css" | relURL }}' title="classic" disabled="disabled">  
     {{ range .AlternativeOutputFormats -}}
         {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
     {{ end -}}
@@ -79,14 +80,11 @@
 
         var theme = getLS(modeStorageKey);
         if(theme){
-            console.log(111); 
             var targetSheet = $('link[rel="stylesheet"][title="'+theme+'"]');
             if(targetSheet && targetSheet.length>0){
-               console.log(222); 
+               $('link[rel="stylesheet"][title]').attr('disabled','disabled');
                targetSheet.removeAttr('disabled');  
-               $('link[rel="stylesheet"][title][title!="'+theme+'"]').attr('disabled','disabled');
             }
-            
         }else{
           setLS(modeStorageKey, 'modern');  
         }
