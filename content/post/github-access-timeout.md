@@ -25,7 +25,6 @@ author = "zhangxingong"
 使用工具： [站长之家ping检测](https://ping.chinaz.com/gist.github.com)
 
 ![](/img/14-45-56_5_screenshot.png)
-    .
 
 <!--listend-->
 
@@ -34,7 +33,6 @@ author = "zhangxingong"
 前提有修改权限
 
 ![](/img/14-46-54_5_screenshot.png)
-    .
 
 2.  刷新DNS生效
 {{< highlight shell >}}
