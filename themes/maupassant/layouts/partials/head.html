@@ -67,6 +67,7 @@
         function switchTheme(){
             var current_theme = getLS(modeStorageKey);
             console.log("current_theme", current_theme);
+            console.log("current_theme", modeStorageKey);
             if(current_theme){
                 if("modern" ==  current_theme){
                 current_theme = "classic"; 
@@ -74,7 +75,6 @@
                 current_theme = "modern";
                 }
             setLS(modeStorageKey, current_theme);   
-            window.location.href  = 'https://zhangxingong.fun/';
             }
         }
         
