@@ -41,7 +41,7 @@
 
     <link rel="stylesheet" href='{{ "css/normalize.css" | relURL}}'>
     <link rel="stylesheet" href='{{ "css/_style.css" | relURL }}' title="modern">
-    <link rel="stylesheet" href='{{ "css/style.css" | relURL }}' title="classic" disabled="disabled">    
+    <link rel="stylesheet" href='{{ "css/style.css" | relURL }}' title="classic">    
     {{ range .AlternativeOutputFormats -}}
         {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
     {{ end -}}
