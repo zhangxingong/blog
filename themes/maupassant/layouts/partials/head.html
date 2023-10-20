@@ -40,11 +40,59 @@
     <link rel="shortcut icon" href='{{ "favicon.ico" | relURL }}' type="image/x-icon">
 
     <link rel="stylesheet" href='{{ "css/normalize.css" | relURL}}'>
-    <link rel="stylesheet" href='{{ "css/_style.css" | relURL }}'>
+    <link rel="stylesheet" href='{{ "css/_style.css" | relURL }}' title="modern">
+    <link rel="stylesheet" href='{{ "css/style.css" | relURL }}' title="classic" disabled="disabled">    
     {{ range .AlternativeOutputFormats -}}
         {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
     {{ end -}}
     <script type="text/javascript" src="//cdn.bootcdn.net/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        var modeStorageKey = "sheet-scheme";
+        var setLS = (k, v) => {
+            localStorage.setItem(k, v);
+        };
+        var removeLS = (k) => {
+            localStorage.removeItem(k);
+        };
+        var getLS = (k) => {
+            return localStorage.getItem(k);
+        };
+        var getModeFromCSSMediaQuery = () => {
+          return window.matchMedia("(prefers-color-scheme: dark)").matches
+            ? "dark"
+            : "light";
+        };
+
+        (function() {
+            $('#theme-button).click(function(){
+                var current_theme = getLS(modeStorageKey);
+                if(current_theme){
+                   if("modern" ==  current_theme){
+                      current_theme = "classic"; 
+                   }else{
+                      current_theme = "modern";
+                   }
+                   setLS(modeStorageKey, current_theme);   
+                   window.location.href  = 'https://zhangxingong.fun/';
+                }
+            });
+        })();
+        
+
+        var theme = getLS(modeStorageKey);
+        if(theme){
+            console.log(111); 
+            var targetSheet = $('link[rel="stylesheet"][title="'+theme+'"]');
+            if(targetSheet && targetSheet.length>0){
+               console.log(222); 
+               targetSheet.removeAttr('disabled');  
+               $('link[rel="stylesheet"][title][title!="'+theme+'"]').attr('disabled','disabled');
+            }
+            
+        }else{
+          setLS(modeStorageKey, 'modern');  
+        }
+    </script>    
     {{ if .Site.Params.baiduAnalytics }}
     <script>
     var _hmt = _hmt || [];
