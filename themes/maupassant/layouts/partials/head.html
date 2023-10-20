@@ -64,18 +64,18 @@
         };
 
         
-      $('#theme-button').click(function(){
-          var current_theme = getLS(modeStorageKey);
-          if(current_theme){
-             if("modern" ==  current_theme){
+        function switchTheme(){
+            var current_theme = getLS(modeStorageKey);
+            if(current_theme){
+                if("modern" ==  current_theme){
                 current_theme = "classic"; 
-             }else{
+                }else{
                 current_theme = "modern";
-             }
-             setLS(modeStorageKey, current_theme);   
-             window.location.href  = 'https://zhangxingong.fun/';
-          }
-      });
+                }
+            setLS(modeStorageKey, current_theme);   
+            window.location.href  = 'https://zhangxingong.fun/';
+            }
+        }
         
 
         var theme = getLS(modeStorageKey);
