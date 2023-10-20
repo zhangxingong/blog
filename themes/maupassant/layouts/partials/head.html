@@ -74,18 +74,31 @@
                 }else{
                 current_theme = "modern";
                 }
-            setLS(modeStorageKey, current_theme);   
+            setLS(modeStorageKey, current_theme);  
+            doSwitchTheme(current_theme);     
             }
         }
-        
+
+        function doSwitchTheme(theme){
+           console.log(111); 
+           var targetSheet = $('link[rel="stylesheet"][title="'+theme+'"]');
+            if(targetSheet && targetSheet.length>0){
+               console.log(222); 
+               console.log(targetSheet.attr('href')); 
+               $('link[rel="stylesheet"][title]')each(function(index){
+                   var sheetTitle = $(this).attr('title');
+                   console.log('title', sheetTitle);
+                   if(sheetTitle != theme){
+                      $(this).attr('disabled', 'disabled'); 
+                   }
+               });
+               targetSheet.removeAttr('disabled');  
+            } 
+        }
 
         var theme = getLS(modeStorageKey);
         if(theme){
-            var targetSheet = $('link[rel="stylesheet"][title="'+theme+'"]');
-            if(targetSheet && targetSheet.length>0){
-               $('link[rel="stylesheet"][title]').attr('disabled','disabled');
-               targetSheet.removeAttr('disabled');  
-            }
+           doSwitchTheme(theme); 
         }else{
           setLS(modeStorageKey, 'modern');  
         }
