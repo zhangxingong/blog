@@ -1,5 +1,5 @@
 +++
-date = 2023-10-23T10:12:00+08:00
+date = 2023-10-23T10:12:00
 draft = false
 weight = 2001
 author = "zhangxingong"
