@@ -1,8 +1,6 @@
 +++
 title = "碎碎念008"
 date = 2023-10-23T14:15:13+0800
-tags = ["笔记","学习","编程"]
-categories = ["subject"]
 draft = false
 weight = 2002
 author = "zhangxingong"
