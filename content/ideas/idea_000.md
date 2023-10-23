@@ -1,6 +1,6 @@
 +++
 title = "碎碎念"
-date = 2023-10-23T14:35:21+08:00
+date = 2023-10-23T14:35:21
 draft = false
 weight = 2002
 author = "zhangxingong"
