@@ -1,2 +1,23 @@
+#+TITLE: idea_019
+#+DATE: 2023-10-24T16:32:25+0800
+#+seq_todo: TODO DRAFT DONE
+#+options: creator:t
+#+property: header-args :eval never-export
+#+hugo_base_dir: D:/home/blog/
+#+hugo_section: ideas
+#+hugo_weight: auto
+#+hugo_tags: shell
+#+hugo_categories: subject 
+#+hugo_draft: false
+#+hugo_slug: idea_019
+#+hugo_front_matter_key_replace: description>summary
+#+hugo_custom_front_matter: :author zhangxingong :toc true
+#+hugo_code_fence: nil
+
+#+STARTUP: logdrawer
+#+STARTUP: indent
+#+STARTUP: overview
+#+STARTUP: showeverything
+
 *成长**3个阶段是丛依赖到独立最终走向互赖。*这和中国古语说的*，**穷则独善其身，达则兼济天下*是一个意思。*事业，身体，心智和精神都应该同时成长，成为一个完整的人，我认为如果这些是我们人生的使命，该有多么令人振奋。*
 
