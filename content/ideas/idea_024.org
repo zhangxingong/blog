@@ -1,6 +1,7 @@
 #+TITLE: idea_024
 #+DATE: 2023-10-25T10:39:36+0800
 #+SLUG: idea_024
-#+draft: true
+#+draft: false
 
-just so so
+[[https://pic1.zhimg.com/70/v2-8239d3336b1b20f266d412e977bd5900_1440w.avis?source=172ae18b&biz_tag=Post]]
+.
