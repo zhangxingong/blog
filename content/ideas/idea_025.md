@@ -6,4 +6,4 @@ weight = 2001
 author = "zhangxingong"
 +++
 
-<bilibili BV1H4411N7oD 3>
+{{&lt;bilibili src="<https://www.bilibili.com/video/BV1H4411N7oD/>" page="3"&gt;}}
