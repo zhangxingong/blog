@@ -1,6 +1,6 @@
 ---
 title: "归档"
-description: Android资深工程师 ，Go和Java打杂师，《Android Gradle权威指南》作者，Android官方技术文档译者
+description: 🐻 Emacs用户，技术问题记录者，哲学历史爱好者。🌟在我的博客空间，记录技术问题，分享思考成长的点滴。📚热爱哲学和历史，探索人类智慧的源泉。🔍一起探索技术与人文的交汇之处吧！
 type: archives
 ---
 
