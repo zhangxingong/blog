@@ -1,6 +1,6 @@
 +++
 title = "org-mode语法 | orgmode"
-date = 2023-10-27T13:43:57+0800
+date = 2023-10-27T13:43:57+08:00
 tags = ["笔记","学习","编程"]
 categories = ["subject"]
 draft = false
