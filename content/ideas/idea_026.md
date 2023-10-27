@@ -1,5 +1,5 @@
 +++
-title = "idea126"
+title = "idea26"
 date = 2023-10-27T17:19:00+08:00
 draft = false
 weight = 2006
