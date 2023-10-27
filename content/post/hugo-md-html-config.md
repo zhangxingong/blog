@@ -48,3 +48,5 @@ unsafe = true
 ## 参考资料 {#参考资料}
 
 [hugo支持内联html](http://www.9ong.com/052020/hugo%E6%94%AF%E6%8C%81%E5%86%85%E8%81%94html.html)
+
+[在 Hugo 的 Markdown 里直接使用 HTML](https://lvv.me/posts/2019/12/06_raw_html_with_hugo/)
