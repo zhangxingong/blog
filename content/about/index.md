@@ -13,11 +13,14 @@ description: 🐻 Emacs用户，技术问题记录者，哲学历史爱好者。
 
 ![扫码关注](/img/qrcode_for_weixin.jpg)
 
+<header><h1 class="post-title">博客更新日志</h1></header>
 
+---
 2023-10-18 [更新日志]
 
 更换了评论插件，使用 Valine 插件
 
+---
 2023-10-16 [更新日志]
 
 工具菜单里增加了切换主题功能，在工具页面的最底下
