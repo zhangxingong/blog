@@ -1,6 +1,6 @@
 ---
 title: "归档"
-description: 🐻 Emacs用户，技术问题记录者，哲学历史爱好者。🌟在我的博客空间，记录技术问题，分享思考成长的点滴。📚热爱哲学和历史，探索人类智慧的源泉。🔍一起探索技术与人文的交汇之处吧！
+description: "专注于IT互联网，包括但不限于Go语言(golang)、Java、Emacs、Python、项目管理、抖音分析、软件架构等"
 type: archives
 ---
 
