@@ -57,3 +57,5 @@ $ipconfig /flushdns
 [issue](https://github.com/nvm-sh/nvm/issues/2392)
 
 [emoji markup](https://gist.github.com/rxaviers/7360908)
+
+[emoji-cheat-sheet](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md#face-smiling)
