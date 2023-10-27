@@ -28,4 +28,4 @@ If the *scratch* buffer does not exist, create it."
 (switch-to-buffer scratch-buffer-name (lisp-interaction-mode)))))
 {{< /highlight >}}
 
-使用时 &lt;kbd&gt;Meta&lt;/kbd&gt; + &lt;kbd&gt;x&lt;/kbd&gt; + &lt;kdbd&gt;Enter&lt;/kbd&gt; + switch-to-scratch-and-back即可切换
+使用时  <kbd>Meta</kbd> + <kbd>x</kbd> + <kdbd>Enter</kbd> + switch-to-scratch-and-back即可切换
