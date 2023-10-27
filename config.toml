@@ -121,10 +121,7 @@ enableRobotsTXT = true ## 允许爬虫抓取到搜索引擎，建议 true
     link = "https://creativecommons.org/licenses/by-nc-nd/4.0/"
 
 ## 配置代码高亮
-[markup]
-  [markup.highlight]
-    lineNos = true
-    style = "github"
+
 
 ## 配置网站菜单
 
@@ -178,6 +175,9 @@ enableRobotsTXT = true ## 允许爬虫抓取到搜索引擎，建议 true
   
 [markup]
   defaultMarkdownHandler = "goldmark"
+  [markup.highlight]
+    lineNos = true
+    style = "github"
   [markup.goldmark]
     [markup.goldmark.renderer]
       hardWraps = true  
