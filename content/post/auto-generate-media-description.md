@@ -1,5 +1,5 @@
 +++
-title = "人工只能生成媒体简介"
+title = "人工智能生成媒体简介"
 date = 2023-10-27T15:39:00+08:00
 tags = ["org", "工具", "自动化"]
 categories = ["subject"]
