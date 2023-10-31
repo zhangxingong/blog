@@ -1,6 +1,6 @@
 +++
 title = "Java8 Optional用法和最佳实践 | JAVA"
-date = 2023-10-31T15:52:12+0800
+date = 2023-10-31T15:52:12+08:00
 tags = ["笔记","学习","编程"]
 categories = ["subject"]
 draft = false
