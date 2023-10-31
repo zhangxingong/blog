@@ -35,7 +35,7 @@ author = "zhangxingong"
 
 为了简化此过程，让我们看一下如何使用Optional类，从创建和验证实例到使用它提供的不同方法并将其与返回相同类型的其他方法组合在一起，后者才是Optional的厉害之处。
 
-**Optional****的特性**
+**Optional的特性**
 
 Optional类提供了大约10种方法，我们可以使用它们来创建和使用Optional类，下面将介绍如何使用它们。
 
@@ -90,7 +90,7 @@ Optional<String> opt = Optional.of(name);
 
 所以这就是动态或手动创建Optional的三种方法。下一组方法用于检查值的存在。
 
-1. **布尔值** **[isPresent]** **（）**
+1. **布尔值****[isPresent]** **（）**
 
 如果存在值，则返回true；反之，返回false。如果所包含的对象不为null，则返回true，反之返回false。通常在对对象执行任何其他操作之前，先在Optional上调用此方法。 ··· //ispresent
 
@@ -101,7 +101,8 @@ if (optional1.isPresent()){
 //Do something, normally a get
 
 } ···
-2. **布尔值** [isEmpty（）]
+
+2. **布尔值** [isEmpty()]
 
 如果存在值，则返回false；否则，返回ture。这与isPresent 相反，  并且仅在Java 11及更高版本中可用。
 
