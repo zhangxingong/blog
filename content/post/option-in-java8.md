@@ -43,7 +43,7 @@ Optional类提供了大约10种方法，我们可以使用它们来创建和使�
 
 这是用于创建可选实例的三种创建方法。
 
-1. **static  **[**Optional**]** **[**empty**]**()**
+1. **static[Optional]\[empty\]\(\)**
 
 返回一个空的Optional实例。
 
@@ -54,7 +54,7 @@ Optional<String> empty = Optional.empty();
 
 在返回一个空的{Optional}实例时，Optional的值不存在。不过，这样做可能很有诱惑力，如果对象为空，请避免与Option.empty()返回的实例的{==}比较  。因为不能保证它是一个单例，反之，应该使用isPresent()。
 
-2. **static  **[**Optional**]** **[**of**]**(T value)**
+2. **static[Optional]\[of\]\(T value\)**
 
 返回特定的非空值Optional。
 
@@ -68,7 +68,7 @@ Optional<String> opt = Optional.of(name);
 
 静态方法需要一个非null参数；否则，将引发空指针异常。因此，如果我们不知道参数是否为null，那就是我们使用  ofNullable的时候，下面将对此进行介绍。
 
-3. **static  **[**Optional**]** **[**of**]**(T value)**
+3. **static[Optional]\[of\]\(T value\)**
 
 返回描述指定值的Optional，如果非空，则返回空值。
 
@@ -90,9 +90,11 @@ Optional<String> opt = Optional.of(name);
 
 所以这就是动态或手动创建Optional的三种方法。下一组方法用于检查值的存在。
 
-1. **布尔值****[isPresent]** **（）**
+1. **布尔值\[isPresent\]\(\)**
 
-如果存在值，则返回true；反之，返回false。如果所包含的对象不为null，则返回true，反之返回false。通常在对对象执行任何其他操作之前，先在Optional上调用此方法。 ··· //ispresent
+如果存在值，则返回true；反之，返回false。如果所包含的对象不为null，则返回true，反之返回false。通常在对对象执行任何其他操作之前，先在Optional上调用此方法。 
+```
+ //ispresent
 
 Optional optional1 = Optional.of("javaone");
 
@@ -100,9 +102,10 @@ if (optional1.isPresent()){
 
 //Do something, normally a get
 
-} ···
+}
+```
 
-2. **布尔值** [isEmpty()]
+2. **布尔值**[isEmpty()]
 
 如果存在值，则返回false；否则，返回ture。这与isPresent 相反，  并且仅在Java 11及更高版本中可用。
 
