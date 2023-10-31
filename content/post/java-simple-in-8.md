@@ -10,7 +10,7 @@ author = "zhangxingong"
 
 
 
-![4847831694079151_.pic_hd.jpg](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/0f09ff21a5614294a87337f0d8906ca3~tplv-k3u1fbpfcp-jj-mark:3024:0:0:0:q75.awebp#?w=4032&h=3024&s=2801862&e=jpg&b=dae0e4)
+![4847831694079151_.pic_hd.jpg](/img/mark_3024_0_0_0_q75.jpg)
 
 ## 允许在接口中有默认方法实现
 
