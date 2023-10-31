@@ -100,7 +100,8 @@ if (optional1.isPresent()){
 
 //Do something, normally a get
 
-} ··· 2. **布尔值** [isEmpty（）]
+} ···
+2. **布尔值** [isEmpty（）]
 
 如果存在值，则返回false；否则，返回ture。这与isPresent 相反，  并且仅在Java 11及更高版本中可用。
 
@@ -242,6 +243,3 @@ b）不要将其用作构造函数和方法的参数，因为这会导致不必�
 ```auto
 User user = new User("john@gmail.com", "1234", Optional.empty());
 ```
-
-本人创业团队产品MadPecker，主要做BUG管理、测试管理、应用分发 网址:[www.madpecker.com]，有需要的朋友欢迎试用、体验！ 本文为MadPecker团队技术人员译制，转载请标明出处
-
