@@ -35,7 +35,7 @@ author = "zhangxingong"
 
 为了简化此过程，让我们看一下如何使用Optional类，从创建和验证实例到使用它提供的不同方法并将其与返回相同类型的其他方法组合在一起，后者才是Optional的厉害之处。
 
-**Optional\*\*\*\*的特性**
+**Optional****的特性**
 
 Optional类提供了大约10种方法，我们可以使用它们来创建和使用Optional类，下面将介绍如何使用它们。
 
@@ -43,7 +43,7 @@ Optional类提供了大约10种方法，我们可以使用它们来创建和使�
 
 这是用于创建可选实例的三种创建方法。
 
-1. **static  **\[**Optional**\]** **\[**empty**\]**()**
+1. **static  **[**Optional**]** **[**empty**]**()**
 
 返回一个空的Optional实例。
 
@@ -54,7 +54,7 @@ Optional<String> empty = Optional.empty();
 
 在返回一个空的{Optional}实例时，Optional的值不存在。不过，这样做可能很有诱惑力，如果对象为空，请避免与Option.empty()返回的实例的{==}比较  。因为不能保证它是一个单例，反之，应该使用isPresent()。
 
-2. **static  **\[**Optional**\]** **\[**of**\]**(T value)**
+2. **static  **[**Optional**]** **[**of**]**(T value)**
 
 返回特定的非空值Optional。
 
@@ -68,7 +68,7 @@ Optional<String> opt = Optional.of(name);
 
 静态方法需要一个非null参数；否则，将引发空指针异常。因此，如果我们不知道参数是否为null，那就是我们使用  ofNullable的时候，下面将对此进行介绍。
 
-3. **static  **\[**Optional**\]** **\[**of**\]**(T value)**
+3. **static  **[**Optional**]** **[**of**]**(T value)**
 
 返回描述指定值的Optional，如果非空，则返回空值。
 
@@ -90,7 +90,7 @@ Optional<String> opt = Optional.of(name);
 
 所以这就是动态或手动创建Optional的三种方法。下一组方法用于检查值的存在。
 
-1. **布尔值**\*\*\[isPresent\]\*\*\*\*（）\*\*
+1. **布尔值****[isPresent]****（）**
 
 如果存在值，则返回true；反之，返回false。如果所包含的对象不为null，则返回true，反之返回false。通常在对对象执行任何其他操作之前，先在Optional上调用此方法。 ··· //ispresent
 
@@ -100,7 +100,7 @@ if (optional1.isPresent()){
 
 //Do something, normally a get
 
-} ··· 2. **布尔值**\[isEmpty（）\]
+} ··· 2. **布尔值**[isEmpty（）]
 
 如果存在值，则返回false；否则，返回ture。这与isPresent 相反，  并且仅在Java 11及更高版本中可用。
 
@@ -116,7 +116,7 @@ if (optional1.isEmpty()){
 }
 ```
 
-3. **void \[ifPresent\](**\[**Consumer**\]**<? super **\[**T**\]**\> consumer)**
+3. **void [ifPresent](**[**Consumer**]**<? super **[**T**]**> consumer)**
 
 如果存在值，则使用该值调用指定的使用者；否则，什么都不做。
 
@@ -132,7 +132,7 @@ optional1.ifPresent(s -> System.out.println(s.length()));
 
 可选类提供了另一组用于获取可选值的方法。
 
-1. **T**\[**get**\]**（）**
+1. **T**[**get**]**（）**
 
 如果此Optional中存在值，则返回该值，否则抛出  NoSuchElementException。在这之后，我们想要的是存储在Optional中的值，我们可以通过get()来获取它。但是，当该值为null时，此方法将引发异常。这就需要  orElse() 方法来紧急救援。
 
@@ -144,7 +144,7 @@ if (optional1.isPresent()){
 }
 ```
 
-2. \[**T **\]\[**orElse**\]**（**\[**T**\]**其他）**
+2. [**T **][**orElse**]**（**[**T**]**其他）**
 
 返回值（如果存在）；反之，返回其他。
 
@@ -159,7 +159,7 @@ if (optional1.isPresent()){
 
 如果这还不够，那么Optional类将继续提供另一种获取值的方法，即使该方法的null称为 orElseGet()。
 
-3. **\[T\]**\[**orElseGet**\]**(**\[**Supplier**\]**<? extends **\[**T**\]**\> other)**
+3. **[T]**[**orElseGet**]**(**[**Supplier**]**<? extends **[**T**]**> other)**
 
 返回值（如果存在）；否则，调用other并返回该调用的结果。
 
@@ -201,17 +201,17 @@ Getting default value...
 
 在这个简单的示例中，创建默认对象不会花费很多成本，因为JVM知道如何处理此类对象。但是，当诸如此类的方法  default 必须进行Web服务调用或者查询数据库时，则成本变得非常明显。
 
-**使用****Optional****最佳实践**
+**使用** **Optional** **最佳实践**
 
 就像编程语言的任何其他功能一样，它可以正确使用或被滥用。为了了解使用Optional类的最佳方法，需要了解以下内容：
 
-\*\*1.\*\***它解决的问题**
+**1.****它解决的问题**
 
 Optional的方法是尝试通过增加构建更具表现力的API的可能性来减少Java系统中空指针异常的情况，这些API解释了有时缺少返回值的可能性。
 
 如果从一开始就存在Optional，那么大多数库和应用程序可能会更好地处理缺少的返回值，从而减少了空指针异常的数量以及总体上的错误总数。
 
-\*\*2.\*\***它不解决的问题**
+**2.****它不解决的问题**
 
 Optional并不意味着是一种避免所有类型的空指针的机制。例如，它仍然必须测试方法和构造函数的强制输入参数。
 
@@ -221,7 +221,7 @@ Optional并不意味着是一种避免所有类型的空指针的机制。例如
 
 同样，以一种类似的方式，可以将检查的异常捕获在一个空块中，没有什么阻止调用方进行调用  get() 并继续进行。
 
-\*\*3.\*\***何时使用**
+**3.****何时使用**
 
 **Optional**的预期用途**主要是作为返回类型**。获取此类型的实例后，可以提取该值（如果存在）或提供其他行为（如果不存在）。
 
@@ -231,7 +231,7 @@ Optional类的一个非常有用的用例是将其与流或返回Optional值以�
 User user = users.stream().findFirst().orElse(new User("default", "1234"));
 ```
 
-\*\*4.\*\***什么时候不使用**
+**4.****什么时候不使用**
 
 a）不要将其用作类中的字段，因为它不可序列化
 
@@ -243,5 +243,5 @@ b）不要将其用作构造函数和方法的参数，因为这会导致不必�
 User user = new User("john@gmail.com", "1234", Optional.empty());
 ```
 
-本人创业团队产品MadPecker，主要做BUG管理、测试管理、应用分发 网址:\[www.madpecker.com\]，有需要的朋友欢迎试用、体验！ 本文为MadPecker团队技术人员译制，转载请标明出处
+本人创业团队产品MadPecker，主要做BUG管理、测试管理、应用分发 网址:[www.madpecker.com]，有需要的朋友欢迎试用、体验！ 本文为MadPecker团队技术人员译制，转载请标明出处
 
