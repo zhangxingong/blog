@@ -1,0 +1,10 @@
+#+TITLE: idea_031
+#+DATE: 2023-11-01T14:04:06+0800
+#+SLUG: idea_031
+#+draft: false
+#+hiddenFromHomePage: true
+
+
+#+DOWNLOADED: screenshot @ 2023-11-01 14:04:42
+[[https://gcore.jsdelivr.net/gh/zhangxingong/blog@main/static/img/14-04-42_3_screenshot.png]]
+
