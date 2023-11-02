@@ -3,9 +3,9 @@
 #+SLUG: idea_034
 #+draft: false
 
-如何模仿其他人的静态网站
-1. 手工下载 :: 缺点耗时
-2. 使用工具 :: 简单快捷
+如何模仿其他人的静态网站:joy:
+1) 手工下载 :: 缺点耗时
+2) 使用工具 :: 简单快捷
    
 参考下边这篇博文   
 [[https://cloud.tencent.com/developer/article/1583727][直接把别人网站的 js css html 扒下来的 Chrome 插件【强烈推荐】]]
