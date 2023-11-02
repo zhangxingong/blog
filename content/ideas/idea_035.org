@@ -1,0 +1,6 @@
+#+TITLE: idea_035
+#+DATE: 2023-11-02T15:01:51+0800
+#+SLUG: idea_035
+#+draft: false
+
+@@html: {{< bilibili BV1Hj411U7SP 0 >}} @@
