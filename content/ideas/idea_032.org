@@ -1,0 +1,9 @@
+#+TITLE: idea_032
+#+DATE: 2023-11-02T10:48:18+0800
+#+SLUG: idea_032
+#+draft: false
+
+
+#+DOWNLOADED: screenshot @ 2023-11-02 10:48:27
+[[https://gcore.jsdelivr.net/gh/zhangxingong/blog@main/static/img/10-48-27_4_screenshot.png]]
+
