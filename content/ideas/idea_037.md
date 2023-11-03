@@ -7,4 +7,4 @@ author = "zhangxingong"
 hiddenFromHomePage = false
 +++
 
-ssss
+最近发现上传单个markdown文件时，📝时间字符串会报错。今天在制作markdown头部模板时，意外发现把日期字符串加上引号就能正常发帖子了。👏
