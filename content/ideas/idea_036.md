@@ -1,6 +1,10 @@
-#+TITLE: idea_036
-#+DATE: 2023-11-03T10:07:19+0800
-#+draft: false
++++
+title = "idea_036"
+date = 2023-11-03T10:07:19+08:00
+draft = false
+weight = 2001
+author = "zhangxingong"
++++
 
 <style>
 blockquote {
@@ -40,6 +44,7 @@ blockquote {
 2，试赏析“思念像斐波那契数列般漫延”一句。
 3，请结合时代背景，谈谈你对“当软工沦落在设计的文档间，算法依旧是永垂不朽的诗篇”一句的理解。
 4，“几万组数据流过后发现，我的心依然不变”一句体现了算法的什么特性？</p>
-<p>&nbsp;</p></blockquote>
+</blockquote>
+
 
 
