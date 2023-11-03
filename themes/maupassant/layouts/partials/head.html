@@ -40,10 +40,10 @@
     <link rel="shortcut icon" href='{{ "favicon.ico" | relURL }}' type="image/x-icon">
 
     <link rel="stylesheet" href='{{ "css/normalize.css" | relURL}}'>
-    <link rel="stylesheet" href='https://dillonzq.com/css/style.min.css' title="LoveIt" >
-    <!--
+    <!-- <link rel="stylesheet" href='https://dillonzq.com/css/style.min.css' title="LoveIt" >-->
+    
     <link rel="stylesheet" href='{{ "css/classic.css" | relURL }}' title="classic" disabled="disabled">  
-    <link rel="stylesheet" href='{{ "css/modern.css" | relURL }}' title="modern"  disabled="disabled"> -->
+    <link rel="stylesheet" href='{{ "css/modern.css" | relURL }}' title="modern"  disabled="disabled"> 
     {{ range .AlternativeOutputFormats -}}
         {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
     {{ end -}}
