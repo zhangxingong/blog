@@ -7,7 +7,7 @@ author = "zhangxingong"
 hiddenFromHomePage = false
 +++
 
-*** 刚刚在注册Chat GPT ***
+**刚刚在注册Chat GPT**
 
 ---
 
