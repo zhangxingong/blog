@@ -16,6 +16,9 @@ blockquote {
     border-left: 0.2rem solid #0077b8;
     position: relative;
     background: var(--haze);
+    font-size: 1.1rem;
+    line-height: 1.5;
+    font-family: "PingFang SC,Lantinghei SC,Helvetica Neue,Helvetica,Arial,Microsoft YaHei,微软雅黑,STHeitiSC-Light,simsun,宋体,WenQuanYi Zen Hei,WenQuanYi Micro Hei,"sans-serif";
 }
 </style>
 
