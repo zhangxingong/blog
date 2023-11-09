@@ -2,6 +2,11 @@
 <html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}zh-CN{{end}}">
 {{ partial "head" . }}
 <body>
+{{ partial "header" . }}
+    <div id="body">
+        <div class="container">
+            <div class="col-group">
+                <div class="col-8" id="main">
 <div class="gallery-photos page">
   {{ range (sort (readDir "./static/photo") "Name" "desc")}}
     {{ if ( .Name | findRE "\\.(gif|jpg|jpeg|tiff|png|bmp|webp|avif|jxl)") }}
@@ -59,5 +64,11 @@ document.addEventListener('DOMContentLoaded', () => {
   window.Lately && Lately.init({ target: '.photo-time'});
   window.ViewImage && ViewImage.init('.gallery-photo img')
 </script>
+                    {{ partial "footer" . }}
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
-</html>	
+
+</html>
