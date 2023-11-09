@@ -6,7 +6,7 @@
     <div id="body">
         <div class="container">
             <div class="col-group">
-                <div class="col-8" id="main">
+                <div class="col-12" id="main">
 <div class="gallery-photos page">
   {{ range (sort (readDir "./static/photo") "Name" "desc")}}
     {{ if ( .Name | findRE "\\.(gif|jpg|jpeg|tiff|png|bmp|webp|avif|jxl)") }}
