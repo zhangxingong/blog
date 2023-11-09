@@ -16,7 +16,7 @@ description: 🐻 Emacs用户，技术问题记录者，哲学历史爱好者。
 <header><h1 class="post-title">博客更新日志</h1></header>
 
 2023-11-09 [更新日志]
-增加了<a href='{{ "photo/" | relURL }}'>相册功能</a>
+增加了<a href='https://zhangxingong.fun/photo/'>相册功能</a>
 
 ---
 2023-10-18 [更新日志]
