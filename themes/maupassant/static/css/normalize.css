@@ -457,11 +457,14 @@ template {
 .gallery-photo span.photo-time{position:absolute;top:4px;left:4px;font-size:0.8rem;}
 .gallery-photo:hover span.photo-title{display:block;}
 .gallery-photo:hover img{transform: scale(1.1);}
-@media screen and (max-width: 1800px) {
+@media screen and (max-width: 1280px) {
 	.gallery-photo{width:33.3%;}
 }
 @media screen and (max-width: 860px) {
 	.gallery-photo{width:49.9%;}
+}
+@media (max-width: 683px){
+	.photo-time{display: none;}
 }
 @keyframes fadeIn{
 	0% {opacity: 0;}
