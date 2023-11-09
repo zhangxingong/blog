@@ -7,4 +7,4 @@ author = "zhangxingong"
 hiddenFromHomePage = false
 +++
 
-{{<galary "photo">}}
+{{<gallery "photo">}}
