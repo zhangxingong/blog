@@ -1,4 +1,14 @@
 {{ define "content"}}
+<style>
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+  }
+</style>
 <div class="res-cons">
   {{- $paginator := .Paginate (where .Site.RegularPages "Type" "in" (slice "idea" "ideas")).ByDate.Reverse 10 }}
     {{ range $paginator.Pages }}
@@ -16,13 +26,4 @@
     {{ partial "paginator" . }}
 </div>
 {{ end }}
-<style>
-  img {
-    max-width: 100%;
-    height: auto;
-  }
-  img {
-    overflow-clip-margin: content-box;
-    overflow: clip;
-  }
-</style>
+
