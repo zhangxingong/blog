@@ -1,6 +1,6 @@
 {{ with .Site.Params.ads }}
 <section class="widget">
-    <h3 class="widget-title" style="color:red">{{ i18n "ads" }}</h3>
+    <h3 class="widget-title" style="color:red"><a href='{{ "photo/" | relURL }}'>{{ i18n "ads" }}</a></h3>
     <ul class="widget-list" style="list-style:none;padding-left:0;">
         {{ range . }}
         <li>
