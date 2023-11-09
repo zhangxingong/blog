@@ -1,4 +1,7 @@
-{{ define "main" }}
+<!doctype html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}zh-CN{{end}}">
+{{ partial "head" . }}
+<body>
 <div class="gallery-photos page">
   {{ range (sort (readDir "./static/photos") "Name" "desc")}}
     {{ if ( .Name | findRE "\\.(gif|jpg|jpeg|tiff|png|bmp|webp|avif|jxl)") }}
@@ -56,4 +59,5 @@ document.addEventListener('DOMContentLoaded', () => {
   window.Lately && Lately.init({ target: '.photo-time'});
   window.ViewImage && ViewImage.init('.gallery-photo img')
 </script>
-{{ end }}
+</body>
+</html>	
