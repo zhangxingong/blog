@@ -8,4 +8,4 @@ layout: "links"
 {{< friend name="卑微幻想家" url="https://www.zhaojun.ink" logo="https://www.zhaojun.ink/avatar" word="就做一阵风吧,有温柔也有英勇" >}}  
 {{< friend name="Sulv’s Blog" url="https://www.sulvblog.cn" logo="https://www.sulvblog.cn/img/Q.gif" word="一个记录技术、阅读、生活的博客" >}}  
 {{< friend name="王云子" url="https://meme-e6o3qdfxw-wangyunzi.vercel.app/" logo="https://cravatar.cn/avatar/c1b204bab687a23c8b6d7c8de11c7c59?d=wavatar" word="长街短梦" >}}  
-{{< friend name="陈明勇的博客" url="http://chenmingyong.cn/" logo="https://blog-1302954944.cos.ap-guangzhou.myqcloud.com/img/zz.png" word="一个热爱技术，喜欢专研技术的程序员。" >}} 
+{{< friend name="Leonus" url="https://blog.leonus.cn/" logo="https://q1.qlogo.cn/g?b=qq&nk=990320751&s=5" word="进一寸有进一寸的欢喜。" >}} 
