@@ -622,6 +622,11 @@ template {
     border-radius: 4px;
 }
 
+.entry p:has(> img:nth-child(2)) img {
+    margin-bottom: 8px;
+}
+
+
 .entry iframe, .entry audio {
     width: 100%;
     margin-bottom: 15px;
