@@ -9,15 +9,15 @@
     line-height: 1.8;
     margin-top: 0;
  }
- .post-content p  img {
-    width : 129px!important;
-    max-width: 100%;
-    height: auto;
-  }
- .post-content p  img {
-    overflow-clip-margin: content-box;
-    overflow: clip;
-  }
+
+ .post-content img {
+   padding:0;
+   max-width: 100%;
+   height: auto;
+   overflow-clip-margin: content-box;
+   overflow: clip;
+ }
+
 </style>
 <div class="res-cons">
   {{- $paginator := .Paginate (where .Site.RegularPages "Type" "in" (slice "idea" "ideas")).ByDate.Reverse 10 }}
