@@ -592,23 +592,32 @@ template {
     font-style: italic;
 }
 
+@media print, screen and (max-width:400px) {
 .entry p:has(> img:nth-child(2)) {
     column-count: 2;
     column-gap: 8px;
 }
+}
 
+@media print, screen and (max-width:400px) {
 .entry p:has(> img:nth-child(3)) {
     column-count: 3;
+    column-gap: 8px;	
 }
-
+	
+@media print, screen and (max-width:680px) {
 .entry p:has(> img:nth-child(4)) {
     column-count: 3;
+    column-gap: 8px;
 }
 
 .entry p:has(> img:nth-child(5)) {
     column-count: 3;
+    column-gap: 8px;
+}
 }
 
+@media print, screen and (max-width:1440px) {	
 .entry p:has(> img:nth-child(4)) {
 		column-count: 4;
 }
@@ -616,6 +625,7 @@ template {
 .entry p:has(> img:nth-child(5)) {
 		column-count: 4;
 }
+}	
 
 .entry p:has(> img:nth-child(2)) img {
     display: inherit;
