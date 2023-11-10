@@ -467,3 +467,154 @@ template {
 	0% {opacity: 0;}
    100% {opacity: 1;}
 }
+
+/** Timeline
+   ========================================================================== */
+.entry p {
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+.entry a {
+    color: #555;
+    text-decoration: underline;
+}
+
+.entry a:hover {
+    color: #337700;
+}
+
+.entry h1, .entry h2, .entry h3, .entry h4, .entry h5 {
+    font-size: 16px;
+    margin: 20px 0 15px;
+    color: #337700;
+}
+
+.entry h1, .entry h2 {
+    font-size: 20px;
+}
+
+.entry h3, .entry h4 {
+    font-size: 18px;
+}
+
+.entry ul {
+    margin-bottom: 15px;
+    padding-left: 24px;
+    list-style-type: inherit;
+}
+
+.entry ol {
+    margin-bottom: 15px;
+    padding-left: 24px;
+    list-style-type: decimal;
+}
+
+.entry ul ol,.entry ol ul,.entry ul ul,.entry ol ol {
+    margin-bottom: 0;
+}
+
+.entry blockquote {
+    position: relative;
+    font-style: italic;
+    margin-bottom: 15px;
+    padding: 14px;
+    border: 1px solid #eee;
+    background-color: rgba(246, 246, 246, 0.5);
+}
+
+.entry blockquote p:last-child {
+    margin-bottom: 0;
+}
+
+.entry blockquote cite {
+    display: block;
+    margin-top: 15px;
+    text-align: right;
+    color: #666;
+    font-size: 14px;
+}
+
+.entry table {
+    border-color: #CCCCCC;
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.entry table tr th {
+    background: #F4F4F4;
+    border-color: #CCCCCC;
+    border-style: solid;
+    border-width: 1px 0 0 1px;
+    color: #666666;
+    font-weight: bold;
+    padding: 5px 10px;
+    text-align: center;
+}
+
+.entry table tr td {
+    border-color: #CCC;
+    border-style: solid;
+    border-width: 1px 0 0 1px;
+    padding: 5px 10px;
+}
+
+.entry dl {
+    margin-bottom: 20px;
+}
+
+.entry dt {
+    font-weight: bold;
+}
+
+.entry dd {
+    margin: 5px 0 10px 15px;
+}
+
+.entry address {
+    font-style: italic;
+    text-align: right;
+    margin-bottom: 20px;
+    padding-right: 15px;
+    color: #666;
+    font-size: 16px;
+    line-height: 1.5;
+    border-right: 5px solid #ccc;
+}
+
+.entry strong {
+    font-weight: bold;
+}
+
+.entry em {
+    font-style: italic;
+}
+
+.entry p:has(> img:nth-child(2)) {
+    column-count: 2;
+    column-gap: 8px;
+}
+
+.entry p:has(> img:nth-child(3)) {
+    column-count: 3;
+}
+
+.entry p:has(> img:nth-child(4)) {
+    column-count: 3;
+}
+
+.entry p:has(> img:nth-child(5)) {
+    column-count: 3;
+}
+
+.entry p:has(> img:nth-child(2)) img {
+    display: inherit;
+    border-radius: 4px;
+}
+
+.entry iframe, .entry audio {
+    width: 100%;
+    margin-bottom: 15px;
+}
