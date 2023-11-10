@@ -619,11 +619,13 @@ template {
 
 @media print, screen and (max-width:1440px) {	
 .entry p:has(> img:nth-child(4)) {
-		column-count: 4;
+	column-count: 4;
+	column-gap: 8px;
 }
 
 .entry p:has(> img:nth-child(5)) {
-		column-count: 4;
+	column-count: 4;
+	column-gap: 8px;
 }
 }	
 
