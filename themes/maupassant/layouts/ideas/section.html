@@ -1,8 +1,5 @@
 {{ define "content"}}
 <style>
- p:has(> img:nth-child(5)) {
-    column-count: 4;
- }
  .post-content p {
     margin-bottom: 15px;
     text-align: justify;
@@ -14,12 +11,23 @@
    padding:0;
    overflow-clip-margin: content-box;
    overflow: clip;
-   display: block;
-   max-width:129px; 
-   max-height:97px;
-   width: auto;
-   height: auto;  
  }
+
+ *, ::after, ::before {
+    box-sizing: border-box;
+}
+
+a,abbr,acronym,address,applet,big,blockquote,body,caption,cite,code,dd,del,dfn,div,dl,dt,em,fieldset,figure,font,form,h1,h2,h3,h4,h5,h6,html,iframe,ins,kbd,label,legend,li,object,ol,p,pre,q,s,samp,small,span,strike,strong,sub,sup,table,tbody,td,tfoot,th,thead,tr,tt,ul,var {
+    border: 0;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
 
 </style>
 <div class="res-cons">
@@ -31,7 +39,9 @@
           {{ .Date.Format  "06 Jan 02 Mon 15:04" }}
        </date>
         <div class="post-content">
+           <div class="entry">
             {{ .Content }}
+           </div>   
         </div>
     </article>
     {{ end }}
