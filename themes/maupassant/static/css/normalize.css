@@ -618,7 +618,7 @@ template {
 
 
 
-@media (max-width:400px) {
+@media screen and (max-width:340px) {
 .entry p:has(> img:nth-child(2)) {
     column-count: 2;
     column-gap: 8px;
