@@ -1,5 +1,15 @@
 {{ define "content"}}
 <style>
+ @media (min-width: 720px)
+ p:has(> img:nth-child(5)) {
+    column-count: 4;
+ }
+ .post-content p {
+    margin-bottom: 15px;
+    text-align: justify;
+    line-height: 1.8;
+    margin-top: 0;
+ }
  p > img {
     width : 129px!important;
     max-width: 100%;
