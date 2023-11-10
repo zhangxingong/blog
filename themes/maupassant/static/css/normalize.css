@@ -592,12 +592,17 @@ template {
     font-style: italic;
 }
 
-@media print, screen and (min-width:300px) {
-.entry p:has(> img:nth-child(2)) {
-    column-count: 2;
-    column-gap: 8px;
+@media print, screen and (min-width: 720px) {	
+.entry p:has(> img:nth-child(4)) {
+	column-count: 4;
+	column-gap: 8px;
 }
+
+.entry p:has(> img:nth-child(5)) {
+	column-count: 4;
+	column-gap: 8px;
 }
+}	
 
 @media print, screen and (min-width:480px) {
 .entry p:has(> img:nth-child(3)) {
@@ -616,17 +621,12 @@ template {
 }
 }
 
-@media print, screen and (min-width: 720px) {	
-.entry p:has(> img:nth-child(4)) {
-	column-count: 4;
-	column-gap: 8px;
+@media print, screen and (min-width:300px) {
+.entry p:has(> img:nth-child(2)) {
+    column-count: 2;
+    column-gap: 8px;
 }
-
-.entry p:has(> img:nth-child(5)) {
-	column-count: 4;
-	column-gap: 8px;
 }
-}	
 
 .entry p:has(> img:nth-child(2)) img {
     display: inherit;
