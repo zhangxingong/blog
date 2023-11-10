@@ -1,6 +1,5 @@
 {{ define "content"}}
 <style>
- @media (min-width: 720px)
  p:has(> img:nth-child(5)) {
     column-count: 4;
  }
@@ -10,12 +9,12 @@
     line-height: 1.8;
     margin-top: 0;
  }
- p > img {
+ .post-content p  img {
     width : 129px!important;
     max-width: 100%;
     height: auto;
   }
- p > img {
+ .post-content p  img {
     overflow-clip-margin: content-box;
     overflow: clip;
   }
