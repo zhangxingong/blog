@@ -592,7 +592,7 @@ template {
     font-style: italic;
 }
 
-@media print, screen and (min-width: 720px) {	
+@media (min-width: 720px) {	
 .entry p:has(> img:nth-child(4)) {
 	column-count: 4;
 	column-gap: 8px;
@@ -604,7 +604,7 @@ template {
 }
 }	
 
-@media print, screen and (min-width:480px) {
+@media (min-width:480px) {
 .entry p:has(> img:nth-child(3)) {
     column-count: 3;
     column-gap: 8px;	
@@ -621,7 +621,7 @@ template {
 }
 }
 
-@media print, screen and (min-width:300px) {
+@media (min-width:350px) {
 .entry p:has(> img:nth-child(2)) {
     column-count: 2;
     column-gap: 8px;
