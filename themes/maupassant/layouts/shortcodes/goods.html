@@ -6,10 +6,10 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 function memoGoods(numb){
   let limit = numb || 6;
-  var memoUrl = "https://me.edui.fun/"
-  //var creatorId = 101
-  //var goodsUrl = memoUrl+"api/memo?creatorId="+creatorId+"&rowStatus=NORMAL&limit="+limit+"&tag=相册"
-  var goodsUrl = memoUrl+"api/memo/all?rowStatus=NORMAL&limit="+limit+"&tag=好物"
+  var memoUrl = "https://memos.nesxc.com/"
+  var creatorId = 79
+  var goodsUrl = memoUrl+"api/memo?creatorId="+creatorId+"&rowStatus=NORMAL&limit="+limit+"&tag=好物"
+  //var goodsUrl = memoUrl+"api/memo/all?rowStatus=NORMAL&limit="+limit+"&tag=好物"
   let nowNum = 1;
   const regex = /\n/;
   fetch(goodsUrl).then(res => res.json()).then( resdata =>{
