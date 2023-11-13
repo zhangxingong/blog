@@ -15,11 +15,11 @@ function memoAlbum(numb){
   fetch(memoUrl,{method: "POST",  headers: {
     Cookie: 'token=' + token
   },
-  body: {creatorId: creatorId,
+  body: JSON.stringify({creatorId: creatorId,
 	rowStatus: 'NORMAL',
 	limit: limit,
 	tag: '相册' 
-}
+})
 }).then(res => res.json()).then( resdata =>{
       var result = '',resultAll="",data = resdata.data
       for(var i=0;i < data.length;i++){
