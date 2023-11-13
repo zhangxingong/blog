@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
   memoAlbum()
 });
 function memoAlbum(numb){
-  let limit = numb || 20;
+  let limit = numb || 8;
   var memoUrl = "https://memos.nesxc.com/"
   var creatorId = 79
   var galleryUrl = memoUrl+"api/v1/memo?creatorId="+creatorId+"&rowStatus=NORMAL&limit="+limit+"&tag=相册"
