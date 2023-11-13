@@ -21,6 +21,7 @@ function memoAlbum(numb){
 	tag: '相册' 
 })*/
 }).then(res => res.json()).then( resdata =>{
+      console.log(resdata);	  
       var result = '',resultAll="",data = resdata.data
       for(var i=0;i < data.length;i++){
           var galleryTitle = data[i].content.replace("#相册 ",'')
