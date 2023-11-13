@@ -9,7 +9,7 @@
     method: "GET",
     headers: {
     Authorization: authorization
-  }).then(res => res.json()).then( resdata =>{
+  }}).then(res => res.json()).then( resdata =>{
           var result = '',resultAll="",data = resdata.data
           for(var i=0;i < data.length;i++){
               var bbTime = new Date(data[i].createdTs * 1000).toLocaleString()
