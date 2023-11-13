@@ -10,7 +10,7 @@
     headers: {
     Authorization: authorization
   }}).then(res => res.json()).then( resdata =>{
-          var result = '',resultAll="",data = resdata.data
+          var result = '',resultAll="",data = resdata;
           for(var i=0;i < data.length;i++){
               var bbTime = new Date(data[i].createdTs * 1000).toLocaleString()
               var bbCont = data[i].content
