@@ -7,11 +7,20 @@ document.addEventListener("DOMContentLoaded", () => {
 function memoAlbum(numb){
   let limit = numb || 8;
   var memoUrl = "https://memos.nesxc.com/";
+  var token = "eyJhbGciOiJIUzI1NiIsImtpZCI6InYxIiwidHlwIjoiSldUIn0.eyJuYW1lIjoiZXRoYW4iLCJpc3MiOiJtZW1vcyIsInN1YiI6Ijc5IiwiYXVkIjpbInVzZXIuYWNjZXNzLXRva2VuIl0sImlhdCI6MTY5OTY4MTExN30.N7VQPSdn1Ezt3EV2tbvr-UCn3Tj_Le-QPTdvRxLRo3E";	
   var creatorId = 79;
   var galleryUrl = memoUrl+"api/v1/memo?creatorId="+creatorId+"&rowStatus=NORMAL&limit="+limit+"&tag=相册";
   //var galleryUrl = memoUrl+"api/memo?rowStatus=NORMAL&limit="+limit+"&tag=相册";
   let nowNum = 1;
-  fetch(galleryUrl,{method: "POST",body: {token: 'eyJhbGciOiJIUzI1NiIsImtpZCI6InYxIiwidHlwIjoiSldUIn0.eyJuYW1lIjoiZXRoYW4iLCJpc3MiOiJtZW1vcyIsInN1YiI6Ijc5IiwiYXVkIjpbInVzZXIuYWNjZXNzLXRva2VuIl0sImlhdCI6MTY5OTY4MTExN30.N7VQPSdn1Ezt3EV2tbvr-UCn3Tj_Le-QPTdvRxLRo3E'}}).then(res => res.json()).then( resdata =>{
+  fetch(memoUrl,{method: "POST",  headers: {
+    Cookie: 'token=' + token
+  },
+  body: {creatorId: creatorId,
+	rowStatus: 'NORMAL',
+	limit: limit,
+	tag: '相册' 
+}
+}).then(res => res.json()).then( resdata =>{
       var result = '',resultAll="",data = resdata.data
       for(var i=0;i < data.length;i++){
           var galleryTitle = data[i].content.replace("#相册 ",'')
