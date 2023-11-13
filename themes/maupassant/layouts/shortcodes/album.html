@@ -13,13 +13,13 @@ function memoAlbum(numb){
   //var galleryUrl = memoUrl+"api/memo?rowStatus=NORMAL&limit="+limit+"&tag=相册";
   let nowNum = 1;
   fetch(galleryUrl,{method: "POST",  headers: {
-    Cookie: ('memos.access-token=' + token)
-  },
+    Cookie: 'memos.access-token=eyJhbGciOiJIUzI1NiIsImtpZCI6InYxIiwidHlwIjoiSldUIn0.eyJuYW1lIjoiZXRoYW4iLCJpc3MiOiJtZW1vcyIsInN1YiI6Ijc5IiwiYXVkIjpbInVzZXIuYWNjZXNzLXRva2VuIl0sImlhdCI6MTY5OTg1MjUwN30.vKl9oRSZ0sC_La2_E3hRJFwkM3h6-OdNN8du7xWyhmA'
+  }/**,
   body: JSON.stringify({creatorId: creatorId,
 	rowStatus: 'NORMAL',
 	limit: limit,
 	tag: '相册' 
-})
+})*/
 }).then(res => res.json()).then( resdata =>{
       var result = '',resultAll="",data = resdata.data
       for(var i=0;i < data.length;i++){
