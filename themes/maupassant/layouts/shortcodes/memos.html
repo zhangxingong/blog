@@ -2,8 +2,13 @@
 
 <script>
     document.addEventListener("DOMContentLoaded", () => {
-      var bbUrl = "https://memos.nesxc.com/api/v1/memo?creatorId=79&rowStatus=NORMAL&limit=5"
-      fetch(bbUrl).then(res => res.json()).then( resdata =>{
+      var bbUrl = "https://memos.nesxc.com/api/v1/memo?creatorId=79&rowStatus=NORMAL&limit=5";
+      var authorization = 'Bearer ' + "eyJhbGciOiJIUzI1NiIsImtpZCI6InYxIiwidHlwIjoiSldUIn0.eyJuYW1lIjoiZXRoYW4iLCJpc3MiOiJtZW1vcyIsInN1YiI6Ijc5IiwiYXVkIjpbInVzZXIuYWNjZXNzLXRva2VuIl0sImlhdCI6MTY5OTg1MjUwN30.vKl9oRSZ0sC_La2_E3hRJFwkM3h6-OdNN8du7xWyhmA";	
+
+      fetch(bbUrl,{
+    method: "GET",  headers: {
+    Authorization: authorization
+  }).then(res => res.json()).then( resdata =>{
           var result = '',resultAll="",data = resdata.data
           for(var i=0;i < data.length;i++){
               var bbTime = new Date(data[i].createdTs * 1000).toLocaleString()
