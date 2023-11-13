@@ -13,7 +13,7 @@ function memoAlbum(numb){
   //var galleryUrl = memoUrl+"api/memo?rowStatus=NORMAL&limit="+limit+"&tag=相册";
   let nowNum = 1;
   fetch(galleryUrl,{method: "POST",  headers: {
-    Cookie: 'token=' + token
+    Cookie: 'memos.access-token=' + token
   }/**,
   body: JSON.stringify({creatorId: creatorId,
 	rowStatus: 'NORMAL',
