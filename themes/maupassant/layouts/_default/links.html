@@ -85,6 +85,9 @@
 			<div class="myfriends">
 			  {{ .Content }}
 			</div>
+		    <div class="post bg-white">
+		    {{ partial "comments" . }}
+		    </div>								
                     {{ partial "footer" . }}
                 </div>
 
