@@ -21,6 +21,9 @@
 <div class="memos-async">			
 {{ .Content }}			
 </div>
+<div class="post bg-white">
+{{ partial "comments" . }}
+</div>			
 <style>
 .gallery-photos{width:100%;}
 .gallery-photo{width:24.9%;position: relative;visibility: hidden;overflow: hidden;}
