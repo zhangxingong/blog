@@ -66,7 +66,9 @@ document.addEventListener('DOMContentLoaded', () => {
 <script src="https://immmmm.com/lately.min.js"></script>
 <script>
   window.Lately && Lately.init({ target: '.photo-time'});
-  window.ViewImage && ViewImage.init('.gallery-photo img')
+  window.ViewImage && ViewImage.init('.gallery-photo img');
+  window.ViewImage && ViewImage.init('.memos-photo img');	
+	
 </script>
                     {{ partial "footer" . }}
                 </div>
