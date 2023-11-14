@@ -3,7 +3,7 @@
 {{ $baseURL := .Site.BaseURL }}
 {{- with (.Get 0) -}}
 {{- $files := readDir (print "/static/" .) }}
-<div class="gallery-photos">
+<div class="gallery-photos" style="margin-top:15px;">
   {{- range (sort $files "Name" "asc") -}}
     {{- if ( .Name | findRE "\\.(gif|jpg|jpeg|tiff|png|bmp|webp|avif|jxl)") }}
     {{- $linkURL := print $baseURL "/" ($.Get 0) "/" .Name | absURL }}
