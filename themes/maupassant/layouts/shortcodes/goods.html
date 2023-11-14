@@ -19,7 +19,7 @@ function memoGoods(numb){
   }}).then(res => res.json()).then( resdata =>{
       var result = '',resultAll="",data = resdata;
       for(var i=0;i < data.length;i++){
-        var goodsCont = data[i].content.replace("#好物 \n",'')
+        var goodsCont = data[i].content.replace("#好物\n",'')
         var goodsConts = goodsCont.split(regex)
           //解析内置资源文件
           if(data[i].resourceList && data[i].resourceList.length > 0){
