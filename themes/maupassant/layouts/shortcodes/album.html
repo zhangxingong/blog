@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 function ablumTitle(inputString){
 	console.log(inputString);
-	const result = '';
+  let result = '';
 	// 输入字符串
 	// const inputString = "#相册 aaaa";
 	
@@ -19,10 +19,10 @@ function ablumTitle(inputString){
 	// 如果匹配成功，提取捕获组中的内容
 	if (match && match[1]) {
 	    result = match[1];
-	    console.log(result); // 输出: aaaa
 	} else {
 	    console.log("没有匹配到内容");
 	}	
+  console.log(result); // 输出: aaaa
 	return result;
 }
 	
