@@ -49,7 +49,7 @@ function memoAlbum(numb){
 	 var content = data[i].content;
 	 var albumTxt = ablumTitle(content.split('\n')[0]);  
 	 if(albumTxt)     
-	 result += `<div style="width:100%;border-left:3px springgreen solid;font-size:1.1rem;font-weight: bold;"><span style="color:rgb(31, 41, 55);margin-left:12px;">${albumTxt}</span></div><div class="memos-photo-wrapper">`;
+	 result += `<div style="width:100%;border-left:6px springgreen solid;font-weight: bold;" class="photo-title"><span style="color:rgb(31, 41, 55);margin-left:8px;">${albumTxt}</span></div><div class="memos-photo-wrapper">`;
           var galleryTitle = content.replace("#相册 ",'');
           var imgs = galleryTitle.match(/\!\[(.*?)\s*(.*?)\]\((.*?)\)/g);
           //解析 content 内 md 格式图片
