@@ -13,6 +13,7 @@ description: 🐻 Emacs用户，技术问题记录者，哲学历史爱好者。
 
 ![扫码关注](/img/qrcode_for_weixin.jpg)
 
+
 <header><h1 class="post-title">博客更新日志</h1></header>
 
 2023-11-09 [更新日志]
@@ -31,5 +32,4 @@ description: 🐻 Emacs用户，技术问题记录者，哲学历史爱好者。
 ---
 
 <header><h1 class="post-title">虫洞播报</h1></header>
-
 {{< memos >}}
