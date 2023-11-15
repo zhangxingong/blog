@@ -49,7 +49,7 @@ function memoAlbum(numb){
 	 var content = data[i].content;
 	 var albumTxt = ablumTitle(content.split('\n')[0]);  
 	 if(albumTxt)     
-	 result += `<div style="width:100%;"><span style="color:rgb(156, 163, 175)">${albumTxt}</span></div>`;
+	 result += `<div style="width:100%;"><span style="color:rgb(31, 41, 55)">## ${albumTxt}</span></div><div class="memos-photo-wrapper">`;
           var galleryTitle = content.replace("#相册 ",'');
           var imgs = galleryTitle.match(/\!\[(.*?)\s*(.*?)\]\((.*?)\)/g);
           //解析 content 内 md 格式图片
@@ -90,10 +90,11 @@ function memoAlbum(numb){
               }
             }
           }
+				  result += '</div>';
       }
       var galleryDom = document.querySelector('#album');
-      var galleryBefore = `<div class="memos-photo-wrapper">`
-      var galleryAfter = `</div>`
+      var galleryBefore = ``
+      var galleryAfter = ``
       resultAll = galleryBefore + result + galleryAfter
       galleryDom.innerHTML = resultAll
       //相对时间
