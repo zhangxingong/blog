@@ -2,7 +2,7 @@
 
 <script>	
 document.addEventListener("DOMContentLoaded", () => {
-  memoAlbum()
+  memoAlbum();
 });
 function ablumTitle(inputString){
 	const result;
@@ -45,9 +45,9 @@ function memoAlbum(numb){
       //console.log(resdata);	  
       var result = '',resultAll="",data = resdata;
       for(var i=0;i < data.length;i++){
-				  var content = data[i].content;
-	        var albumTxt = ablumTitle(content);
-				  result += `<div style="display:flex;flex-direction:row;justify-content:flex-start;margin: 15px 0 15px 0"><span style="color:rgb(156, 163, 175)">${albumTxt}</span></div>`;
+	 var content = data[i].content;
+	 var albumTxt = ablumTitle(content);
+	 result += `<div style="display:flex;flex-direction:row;justify-content:flex-start;margin: 15px 0 15px 0"><span style="color:rgb(156, 163, 175)">${albumTxt}</span></div>`;
           var galleryTitle = content.replace("#相册 ",'');
           var imgs = galleryTitle.match(/\!\[(.*?)\s*(.*?)\]\((.*?)\)/g);
           //解析 content 内 md 格式图片
