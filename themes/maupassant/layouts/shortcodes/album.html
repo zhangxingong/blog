@@ -5,12 +5,13 @@ document.addEventListener("DOMContentLoaded", () => {
   memoAlbum();
 });
 function ablumTitle(inputString){
+	console.log(inputString);
 	const result = '';
 	// 输入字符串
 	// const inputString = "#相册 aaaa";
 	
 	// 定义正则表达式
-	const regex = /#相册\s(\w+)/;
+	const regex = /#相册\s(.+)/;
 	
 	// 使用正则表达式的 exec 方法匹配字符串
 	const match = regex.exec(inputString);
