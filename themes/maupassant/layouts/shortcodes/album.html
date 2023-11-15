@@ -7,10 +7,10 @@ document.addEventListener("DOMContentLoaded", () => {
 function ablumTitle(inputString){
 	const result = '';
 	// 输入字符串
-	// const inputString = "#相册 aaaa\n";
+	// const inputString = "#相册 aaaa";
 	
 	// 定义正则表达式
-	const regex = /#相册\s(\w+)\n.+/;
+	const regex = /#相册\s(\w+)/;
 	
 	// 使用正则表达式的 exec 方法匹配字符串
 	const match = regex.exec(inputString);
@@ -46,7 +46,8 @@ function memoAlbum(numb){
       var result = '',resultAll="",data = resdata;
       for(var i=0;i < data.length;i++){
 	 var content = data[i].content;
-	 var albumTxt = ablumTitle(content);  
+	 var albumTxt = ablumTitle(content.split('\n')[0]);  
+	 if(albumTxt)     
 	 result += `<div style="width:100%;"><span style="color:rgb(156, 163, 175)">${albumTxt}</span></div>`;
           var galleryTitle = content.replace("#相册 ",'');
           var imgs = galleryTitle.match(/\!\[(.*?)\s*(.*?)\]\((.*?)\)/g);
