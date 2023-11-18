@@ -29,7 +29,6 @@ hiddenFromHomePage = false
   点到线，线到面，面到体
   通用模型
   数学模型
-  
-<div style="margin-bottom:50px;">
-<gallery><img src="https://memos.nesxc.com/o/r/145?thumbnail=1"><img src="https://memos.nesxc.com/o/r/146?thumbnail=1"><img src="https://memos.nesxc.com/o/r/147?thumbnail=1"></gallery>
-</div>
+
+<p><img src="https://memos.nesxc.com/o/r/145?thumbnail=1"><img src="https://memos.nesxc.com/o/r/146?thumbnail=1"><img src="https://memos.nesxc.com/o/r/147?thumbnail=1"></p>
+
