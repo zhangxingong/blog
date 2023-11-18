@@ -1,4 +1,5 @@
-{{- $img_destination := .Destination -}}
+{{- $img_destination := .Destination -}} 
+{{printf $img_destination}}
 {{- if (and .Page.Site.Params.image_cdn.enable (not .Page.Site.IsServer)) -}}
     {{if hasPrefix .Destination "/" }}
     {{ $img_destination = (print .Page.Site.Params.image_cdn.HOST .Destination) }}
