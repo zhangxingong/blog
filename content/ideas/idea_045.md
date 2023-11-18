@@ -30,6 +30,6 @@ hiddenFromHomePage = false
   通用模型
   数学模型
   
-<div class="gallery-photo" style="margin-bottom:50px;">
-<p><img src="https://memos.nesxc.com/o/r/145?thumbnail=1"><img src="https://memos.nesxc.com/o/r/146?thumbnail=1"><img src="https://memos.nesxc.com/o/r/147?thumbnail=1"></p>
+<div style="margin-bottom:50px;">
+<gallery><img src="https://memos.nesxc.com/o/r/145?thumbnail=1"><img src="https://memos.nesxc.com/o/r/146?thumbnail=1"><img src="https://memos.nesxc.com/o/r/147?thumbnail=1"></gallery>
 </div>
