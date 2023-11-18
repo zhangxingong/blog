@@ -29,6 +29,5 @@ hiddenFromHomePage = false
   点到线，线到面，面到体
   通用模型
   数学模型
-
-![脑神经](https://memos.nesxc.com/o/r/145?thumbnail=1)![](https://memos.nesxc.com/o/r/146?thumbnail=1)![](https://memos.nesxc.com/o/r/147?thumbnail=1)
+<gallery>![脑神经](https://memos.nesxc.com/o/r/145?thumbnail=1)![](https://memos.nesxc.com/o/r/146?thumbnail=1)![](https://memos.nesxc.com/o/r/147?thumbnail=1)</gallery>
 
