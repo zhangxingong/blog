@@ -30,5 +30,5 @@ hiddenFromHomePage = false
   通用模型
   数学模型
 
-<p>![](https://memos.nesxc.com/o/r/145?thumbnail=1)![](https://memos.nesxc.com/o/r/146?thumbnail=1)![](https://memos.nesxc.com/o/r/147?thumbnail=1)</p>
+![](https://memos.nesxc.com/o/r/145?thumbnail=1)![](https://memos.nesxc.com/o/r/146?thumbnail=1)![](https://memos.nesxc.com/o/r/147?thumbnail=1)
 
