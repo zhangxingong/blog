@@ -33,7 +33,7 @@
   {{- $paginator := .Paginate (where .Site.RegularPages "Type" "in" (slice "idea" "ideas")).ByDate.Reverse 10 }}
     {{ range $paginator.Pages }}
     {{if not .Params.hiddenFromHomePage }}
-    <article class="post">
+    <div class="post">
         <date class="post-meta meta-date"> 
           {{ .Date.Format  "06 Jan 02 Mon 15:04" }}
        </date>
