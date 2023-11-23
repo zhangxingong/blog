@@ -77,6 +77,10 @@
 }
 .forever {
 	margin-top:35px;
+	text-align: center;
+	background-color: #fff;
+	opacity: 0.9;
+	margin-bottom: 15px;
 }
 </style>
 
@@ -91,7 +95,7 @@
 			</div>
 			<div class="forever">
 				<div id="foreverblog"></div>
-				<script type="text/javascript" src="https://immmmm.com/foreverfeeds.js"></script>				
+				<script type="text/javascript" src="{{ "js/foreverfeeds.js" | relURL }}"></script>				
 			</div>	
 		    <div class="post bg-white">
 		    {{ partial "comments" . }}
