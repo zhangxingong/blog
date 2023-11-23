@@ -75,6 +75,9 @@
 	overflow: hidden;
 	white-space: nowrap;
 }
+.forever {
+	margin-top:35px;
+}
 </style>
 
     {{ partial "header" . }}
@@ -86,6 +89,10 @@
 			<div class="myfriends">
 			  {{ .Content }}
 			</div>
+			<div class="forever">
+				<div id="foreverblog"></div>
+				<script type="text/javascript" src="https://immmmm.com/foreverfeeds.js"></script>				
+			</div>	
 		    <div class="post bg-white">
 		    {{ partial "comments" . }}
 		    </div>								
