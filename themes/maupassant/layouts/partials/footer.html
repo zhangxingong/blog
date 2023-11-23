@@ -18,7 +18,19 @@
         </div>
     </div>
 </footer>
-
+<style>
+   blockquote {
+    display: block;
+    padding: 16px;
+    margin: 0 0 24px;
+    border-left: 8px solid #dddfe4;
+    background: #eef0f4;
+    overflow: auto;
+    overflow-scrolling: touch;
+    word-wrap: normal;
+    word-break: normal;
+}
+</style>
 {{ if .IsPage }}
     {{ $defaultCdnJsSite := "cdnjs.cloudflare.com" }}
     <!-- graphviz -->
