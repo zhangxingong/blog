@@ -87,7 +87,15 @@
     display: none;
   }
 
- @media (prefers-color-scheme: dark) {
+  @media (prefers-color-scheme: dark) {
+     background-color: #121212 !important;  
+  }
+
+  @media (prefers-color-scheme: light) {
+     background-color: #f9f9f9 !important;  
+  }
+
+/** @media (prefers-color-scheme: dark) {
   :root {
     --color-mode: 'dark';
   }
@@ -349,7 +357,7 @@
 }
 [color-scheme='dark'] .aplayer .aplayer-notice {
   background-color: var(--color-site-bg) !important;
-}
+}**/
 
 </style>
 <footer id="footer">
@@ -677,11 +685,13 @@ const darkModelListeners={
   dark:(mediaQueryList )=>{
     if(mediaQueryList.matches){
        setLS(darkModeStorageKey, "dark"); 
+       applyCustomDarkModeSettings("dark");
     }
   },
   light:(mediaQueryList)=>{
     if(mediaQueryList.matches){
        setLS(darkModeStorageKey, "light"); 
+       applyCustomDarkModeSettings("light");
     }
   }
 }
