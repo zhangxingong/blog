@@ -615,6 +615,16 @@ template {
     font-style: italic;
 }
 
+/* 根据用户的偏好来选择主题 */
+body.light {
+  background-color: #f9f9f9;
+  color: #000000;
+}
+
+body.dark {
+  background-color: #121212;
+  color: #ffffff;
+}
 
 @media screen and (max-width:340px) {
 .entry p:has(> img:nth-child(2)) {
