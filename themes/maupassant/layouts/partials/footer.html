@@ -87,29 +87,35 @@
     display: none;
   }
 
- .dark {
-   background-color: #121212 !important;  
- }
+ /* 根据用户的偏好来选择主题 */
+body.light {
+  background-color: #f9f9f9;
+  color: #000000;
+}
 
-  @media (prefers-color-scheme: dark) {
-   body{
-     background-color: #121212 !important;  
-   }
-   
-   article {
-     background-color: #262626 !important;  
-     visibility: visible;
-     opacity: 1;
-     transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
-     transition: all 0.28s ease 0s, opacity 0.8s ease-out 0s, transform 0.8s ease-out 0s;
-   }
-  }
+body.dark {
+  background-color: #121212;
+  color: #ffffff;
+}
 
-  @media (prefers-color-scheme: light) {
-   body{
-     background-color: #f9f9f9 !important;  
-   }
+/* 根据用户的偏好来切换主题 */
+@media (prefers-color-scheme: dark) {
+  body.dark {
+    display: initial;
   }
+  body.light {
+    display: none;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  body.light {
+    display: initial;
+  }
+  body.dark {
+    display: none;
+  }
+}
 
 /** @media (prefers-color-scheme: dark) {
   :root {
