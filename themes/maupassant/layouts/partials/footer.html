@@ -106,6 +106,14 @@ body.dark {
   body.light {
     display: none;
   }
+ 
+ article {
+     background-color: #262626 !important;  
+     visibility: visible;
+     opacity: 1;
+     transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+     transition: all 0.28s ease 0s, opacity 0.8s ease-out 0s, transform 0.8s ease-out 0s;
+   }
 }
 
 @media (prefers-color-scheme: light) {
