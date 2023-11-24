@@ -597,6 +597,18 @@ if(galleryPhotos){
     }
   });
 }
+
+ var toggleButton = document.getElementById("toggleButton");
+  var body = document.body;
+  if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+    body.classList.add("dark");
+    body.classList.remove("light");
+    toggleButton.innerHTML = "Switch to Light Theme"; // 切换按钮文本
+  } else {
+    body.classList.add("light");
+    body.classList.remove("dark");
+    toggleButton.innerHTML = "Switch to Dark Theme"; // 切换按钮文本
+  }
 });
 </script>
 
@@ -688,19 +700,6 @@ const toggleCustomDarkMode = () => {
   return currentSetting;
 };
 
-window.addEventListener("DOMContentLoaded", function() {
-  var toggleButton = document.getElementById("toggleButton");
-  var body = document.body;
-  if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
-    body.classList.add("dark");
-    body.classList.remove("light");
-    toggleButton.innerHTML = "Switch to Light Theme"; // 切换按钮文本
-  } else {
-    body.classList.add("light");
-    body.classList.remove("dark");
-    toggleButton.innerHTML = "Switch to Dark Theme"; // 切换按钮文本
-  }
-});
 
 
  
@@ -726,7 +725,7 @@ applyCustomDarkModeSettings();
 document.addEventListener("DOMContentLoaded", ()=>{
   volantis.requestAnimationFrame(bindToggleButton)
 });
-volantis.pjax.push(bindToggleButton); **/
+volantis.pjax.push(bindToggleButton);
 
 const darkModelListeners={
   dark:(mediaQueryList )=>{
@@ -744,4 +743,5 @@ const darkModelListeners={
 }
 window.matchMedia('(prefers-color-scheme: dark)').addListener(darkModelListeners.dark)
 window.matchMedia('(prefers-color-scheme: light)').addListener(darkModelListeners.light)
+**/
 </script>
