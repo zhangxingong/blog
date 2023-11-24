@@ -669,13 +669,26 @@ const toggleCustomDarkMode = () => {
   setLS(darkModeStorageKey, currentSetting);
   return currentSetting;
 };
+
+function toggleTheme() {
+  var body = document.body;
+ // var toggleButton = document.getElementById("toggleButton");
+  if (body.classList.contains("dark")) {
+    body.classList.remove("dark");
+  } else {
+    body.classList.add("dark");
+  }
+ // toggleButton.innerHTML = "Toggle Black-White"; // 切换按钮文本
+}
+
+ 
 /**
  * 暗黑模式触发器
-*/
+
  function toggleTheme(){
   const mode = toggleCustomDarkMode();
   applyCustomDarkModeSettings(mode);
- }
+ } */
 
 /**
  * bind event for toggle button
