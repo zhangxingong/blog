@@ -56,7 +56,7 @@ Emacs是一个具有超强扩展性,超强定制性的操作平台，它能做�
 
 未定制的Emacs如下图所示:
 
-![0 1329317327v33B](https://img-blog.csdnimg.cn/img_convert/a8bb1e18b48b1f4905bcf81e4ac5edd8.gif)
+![0 1329317327v33B](/img/editor-emacs-initial.jpg)
 
 整个窗口在Emacs中叫做frame，图形界面下的Emacs可以打开多个frame。每个frame从上到下分成3部分，分别是缓冲区,状态栏和回显区。
 
@@ -131,7 +131,7 @@ GNU的软件大多有丰富的帮助系统，学习GNU的软件时，首先学�
 
 首先是C-h ？，关于帮助系统的“帮助”。改命令会打开一个新的Frame，如下图：
 
-![0 1329368000o9y4](https://img-blog.csdnimg.cn/img_convert/080e23800370a7c3524994b79e9b6a54.gif)
+![0 1329368000o9y4](/img/editor-emacs-helps.jpg)
 
 从该文档中摘录常用的帮助功能如下：
 
