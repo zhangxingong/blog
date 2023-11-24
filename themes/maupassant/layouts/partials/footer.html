@@ -98,33 +98,6 @@ body.dark {
   color: #ffffff;
 }
 
-/* 根据用户的偏好来切换主题 */
-@media (prefers-color-scheme: dark) {
-  body.dark {
-    display: initial;
-  }
-  body.light {
-    display: none;
-  }
- 
- article {
-     background-color: #262626 !important;  
-     visibility: visible;
-     opacity: 1;
-     transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
-     transition: all 0.28s ease 0s, opacity 0.8s ease-out 0s, transform 0.8s ease-out 0s;
-   }
-}
-
-@media (prefers-color-scheme: light) {
-  body.light {
-    display: initial;
-  }
-  body.dark {
-    display: none;
-  }
-}
-
 /** @media (prefers-color-scheme: dark) {
   :root {
     --color-mode: 'dark';
