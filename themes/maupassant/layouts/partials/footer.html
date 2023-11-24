@@ -1,10 +1,11 @@
 <style>
+ /*
  strong {
     color: #666;
     font-weight: bold;
     padding-left: 1.5em;
     background: transparent url(http://www.vimer.cn/static/zinnia/theme/img/shorturl.png) no-repeat scroll;
- }
+ }*/
 
  .post-content h2,
  .post-content h3,
@@ -20,8 +21,11 @@
      margin-bottom: 15px;
      text-align: justify;
  }
+
+ .post-content ul {
+     list-style-type: square !important;
+ }
  
- .post-content a,
  .post-content abbr, 
  .post-content acronym, 
  .post-content address, 
@@ -78,7 +82,7 @@
      margin-inline-end: 0px;
  } 
    
-  blockquote{
+ .post-content blockquote{
     padding: 1em;
     font-style: initial;
     margin: 1em 0;
@@ -88,7 +92,7 @@
     color: #333;
   }
 
-  blockquote::before {
+ .post-content blockquote::before {
     display: none;
   }
 </style>
