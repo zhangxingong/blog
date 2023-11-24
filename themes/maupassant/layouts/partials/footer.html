@@ -1,3 +1,18 @@
+<style>
+  blockquote{
+    padding: 1em;
+    font-style: initial;
+    margin: 1em 0;
+    border: 0 !important;
+    border-left: 0.5em #ddd solid !important;  
+    background-color: #eee;
+    color: #333;
+  }
+
+  blockquote::before {
+    display: none;
+  }
+</style>
 <footer id="footer">
     <div>
         &copy; {{ now.Format "2006" }} <a href="{{ .Site.BaseURL | absURL }}">{{ .Site.Title }} By {{ .Site.Author.name }}</a>
