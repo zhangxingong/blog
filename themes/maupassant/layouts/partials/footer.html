@@ -688,16 +688,20 @@ const toggleCustomDarkMode = () => {
   return currentSetting;
 };
 
-function toggleTheme() {
+window.addEventListener("DOMContentLoaded", function() {
+  var toggleButton = document.getElementById("toggleButton");
   var body = document.body;
- // var toggleButton = document.getElementById("toggleButton");
-  if (body.classList.contains("dark")) {
-    body.classList.remove("dark");
-  } else {
+  if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
     body.classList.add("dark");
+    body.classList.remove("light");
+    toggleButton.innerHTML = "Switch to Light Theme"; // 切换按钮文本
+  } else {
+    body.classList.add("light");
+    body.classList.remove("dark");
+    toggleButton.innerHTML = "Switch to Dark Theme"; // 切换按钮文本
   }
- // toggleButton.innerHTML = "Toggle Black-White"; // 切换按钮文本
-}
+});
+
 
  
 /**
