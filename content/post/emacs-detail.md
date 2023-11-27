@@ -365,7 +365,7 @@ Emacs的插件一般都是一个以el为后缀名的文件。首先要指定一�
 
 M-x eval-buffer使配置生效后，可以执行插件提供的命令:M-x color-theme-select RET进入配色方案选择界面。我选择的是Classic
 
-![Screenshot](https://img-blog.csdnimg.cn/img_convert/0a8c25d54b7ecfd2135a1156e9c580db.png)
+![Screenshot](/img/0a8c25d54b7ecfd2135a1156e9c580db.png)
 
   
 选好之后，你可能希望将配色方案设成默认，还是修改配置文件。在配色方案选择界面中选择主题后按d，会出现该配置的提示信息，比如：
