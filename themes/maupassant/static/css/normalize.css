@@ -619,11 +619,13 @@ template {
 body.light {
   background-color: #f9f9f9;
   color: #000000;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 body.dark {
   background-color: #121212;
   color: #ffffff;
+	box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
 }
 
 @media screen and (max-width:340px) {
@@ -655,6 +657,10 @@ body.dark {
   body.light {
     display: none;
   }
+
+.post	{
+ 	background-color: rgb(191,191,191,0.871) !important;
+}
 
  article {
      background-color: #262626 !important;  
