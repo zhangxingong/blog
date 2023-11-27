@@ -92,3 +92,22 @@ jQuery(document).ready(function($) {
         });
     });
 });
+
+document.addEventListener('DOMContentLoaded', () => {
+    const body = document.body;
+    const container = document.querySelector('.container');
+
+    // 检测用户的主题偏好
+    const prefersDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+    // 根据用户主题偏好应用相应的样式
+    if (prefersDarkMode) {
+        body.classList.add('dark-theme');
+        container.style.backgroundColor = '#333333';
+        container.style.boxShadow = '0 0 10px rgba(255, 255, 255, 0.1)';
+    } else {
+        body.classList.add('light-theme');
+        container.style.backgroundColor = '#f0f0f0';
+        container.style.boxShadow = '0 0 10px rgba(0, 0, 0, 0.1)';
+    }
+});
