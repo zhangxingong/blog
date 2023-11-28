@@ -15,16 +15,16 @@
                 {{ end }}
                 {{ with .Site.Params.subtitle }}<p class="description">{{ . }}</p>{{ end }}
             </div>
+            <a href="javascript:toggleColorScheme();">
+                  <span id="icon-sun">🌞</span>
+                  <span id="icon-moon">🌚</span>
+            </a>               
             <div>
                 <nav id="nav-menu" class="clearfix">
                     <a class="{{ if or (.IsHome) (eq .Type "post") (eq .Type "posts") }}current{{ end }}" href="{{ .Site.BaseURL | absURL }}">{{ i18n "home" }}</a>
                     {{ range .Site.Menus.main }}
                     <a {{ if eq .URL $.RelPermalink }}class="current"{{ end }} href="{{ .URL | absURL }}" title="{{ .Name }}">{{ .Name }}</a>
-                    {{ end }}
-                    <a href="javascript:toggleColorScheme();">
-                          <span id="icon-sun">🌞</span>
-                          <span id="icon-moon">🌚</span>
-                    </a>                     
+                    {{ end }}                  
                 </nav>               
             </div>
         </div>
