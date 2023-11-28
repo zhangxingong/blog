@@ -656,7 +656,7 @@ body.dark {
         filter: invert(90%) hue-rotate(180deg);
     }
 
-img, canvas, video, svg, button, a, embed, audio, object  {
+img, canvas, video, svg, button, embed, audio, object  {
 		filter: invert(101%) hue-rotate(180deg);
 		opacity: .99;
 }
