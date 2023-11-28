@@ -235,8 +235,9 @@ function applyPreferredColorScheme(scheme) {
     }
 }
 
+document.addEventListener('DOMContentLoaded', () => {
     applyPreferredColorScheme(getPreferredColorScheme());  
-
+});
 </script>    
     
     {{ if .Site.Params.baiduAnalytics }}
