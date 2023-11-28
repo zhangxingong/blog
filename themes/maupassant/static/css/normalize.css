@@ -662,7 +662,7 @@ img, canvas, video, svg, embed, audio, object  {
 }
 	
 button {
-		color: #000	
+		color: #000 !important;	
 }
 	
 /**	
