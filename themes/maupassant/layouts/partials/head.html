@@ -40,11 +40,11 @@
     <meta name="color-scheme" content="dark light">
     <link rel="shortcut icon" href='{{ "favicon.ico" | relURL }}' type="image/x-icon">
 
-    <link rel="stylesheet" media="(prefers-color-scheme: light)" href='{{ "css/normalize.css" | relURL}}'>
+    <link rel="stylesheet" media="(prefers-color-scheme: light)" crossorigin="anonymous" href='{{ "css/normalize.css" | relURL}}'>
     <!-- <link rel="stylesheet" href='https://dillonzq.com/css/style.min.css' title="LoveIt" >-->
     
-    <link rel="stylesheet" href='{{ "css/classic.css" | relURL }}' media="(prefers-color-scheme: light)" title="classic" disabled="disabled">  
-    <link rel="stylesheet" href='{{ "css/modern.css" | relURL }}'  media="(prefers-color-scheme: light)" title="modern"  disabled="disabled"> 
+    <link rel="stylesheet" href='{{ "css/classic.css" | relURL }}' crossorigin="anonymous" media="(prefers-color-scheme: light)" title="classic" disabled="disabled">  
+    <link rel="stylesheet" href='{{ "css/modern.css" | relURL }}' crossorigin="anonymous"  media="(prefers-color-scheme: light)" title="modern"  disabled="disabled"> 
     {{ range .AlternativeOutputFormats -}}
         {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
     {{ end -}}
@@ -141,9 +141,9 @@ function getPreferredColorScheme(){
     chosenScheme = getLS(colorKey);
   }
 
- /* if(systemScheme === chosenScheme){
+  if(systemScheme === chosenScheme){
     removeLS(colorKey);
-  }*/
+  }
 
   return chosenScheme;
 }
@@ -151,7 +151,6 @@ function getPreferredColorScheme(){
 // Write chosen color scheme to local storage
 // Unless the system scheme matches the the stored scheme, in which case... remove from local storage
 function savePreferredColorScheme(scheme){
-    /*
   let systemScheme = 'light';
 
   if(window.matchMedia('(prefers-color-scheme: dark)').matches){
@@ -163,8 +162,8 @@ function savePreferredColorScheme(scheme){
   }
   else {
     setLS(colorKey, scheme);
-  }*/
-  setLS(colorKey, scheme);
+  }
+  //setLS(colorKey, scheme);
 }
 
 // Get the current scheme, and apply the opposite
