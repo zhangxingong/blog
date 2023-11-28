@@ -163,8 +163,9 @@ function applyPreferredColorScheme(scheme) {
         document.getElementById("icon-sun").style.display = 'none';
     }
 }
-
-applyPreferredColorScheme(getPreferredColorScheme());  
+ (function() {
+    applyPreferredColorScheme(getPreferredColorScheme());  
+ })();
 </script>    
     <script>
         var modeStorageKey = "sheet-scheme";
