@@ -3,8 +3,8 @@
 function snowFall(snow) {
     /* 可配置属性 */
     snow = snow || {};
-    this.maxFlake = snow.maxFlake || 200;   /* 最多片数 */
-    this.flakeSize = snow.flakeSize || 10;  /* 雪花形状 */
+    this.maxFlake = snow.maxFlake || 100;   /* 最多片数 */
+    this.flakeSize = snow.flakeSize || 20;  /* 雪花形状 */
     this.fallSpeed = snow.fallSpeed || 1;   /* 坠落速度 */
 }
 /* 兼容写法 */
@@ -33,8 +33,8 @@ function snowCanvas() {
     /* 添加Dom结点 */
     var snowcanvas = document.createElement("canvas");
     snowcanvas.id = "snowfall";
-    snowcanvas.width = window.innerWidth;
-    snowcanvas.height = document.body.clientHeight;
+    snowcanvas.width = document.body.clientWidth - 100;
+    snowcanvas.height = document.body.clientHeight - 100;
     snowcanvas.setAttribute("style", "position:absolute; top: 0; left: 0; z-index: 1; pointer-events: none;");
     document.getElementsByTagName("body")[0].appendChild(snowcanvas);
     this.canvas = snowcanvas;
