@@ -22,7 +22,7 @@ description: 🐻 Emacs用户，技术问题记录者，哲学历史爱好者。
 
 ---
 2023-11-28 [更新日志]
-增加了dark模式<a href="javascript:toggleColorScheme();"><span id="icon-sun">🌞</span><span id="icon-moon">🌚</span></a> 
+增加了dark模式  <a href="javascript:toggleColorScheme();"><span id="icon-sun">🌞</span><span id="icon-moon">🌚</span></a> 
 
 ---
 2023-11-09 [更新日志]
