@@ -92,7 +92,7 @@ jQuery(document).ready(function($) {
         });
     });
 });
-
+/*
 function toggleTheme() {
     const body = document.body;
     const container = document.querySelector('.container');
@@ -133,4 +133,4 @@ document.addEventListener('DOMContentLoaded', () => {
         container.style.backgroundColor = '#f0f0f0';
         container.style.boxShadow = '0 0 10px rgba(0, 0, 0, 0.1)';
     }
-});
+}); */
