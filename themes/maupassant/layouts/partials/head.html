@@ -72,7 +72,8 @@
 // https://stackoverflow.com/questions/56300132/how-to-override-css-prefers-color-scheme-setting
 // Return the system level color scheme, but if something's in local storage, return that
 // Unless the system scheme matches the the stored scheme, in which case... remove from local storage
-var color-key = 'color-scheme';
+    
+const colorKey = 'color-scheme';
 function getPreferredColorScheme(){
   let systemScheme = 'light';
   if(window.matchMedia('(prefers-color-scheme: dark)').matches){
@@ -80,12 +81,12 @@ function getPreferredColorScheme(){
   }
   let chosenScheme = systemScheme;
 
-  if(localStorage.getItem(color-key)){
-    chosenScheme = localStorage.getItem(color-key);
+  if(localStorage.getItem(colorKey)){
+    chosenScheme = localStorage.getItem(colorKey);
   }
 
   if(systemScheme === chosenScheme){
-    localStorage.removeItem(color-key);
+    localStorage.removeItem(colorKey);
   }
 
   return chosenScheme;
@@ -101,10 +102,10 @@ function savePreferredColorScheme(scheme){
   }
 
   if(systemScheme === scheme){
-    localStorage.removeItem(color-key);
+    localStorage.removeItem(colorKey);
   }
   else {
-    localStorage.setItem(color-key, scheme);
+    localStorage.setItem(colorKey, scheme);
   }
 
 }
