@@ -195,7 +195,7 @@ function toggleColorScheme(){
 // Apply the chosen color scheme by traversing stylesheet rules, and applying a medium.
 function applyPreferredColorScheme(scheme) {
     for (var s = 0; s < document.styleSheets.length; s++) {
-        if(isSheetAccessible(styleSheets[s])){
+        if(isSheetAccessible(document.styleSheets[s])){
         for (var i = 0; i < document.styleSheets[s].cssRules.length; i++) {
             rule = document.styleSheets[s].cssRules[i];
 
