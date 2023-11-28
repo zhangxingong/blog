@@ -95,11 +95,11 @@ jQuery(document).ready(function($) {
 
 document.addEventListener('DOMContentLoaded', () => {
     const body = document.body;
-    const container = document.querySelector('.container');
+    const container = document.querySelector('.post');
 
     // 检测用户的主题偏好
     const prefersDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-
+    console.log('preferColor', prefersDarkMode);	
     // 根据用户主题偏好应用相应的样式
     if (prefersDarkMode) {
         body.classList.add('dark-theme');
