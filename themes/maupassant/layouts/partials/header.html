@@ -21,7 +21,11 @@
                     {{ range .Site.Menus.main }}
                     <a {{ if eq .URL $.RelPermalink }}class="current"{{ end }} href="{{ .URL | absURL }}" title="{{ .Name }}">{{ .Name }}</a>
                     {{ end }}
-                </nav>
+                    <a href="javascript:toggleColorScheme();">
+                          <span id="icon-sun">🌞</span>
+                          <span id="icon-moon">🌚</span>
+                    </a>                     
+                </nav>               
             </div>
         </div>
     </div>
