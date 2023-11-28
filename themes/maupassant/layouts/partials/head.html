@@ -117,13 +117,11 @@
 #icon-sun {
   width: 1.5rem;
   height: 1.5rem;
-  display: none;
 }
 
 #icon-moon {
   width: 1.5rem;
   height: 1.5rem;
-  display: none;
 }
 </style>  
 <script>
@@ -176,9 +174,9 @@ function toggleColorScheme(){
   if (scheme === "light"){
     newScheme = "dark";
   }
-
-  applyPreferredColorScheme(newScheme);
+    
   savePreferredColorScheme(newScheme);
+  applyPreferredColorScheme(newScheme);
 }
 
 // Apply the chosen color scheme by traversing stylesheet rules, and applying a medium.
