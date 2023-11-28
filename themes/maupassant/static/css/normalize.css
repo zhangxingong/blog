@@ -660,6 +660,10 @@ body.dark {
         filter: invert(110%) hue-rotate(180deg);
         opacity: .8;
     }
+/**	
+img {
+    filter: brightness(.8) contrast(1.2);
+  }**/	
 }
 
 /* db-card -------- start*/
