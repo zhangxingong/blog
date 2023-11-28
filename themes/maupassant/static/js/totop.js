@@ -93,6 +93,29 @@ jQuery(document).ready(function($) {
     });
 });
 
+function toggleTheme() {
+    const body = document.body;
+    const container = document.querySelector('.container');
+
+    // 判断当前主题
+    const isLightTheme = body.classList.contains('light-theme');
+
+    // 切换主题
+    if (isLightTheme) {
+        body.classList.remove('light-theme');
+        body.classList.add('dark-theme');
+        container.style.backgroundColor = '#333333';
+        container.style.boxShadow = '0 0 10px rgba(255, 255, 255, 0.1)';
+        localStorage.setItem('theme', 'dark');
+    } else {
+        body.classList.remove('dark-theme');
+        body.classList.add('light-theme');
+        container.style.backgroundColor = '#f0f0f0';
+        container.style.boxShadow = '0 0 10px rgba(0, 0, 0, 0.1)';
+        localStorage.setItem('theme', 'light');
+    }
+}
+
 document.addEventListener('DOMContentLoaded', () => {
     const body = document.body;
     const container = document.querySelector('.post');
