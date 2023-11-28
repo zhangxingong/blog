@@ -37,14 +37,14 @@
         {{- end }}
     {{- end }}
     <meta property="og:url" content="{{ .Permalink }}">
-    <!-- <meta name="color-scheme" content="dark light"> -->
+    <!-- <meta name="color-scheme" content="dark light"  crossorigin="anonymous"> -->
     <link rel="shortcut icon" href='{{ "favicon.ico" | relURL }}' type="image/x-icon">
 
-    <link rel="stylesheet" media="(prefers-color-scheme: light)" crossorigin="anonymous" href='{{ "css/normalize.css" | relURL}}'>
+    <link rel="stylesheet" media="(prefers-color-scheme: light)" href='{{ "css/normalize.css" | relURL}}'>
     <!-- <link rel="stylesheet" href='https://dillonzq.com/css/style.min.css' title="LoveIt" >-->
     
-    <link rel="stylesheet" href='{{ "css/classic.css" | relURL }}' crossorigin="anonymous" media="(prefers-color-scheme: light)" title="classic" disabled="disabled">  
-    <link rel="stylesheet" href='{{ "css/modern.css" | relURL }}' crossorigin="anonymous"  media="(prefers-color-scheme: light)" title="modern"  disabled="disabled"> 
+    <link rel="stylesheet" href='{{ "css/classic.css" | relURL }}' media="(prefers-color-scheme: light)" title="classic" disabled="disabled">  
+    <link rel="stylesheet" href='{{ "css/modern.css" | relURL }}'  media="(prefers-color-scheme: light)" title="modern"  disabled="disabled"> 
     {{ range .AlternativeOutputFormats -}}
         {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
     {{ end -}}
