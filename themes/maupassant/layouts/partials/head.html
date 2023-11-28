@@ -55,6 +55,64 @@
     <!-- <script type="text/javascript" src="https://blog.starysky.top/js/tagcanvas.js"></script> -->
     <!-- <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/hexo-butterfly-tag-plugins-plus@latest/lib/carousel-touch.min.js"></script> -->
     
+    <script>
+        var modeStorageKey = "sheet-scheme";
+        var setLS = (k, v) => {
+            localStorage.setItem(k, v);
+        };
+        var removeLS = (k) => {
+            localStorage.removeItem(k);
+        };
+        var getLS = (k) => {
+            return localStorage.getItem(k);
+        };
+        var getModeFromCSSMediaQuery = () => {
+          return window.matchMedia("(prefers-color-scheme: dark)").matches
+            ? "dark"
+            : "light";
+        };
+
+        
+        function switchTheme(){
+            var current_theme = getLS(modeStorageKey);
+            // console.log("current_theme", current_theme);
+            // console.log("current_theme", modeStorageKey);
+            if(current_theme){
+                if("modern" ==  current_theme){
+                current_theme = "classic"; 
+                }else{
+                current_theme = "modern";
+                }
+            setLS(modeStorageKey, current_theme);  
+            doSwitchTheme(current_theme);     
+            }
+        }
+
+        function doSwitchTheme(theme){
+           // console.log(111); 
+           var targetSheet = $('link[rel="stylesheet"][title="'+theme+'"]');
+            if(targetSheet && targetSheet.length>0){
+               // console.log(222); 
+               // console.log(targetSheet.attr('href')); 
+               $('link[rel="stylesheet"][title]').each(function(index){
+                   var sheetTitle = $(this).attr('title');
+                   // console.log('title'+index, sheetTitle);
+                   if(sheetTitle != theme){
+                      $(this).attr('disabled', 'disabled'); 
+                   }
+               });
+               targetSheet.removeAttr('disabled');  
+            } 
+        }
+
+        var local_theme = getLS(modeStorageKey);
+        console.log('local_theme', local_theme);
+        if(local_theme){
+           doSwitchTheme(local_theme); 
+        }else{
+          setLS(modeStorageKey, 'modern');  
+        }
+    </script>    
 <style>
 #icon-sun {
   width: 1.5rem;
@@ -73,7 +131,7 @@
 // Return the system level color scheme, but if something's in local storage, return that
 // Unless the system scheme matches the the stored scheme, in which case... remove from local storage
     
-const colorKey = 'color-scheme';
+var colorKey = 'color-scheme';
 function getPreferredColorScheme(){
   let systemScheme = 'light';
   if(window.matchMedia('(prefers-color-scheme: dark)').matches){
@@ -81,13 +139,13 @@ function getPreferredColorScheme(){
   }
   let chosenScheme = systemScheme;
 
-  if(localStorage.getItem(colorKey)){
-    chosenScheme = localStorage.getItem(colorKey);
+  if(getLS(colorKey)){
+    chosenScheme = getLS(colorKey);
   }
 
-  if(systemScheme === chosenScheme){
-    localStorage.removeItem(colorKey);
-  }
+ /* if(systemScheme === chosenScheme){
+    removeLS(colorKey);
+  }*/
 
   return chosenScheme;
 }
@@ -95,6 +153,7 @@ function getPreferredColorScheme(){
 // Write chosen color scheme to local storage
 // Unless the system scheme matches the the stored scheme, in which case... remove from local storage
 function savePreferredColorScheme(scheme){
+    /*
   let systemScheme = 'light';
 
   if(window.matchMedia('(prefers-color-scheme: dark)').matches){
@@ -102,12 +161,12 @@ function savePreferredColorScheme(scheme){
   }
 
   if(systemScheme === scheme){
-    localStorage.removeItem(colorKey);
+    removeLS(colorKey);
   }
   else {
-    localStorage.setItem(colorKey, scheme);
-  }
-
+    setLS(colorKey, scheme);
+  }*/
+  setLS(colorKey, scheme);
 }
 
 // Get the current scheme, and apply the opposite
@@ -167,64 +226,7 @@ function applyPreferredColorScheme(scheme) {
     applyPreferredColorScheme(getPreferredColorScheme());  
  })();
 </script>    
-    <script>
-        var modeStorageKey = "sheet-scheme";
-        var setLS = (k, v) => {
-            localStorage.setItem(k, v);
-        };
-        var removeLS = (k) => {
-            localStorage.removeItem(k);
-        };
-        var getLS = (k) => {
-            return localStorage.getItem(k);
-        };
-        var getModeFromCSSMediaQuery = () => {
-          return window.matchMedia("(prefers-color-scheme: dark)").matches
-            ? "dark"
-            : "light";
-        };
-
-        
-        function switchTheme(){
-            var current_theme = getLS(modeStorageKey);
-            // console.log("current_theme", current_theme);
-            // console.log("current_theme", modeStorageKey);
-            if(current_theme){
-                if("modern" ==  current_theme){
-                current_theme = "classic"; 
-                }else{
-                current_theme = "modern";
-                }
-            setLS(modeStorageKey, current_theme);  
-            doSwitchTheme(current_theme);     
-            }
-        }
-
-        function doSwitchTheme(theme){
-           // console.log(111); 
-           var targetSheet = $('link[rel="stylesheet"][title="'+theme+'"]');
-            if(targetSheet && targetSheet.length>0){
-               // console.log(222); 
-               // console.log(targetSheet.attr('href')); 
-               $('link[rel="stylesheet"][title]').each(function(index){
-                   var sheetTitle = $(this).attr('title');
-                   // console.log('title'+index, sheetTitle);
-                   if(sheetTitle != theme){
-                      $(this).attr('disabled', 'disabled'); 
-                   }
-               });
-               targetSheet.removeAttr('disabled');  
-            } 
-        }
-
-        var local_theme = getLS(modeStorageKey);
-        console.log('local_theme', local_theme);
-        if(local_theme){
-           doSwitchTheme(local_theme); 
-        }else{
-          setLS(modeStorageKey, 'modern');  
-        }
-    </script>    
+    
     {{ if .Site.Params.baiduAnalytics }}
     <script>
     var _hmt = _hmt || [];
