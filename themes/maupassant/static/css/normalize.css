@@ -650,34 +650,16 @@ body.dark {
     margin-bottom: 15px;
 }
 
+/** https://wxsm.space/2021/simple-css-dark-mode/ **/
 @media (prefers-color-scheme: dark) {
-  body.dark {
-    display: initial;
-  }
-  body.light {
-    display: none;
-  }
+    html {
+        filter: invert(90%) hue-rotate(180deg);
+    }
 
-.post	{
- 	background-color: rgb(191,191,191,0.871) !important;
-}
-
- article {
-     background-color: #262626 !important;  
-     visibility: visible;
-     opacity: 1;
-     transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
-     transition: all 0.28s ease 0s, opacity 0.8s ease-out 0s, transform 0.8s ease-out 0s;
-   }
-}
-
-@media (prefers-color-scheme: light) {
-  body.light {
-    display: initial;
-  }
-  body.dark {
-    display: none;
-  }
+    img, video, svg, div[class*="language-"] {
+        filter: invert(110%) hue-rotate(180deg);
+        opacity: .8;
+    }
 }
 
 /* db-card -------- start*/
