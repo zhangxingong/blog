@@ -16,6 +16,19 @@ description: 🐻 Emacs用户，技术问题记录者，哲学历史爱好者。
 
 <header><h1 class="post-title">博客更新日志</h1></header>
 
+2023-11-28 [更新日志]
+增加了切换主题功能<br>
+<a href="javascript:void(0);" onclick="switchTheme()">更换主题</a>
+
+---
+2023-11-28 [更新日志]
+增加了dark模式<br>
+<a href="javascript:toggleColorScheme();">
+      <span id="icon-sun">🌞</span>
+      <span id="icon-moon">🌚</span>
+</a> 
+
+---
 2023-11-09 [更新日志]
 增加了<a href='https://zhangxingong.fun/photo/'>相册功能</a>
 
