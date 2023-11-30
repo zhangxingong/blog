@@ -665,9 +665,9 @@ img, canvas, video, svg, button, embed, audio, object  {
   color: rgba(217,217,217,0.871) !important;	
 }
 		
-img {
+/* img {
     filter: brightness(.8) contrast(1.2);
-  }
+  }*/
 }
 
 /* db-card -------- start*/
