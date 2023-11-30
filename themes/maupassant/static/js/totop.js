@@ -21,6 +21,7 @@ $.shuicheMouse({
     color:false
 })
 
+/*
 if(L2Dwidget){
   L2Dwidget.init({
   "model": {
@@ -36,7 +37,7 @@ if(L2Dwidget){
       "vOffset": 95
   }
   });
-}
+} */
 
 document.oncopy = function addLink(e){
  	e.preventDefault();
