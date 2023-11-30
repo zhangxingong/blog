@@ -660,11 +660,14 @@ img, canvas, video, svg, button, embed, audio, object  {
 		filter: invert(101%) hue-rotate(180deg);
 		opacity: .99;
 }
-	
-/**	
+
+.post {
+  color: rgba(217,217,217,0.871) !important;	
+}
+		
 img {
     filter: brightness(.8) contrast(1.2);
-  }**/	
+  }
 }
 
 /* db-card -------- start*/
