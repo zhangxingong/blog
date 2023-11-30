@@ -661,11 +661,11 @@ img, canvas, video, svg, button, embed, audio, object  {
 		opacity: 1;
 }
 
-/* .post {
+body {
   color: rgba(217,217,217,0.871) !important;	
 }
 		
- img {
+/* img {
     filter: brightness(.8) contrast(1.2);
   }*/
 }
