@@ -661,6 +661,10 @@ img, canvas, video, svg, button, embed, audio, object  {
 		opacity: 1;
 }
 
+a, button.submit {
+	color: #444 !important;
+}	
+
 /* body {
   color: rgba(217,217,217,0.871) !important;	
 }
