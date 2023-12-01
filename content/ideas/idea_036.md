@@ -21,7 +21,7 @@ blockquote {
     font-family: "PingFang SC,Lantinghei SC,Helvetica Neue,Helvetica,Arial,Microsoft YaHei,微软雅黑,STHeitiSC-Light,simsun,宋体,WenQuanYi Zen Hei,WenQuanYi Micro Hei,"sans-serif";
 }
 </style>
-
+<div>
 <blockquote>美国的贝尔实验室设计了最初的C语言
 <p>刻在UNIX操作系统距今已有三四十年</p>
 <p>你在屏幕前凝视数据的缱绻</p>
@@ -48,6 +48,6 @@ blockquote {
 3，请结合时代背景，谈谈你对“当软工沦落在设计的文档间，算法依旧是永垂不朽的诗篇”一句的理解。
 4，“几万组数据流过后发现，我的心依然不变”一句体现了算法的什么特性？</p>
 </blockquote>
-
+</div>
 
 
