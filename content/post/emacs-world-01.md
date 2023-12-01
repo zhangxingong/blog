@@ -1,5 +1,5 @@
 +++
-title = ""
+title = "Emacs基础：小白入门指南"
 date = "2023-12-01T16:52:50+0800"
 tags = ["笔记","学习","编程"]
 categories = ["subject"]
