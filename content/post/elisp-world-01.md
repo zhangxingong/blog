@@ -93,3 +93,10 @@ Elisp支持`while`循环：
 希望通过这个简短的Elisp基础入门，你对Emacs Lisp有了更好的了解。在你的Emacs配置中，你会发现Elisp的强大之处。继续探索，并享受使用Emacs的乐趣吧！
 
 Happy coding with Elisp! 🚀
+
+## 参考
+[Learn X in Y minutes](https://learnxinyminutes.com/docs/elisp/ "Learn X in Y minutes")
+
+[elisp入门](https://xiaoguo.net/~books/Lisp/elisp/elisp%E5%85%A5%E9%97%A8.pdf "elisp入门")
+
+[水木社区EMACS版](https://smacs.github.io/elisp/02-elisp-basic.html "水木社区EMACS版")
