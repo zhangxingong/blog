@@ -1,10 +1,14 @@
 +++
 title = "idea_047"
-date = "2023-11-23T16:00:22+0800"
+date = "2023-12-01T11:53:53+0800"
 draft = false
 weight = 2003
 author = "zhangxingong"
 hiddenFromHomePage = false
 +++
 
-{{< bilibili BV1bg4y1R7gB 0 >}}
+chatGPT回复异常！！！
+
+![](https://technclub.com/wp-content/uploads/2023/03/fix-chatgpt-something-have-gone-wrong-error.jpg)
+
+[Fix: ChatGPT "Something seems to have gone wrong" Error (2023)](https://technclub.com/guides/fix-something-seems-to-have-gone-wrong-error-chatgpt/)
