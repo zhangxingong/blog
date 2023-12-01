@@ -661,10 +661,14 @@ img, canvas, video, svg, button, embed, audio, object, .github-badge  {
 		opacity: 1;
 }
 
-a, button, .submit, .description, .post-meta,  .vinput {
+a, button, .submit, .description, .post-meta {
 	color: #444 !important;
 }	
 
+.v[data-class="v"] .vbtn {
+    color: rgb(178, 178, 181)!important;	
+}	
+	
 /* body {
   color: rgba(217,217,217,0.871) !important;	
 }
