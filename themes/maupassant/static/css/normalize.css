@@ -661,7 +661,7 @@ img, canvas, video, svg, button, embed, audio, object, .github-badge  {
 		opacity: 1;
 }
 
-a, button, .submit, .description, .post-meta {
+a, button, .submit, .description, .post-meta,  .vinput {
 	color: #444 !important;
 }	
 
