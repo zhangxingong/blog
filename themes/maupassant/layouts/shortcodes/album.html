@@ -65,7 +65,7 @@ function memoAlbum(numb){
                 } else {
 			title = tmp;
 		}
-                result += `<div class="memos-photo"><img class="photo-img" loading='lazy' decoding="async"  referrer="no-referrer|origin|unsafe-url" src="${img}"></a>`;
+                result += `<div class="memos-photo"><img class="photo-img" loading='lazy' decoding="async"  src="${img}"></a>`;
                 title ? result += `<span class="photo-title">${title}</span>` : '';
                 time ? result += `<span class="photo-time">${time}</span>` : '';
                 result += `</div>`;
