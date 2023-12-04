@@ -56,13 +56,15 @@ function memoAlbum(numb){
           if(imgs){
             imgs.forEach(item => {
               if(nowNum < limit ){
-                nowNum ++
+                nowNum ++;
                 let img = item.replace(/!\[.*?\]\((.*?)\)/g,'$1'),
                     time, title, tmp = item.replace(/!\[(.*?)\]\(.*?\)/g,'$1');
                 if (tmp.indexOf(' ') != -1) {
                     time = tmp.split(' ')[0];
                     title = tmp.split(' ')[1];
-                } else title = tmp
+                } else {
+			title = tmp;
+		}
                 result += `<div class="memos-photo"><img class="photo-img" loading='lazy' decoding="async" src="${img}"></a>`;
                 title ? result += `<span class="photo-title">${title}</span>` : '';
                 time ? result += `<span class="photo-time">${time}</span>` : '';
@@ -74,29 +76,29 @@ function memoAlbum(numb){
           if(data[i].resourceList && data[i].resourceList.length > 0){
             var resourceList = data[i].resourceList;
             for(var j=0;j < resourceList.length;j++){
-              var galleryTime = new Date(resourceList[j].createdTs * 1000).toLocaleString()
+              var galleryTime = new Date(resourceList[j].createdTs * 1000).toLocaleString();
               var restype = resourceList[j].type.slice(0,5);
-              var resexlink = resourceList[j].externalLink
-              var resLink = '',fileId=''
+              var resexlink = resourceList[j].externalLink;
+              var resLink = '',fileId='';
               if(resexlink){
-                resLink = resexlink
+                resLink = resexlink;
               }else{
-                fileId = resourceList[j].publicId || resourceList[j].filename
-                resLink = memoUrl+'o/r/'+resourceList[j].id+'/'+fileId+'?thumbnail=1'
+                fileId = resourceList[j].publicId || resourceList[j].filename;
+                resLink = memoUrl+'o/r/'+resourceList[j].id+'/'+fileId+'?thumbnail=1';
               }
               if(restype == 'image' && nowNum <= limit ){
-                  nowNum ++
-                  result += '<div class="memos-photo"><img class="photo-img" loading="lazy" decoding="async" src="'+resLink+'"/><span class="photo-title">'+galleryTitle+'</span><span class="photo-time">'+galleryTime+'</span></div>'
+                  nowNum ++;
+                  result += '<div class="memos-photo"><img class="photo-img" loading="lazy" decoding="async" src="'+resLink+'"/><span class="photo-title">'+galleryTitle+'</span><span class="photo-time">'+galleryTime+'</span></div>';
               }
             }
           }
 				  result += '</div>';
       }
       var galleryDom = document.querySelector('#album');
-      var galleryBefore = ``
-      var galleryAfter = ``
-      resultAll = galleryBefore + result + galleryAfter
-      galleryDom.innerHTML = resultAll
+      var galleryBefore = ``;
+      var galleryAfter = ``;
+      resultAll = galleryBefore + result + galleryAfter;
+      galleryDom.innerHTML = resultAll;
       //相对时间
       window.Lately && Lately.init({ target: '.photo-time'});
   });
