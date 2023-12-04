@@ -30,7 +30,7 @@ enableRobotsTXT = true ## 允许爬虫抓取到搜索引擎，建议 true
   googleAd = ""  #ca-pub-xxxxxxxxxxxxxx
   localSearch = true # 启用本地搜索
   beian = "沪ICP备07029341号"
-  fancybox = false
+  fancybox = true
   cdnJsSite = "cdn.bootcdn.net" # 默认：cdnjs.cloudflare.com
   baiduAnalytics = "b4bf6ed501b47a5473e135e2b6e481f0"  # 百度统计
   # 这里我存放在了主题的static文件夹里，根目录的似乎也可以
