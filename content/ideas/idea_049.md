@@ -8,7 +8,7 @@ hiddenFromHomePage = false
 +++
 
 
-<gallery>
+{{< fullscreen  >}}
 ![2023-12-03 天主教堂](https://s2.loli.net/2023/12/04/qHzaV7GfYgeJX8j.jpg)
 ![2023-12-03 书院](https://s2.loli.net/2023/12/04/mBqSvMJzU6pC4Fc.jpg)
 ![2023-12-03 书院](https://s2.loli.net/2023/12/04/A81Z2OYcLjKtRm9.jpg)
@@ -21,4 +21,4 @@ hiddenFromHomePage = false
 ![2023-12-03 书院](https://s2.loli.net/2023/12/04/EjK14uDbHNaBnAp.jpg)
 ![2023-12-03 书院](https://s2.loli.net/2023/12/04/u73y4jhDmHbkcLR.jpg)
 ![2023-12-03 书院](https://s2.loli.net/2023/12/04/hCOfctINJHTlV8a.jpg)
-</gallery>
+{{< /fullscreen  >}}
