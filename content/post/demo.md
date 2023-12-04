@@ -6,8 +6,6 @@ slug = "post-demo"
 tags = ["emacs"]
 categories = ["笔记"]
 draft = true
-creator = "Emacs 28.2 (Org mode 9.6.6 + ox-hugo)"
-author = "zhangxingong"
 toc = true
 +++
 
