@@ -48,7 +48,7 @@
     {{ partial "paginator" . }}
 </div>
 {{- if .Site.Params.fancybox -}}
-        <script src="//{{ .Site.Params.cdnJsSite | default $defaultCdnJsSite }}/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+        <script src="//{{ .Site.Params.cdnJsSite  }}/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
 {{- end -}}
 {{ end }}
 
