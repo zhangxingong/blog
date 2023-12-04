@@ -82,7 +82,7 @@ function memoAlbum(numb){
                 resLink = resexlink
               }else{
                 fileId = resourceList[j].publicId || resourceList[j].filename
-                resLink = memoUrl+'o/r/'+resourceList[j].id+'/'+fileId
+                resLink = memoUrl+'o/r/'+resourceList[j].id+'/'+fileId+'?thumbnail=1'
               }
               if(restype == 'image' && nowNum <= limit ){
                   nowNum ++
