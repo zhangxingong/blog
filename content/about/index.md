@@ -29,9 +29,8 @@ description: 🐻 Emacs用户，技术问题记录者，哲学历史爱好者。
 - 修复菜单不对齐
 - 修复其他已知问题
 - 后续要做的是豆瓣数据同步
-<br><a href="javascript:void(0);" onclick="switchTheme()">更换主题</a>
 
-<br><a href="javascript:toggleColorScheme();"><span id="icon-sun">🌞</span><span id="icon-moon">🌚</span></a> 
+<a href="javascript:void(0);" onclick="switchTheme()">更换主题</a>   <a href="javascript:toggleColorScheme();"><span id="icon-sun">🌞</span><span id="icon-moon">🌚</span></a> 
 
 ---
 2023-11-28 [更新日志]
