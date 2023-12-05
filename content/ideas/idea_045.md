@@ -30,5 +30,5 @@ hiddenFromHomePage = false
   通用模型
   数学模型
 
-<gallery>![脑神经](/img/Screenshot_20231116_193731_tv.danmaku.bili.jpg)![](/img/Screenshot_20231116_193805_tv.danmaku.bili.jpg)![](/img/Screenshot_20231116_220245_tv.danmaku.bili.jpg)</gallery>
+![脑神经](/img/Screenshot_20231116_193731_tv.danmaku.bili.jpg)![](/img/Screenshot_20231116_193805_tv.danmaku.bili.jpg)![](/img/Screenshot_20231116_220245_tv.danmaku.bili.jpg)
 
