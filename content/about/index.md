@@ -16,6 +16,24 @@ description: 🐻 Emacs用户，技术问题记录者，哲学历史爱好者。
 
 <header><h1 class="post-title">博客更新日志</h1></header>
 
+2023-12-05 [更新日志]
+- 修复首页不能显示最新博客
+- 修复相册不能显示时间
+- 修复碎碎念无法放大图片
+- 修复小屏幕碎碎念没有间距问题
+- 不使用插件用原生css展示多个图片瀑布流效果
+- 关于中增加了虫洞播报
+- 友链中增加博客十年之约前二十条动态
+- 增加雪花特效
+- 增加动态背景
+- 修复菜单不对齐
+- 修复其他已知问题
+- 后续要做的是豆瓣数据同步
+<br><a href="javascript:void(0);" onclick="switchTheme()">更换主题</a>
+
+<br><a href="javascript:toggleColorScheme();"><span id="icon-sun">🌞</span><span id="icon-moon">🌚</span></a> 
+
+---
 2023-11-28 [更新日志]
 增加了切换主题功能
 <a href="javascript:void(0);" onclick="switchTheme()">更换主题</a>
