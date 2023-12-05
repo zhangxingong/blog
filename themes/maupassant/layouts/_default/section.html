@@ -1,7 +1,7 @@
 {{ define "content"}}
-{{- $paginator := .Paginate  ((where (where .Site.Pages "Type" "in" (slice "post" "posts")) "Kind" "page").GroupByDate "January 2006")  10 }}
+{{- $paginator2 := .Paginate .Data.Pages.ByDate.Reverse 10 }}
 <div class="res-cons">
-    {{ range $index,$data := $paginator.Pages }}
+    {{ range $index,$data := $paginator2.Pages }}
     {{ if not .Params.hidden }}
     <article class="post">
         <header>
