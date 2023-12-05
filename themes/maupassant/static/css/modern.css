@@ -1004,9 +1004,10 @@ img.alignright {
     .post-content img {
         padding: 0.2em 0;
     }
+    /*
     .post {
         padding: 12px 0;
-    }
+    }*/
     #nav-menu a {
         padding: 0 15px;
         line-height: 27px;
