@@ -788,7 +788,6 @@ textarea.textarea {
 .post-content a img {
     background: #FFF;
     position: relative;
-    bottom: -4px;
 }
 
 .post-content hr, .comment-content hr {
