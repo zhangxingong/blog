@@ -476,6 +476,7 @@ template {
     column-count: 3;
     column-gap: 4px;	
 }
+a[data-fancybox="gallery"] > img {display:inherit; height: auto;margin-bottom:8px;max-width:200px;}
 /*
 .entry p:has(a > img:nth-child(1)) {
     column-count: 3;
@@ -634,6 +635,7 @@ body.dark {
     column-count: 2;
     column-gap: 4px;
 }
+a[data-fancybox="gallery"] > img {display:inherit; height: auto;margin-bottom:8px;max-width:120px;}	
 }
 
 .entry p:has(a > img:nth-child(1)) img {
