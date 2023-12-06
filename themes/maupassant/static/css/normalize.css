@@ -478,7 +478,7 @@ template {
 }
 a[data-fancybox="gallery"] > img {
 	display:inherit; height: auto;
-	width:33.3%;
+	width:33%;
 }
 /*
 .entry p:has(a > img:nth-child(1)) {
@@ -640,7 +640,7 @@ body.dark {
 }
 a[data-fancybox="gallery"] > img {
 	display:inherit; height: auto;
-  width:49.9%;
+  width:49%;
 }	
 }
 
