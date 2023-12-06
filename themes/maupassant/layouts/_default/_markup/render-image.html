@@ -20,7 +20,7 @@
 {{- else -}}
     {{if .Page.Site.Params.fancybox }}
         <a data-fancybox="gallery" href="{{ $img_destination | safeURL }}">
-            <img class="mx-auto" alt="{{ $.Text }}" src="{{ $img_destination | safeURL }}" />
+            <img class="mx-auto" loading="lazy" decoding="async" alt="{{ $.Text }}" src="{{ $img_destination | safeURL }}" />
         </a>
     {{ else }}
         <img class="mx-auto" alt="{{ $.Text }}" src="{{ $img_destination | safeURL }}" />   
