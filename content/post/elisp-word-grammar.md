@@ -52,7 +52,7 @@ author = "zhangxingong"
     3.  [mapc(foreach)](#mapc(foreach))
     4.  [dolist](#dolist)
     5.  [dotimes](#dotimes)
-11.  [catch-throw error-user-error](#catch\/throw error\/user-error)
+11.  [catch-throw error-user-error](#dotimes)
     1.  [错误退出](#错误退出)
 12.  [Sequence,list,Vector](#Sequence,list,Vector)
     1.  [Sequence](#Sequence)
