@@ -476,10 +476,9 @@ template {
     column-count: 3;
     column-gap: 4px;	
 }
-.entry p:has(a > img:nth-child(n+2)) img {
+.entry p a > img {
 	display:inherit;
 	height: auto;
-	width:28%;
 }
 /*
 .entry p:has(a > img:nth-child(1)) {
@@ -639,10 +638,9 @@ body.dark {
     column-count: 2;
     column-gap: 4px;
 }
-.entry p:has(a > img:nth-child(n+3))  img {
+.entry p a > img {
   display:inherit;
   height: auto;
-  width:44%;
 }	
 }
 
