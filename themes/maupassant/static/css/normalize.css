@@ -460,6 +460,7 @@ template {
 .gallery-photo:hover span.photo-title{display:block;}
 .gallery-photo:hover span.photo-time{display:block;}
 .gallery-photo:hover img{transform: scale(1.1);}
+/*
 @media screen and (max-width: 4800px) {
   .gallery-photo{width:33.3%;}
   .entry p:has(a > img:nth-child(n+4)){
@@ -472,19 +473,19 @@ template {
   .entry p:has(a > img:nth-child(n+4)){
 	column-count: 4;
 	column-gap: 4px;
-}
+}*/
 /*	
 .entry p:has(a > img:nth-child(n+4)){
 	column-count: 4;
 	column-gap: 4px;
 }*/
-}
+} /*
 @media screen and (max-width: 720px) {
 .gallery-photo{width:33.3%;}
 .entry p:has(a > img:nth-child(n+3)){
     column-count: 3;
     column-gap: 4px;	
-}
+} */
 /*
 .entry p:has(a > img:nth-child(1)) {
     column-count: 3;
