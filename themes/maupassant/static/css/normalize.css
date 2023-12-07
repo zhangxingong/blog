@@ -460,7 +460,7 @@ template {
 .gallery-photo:hover span.photo-title{display:block;}
 .gallery-photo:hover span.photo-time{display:block;}
 .gallery-photo:hover img{transform: scale(1.1);}
-@media screen and (max-width: 1800px) {
+@media screen and (max-width: 4800px) {
   .gallery-photo{width:33.3%;}
   .entry p:has(a > img:nth-child(n+4)){
 	column-count: 4;
