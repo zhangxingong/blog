@@ -476,11 +476,11 @@ template {
 
 @media screen and (max-width: 980px) {
 .gallery-photo{width:33.3%;}
-.entry p:has(a > img:nth-child(n+5)){
+.entry p:has(a > img:nth-child(n+6)){
     column-count: 3;
     column-gap: 4px;	
 } 
-.entry p:has(a > img:nth-child(n+5)) img {width:129px !important;}	
+.entry p:has(a > img:nth-child(n+6)) img {max-width:129px !important;}	
 /*
 .entry p:has(a > img:nth-child(1)) {
     column-count: 3;
@@ -639,7 +639,7 @@ body.dark {
     column-count: 2;
     column-gap: 4px;
 }
-.entry p:has(a > img:nth-child(n+5)) img {width:129px !important;}	
+.entry p:has(a > img:nth-child(n+5)) img {max-width:129px !important;}	
 }
 
 .entry p:has(a > img:nth-child(1)) img {
