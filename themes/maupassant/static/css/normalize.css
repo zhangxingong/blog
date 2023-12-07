@@ -466,14 +466,21 @@ template {
 	column-count: 4;
 	column-gap: 4px;
 }
+	
+@media screen and (max-width: 1080px) {
+  .gallery-photo{width:33.3%;}
+  .entry p:has(a > img:nth-child(n+4)){
+	column-count: 4;
+	column-gap: 4px;
+}
 /*	
 .entry p:has(a > img:nth-child(n+4)){
 	column-count: 4;
 	column-gap: 4px;
 }*/
 }
-@media screen and (max-width: 860px) {
-.gallery-photo{width:49.9%;}
+@media screen and (max-width: 720px) {
+.gallery-photo{width:33.3%;}
 .entry p:has(a > img:nth-child(n+3)){
     column-count: 3;
     column-gap: 4px;	
@@ -631,7 +638,7 @@ body.dark {
 	box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
 }
 
-@media screen and (max-width:340px) {
+@media screen and (max-width:480px) {
 .entry p:has(a > img:nth-child(n+3)) {
     column-count: 2;
     column-gap: 4px;
