@@ -485,7 +485,7 @@ template {
     column-count: 2;
     column-gap: 4px;	
 } 
-.entry p:has(a > img:nth-child(n+4)) img {width:150px !important;}	
+.entry p:has(a > img:nth-child(n+4)) img {max-width:150px !important;}	
 /* 
 .entry p:has(a > img:nth-child(1)) {
     column-count: 3;
@@ -644,7 +644,7 @@ body.dark {
     column-count: 2;
     column-gap: 4px;
 }
-.entry p:has(a > img:nth-child(n+3)) img {width:129px !important;}		
+.entry p:has(a > img:nth-child(n+3)) img {max-width:129px !important;}		
 }
 
 .entry p:has(a > img:nth-child(1)) img {
