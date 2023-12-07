@@ -644,7 +644,7 @@ body.dark {
     column-gap: 4px;
 }
 .entry p:has(a > img:nth-child(n+6)) img{
-		width: 24% !important;			
+		max-width: 24% !important;			
 } 	
 }
 
