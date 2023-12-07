@@ -310,6 +310,12 @@ document.addEventListener('DOMContentLoaded', () => {
 </script>
 <script>
 document.addEventListener('DOMContentLoaded', () => {
+var screenWidth = window.screen.width;  
+var screenHeight = window.screen.height;  
+  
+alert("屏幕宽度：" + screenWidth + "像素");  
+alert("屏幕高度：" + screenHeight + "像素");
+
 let galleryPhotos = document.querySelectorAll('.gallery-photos') || ''
 if(galleryPhotos){
   imgStatus.watch('.gallery-photo img', function(imgs) {
