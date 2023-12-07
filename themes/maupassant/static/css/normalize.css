@@ -220,7 +220,7 @@ audio:not([controls]) {
 img {
   border-style: none;
   max-width: 100%;
-	width: 100%;
+  width: 100%;
   height: auto;
 }
 
@@ -485,7 +485,7 @@ template {
     column-count: 2;
     column-gap: 4px;	
 } 
-.entry p:has(a > img:nth-child(n+4)) img {width:30% !important;}	
+.entry p:has(a > img:nth-child(n+4)) img {width:150px !important;}	
 /* 
 .entry p:has(a > img:nth-child(1)) {
     column-count: 3;
@@ -644,7 +644,7 @@ body.dark {
     column-count: 2;
     column-gap: 4px;
 }
-.entry p:has(a > img:nth-child(n+3)) img {width:32% !important;}		
+.entry p:has(a > img:nth-child(n+3)) img {width:129px !important;}		
 }
 
 .entry p:has(a > img:nth-child(1)) img {
