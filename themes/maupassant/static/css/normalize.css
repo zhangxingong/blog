@@ -485,7 +485,7 @@ template {
     column-count: 2;
     column-gap: 4px;	
 } 
-.entry p a > img {max-width:130px !important;}	
+
 /* 
 .entry p:has(a > img:nth-child(1)) {
     column-count: 3;
@@ -644,7 +644,7 @@ body.dark {
     column-count: 2;
     column-gap: 4px;
 }
-.entry p a > img {width:120px  !important}
+
 .entry p:has(a > img:nth-child(1)) img {
     display: inherit;
     border-radius: 4px;
