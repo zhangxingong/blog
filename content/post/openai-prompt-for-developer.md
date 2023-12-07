@@ -1,5 +1,5 @@
 +++
-title = "吴恩达与OpenAI最新课程：开发者必备的prompt-engineering精读书籍笔记"
+title = "吴恩达与OpenAI最新课程：开发者必备的prompt-engineering精读笔记"
 date = "2023-12-07T17:26:59+0800"
 tags = ["笔记","学习","编程"]
 categories = ["subject"]
