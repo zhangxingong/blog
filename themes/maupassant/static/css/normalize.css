@@ -648,7 +648,7 @@ body.dark {
 .entry p:has(a > img:nth-child(1)) img {
     display: inherit;
     border-radius: 4px;
-	  overflow-clip-margin: content-box;
+    overflow-clip-margin: content-box;
     overflow: clip;
 }
 
