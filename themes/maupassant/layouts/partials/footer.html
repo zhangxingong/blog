@@ -108,7 +108,8 @@
 @media (max-width: 980px){
 	.fullscreen{margin-left: 0;width:auto;column-count:3;}
 }
-
+.post-content p:has(a[data-fancybox="gallery"] > img:nth-child(n+5)) img{display:inherit;}
+.post-content p:has(a[data-fancybox="gallery"] > img:nth-child(n+6)) img{margin-bottom:8px;}
 /* image short gallery 
 .post-content  p:has(a[data-fancybox="gallery"]:nth-child(2)){column-count:2;column-gap:8px;margin:6px 0;}
 .post-content  p:has(a[data-fancybox="gallery"]:nth-child(3)){column-count:2;}
@@ -309,7 +310,7 @@ document.addEventListener('DOMContentLoaded', () => {
 </script>
 <script>
 document.addEventListener('DOMContentLoaded', () => {
-var screenWidth = window.screen.width;  
+/* var screenWidth = window.screen.width;  
 var screenHeight = window.screen.height;  
 
 console.log("屏幕宽度：" + screenWidth + "像素");  
@@ -325,7 +326,7 @@ if (document.documentElement.style.columnCount) {
   alert("Column count is supported.");  
 } else {  
   alert("Column count is not supported.");  
-}
+} */
 
 let galleryPhotos = document.querySelectorAll('.gallery-photos') || ''
 if(galleryPhotos){
