@@ -257,6 +257,23 @@ strong {
     {{ template "_internal/google_analytics.html" . }}
 {{- end -}}
 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
+<script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/meting@2.0.1/dist/Meting.min.js"></script>
+​<div style="text-align:right">
+ <meting-js 
+    server="netease" 
+    type="playlist" 
+    id="8794970416"
+    fixed="true" 
+    mini="true"
+    order="random"
+    loop="all"
+    preload="auto"
+    list-folded="false">
+</meting-js>
+</div>
+
 {{ partial "copy_button" . }}
 
 {{ if .Site.Params.busuanzi }}
