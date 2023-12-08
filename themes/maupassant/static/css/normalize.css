@@ -467,9 +467,9 @@ template {
 	column-gap: 4px; 
 }
 .post-content  p:has(a[data-fancybox="gallery"]:nth-child(2)){column-count:2;column-gap:8px;margin:6px 0;}
-.post-content  p:has(a[data-fancybox="gallery"]:nth-child(3)){column-count:2;}
-.post-content  p:has(a[data-fancybox="gallery"]:nth-child(4)){column-count:2;}
-.post-content  p:has(a[data-fancybox="gallery"]:nth-child(5)){column-count:3;}
+.post-content  p:has(a[data-fancybox="gallery"]:nth-child(3)){column-count:2; column-gap: 4px; }
+.post-content  p:has(a[data-fancybox="gallery"]:nth-child(4)){column-count:2; column-gap: 4px; }
+.post-content  p:has(a[data-fancybox="gallery"]:nth-child(5)){column-count:3; column-gap: 4px; }
 .post-content  p:has(a[data-fancybox="gallery"]:nth-child(n+6)){column-count:4;} 	 
 }
 
@@ -641,15 +641,12 @@ body.dark {
 .entry p:has(a > img:nth-child(n+3)) {
 	column-count: 2;
 	column-gap:8px;
-	margin:6px 0;
 }
 
 .entry p:has(a > img:nth-child(1)) img {
-    display: inherit;
-    border-radius: 4px;
-	  margin-bottom: 8px;
-    overflow-clip-margin: content-box;
-    overflow: clip;
+	display: inherit;
+	border-radius: 4px;
+	margin-bottom: 8px;
 }
 
 /* 
