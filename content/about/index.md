@@ -13,6 +13,8 @@ description: 🐻 Emacs用户，技术问题记录者，哲学历史爱好者。
 
 ![扫码关注](/img/qrcode_for_weixin.jpg)
 
+[ethan's电报](https://t.me/​xgzhang 电报注册成功.)
+
 
 <header><h1 class="post-title">博客更新日志</h1></header>
 
@@ -28,6 +30,8 @@ description: 🐻 Emacs用户，技术问题记录者，哲学历史爱好者。
 - 增加动态背景
 - 修复菜单不对齐
 - 修复其他已知问题
+- 增加音乐🎵播放器
+- [电报](https://t.me/​xgzhang 电报注册成功.)
 - 后续要做的是豆瓣数据同步
 
 ---
