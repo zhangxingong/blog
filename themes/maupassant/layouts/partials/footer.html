@@ -248,7 +248,18 @@ strong {
         <script src="//{{ .Site.Params.cdnJsSite | default $defaultCdnJsSite }}/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
     {{- end -}}
 {{ end }}
-
+<!--网易云音乐-->
+<meting-js 
+  server="netease" 
+  type="playlist" 
+  id="8794970416"
+  fixed="false" 
+  mini="true"
+  order="list"
+  loop="all"
+  preload="auto"
+  list-folded="false">
+</meting-js>
 <a id="rocket" href="#top"></a>
 <script type="text/javascript" src='{{ "js/totop.js?v=0.0.0" | relURL }}' async></script>
 {{- if hasPrefix .Site.GoogleAnalytics "UA-" -}}
@@ -260,19 +271,6 @@ strong {
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
 <script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/meting@2.0.1/dist/Meting.min.js"></script>
-​<div style="text-align:right">
- <meting-js 
-    server="netease" 
-    type="playlist" 
-    id="8794970416"
-    fixed="true" 
-    mini="true"
-    order="random"
-    loop="all"
-    preload="auto"
-    list-folded="false">
-</meting-js>
-</div>
 
 {{ partial "copy_button" . }}
 
@@ -379,4 +377,3 @@ if(galleryPhotos){
 <!--动态线条背景-->
 <script type="text/javascript" color="220,220,220" opacity="0.7" zindex="-2" count="200" src="//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js"></script>
 <canvas id="c_n39" style="position: fixed; top: 0px; left: 0px; z-index: -2; opacity: 0.7;" width="1536" height="150"></canvas>
-
