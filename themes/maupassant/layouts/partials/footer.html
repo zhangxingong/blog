@@ -114,10 +114,10 @@
 .post-content  p:has(a[data-fancybox="gallery"]:nth-child(3)){column-count:2;}
 .post-content  p:has(a[data-fancybox="gallery"]:nth-child(4)){column-count:2;}
 .post-content  p:has(a[data-fancybox="gallery"]:nth-child(5)){column-count:3;}
-.post-content  p:has(a[data-fancybox="gallery"]:nth-child(n+6)){column-count:4;} */	
+.post-content  p:has(a[data-fancybox="gallery"]:nth-child(n+6)){column-count:4;} 	
 .post-content p:has(a[data-fancybox="gallery"] > img:nth-child(n+5)) img{display:inherit;}
 .post-content p:has(a[data-fancybox="gallery"] > img:nth-child(n+6)) img{margin-bottom:8px;}	
-
+*/
 </style>
 <footer id="footer">
     <div>
@@ -316,6 +316,12 @@ console.log("屏幕宽度：" + screenWidth + "像素");
 console.log("屏幕高度：" + screenHeight + "像素");
 
 if (window.CSS && CSS.supports('column-count', 'auto')) {  
+  console.log("Column count is supported.");  
+} else {  
+  console.log("Column count is not supported.");  
+}
+
+if (document.documentElement.style.columnCount) {  
   alert("Column count is supported.");  
 } else {  
   alert("Column count is not supported.");  
