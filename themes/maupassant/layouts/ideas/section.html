@@ -1,56 +1,56 @@
 {{ define "content"}}
 <style>
- .entry .gallery-photos{
-	  margin-top: 15px;
- }
- .entry p {
+  .entry .gallery-photos {
+    margin-top: 15px;
+  }
+
+  .entry p {
     margin-bottom: 15px;
     text-align: justify;
     line-height: 1.8;
     margin-top: 0;
- }
+  }
 
- .entry img {
-  max-width: 100%;
-  padding: 4px;
-  outline: 0;	 
-  margin:  0; 
-  display: inherit;
-  border-radius: 4px;
- }
+  .entry img {
+    max-width: 100%;
+    padding: 4px;
+    outline: 0;
+    margin: 0;
+    display: inherit;
+    border-radius: 4px;
+  }
 
-.entry {
+  .entry {
     border: 0;
     font-family: inherit;
     font-size: 100%;
     font-style: inherit;
     font-weight: inherit;
-    margin:  0;
+    margin: 0;
     outline: 0;
     padding: 0;
     vertical-align: baseline;
-}
+  }
 </style>
 <div class="res-cons">
   {{- $paginator := .Paginate (where .Site.RegularPages "Type" "in" (slice "idea" "ideas")).ByDate.Reverse 10 }}
-    {{ range $paginator.Pages }}
-    {{if not .Params.hiddenFromHomePage }}
-    <article class="post">
-        <date class="post-meta meta-date"> 
-          {{ .Date.Format  "06 Jan 02 Mon 15:04" }}
-       </date>
-        <div class="post-content">
-           <div class="entry">
-            {{ .Content }}
-           </div>   
-        </div>
-    </article>
-    {{ end }}
-    {{ end }}
-    {{ partial "paginator" . }}
+  {{ range $paginator.Pages }}
+  {{if not .Params.hiddenFromHomePage }}
+  <article class="post">
+    <date class="post-meta meta-date">
+      {{ .Date.Format "06 Jan 02 Mon 15:04" }}
+    </date>
+    <div class="post-content">
+      <div class="entry">
+        {{ .Content }}
+      </div>
+    </div>
+  </article>
+  {{ end }}
+  {{ end }}
+  {{ partial "paginator" . }}
 </div>
 {{- if .Site.Params.fancybox -}}
-        <script src="//{{ .Site.Params.cdnJsSite  }}/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+<script src="//{{ .Site.Params.cdnJsSite  }}/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
 {{- end -}}
 {{ end }}
-
