@@ -120,21 +120,6 @@ strong {
 .post-content p:has(a[data-fancybox="gallery"] > img:nth-child(6)) img{margin-bottom:8px;}
 */
 </style>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
-<script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/meting@2.0.1/dist/Meting.min.js"></script>
-​
-<meting-js 
-    server="netease" 
-    type="playlist" 
-    id="8794970416"
-    fixed="true" 
-    mini="true"
-    order="random"
-    loop="all"
-    preload="auto"
-    list-folded="false">
-</meting-js>
 <footer id="footer">
     <div>
         &copy; {{ now.Format "2006" }} <a href="{{ .Site.BaseURL | absURL }}">{{ .Site.Title }} By {{ .Site.Author.name }}</a>
