@@ -22,20 +22,6 @@
                     <a {{ if eq .URL $.RelPermalink }}class="current"{{ end }} href="{{ .URL | absURL }}" title="{{ .Name }}">{{ .Name }}</a>
                     {{ end }}                  
                 </nav> 
-                <!--网易云音乐-->
-                <meting-js 
-                  server="netease" 
-                  type="playlist" 
-                  id="8794970416"
-                  fixed="true" 
-                  mini="true"
-                  volume="1"
-                  mutex="true"  
-                  order="list"
-                  loop="all"
-                  preload="auto"
-                  list-folded="false">
-                </meting-js>
             </div>
         </div>
     </div>
