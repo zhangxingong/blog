@@ -248,18 +248,6 @@ strong {
         <script src="//{{ .Site.Params.cdnJsSite | default $defaultCdnJsSite }}/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
     {{- end -}}
 {{ end }}
-<!--网易云音乐-->
-<meting-js 
-  server="netease" 
-  type="playlist" 
-  id="8794970416"
-  fixed="false" 
-  mini="true"
-  order="list"
-  loop="all"
-  preload="auto"
-  list-folded="false">
-</meting-js>
 <a id="rocket" href="#top"></a>
 <script type="text/javascript" src='{{ "js/totop.js?v=0.0.0" | relURL }}' async></script>
 {{- if hasPrefix .Site.GoogleAnalytics "UA-" -}}
