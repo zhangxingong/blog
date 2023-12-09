@@ -714,6 +714,8 @@ body.dark {
 
    .entry p:has(a[data-fancybox="gallery"]:nth-child(n+5)) img {
         width:48% !important;
+        max-width:48% !important;
+        height:auto;
    }
 
    
