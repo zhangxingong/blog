@@ -711,13 +711,15 @@ body.dark {
         column-count: 2;
         column-gap: 4px;
     }
+
+   .entry p:has(a[data-fancybox="gallery"]:nth-child(n+5)) img {
+        width:48% !important;
+   }
+
+   
 }
 
-/* 
-.entry p:has(a[data-fancybox="gallery"]:nth-child(1)) img {
-    margin-bottom: 8px;
-}
-*/
+
 .entry iframe, .entry audio {
     width: 100%;
     margin-bottom: 15px;
