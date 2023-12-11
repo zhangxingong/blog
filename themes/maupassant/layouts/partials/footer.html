@@ -326,7 +326,13 @@ document.addEventListener('DOMContentLoaded', () => {
 </script>
 <script>
 document.addEventListener('DOMContentLoaded', () => {
-/* var screenWidth = window.screen.width;  
+var screenWidth = window.screen.width;  
+var screenHeight = window.screen.height;  
+
+console.log("屏幕宽度：" + screenWidth + "像素");  
+console.log("屏幕高度：" + screenHeight + "像素");
+/*
+var screenWidth = window.screen.width;  
 var screenHeight = window.screen.height;  
 
 console.log("屏幕宽度：" + screenWidth + "像素");  
@@ -342,7 +348,40 @@ if (document.documentElement.style.columnCount) {
   alert("Column count is supported.");  
 } else {  
   alert("Column count is not supported.");  
-} */
+}
+*/
+
+//support split image
+var smallConfig = {'column-count': '2', 'column-gap': "4px"};
+var mediumConfig = {'column-count': '3', 'column-gap': "4px"};
+var largeConfig = {'column-count': '4', 'column-gap': "4px"};
+
+function setFitCSS(count, smallConfig) {
+  if ($('p').has('a[data-fancybox="gallery"]:nth-child(' + count + ')').length) {
+    $('p').has('a[data-fancybox="gallery"]:nth-child(' + count + ')').css(smallConfig);
+  }
+}
+
+if (!CSS.supports('selector(html:has(body))')) {
+  console.log('css not support has: selector.');
+  setFitCSS(2, smallConfig);
+  setFitCSS(3, smallConfig);
+  setFitCSS(4, smallConfig);
+
+  var maxWidth = window.screen.width;
+  if (maxWidth > 980) { //PC screen
+    setFitCSS(5, mediumConfig);
+    setFitCSS('n+6', largeConfig);
+  } else {
+    if (maxWidth > 480) {
+      setFitCSS(5, mediumConfig);
+      setFitCSS('n+6', mediumConfig);
+    } else {
+      setFitCSS(5, smallConfig);
+      setFitCSS('n+6', smallConfig);
+    }
+  }
+} 
 
 let galleryPhotos = document.querySelectorAll('.gallery-photos') || ''
 if(galleryPhotos){
