@@ -31,7 +31,7 @@ description: 🐻 Emacs用户，技术问题记录者，哲学历史爱好者。
 - 修复菜单不对齐
 - 修复其他已知问题
 - 增加音乐🎵播放器
-- [电报](https://t.me/​xgzhang)
+- <a href="https://t.me/xgzhang" target="_blank"><img src="https://file-cdn.tuoniaox.com/d/file/custom/201311/image/201910/1571889276121671.jpg" style="max-width:100px !important;" /></a>
 - 后续要做的是豆瓣数据同步
 
 ---
