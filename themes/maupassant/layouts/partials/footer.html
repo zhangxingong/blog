@@ -357,8 +357,8 @@ var mediumConfig = {'column-count': '3', 'column-gap': "4px"};
 var largeConfig = {'column-count': '4', 'column-gap': "4px"};
 
 function setFitCSS(count, smallConfig) {
-  if ($('p').has('a[data-fancybox="gallery"]:nth-child(' + count + ')').length) {
-    $('p').has('a[data-fancybox="gallery"]:nth-child(' + count + ')').css(smallConfig);
+  if ($('.post-content p').has('a[data-fancybox="gallery"]:nth-child(' + count + ')').length) {
+    $('.post-content p').has('a[data-fancybox="gallery"]:nth-child(' + count + ')').css(smallConfig);
   }
 }
 
