@@ -760,7 +760,7 @@ textarea.textarea {
 
 #footer {
     padding:.8em 0 3.6em;
-    color:#999;
+    /* color:#999; */
     text-align: center;
 }
 
