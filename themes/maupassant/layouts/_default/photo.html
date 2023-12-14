@@ -63,13 +63,8 @@ document.addEventListener('DOMContentLoaded', () => {
     window.addEventListener('resize', function () {
       waterfall('.gallery-photos');
     });
+	  window.Lately && Lately.init({ target: '.photo-time'});
 });
-</script>
-<script>
-  window.Lately && Lately.init({ target: '.photo-time'});
-  window.ViewImage && ViewImage.init('.gallery-photo img');
-  window.ViewImage && ViewImage.init('.memos-photo img');	
-	
 </script>
                     {{ partial "footer" . }}
                 </div>
