@@ -295,8 +295,8 @@ strong {
     <script src='{{ "/js/" | relURL }}{{ . }}'></script>
 {{ end }}
 
-<script src="https://immmmm.com/waterfall.min.js"></script>
-<script src="https://immmmm.com/imgStatus.min.js"></script>
+<script src="{{ js/waterfall.min.js  | relURL }}"></script>
+<script src="{{ js/imgStatus.min.js  | relURL }}"></script>
 <script>
 document.addEventListener('DOMContentLoaded', () => {
   //外链 gallery 标签相册瀑布流
@@ -414,7 +414,7 @@ if(galleryPhotos){
 });
 </script>
 
-<script type="text/javascript" src="https://immmmm.com/view-image.js"></script>
+<script type="text/javascript" src="{{ "js/view-image.js" | relURL }}"></script>
 <script>
   window.ViewImage && ViewImage.init('.gallery-photo img')
 </script>
