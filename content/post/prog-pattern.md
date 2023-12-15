@@ -10,12 +10,6 @@ author = "zhangxingong"
 
 ## 编程范式整理
 
-最新推荐文章于 2023-12-14 09:12:30 发布
-
-![](https://csdnimg.cn/release/blogv2/dist/pc/img/original.png)
-
-[白拾Official](https://discover304.blog.csdn.net/ "白拾Official") ![](https://csdnimg.cn/release/blogv2/dist/pc/img/newCurrentTime2.png) 最新推荐文章于 2023-12-14 09:12:30 发布
-
 ### [](#%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80)编程语言
 
 与成百种编程语言(Programming Language)相比，编程范式(Programming Paradigm、范式)要少得多。
