@@ -1,157 +1,159 @@
 <div id="album"></div>
 
-<script>	
-document.addEventListener("DOMContentLoaded", () => {
-  memoAlbum();
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+    memoAlbum();
 });
-function ablumTitle(inputString){
-	console.log(inputString);
-  let result = '';
-	// 输入字符串
-	// const inputString = "#相册 aaaa";
-	
-	// 定义正则表达式
-	const regex = /#相册\s(.+)/;
-	
-	// 使用正则表达式的 exec 方法匹配字符串
-	const match = regex.exec(inputString);
-	
-	// 如果匹配成功，提取捕获组中的内容
-	if (match && match[1]) {
-	    result = match[1];
-	} else {
-	    console.log("没有匹配到内容");
-	}	
-  console.log(result); // 输出: aaaa
-	return result;
+    function ablumTitle(inputString){
+    console.log(inputString);
+    let result = '';
+    // 输入字符串
+    // const inputString = "#相册 aaaa";
+
+    // 定义正则表达式
+    const regex = /#相册\s(.+)/;
+
+    // 使用正则表达式的 exec 方法匹配字符串
+    const match = regex.exec(inputString);
+
+    // 如果匹配成功，提取捕获组中的内容
+    if (match && match[1]) {
+    result = match[1];
+} else {
+    console.log("没有匹配到内容");
 }
-	
-function memoAlbum(numb){
-  let limit = numb || 8;
-  var memoUrl = "https://memos.nesxc.com/";
-  var authorization = 'Bearer ' + "eyJhbGciOiJIUzI1NiIsImtpZCI6InYxIiwidHlwIjoiSldUIn0.eyJuYW1lIjoiZXRoYW4iLCJpc3MiOiJtZW1vcyIsInN1YiI6Ijc5IiwiYXVkIjpbInVzZXIuYWNjZXNzLXRva2VuIl0sImlhdCI6MTcwMDg5OTA2NH0.N5egFElHE5H8WykdyJSh-r1uNpxGwzdIu8d-5tuLIRk";	
-  var creatorId = 79;
-  var galleryUrl = memoUrl+"api/v1/memo?creatorId="+creatorId+"&rowStatus=NORMAL&limit="+limit+"&tag=相册";
-  //var galleryUrl = memoUrl+"api/memo?rowStatus=NORMAL&limit="+limit+"&tag=相册";
-  let nowNum = 1;
-  fetch(galleryUrl,{method: "GET",  headers: {
+    console.log(result); // 输出: aaaa
+    return result;
+}
+
+    function memoAlbum(numb){
+    let limit = numb || 8;
+    var memoUrl = "https://memos.nesxc.com/";
+    var authorization = 'Bearer ' + "eyJhbGciOiJIUzI1NiIsImtpZCI6InYxIiwidHlwIjoiSldUIn0.eyJuYW1lIjoiZXRoYW4iLCJpc3MiOiJtZW1vcyIsInN1YiI6Ijc5IiwiYXVkIjpbInVzZXIuYWNjZXNzLXRva2VuIl0sImlhdCI6MTcwMDg5OTA2NH0.N5egFElHE5H8WykdyJSh-r1uNpxGwzdIu8d-5tuLIRk";
+    var creatorId = 79;
+    var galleryUrl = memoUrl+"api/v1/memo?creatorId="+creatorId+"&rowStatus=NORMAL&limit="+limit+"&tag=相册";
+    //var galleryUrl = memoUrl+"api/memo?rowStatus=NORMAL&limit="+limit+"&tag=相册";
+    let nowNum = 1;
+    fetch(galleryUrl,{method: "GET",  headers: {
     Authorization: authorization
-  }/**,
-  body: JSON.stringify({creatorId: creatorId,
+}/**,
+     body: JSON.stringify({creatorId: creatorId,
 	rowStatus: 'NORMAL',
 	limit: limit,
 	tag: '相册' 
 })*/
 }).then(res => res.json()).then( resdata =>{
-      //console.log(resdata);	  
-      var result = '',resultAll="",data = resdata;
-      for(var i=0;i < data.length;i++){
-	 var content = data[i].content;
-	 var albumTxt = ablumTitle(content.split('\n')[0]);  
-	 if(albumTxt)     
-	 result += `<div style="width:100%;border-left:6px springgreen solid;font-weight: bold;margin-top:1rem;" class="photo-title"><span style="color:rgb(31, 41, 55);margin-left:8px;">${albumTxt}</span></div><div class="memos-photo-wrapper">`;
-          var galleryTitle = content.replace("#相册 ",'');
-          var imgs = galleryTitle.match(/\!\[(.*?)\s*(.*?)\]\((.*?)\)/g);
-          //解析 content 内 md 格式图片
-          if(imgs){
-            imgs.forEach(item => {
-              if(nowNum < limit ){
-                nowNum ++;
-                let img = item.replace(/!\[.*?\]\((.*?)\)/g,'$1'),
-                    time, title, tmp = item.replace(/!\[(.*?)\]\(.*?\)/g,'$1');
-                if (tmp.indexOf(' ') != -1) {
-                    time = tmp.split(' ')[0];
-                    title = tmp.split(' ')[1];
-                } else {
-			title = tmp;
-		}
-                result += `<div class="memos-photo"><img class="photo-img" loading='lazy' decoding="async"  src="${img}"></a>`;
-                title ? result += `<span class="photo-title">${title}</span>` : '';
-                time ? result += `<span class="photo-time">${time}</span>` : '';
-                result += `</div>`;
-              }
-            });
-          }
-          //解析内置资源文件
-          if(data[i].resourceList && data[i].resourceList.length > 0){
-            var resourceList = data[i].resourceList;
-            for(var j=0;j < resourceList.length;j++){
-              var galleryTime = new Date(resourceList[j].createdTs * 1000).toLocaleString();
-              var restype = resourceList[j].type.slice(0,5);
-              var resexlink = resourceList[j].externalLink;
-              var resLink = '',fileId='';
-              if(resexlink){
-                resLink = resexlink;
-              }else{
-                fileId = resourceList[j].publicId || resourceList[j].filename;
-                resLink = memoUrl+'o/r/'+resourceList[j].id+'/'+fileId;
-              }
-              if(restype == 'image' && nowNum <= limit ){
-                  nowNum ++;
-                  result += '<div class="memos-photo"><img class="photo-img" loading="lazy" decoding="async"  src="'+resLink+'"/><span class="photo-title">'+galleryTitle+'</span><span class="photo-time">'+galleryTime+'</span></div>';
-              }
-            }
-          }
-				  result += '</div>';
-      }
-      var galleryDom = document.querySelector('#album');
-      var galleryBefore = ``;
-      var galleryAfter = ``;
-      resultAll = galleryBefore + result + galleryAfter;
-      galleryDom.innerHTML = resultAll;
-      //相对时间
-      window.Lately && Lately.init({ target: '.photo-time'});
-  });
+    //console.log(resdata);	  
+    var result = '',resultAll="",data = resdata;
+    for(var i=0;i < data.length;i++){
+    var content = data[i].content;
+    var albumTxt = ablumTitle(content.split('\n')[0]);
+    if(albumTxt)
+    result += `<div style="width:100%;border-left:6px springgreen solid;font-weight: bold;margin-top:1rem;" class="photo-title"><span style="color:rgb(31, 41, 55);margin-left:8px;">${albumTxt}</span></div><div class="memos-photo-wrapper">`;
+    var galleryTitle = content.replace("#相册 ",'');
+    var imgs = galleryTitle.match(/\!\[(.*?)\s*(.*?)\]\((.*?)\)/g);
+    //解析 content 内 md 格式图片
+    if(imgs){
+    imgs.forEach(item => {
+    if(nowNum < limit ){
+    nowNum ++;
+    let img = item.replace(/!\[.*?\]\((.*?)\)/g,'$1'),
+    time, title, tmp = item.replace(/!\[(.*?)\]\(.*?\)/g,'$1');
+    if (tmp.indexOf(' ') != -1) {
+    time = tmp.split(' ')[0];
+    title = tmp.split(' ')[1];
+} else {
+    title = tmp;
+}
+    result += `<div class="memos-photo"><img class="photo-img" loading='lazy' decoding="async"  src="${img}"></a>`;
+    title ? result += `<span class="photo-title">${title}</span>` : '';
+    time ? result += `<span class="photo-time">${time}</span>` : '';
+    result += `</div>`;
+}
+});
+}
+    //解析内置资源文件
+    if(data[i].resourceList && data[i].resourceList.length > 0){
+    var resourceList = data[i].resourceList;
+    for(var j=0;j < resourceList.length;j++){
+    var galleryTime = new Date(resourceList[j].createdTs * 1000).toLocaleString();
+    var restype = resourceList[j].type.slice(0,5);
+    var resexlink = resourceList[j].externalLink;
+    var resLink = '',fileId='';
+    if(resexlink){
+    resLink = resexlink;
+}else{
+    fileId = resourceList[j].publicId || resourceList[j].filename;
+    resLink = memoUrl+'o/r/'+resourceList[j].id+'/'+fileId;
+}
+    if(restype == 'image' && nowNum <= limit ){
+    nowNum ++;
+    result += '<div class="memos-photo"><img class="photo-img" loading="lazy" decoding="async"  src="'+resLink+'"/><span class="photo-title">'+galleryTitle+'</span><span class="photo-time">'+galleryTime+'</span></div>';
+}
+}
+}
+    result += '</div>';
+}
+    var galleryDom = document.querySelector('#album');
+    var galleryBefore = ``;
+    var galleryAfter = ``;
+    resultAll = galleryBefore + result + galleryAfter;
+    galleryDom.innerHTML = resultAll;
+
+});
+    //相对时间
+    window.Lately && Lately.init({target: '.photo-time'});
 }
 </script>
 
 <style>
-.memos-photo-wrapper {
-  grid-template-columns: repeat(4,minmax(0,1fr));
-  margin-top: .5rem;
-  display: grid;
-   width: 100%;
-  gap: .5rem;
+    .memos-photo-wrapper {
+    grid - template - columns: repeat(4,minmax(0,1fr));
+    margin-top: .5rem;
+    display: grid;
+    width: 100%;
+    gap: .5rem;
 }
-.memos-photo{
-  position: relative;
-  overflow: hidden;
-  border-radius: .25rem;
-  height: 194px;
+    .memos-photo{
+    position: relative;
+    overflow: hidden;
+    border-radius: .25rem;
+    height: 194px;
 }
-.memos-photo>img {
-  min-height: 100%;
-  width: auto;
-  min-width: 100%;
-  cursor: pointer;
-  -o-object-fit: cover;
-  object-fit: cover;
-  height: auto;
-  animation: fadeIn 1s;
-  transition: all .4s ease-in-out;
+    .memos-photo>img {
+    min - height: 100%;
+    width: auto;
+    min-width: 100%;
+    cursor: pointer;
+    -o-object-fit: cover;
+    object-fit: cover;
+    height: auto;
+    animation: fadeIn 1s;
+    transition: all .4s ease-in-out;
 }
-.memos-photo span.photo-title,.memos-photo span.photo-time{background: rgba(0, 0, 0, 0.3);padding:0px 8px;font-size:0.9rem;color: #fff;display:none;animation: fadeIn 1s;}
-.memos-photo span.photo-title{position:absolute;bottom:4px;left:4px;}
-.memos-photo span.photo-time{position:absolute;top:4px;left:4px;font-size:0.8rem;}
-.memos-photo:hover span.photo-title,.memos-photo:hover span.photo-time{display:block !important;}
-@keyframes fadeIn{
-	0% {opacity: 0;}
-   100% {opacity: 1;}
+    .memos-photo span.photo-title,.memos-photo
+    span.photo-time{background: rgba(0, 0, 0, 0.3);padding:0px 8px;font-size:0.9rem;color: #fff;display:none;animation: fadeIn 1s;}
+    .memos-photo span.photo-title{position:absolute;bottom:4px;left:4px;}
+    .memos-photo span.photo-time{position:absolute;top:4px;left:4px;font-size:0.8rem;}
+    .memos-photo:hover span.photo-title,.memos-photo:hover span.photo-time{display:block !important;}
+    @keyframes fadeIn{
+    0 % {opacity: 0;}
+    100% {opacity: 1;}
 }
-@media screen and (min-width:480px) and (max-width: 899px) {
-  .memos-photo-wrapper{
+    @media screen and (min-width:480px) and (max-width: 899px) {
+    .memos-photo-wrapper{
     grid-template-columns: repeat(3,minmax(0,1fr));
-  }
-  .memos-photo{
-    height: 201px;
-  }
 }
-@media only screen and (max-width: 479px) {
-  .memos-photo-wrapper{
+    .memos-photo{
+    height: 201px;
+}
+}
+    @media only screen and (max-width: 479px) {
+    .memos-photo-wrapper{
     grid-template-columns: repeat(2,minmax(0,1fr));
-  }
-  .memos-photo{
+}
+    .memos-photo{
     height: 171px;
-  }
+}
 }
 </style>
