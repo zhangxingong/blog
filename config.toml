@@ -31,6 +31,7 @@ enableRobotsTXT = true ## 允许爬虫抓取到搜索引擎，建议 true
   localSearch = true # 启用本地搜索
   beian = "沪ICP备07029341号"
   fancybox = true
+  memosAuthorization = "eyJhbGciOiJIUzI1NiIsImtpZCI6InYxIiwidHlwIjoiSldUIn0.eyJuYW1lIjoiZXRoYW4iLCJpc3MiOiJtZW1vcyIsInN1YiI6Ijc5IiwiYXVkIjpbInVzZXIuYWNjZXNzLXRva2VuIl0sImlhdCI6MTY5OTg1MjUwN30.vKl9oRSZ0sC_La2_E3hRJFwkM3h6-OdNN8du7xWyhmA"
   cdnJsSite = "cdn.bootcdn.net" # 默认：cdnjs.cloudflare.com
   baiduAnalytics = "b4bf6ed501b47a5473e135e2b6e481f0"  # 百度统计
   # 这里我存放在了主题的static文件夹里，根目录的似乎也可以
