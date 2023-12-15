@@ -9,7 +9,7 @@ function memoGoods(numb){
   var memoUrl = "https://memos.nesxc.com/";
   var creatorId = 79;
   var goodsUrl = memoUrl+"api/v1/memo?creatorId="+creatorId+"&rowStatus=NORMAL&limit="+limit+"&tag=好物";
-  var authorization = 'Bearer ' + "eyJhbGciOiJIUzI1NiIsImtpZCI6InYxIiwidHlwIjoiSldUIn0.eyJuYW1lIjoiZXRoYW4iLCJpc3MiOiJtZW1vcyIsInN1YiI6Ijc5IiwiYXVkIjpbInVzZXIuYWNjZXNzLXRva2VuIl0sImlhdCI6MTY5OTg1MjUwN30.vKl9oRSZ0sC_La2_E3hRJFwkM3h6-OdNN8du7xWyhmA";	
+  var authorization = 'Bearer ' + {{ .Site.Params.memosAuthorization }};	
   
   //var goodsUrl = memoUrl+"api/memo/all?rowStatus=NORMAL&limit="+limit+"&tag=好物";
   let nowNum = 1;
