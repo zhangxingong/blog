@@ -101,6 +101,7 @@ function memoAlbum(numb){
       galleryDom.innerHTML = resultAll;
       //相对时间
       window.Lately && Lately.init({ target: '.photo-time'});
+      window.ViewImage && ViewImage.init('.memos-photo img');
   });
 }
 </script>
