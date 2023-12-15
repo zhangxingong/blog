@@ -457,6 +457,7 @@ template {
 .gallery-photo {
     width: 24%;
     position: relative;
+    visibility: hidden;
     overflow: hidden;
 }
 
