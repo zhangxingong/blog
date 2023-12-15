@@ -292,7 +292,7 @@ strong {
 
 <!-- custom js -->
 {{ range .Site.Params.customJS }}
-    <script src='{{ "/js/" | relURL }}{{ . }}'  async></script>
+    <script src='{{ "/js/" | relURL }}{{ . }}' ></script>
 {{ end }}
 
 <script>
