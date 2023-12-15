@@ -38,11 +38,19 @@ author = "zhangxingong"
 
 ```java
 if(StringUtils.hasSpecialChar(tempName,"[\'\"\\`]")){
-    ActionMessages errors = newActionMessages();
-    errors.add("wrongcourse", newActionMessage(
+    ActionMessages errors = new ActionMessages();
+    errors.add("wrongcourse", new ActionMessage(
     "coboHDMS.template.name.dangerous_code"));
     saveErrors(request,errors);
     return errors(mapping,form,request,response);
 }
 ```
 
+去除中英文标题符号
+
+```java
+
+ String title = " ` 这是一个标点符号, 我是结尾。 ";
+ String text = title.replaceAll("\\p{P}", "");
+        
+```
