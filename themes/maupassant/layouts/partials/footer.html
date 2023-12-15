@@ -331,6 +331,7 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     });
   }
+  window.ViewImage && ViewImage.init('.gallery-photo img');
 });
 </script>
 <script>
@@ -409,11 +410,8 @@ if(galleryPhotos){
     }
   });
 }
+window.ViewImage && ViewImage.init('.img-photo');
 });
-</script>
-
-<script>
-  window.ViewImage && ViewImage.init('.img-photo')
 </script>
 
 <!-- 烟花特效 -->
