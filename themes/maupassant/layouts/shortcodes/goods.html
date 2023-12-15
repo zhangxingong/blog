@@ -9,7 +9,7 @@ function memoGoods(numb){
   var memoUrl = "https://memos.nesxc.com/";
   var creatorId = 79;
   var goodsUrl = memoUrl+"api/v1/memo?creatorId="+creatorId+"&rowStatus=NORMAL&limit="+limit+"&tag=好物";
-  var authorization = 'Bearer ' + {{ .Site.Params.memosAuthorization }};	
+  var authorization = 'Bearer {{- .Site.Params.memosAuthorization -}}';	
   
   //var goodsUrl = memoUrl+"api/memo/all?rowStatus=NORMAL&limit="+limit+"&tag=好物";
   let nowNum = 1;
