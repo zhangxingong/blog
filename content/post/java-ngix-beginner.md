@@ -10,13 +10,6 @@ author = "zhangxingong"
 
 ## Nginx概述、命令、配置文件和具体应用
 
-![](https://csdnimg.cn/release/blogv2/dist/pc/img/original.png)
-
-[东离与糖宝](https://dongliyutangbao.blog.csdn.net/ "东离与糖宝") ![](https://csdnimg.cn/release/blogv2/dist/pc/img/newUpTime2.png) 已于 2023-12-08 10:18:24 修改
-
-于 2023-08-08 12:32:44 首次发布
-
-版权声明：本文为博主原创文章，遵循 [CC 4.0 BY-SA](http://creativecommons.org/licenses/by-sa/4.0/) 版权协议，转载请附上原文出处链接和本声明。
 
 #### 文章目录
 
