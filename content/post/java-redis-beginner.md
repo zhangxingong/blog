@@ -10,13 +10,6 @@ author = "zhangxingong"
 
 ## Redis数据类型与常用命令
 
-![](https://csdnimg.cn/release/blogv2/dist/pc/img/original.png)
-
-[东离与糖宝](https://dongliyutangbao.blog.csdn.net/ "东离与糖宝") ![](https://csdnimg.cn/release/blogv2/dist/pc/img/newUpTime2.png) 已于 2023-12-08 10:20:01 修改
-
-于 2023-07-18 16:13:57 首次发布
-
-版权声明：本文为博主原创文章，遵循 [CC 4.0 BY-SA](http://creativecommons.org/licenses/by-sa/4.0/) 版权协议，转载请附上原文出处链接和本声明。
 
 #### 文章目录
 
