@@ -9,7 +9,7 @@ on:
       - '**.md'
       - '**.org'  
       - '**.html'
-    #  - '**.toml'
+      - '**.toml'
     # paths-ignore:
     # - 'static/**'
 
