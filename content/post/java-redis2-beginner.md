@@ -135,11 +135,11 @@ public class JedisTest {
 
 **3. 启动redis服务（windows），连接客户端，测试获取 key username**
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/0bca4bc506cc4f988df683964a3da7c6.png)
+![在这里插入图片描述](/img/0bca4bc506cc4f988df683964a3da7c6.png)
 
 **4. 启动测试类，通过后再次获取key username**
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/955453012ffb4a86b75c470c82196fd4.png)
+![在这里插入图片描述](/img/955453012ffb4a86b75c470c82196fd4.png)
 
 ## 三、 使用 Spring Data Redis 操作 Redis
 
@@ -205,7 +205,7 @@ spring:
 
 **3. 了解如何修改默认数据库数量（16）配置**
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/4ab10e3938f148279006ec1d9986b1a6.png)
+![在这里插入图片描述](/img/4ab10e3938f148279006ec1d9986b1a6.png)
 
 **4. 编写测试方法**
 
@@ -231,7 +231,7 @@ public class SpringDataRedisTest {
 
 **5. 运行并访问设置的 key 值**
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/9ca9f12a44aa4c76bc3cd41180294f25.png)
+![在这里插入图片描述](/img/9ca9f12a44aa4c76bc3cd41180294f25.png)
 
 **6. 设置配置类配置Redis序列化方式**
 
@@ -264,7 +264,7 @@ public class RedisConfig extends CachingConfigurerSupport {
 
 **7. 修改添加的 key 为 city123，再次运行测试类并访问新设置的 key**
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/4ff8d23c77d248839bfc88ca5d634d83.png)
+![在这里插入图片描述](/img/4ff8d23c77d248839bfc88ca5d634d83.png)
 
 **8. 其他测试**
 
@@ -345,7 +345,7 @@ public class SpringDataRedisTest {
 
 **2. 运行测试类，观察结果**
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/260db94d7a7a47e897d061217cdd0467.png)
+![在这里插入图片描述](/img/260db94d7a7a47e897d061217cdd0467.png)
 
 ### 5. Spring Data Redis 操作 Redis list 类型示例（ListOperations ---- 针对list类型的数据操作）
 
@@ -390,7 +390,7 @@ public class SpringDataRedisTest {
 
 **2. 运行测试方法，观察结果**
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/6bea4af8568746868f0b7585c6e9f16d.png)
+![在这里插入图片描述](/img/6bea4af8568746868f0b7585c6e9f16d.png)
 
 ### 6. Spring Data Redis 操作 Redis set 类型示例（ SetOperations ---- set类型数据操作）
 
@@ -425,7 +425,7 @@ public class SpringDataRedisTest {
         //取值
         myset = setOperations.members("myset");
         for (String o : myset) {
-           ![在这里插入图片描述](https://img-blog.csdnimg.cn/498ec17ed8744d25a0cd5ee96fc20b73.png)
+           ![在这里插入图片描述](/img/498ec17ed8744d25a0cd5ee96fc20b73.png)
  System.out.println(o);
         }
 
@@ -435,7 +435,7 @@ public class SpringDataRedisTest {
 
 **2. 运行测试方法，观察结果**
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/b20d9a0bcb934529bbe6cbf66d82798a.png)
+![在这里插入图片描述](/img/b20d9a0bcb934529bbe6cbf66d82798a.png)
 
 ### 7. Spring Data Redis 操作 Redis Zset 类型示例（ZSetOperations ---- zset类型数据操作）
 
@@ -490,7 +490,7 @@ public class SpringDataRedisTest {
 
 **2. 运行测试方法，观察结果**
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/9a36e80ea5174efe9bb4f52d88521d31.png)
+![在这里插入图片描述](/img/9a36e80ea5174efe9bb4f52d88521d31.png)
 
 ### 8. Spring Data Redis 操作 Redis 通用操作
 
@@ -531,7 +531,7 @@ public class SpringDataRedisTest {
 
 **2. 运行测试方法，观察结果**
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/340db4f87f3743bbb9ab1d8b7ecd7cf1.png)
+![在这里插入图片描述](/img/340db4f87f3743bbb9ab1d8b7ecd7cf1.png)
 
 ## 总结
 
