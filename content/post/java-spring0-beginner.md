@@ -70,7 +70,7 @@ author = "zhangxingong"
 
 **1. 依赖注入 – **setter注入引用类型**的步骤方法（DI入门案例所用的就是setter注入引用类型）**
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/2dfd3012d2d34adfba31d9a10b0be55c.png#pic_center)`（代码见DI入门案例）`
+![在这里插入图片描述](/img/2dfd3012d2d34adfba31d9a10b0be55c.png#pic_center)`（代码见DI入门案例）`
 
 **2. 探讨引用多个引用对象（在DI入门的代码基础上编码）**
 
@@ -126,16 +126,16 @@ public class BookServiceImpl implements BookService{
 
 +   在核心配置类applicationContext中配置userDAO的bean,并将其注入到BookService中
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/5c39bc3880b94874a80ded1873196834.png#pic_center)
+![在这里插入图片描述](/img/5c39bc3880b94874a80ded1873196834.png#pic_center)
 
 +   执行模拟测试类App2
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/b5f922cd30da479db19b76ff16573334.png#pic_center)  
+![在这里插入图片描述](/img/b5f922cd30da479db19b76ff16573334.png#pic_center)  
 （从运行结果中可以看到多个引用类型是可以用setter注入的）
 
 **3. 依赖注入 – **setter注入普通类型**的步骤方法**
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/3dac5107bd094ef8a99841d1567610fc.png#pic_center)
+![在这里插入图片描述](/img/3dac5107bd094ef8a99841d1567610fc.png#pic_center)
 
 **4. 在BookDaoImpl中提供两个变量，并提供对应的setter方法（以BookDaoImpl为例）**
 
@@ -162,11 +162,11 @@ public class BookDaoImpl implements BookDao {
 
 +   在核心配置类applicationContext.xml文件中配置中注入普通变量
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/462fbe69818a4dfe801b661d31f8f604.png#pic_center)
+![在这里插入图片描述](/img/462fbe69818a4dfe801b661d31f8f604.png#pic_center)
 
 +   模拟测试类App2类的运行结果
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/fec9e6d1def3454bb304ec7de0ad8ae2.png#pic_center)
+![在这里插入图片描述](/img/fec9e6d1def3454bb304ec7de0ad8ae2.png#pic_center)
 
 ### 3. 构造器注入
 
@@ -174,7 +174,7 @@ public class BookDaoImpl implements BookDao {
 
 **1 . 依赖注入 – **构造器注入引用类型**的步骤方法**
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/1434d2d21666406192dbdb8f4c699fa5.png#pic_center)
+![在这里插入图片描述](/img/1434d2d21666406192dbdb8f4c699fa5.png#pic_center)
 
 **2. 在BookService类中提供构造方法**
 
@@ -216,11 +216,11 @@ public class BookServiceImpl implements BookService {
 
 **4. 模拟测试类App2运行结果（同理，构造器注入可以注入多个引用类型，此处省略相关代码）**
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/600965ba4c134040b7517850aea0924c.png#pic_center)
+![在这里插入图片描述](/img/600965ba4c134040b7517850aea0924c.png#pic_center)
 
 **5. 依赖注入 – **构造器注入普通类型**的步骤和方法**
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/b5b7fe8746cf4a89b667041cbc547610.png#pic_center)
+![在这里插入图片描述](/img/b5b7fe8746cf4a89b667041cbc547610.png#pic_center)
 
 **6. 在BookDao中定义两个变量，并编写对应的构造器方法**
 
@@ -245,23 +245,23 @@ public class BookDaoImpl implements BookDao {
 
 +   方式一：根据构造方法参数名称注入
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/dc6070f115854ecc8bd425eb8de3df94.png#pic_center)
+![在这里插入图片描述](/img/dc6070f115854ecc8bd425eb8de3df94.png#pic_center)
 
 +   方式二：根据构造方法参数类型注入
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/ede11775ee7d4c0298581f8610c74ee2.png#pic_center)
+![在这里插入图片描述](/img/ede11775ee7d4c0298581f8610c74ee2.png#pic_center)
 
 +   方式三：根据构造方法参数位置注入
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/ab051332a8c1406ea0c4b64b7b284f52.png#pic_center)
+![在这里插入图片描述](/img/ab051332a8c1406ea0c4b64b7b284f52.png#pic_center)
 
 **8. 模拟测试类App2运行结果**
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/b1dec1219d7d452685fef530532108b3.png#pic_center)
+![在这里插入图片描述](/img/b1dec1219d7d452685fef530532108b3.png#pic_center)
 
 8.  依赖注入的选择
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/fce7bd06aa8845d3a3c51181b682c83e.png#pic_center)
+![在这里插入图片描述](/img/fce7bd06aa8845d3a3c51181b682c83e.png#pic_center)
 
 ### 4. 自动装配
 
@@ -284,31 +284,31 @@ public class BookDaoImpl implements BookDao {
 
 **2. 在入门案例的基础上编码（详情见个人主页spring代码资源respr\_autowire模块）**
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/081b759be96746a0be402923c5a8b5ce.png#pic_center)
+![在这里插入图片描述](/img/081b759be96746a0be402923c5a8b5ce.png#pic_center)
 
 **3. 自动装配**
 
 +   手动配置
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/427a59716fee4b9499a9050ddfc1eef8.png#pic_center)
+![在这里插入图片描述](/img/427a59716fee4b9499a9050ddfc1eef8.png#pic_center)
 
 +   按类型自动装配（byType）
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/fac4b15e8c6e46b4b81de1215969afbf.png#pic_center)
+![在这里插入图片描述](/img/fac4b15e8c6e46b4b81de1215969afbf.png#pic_center)
 
 `需要提供setter方法，ioc通过setter入口给bean`
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/36371e65c2f74ec890c61fdd35b58bab.png#pic_center)
+![在这里插入图片描述](/img/36371e65c2f74ec890c61fdd35b58bab.png#pic_center)
 
 +   按名称装配
 
 `要确保BookDao装配bean的id与BookService中的其中一个属性名对应上`
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/15df24fefbd8448082b4092f2ee12c86.png#pic_center)
+![在这里插入图片描述](/img/15df24fefbd8448082b4092f2ee12c86.png#pic_center)
 
 +   依赖自动装配特征
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/4d1b9cf7ecc84a8e84e507f815314260.png#pic_center)
+![在这里插入图片描述](/img/4d1b9cf7ecc84a8e84e507f815314260.png#pic_center)
 
 +   集合注入（比较少用）（数组，List，Set，Map，properties）
     
@@ -438,7 +438,7 @@ public class BookDaoImpl2 implements BookDao2 {
 
 +   模拟测试类编写及运行结果
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/5f9cb9f824fa4d1498b50862583d5973.png#pic_center)
+![在这里插入图片描述](/img/5f9cb9f824fa4d1498b50862583d5973.png#pic_center)
 
 ## 总结
 
