@@ -317,7 +317,7 @@ Key Mapping, Important, Help, File, Cursor,  Cut/Del/Copy/Paste, Buffer, Win
 
 附图如下：
 
-![](https://img-blog.csdnimg.cn/img_convert/560d670f5f9a8d353c4b79cc58c9b80e.png)
+![](/img/img_convert/560d670f5f9a8d353c4b79cc58c9b80e.png)
 
 不知道谁能告诉我，博客园可以上传附件吗？
 
