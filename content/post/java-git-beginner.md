@@ -71,15 +71,15 @@ author = "zhangxingong"
 > 2.  push: 推送,将本地仓库文件和版本信息上传到远程仓库
 > 3.  pull:拉取,将远程仓库文件和版本信息下载到本地仓库>
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/2075db24c4874353aba8bd0f03a47158.png)
+![在这里插入图片描述](/img/2075db24c4874353aba8bd0f03a47158.png)
 
 ## 二、Git下载安装
 
 `一直点下一步就行`
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/7905947867cf4c83a4227b0f0f7cc1d6.png)
+![在这里插入图片描述](/img/7905947867cf4c83a4227b0f0f7cc1d6.png)
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/7a7618cd76a44e56923a83baab880f2b.png)
+![在这里插入图片描述](/img/7a7618cd76a44e56923a83baab880f2b.png)
 
 > 1.  Git GUl Here:打开Git 图形界面
 > 2.  Git Bash Here:打开Git 命令行
@@ -107,15 +107,15 @@ author = "zhangxingong"
 
 **2. 注册码云账号**
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/3585f50e21a24bc7b8eb0c2de3888368.png)
+![在这里插入图片描述](/img/3585f50e21a24bc7b8eb0c2de3888368.png)
 
 **3. 使用码云代码托管服务-创建远程仓库**
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/8fe1088db9214c0197a08f6836000f8c.png)
+![在这里插入图片描述](/img/8fe1088db9214c0197a08f6836000f8c.png)
 
 **4. 创建完成后可以查看仓库信息**
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/9bc0111b3e664f8898ff74611902ab11.png)
+![在这里插入图片描述](/img/9bc0111b3e664f8898ff74611902ab11.png)
 
 `注意:每个Git远程仓库都会对应一个网络地址，点击[克隆/下载] 按钮，在弹出窗口点击复制]按钮获得网络地址`
 
@@ -123,7 +123,7 @@ author = "zhangxingong"
 
 前面已经在码云上创建了自己的远程仓库，目前仓库成员只有自己一个人(身份为管理员)。在企业实际开发中，一个项目往往是由多个人共同开发完成的，为了使多个参与者都有权限操作远程仓库，就需要邀请其他项目参与者成为当前仓库的成员
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/5347daae2c224f689a9ec38850815476.png)
+![在这里插入图片描述](/img/5347daae2c224f689a9ec38850815476.png)
 
 ## 四、Git 常用命令
 
@@ -140,7 +140,7 @@ author = "zhangxingong"
 
 `注意:上面设置的user.name和user.email并不是我们在注册码云账号时使用的用户名和邮箱，此处可以任意设置`
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/a0bbb04cc0164e239ce38e9c3df159bb.png)
+![在这里插入图片描述](/img/a0bbb04cc0164e239ce38e9c3df159bb.png)
 
 ### 2.获取Git 仓库
 
@@ -156,7 +156,7 @@ author = "zhangxingong"
 > 2.  进入这个目录中，点击右键打开Git bash窗口
 > 3.  执行命令git init
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/03d66458d995450d8f7cbb41523e4eb0.png)
+![在这里插入图片描述](/img/03d66458d995450d8f7cbb41523e4eb0.png)
 
 `注:如果在当前目录中看到.git文件夹 (此文件夹为隐藏文件夹)则说明Git仓库创建成功`
 
@@ -166,7 +166,7 @@ author = "zhangxingong"
 
 > 命令形式: git clone\[远程Git仓库地址\]
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/efa09dc47b964ed1babb8fab0e6810d8.png)
+![在这里插入图片描述](/img/efa09dc47b964ed1babb8fab0e6810d8.png)
 
 ### 3.工作区、暂存区、版本库 概念
 
@@ -174,7 +174,7 @@ author = "zhangxingong"
 > 2.  工作区: 包含.git文件夹的目录就是工作区，也称为工作目录，主要用于存放开发的代码
 > 3.  暂存区: .git文件夹中有很多文件，其中有一个index文件就是暂存区，也可以叫做stage。暂存区是一个临时保存修改文件的地方
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/517baaf39bc841d799f9546c9d8d5603.png#pic_center)
+![在这里插入图片描述](/img/517baaf39bc841d799f9546c9d8d5603.png#pic_center)
 
 ### 4.Git 工作区中文件的两种状态
 
@@ -187,7 +187,7 @@ author = "zhangxingong"
 
 `注意: 这些文件的状态会随着我们执行Git的命令发生变化`
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/15364cbd405a40eb99b325614de8cc7d.png)
+![在这里插入图片描述](/img/15364cbd405a40eb99b325614de8cc7d.png)
 
 ### 5.本地仓库常用命令
 
@@ -250,7 +250,7 @@ author = "zhangxingong"
 
 +   在IDEA中使用Git，本质上还是使用的本地安装的Git软件，所以需要在IDEA中配置Git
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/3a9748f184ae461d9755d204b2b28ea2.png)
+![在这里插入图片描述](/img/3a9748f184ae461d9755d204b2b28ea2.png)
 
 ### 2.获取Git仓库
 
@@ -258,65 +258,65 @@ author = "zhangxingong"
 
 +   本地初始化仓库
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/0844d7bb882f452f94d7ea719434ce86.png)
+![在这里插入图片描述](/img/0844d7bb882f452f94d7ea719434ce86.png)
 
 +   从远程仓库克隆
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/509947d01c0d45a4918228f6ccdce979.png)
+![在这里插入图片描述](/img/509947d01c0d45a4918228f6ccdce979.png)
 
 ### 3.本地仓库操作
 
 **1. 将文件加入暂存区**
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/edb4103afcef447bbb3e32c43cac5938.png#pic_center)
+![在这里插入图片描述](/img/edb4103afcef447bbb3e32c43cac5938.png#pic_center)
 
 **2. 将暂存区的文件提交到版本库**
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/58a944a15a454012b176ad04a3497197.png)
+![在这里插入图片描述](/img/58a944a15a454012b176ad04a3497197.png)
 
 **3. 查看日志**
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/44b68f0d16e24bb5b5b0256ddf5d0c32.png)
+![在这里插入图片描述](/img/44b68f0d16e24bb5b5b0256ddf5d0c32.png)
 
 ### 4.远程仓库操作
 
 **1. 查看远程仓库**
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/6b500f0a0b5d4735a7fb29bf3a8716ed.png)
+![在这里插入图片描述](/img/6b500f0a0b5d4735a7fb29bf3a8716ed.png)
 
 **2. 添加远程仓库(关联关系)**
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/caba532d61c04793ba50957bace9fe3e.png)
+![在这里插入图片描述](/img/caba532d61c04793ba50957bace9fe3e.png)
 
 **3. 推送至远程仓库**
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/9e5dcf2437304a408870a866657ad4a8.png)
+![在这里插入图片描述](/img/9e5dcf2437304a408870a866657ad4a8.png)
 
 **4. 从远程仓库拉取**
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/2600faa6075f4d029146943780c768ea.png)
+![在这里插入图片描述](/img/2600faa6075f4d029146943780c768ea.png)
 
 ### 5.分支操作
 
 **1. 查看分支**
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/aeaa6fa0394143d4814fad796345033d.png)
+![在这里插入图片描述](/img/aeaa6fa0394143d4814fad796345033d.png)
 
 **2. 创建分支**
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/07f5a02b7fa348fba622a718544e69e8.png)
+![在这里插入图片描述](/img/07f5a02b7fa348fba622a718544e69e8.png)
 
 **3. 切换分支**
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/67254cb5cc824774b57483df8361b446.png)
+![在这里插入图片描述](/img/67254cb5cc824774b57483df8361b446.png)
 
 **4. 将分支推送到远程仓库**
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/4ae8f71fdf964b34858a9d9b9504d6b2.png)
+![在这里插入图片描述](/img/4ae8f71fdf964b34858a9d9b9504d6b2.png)
 
 **5. 合并分支**
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/36a3e9697bbe436785f89396b631634a.png)
+![在这里插入图片描述](/img/36a3e9697bbe436785f89396b631634a.png)
 
 欢迎各位留言交流以及批评指正，如果文章对您有帮助或者觉得作者写的还不错可以点一下关注，点赞，收藏支持一下。  
 
