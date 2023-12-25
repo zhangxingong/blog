@@ -54,29 +54,29 @@ author = "zhangxingong"
 
 > 1.  安装依赖包 yum -y install gcc pcre-devel zlib-devel openssl openssl-devel
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/35ee4d5f0a51464faf94aee3ad870955.png)
+![在这里插入图片描述](/img/35ee4d5f0a51464faf94aee3ad870955.png)
 
 > 2.  下载Nginx安装包wget https://nginx.org/download/nginx-1.16.1.tar.gz
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/33adfad9dd014c8585924816378bf72b.png)
+![在这里插入图片描述](/img/33adfad9dd014c8585924816378bf72b.png)
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/8c423d856b6b4f2c9ec01ae8c86094b9.png)
+![在这里插入图片描述](/img/8c423d856b6b4f2c9ec01ae8c86094b9.png)
 
 > 3.  解压 tar -zxvf nginx-1.16.1.tar.gz
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/5ba61e53ac094589ba04e098e207907c.png)
+![在这里插入图片描述](/img/5ba61e53ac094589ba04e098e207907c.png)
 
 > 4.  cd nginx-1.16.1
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/0cbe51d1386044c8bd00e96a13664211.png)
+![在这里插入图片描述](/img/0cbe51d1386044c8bd00e96a13664211.png)
 
 > 5.  ./configure --prefix=/usr/local/nginx
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/b17259397df542beae06e6f7e8a9f865.png)
+![在这里插入图片描述](/img/b17259397df542beae06e6f7e8a9f865.png)
 
 > 6.  make && make install
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/be97353c08634003a54fc06fe844748d.png)
+![在这里插入图片描述](/img/be97353c08634003a54fc06fe844748d.png)
 
 ### 3. Nginx目录结构
 
@@ -87,7 +87,7 @@ author = "zhangxingong"
 > 3.  logs ---- 日志目录，存放日志文件
 > 4.  sbin/nginx ---- 二进制文件，用于启动、停止Nginx服务
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/8fa4cf261a2d4a7f8ad66d9a783cea95.png)
+![在这里插入图片描述](/img/8fa4cf261a2d4a7f8ad66d9a783cea95.png)
 
 ## 二、Nginx命令
 
@@ -97,13 +97,13 @@ author = "zhangxingong"
 
 > ./nginx -V
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/1a439814daf14e6ea6155664d257b1a3.png)
+![在这里插入图片描述](/img/1a439814daf14e6ea6155664d257b1a3.png)
 
 ### 2. 检查配置文件正确性
 
 > ./nginx -t ---- 在启动Nqinx服务之前，可以先检查一下conf/nginx.conf文件配置的是否有错误，命令如下:
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/ea9c1ad622fe41b68d8c0733d893921c.png)
+![在这里插入图片描述](/img/ea9c1ad622fe41b68d8c0733d893921c.png)
 
 ### 3. 启动和停止
 
@@ -119,13 +119,13 @@ author = "zhangxingong"
 
 > ps -ef | grep nginx
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/e570b9c3de70401da80ff1148a5e714b.png)
+![在这里插入图片描述](/img/e570b9c3de70401da80ff1148a5e714b.png)
 
 ### 4. 重新加载配置文件
 
 > ./nginx -s reload
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/9e691c072f9e4993a340fef4f9118d02.png)
+![在这里插入图片描述](/img/9e691c072f9e4993a340fef4f9118d02.png)
 
 ## 三、Nginx配置文件结构
 
@@ -140,7 +140,7 @@ Nginx配置文件(conf/nginx.conf)整体分为三部分
 >     \---- location块
 > 4.  注意: http块中可以配置多个Server块，每个Server块中可以配置多个location块。
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/443b94beb9514abcbe52dae96c0fcc8f.png)
+![在这里插入图片描述](/img/443b94beb9514abcbe52dae96c0fcc8f.png)
 
 ## 四、Nginx具体应用
 
@@ -153,8 +153,8 @@ Nginx配置文件(conf/nginx.conf)整体分为三部分
 
 **2. 示例**
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/a9a61e567c134869827454719a25363d.png)  
-![在这里插入图片描述](https://img-blog.csdnimg.cn/a8d85fc8fe5d417892051a8a4b9f92b1.png)
+![在这里插入图片描述](/img/a9a61e567c134869827454719a25363d.png)  
+![在这里插入图片描述](/img/a8d85fc8fe5d417892051a8a4b9f92b1.png)
 
 ### 2. 反向代理
 
@@ -169,13 +169,13 @@ Nginx配置文件(conf/nginx.conf)整体分为三部分
 > 1.  反向代理服务器位于用户与目标服务器之间，但是对于用户而言，反向代理服务器就相当于目标服务器，即用户直按访问反向代理服务器就可以获得目标服务器的资源，反向代理服务器负责将请求转发给目标服务器。
 > 2.  用户不需要知道目标服务器的地址，也无须在用户端作任何设定。
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/ea86234e152a4b61be75f961f2d78474.png)
+![在这里插入图片描述](/img/ea86234e152a4b61be75f961f2d78474.png)
 
 **3. 配置反向代理示例**
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/d7dc76ea0c4247bea46885de306e6e13.png)
+![在这里插入图片描述](/img/d7dc76ea0c4247bea46885de306e6e13.png)
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/911d19384c324f91bae876482f14b426.png)
+![在这里插入图片描述](/img/911d19384c324f91bae876482f14b426.png)
 
 ### 3. 负载均衡
 
@@ -185,12 +185,12 @@ Nginx配置文件(conf/nginx.conf)整体分为三部分
 > 2.  应用集群:将同一应用部署到多台机器上，组成应用集群，接收负载均衡器分发的请求，进行业务处理并返回响应数据
 > 3.  负载均衡器:将用户请求根据对应的负载均衡算法分发到应用集群中的一台服务器进行处理
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/c55182f5e34d419ca3834a720a053179.png)
+![在这里插入图片描述](/img/c55182f5e34d419ca3834a720a053179.png)
 
 **2. 负载均衡配置示例**
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/3fedee228d7d4ebf81f26dd9674a84d1.png)  
-![在这里插入图片描述](https://img-blog.csdnimg.cn/dbb78409b9ae4a4e8ed5dcef2cb46981.png)
+![在这里插入图片描述](/img/3fedee228d7d4ebf81f26dd9674a84d1.png)  
+![在这里插入图片描述](/img/dbb78409b9ae4a4e8ed5dcef2cb46981.png)
 
 **3. 负载均衡的策略**
 
