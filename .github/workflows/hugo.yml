@@ -6,7 +6,7 @@ on:
   push:
     branches: ["main"]
     paths:
-      - '**.md'
+      - '**.m2d'
       - '**.org'  
       - '**.html'
     #  - '**.toml'
