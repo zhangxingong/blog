@@ -87,76 +87,76 @@ author = "zhangxingong"
 
 > Redis的windows版属于绿色软件，直接解压即可使用，解压后目录结构如下
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/c484e296108d466482fa7365733bb120.png)
+![在这里插入图片描述](/img/c484e296108d466482fa7365733bb120.png)
 
 **2. 双击 redis-server.exe，启动redis**
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/161b6cda24df40da8cb16abe8edc8a50.png)
+![在这里插入图片描述](/img/161b6cda24df40da8cb16abe8edc8a50.png)
 
 ### 3. 在Linux系统安装Redis
 
 **1. 将 Redis 安装包上传到 Linux**
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/769caa7ae105419f975449ba84af2e4c.png)
+![在这里插入图片描述](/img/769caa7ae105419f975449ba84af2e4c.png)
 
 **2. 解压安装包，命令:tar -zxvf redis-4.0.0.tar.gz -C /usr/local**
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/115067c7c84a47d69ad27d7cb60bd82d.png)
+![在这里插入图片描述](/img/115067c7c84a47d69ad27d7cb60bd82d.png)
 
 **3. 安装Redis的依赖环境gcc，命令: yum install gcc-c++**
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/58fdffe0c194499dbe3faf5272bd4550.png)
+![在这里插入图片描述](/img/58fdffe0c194499dbe3faf5272bd4550.png)
 
 **4. 进入 /usr/local/redis-4.0.0，进行编译，命令: make**
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/44f1db69169a44c886c1647c59632862.png)
+![在这里插入图片描述](/img/44f1db69169a44c886c1647c59632862.png)
 
 **5. 进入 redis 的 src 目录，进行安装，命令：make install**
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/110c051efbeb48f0be9471f44fce8c97.png)
+![在这里插入图片描述](/img/110c051efbeb48f0be9471f44fce8c97.png)
 
 **6. 启动 Redis 服务**
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/a674289fe0e64f7b97f66a2a1c3b3085.png)
+![在这里插入图片描述](/img/a674289fe0e64f7b97f66a2a1c3b3085.png)
 
 **7. 连接Redis服务**
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/3955c843b5b34ff2a127b059ec4b0789.png)
+![在这里插入图片描述](/img/3955c843b5b34ff2a127b059ec4b0789.png)
 
 **8. Redis服务优化**
 
 +   ctrl + c 关闭服务
 +   修改 Redis 的配置文件
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/3d4a3b6a0b1c4912a49ff26520a2a12a.png)
+![在这里插入图片描述](/img/3d4a3b6a0b1c4912a49ff26520a2a12a.png)
 
 **9. 重启Redis服务**
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/5d8bc6b0a89549e28c677a37b1188fd2.png)
+![在这里插入图片描述](/img/5d8bc6b0a89549e28c677a37b1188fd2.png)
 
 **10. 开启 redis 密码校验并在 redis.conf 配置文件中修改默认密码**
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/17bdf71641b943d7a8eabaa4087c0b64.png)
+![在这里插入图片描述](/img/17bdf71641b943d7a8eabaa4087c0b64.png)
 
 **11. 关闭 redis 进程，再次重启 redis 服务，使用密码登录**
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/5a7952c71a124782848bafcbdcbad482.png)
+![在这里插入图片描述](/img/5a7952c71a124782848bafcbdcbad482.png)
 
 **12. 安装好 windows 端的 redis 后，在 windows 远程连接 linux 端的redis 服务**
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/62338fe497664e29875ad920c1c74494.png)
+![在这里插入图片描述](/img/62338fe497664e29875ad920c1c74494.png)
 
 **13. 修改 redis 的配置文件 redis.conf**
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/8529255a2b0f47249a06bc505a94b65f.png)
+![在这里插入图片描述](/img/8529255a2b0f47249a06bc505a94b65f.png)
 
 **14. 重启 redis 服务**
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/cc74841dffd24c539447c39c60809808.png)
+![在这里插入图片描述](/img/cc74841dffd24c539447c39c60809808.png)
 
 **15. 再次尝试windows 远程连接 linux 端的redis 服务**
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/58fd535c49b449598c1a50e3d5d46720.png)
+![在这里插入图片描述](/img/58fd535c49b449598c1a50e3d5d46720.png)
 
 ## 总结
 
