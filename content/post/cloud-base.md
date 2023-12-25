@@ -94,7 +94,7 @@ CI/CD流水线是一种自动化的开发流程，包括持续集成和持续部
 
 ### 好书推荐
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/direct/ddefe34ebbbf49ba9271e86a5b894a1c.jpeg)    
+![在这里插入图片描述](/img/ddefe34ebbbf49ba9271e86a5b894a1c.jpeg)    
 
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/direct/0ec68b1c76a14d7c9b9523f801e76a06.png)
+![在这里插入图片描述](/img/0ec68b1c76a14d7c9b9523f801e76a06.png)
