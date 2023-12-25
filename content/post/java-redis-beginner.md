@@ -52,7 +52,7 @@ author = "zhangxingong"
 
 ### 2. Redis数据类型特点
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/ffb715858030425aa89c465af16a4d9a.png)
+![在这里插入图片描述](/img/ffb715858030425aa89c465af16a4d9a.png)
 
 ## 二、Redis常用命令
 
@@ -70,9 +70,9 @@ author = "zhangxingong"
 **2. 示例**
 
 +   启动 windows 客户端 redis 服务  
-    ![在这里插入图片描述](https://img-blog.csdnimg.cn/b0a281bafcac4bb29f1446dbbad47494.png)
+    ![在这里插入图片描述](/img/b0a281bafcac4bb29f1446dbbad47494.png)
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/70495605077e4a919d4393a31f82c3a8.png)
+![在这里插入图片描述](/img/70495605077e4a919d4393a31f82c3a8.png)
 
 `更多命令可以参考Redis中文网: https://www.redis.net.cn`
 
@@ -89,11 +89,11 @@ author = "zhangxingong"
 | **HVALS** key | 获取哈希表中所有值 |
 | **HGETALL** key | 获取在哈希表中指定 key 的所有字段和值 |
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/7b3239e95a3440ec963b1b12e971d1d2.png)
+![在这里插入图片描述](/img/7b3239e95a3440ec963b1b12e971d1d2.png)
 
 **2. 示例**
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/d8decbb76b92463fb68a0ddf8a081b1b.png)
+![在这里插入图片描述](/img/d8decbb76b92463fb68a0ddf8a081b1b.png)
 
 ### 3. 列表list 操作命令
 
@@ -107,11 +107,11 @@ author = "zhangxingong"
 | **LLEN** key | 获取列表长度 |
 | **BRPoP** key1 \[key2\] timeout | 移出并获取列表的最后一个元素，如果列表没有元素会阻塞列表直到等待超时或发现可弹出元素为止 |
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/d4b8b1fad9c649c1ab1bea8551246cf8.png)
+![在这里插入图片描述](/img/d4b8b1fad9c649c1ab1bea8551246cf8.png)
 
 **2. 示例**
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/0c5084e3b2544077bddd97647368b055.png)
+![在这里插入图片描述](/img/0c5084e3b2544077bddd97647368b055.png)
 
 ### 4. 集合set操作命令
 
@@ -127,11 +127,11 @@ author = "zhangxingong"
 | **SDIFF** key1 \[key2\] | 返回给定所有集合的差集 |
 | **SREM** key member1 \[member2\] | 移除集合中一个或多个成员 |
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/b709710719104f1e81995417b06e0dd2.png)
+![在这里插入图片描述](/img/b709710719104f1e81995417b06e0dd2.png)
 
 **2. 示例**
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/cde28bb841184026979ce905d49fe28d.png)
+![在这里插入图片描述](/img/cde28bb841184026979ce905d49fe28d.png)
 
 ### 5. 有序集合 sorted set 操作命令
 
@@ -146,7 +146,7 @@ author = "zhangxingong"
 
 **2. 举例**
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/6fb2689c994d47e98863835f5e754aa6.png)
+![在这里插入图片描述](/img/6fb2689c994d47e98863835f5e754aa6.png)
 
 ### 6. 通用命令
 
@@ -162,7 +162,7 @@ author = "zhangxingong"
 
 **2. 举例**
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/2c46930f781e44539a63cf7df4c8579e.png)
+![在这里插入图片描述](/img/2c46930f781e44539a63cf7df4c8579e.png)
 
 ## 总结
 
