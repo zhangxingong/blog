@@ -182,7 +182,7 @@ list = json.loads(res.text)
         print(i.get('edition'))
 ```
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/d8cba348802248348fc2bde461412ed8.png)
+![在这里插入图片描述](/img/d8cba348802248348fc2bde461412ed8.png)
 
 ### 4\. 如何添加常用的header
 
@@ -382,7 +382,7 @@ print(decoded_text)
 +   请求参数（post请求是隐含参数，浏览器发送的是post请求）
 +   请求头
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/1c8a566ddd76426392bb4503d0fae7d5.png)
+![在这里插入图片描述](/img/1c8a566ddd76426392bb4503d0fae7d5.png)
 
 +   请求类型
 
