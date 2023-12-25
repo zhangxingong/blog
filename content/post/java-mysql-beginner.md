@@ -482,7 +482,7 @@ SELECT users.name, orders.order_id FROM users JOIN orders ON users.id = orders.u
 
 **9. DQL执行顺序**
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/6051a2b6e79b40e4b7a58ffd8e91e4cd.png)
+![在这里插入图片描述](/img/6051a2b6e79b40e4b7a58ffd8e91e4cd.png)
 
 * * *
 
