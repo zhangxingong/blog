@@ -25,7 +25,7 @@ author = "zhangxingong"
 
 摘要：互联网的每一个角落，无论是大型电商平台的秒杀活动，社交平台的实时消息推送，还是在线视频平台的流量洪峰，背后都离不开多线程技术的支持。在数字化转型的过程中，高并发、高性能是衡量系统性能的核心指标，越来越多的公司对从业人员的多线程编程能力提出了更高的要求。
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/direct/796b17d03f1844299f91c1bf143be5dc.png#pic_center)
+![在这里插入图片描述](/img/direct/796b17d03f1844299f91c1bf143be5dc.png#pic_center)
 
 《一本书讲透Java线程：原理与实践》一书深入介绍了Java线程的并发控制实现，在描述其原理的同时，详细解读了它们在真实业务场景下的应用。例如，如何利用synchronized和CAS来解决并发冲突，如何使用Java线程池技术来优化高并发应用的性能，以及如何通过线程安全的容器来保证数据的一致性等，带领你应对日益复杂的互联网挑战。
 
@@ -67,6 +67,6 @@ Java工程师必须掌握多线程技术，因为多线程是Java中最重要且
 
 > 正版购买链接：https://u.jd.com/AsiGIuI
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/direct/df09f9ec3b6b450e93730d295400a8af.jpeg#pic_center)
+![在这里插入图片描述](/img/direct/df09f9ec3b6b450e93730d295400a8af.jpeg#pic_center)
 
 
