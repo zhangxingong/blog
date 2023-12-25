@@ -155,7 +155,7 @@ enableRobotsTXT = true ## 允许爬虫抓取到搜索引擎，建议 true
   
 
 [params.image_cdn]
-    enable = true
+    enable = false
     Host = "https://gcore.jsdelivr.net/gh/zhangxingong/blog/static"
     ## "https://cdn.jsdelivr.net/gh/zhangxingong/zhangxingong.github.io"
 
