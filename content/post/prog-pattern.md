@@ -14,11 +14,11 @@ author = "zhangxingong"
 
 与成百种编程语言(Programming Language)相比，编程范式(Programming Paradigm、范式)要少得多。
 
-![](https://img-blog.csdnimg.cn/img_convert/8a07df079de0bc20d1e9c85e28a15eb3.png)
+![](/img/img_convert/8a07df079de0bc20d1e9c85e28a15eb3.png)
 
 如图所示，共有27种范式。多数范式之间仅相差一个或几个概念。
 
-![](https://img-blog.csdnimg.cn/img_convert/2d932a636423a63bdb99ebf2cf2108a7.png)
+![](/img/img_convert/2d932a636423a63bdb99ebf2cf2108a7.png)
 
 ### [](#%E4%B8%BB%E8%A6%81%E7%9A%84%E8%8C%83%E5%BC%8F)主要的范式
 
@@ -65,7 +65,7 @@ AOP可以将那些与业务无关，却为业务模块所共同调用的逻辑�
 
 #### [](#%E4%B8%BB%E8%A6%81%E4%B8%89%E7%A7%8D%E8%8C%83%E5%BC%8F%E7%9A%84%E5%AF%B9%E6%AF%94)主要三种范式的对比
 
-![ProgParaSum](https://img-blog.csdnimg.cn/img_convert/f13e043bb19a27ecd04d05f0e6074d12.png)
+![ProgParaSum](/img/img_convert/f13e043bb19a27ecd04d05f0e6074d12.png)
 
 #### [](#%E9%A2%86%E5%9F%9F%E9%A9%B1%E5%8A%A8%E8%AE%BE%E8%AE%A1)领域驱动设计
 
