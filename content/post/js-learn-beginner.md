@@ -84,7 +84,7 @@ array.every(function(currentValue,index,arr), thisValue)
 
 **4\. 参数说明**
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/d8be2196be9b436380e3b259d1768d0f.png)
+![在这里插入图片描述](/img/d8be2196be9b436380e3b259d1768d0f.png)
 
 **5\. 技术细节**
 
@@ -130,7 +130,7 @@ array.filter(function(currentValue,index,arr), thisValue)
 
 **4\. 参数说明**
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/3d4f678f776c4e1485dc4d840c3a47af.png)
+![在这里插入图片描述](/img/3d4f678f776c4e1485dc4d840c3a47af.png)
 
 **5\. 技术细节**
 
@@ -178,7 +178,7 @@ array.find(function(currentValue, index, arr), thisValue)
 
 **4\. 参数值**
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/02f440e80e9240b8b35758657a980141.png)
+![在这里插入图片描述](/img/02f440e80e9240b8b35758657a980141.png)
 
 5.  技术细节
 
@@ -225,7 +225,7 @@ array.map(function(currentValue,index,arr), thisValue)
 
 **4\. 参数说明**
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/c87f25899c064d4fbeaf03ea4eddec51.png)
+![在这里插入图片描述](/img/c87f25899c064d4fbeaf03ea4eddec51.png)
 
 ### 5\. slice() 选取数组的的一部分，并返回一个新数组
 
@@ -260,7 +260,7 @@ array.slice(start, end)
 
 **4\. 参数值**
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/b025c925d9da45bfaf608c4f0319e936.png)
+![在这里插入图片描述](/img/b025c925d9da45bfaf608c4f0319e936.png)
 
 **5\. 返回值**
 
@@ -297,7 +297,7 @@ array.splice(index,howmany,item1,.....,itemX)
 
 **4\. 参数值**
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/19a714b9dfc2488e94a1c6bb252f4f89.png)
+![在这里插入图片描述](/img/19a714b9dfc2488e94a1c6bb252f4f89.png)
 
 **5\. 返回值**
 
@@ -373,7 +373,7 @@ array.unshift(item1,item2, ..., itemX)
 
 **4\. 参数值**
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/fbd6a5a13fdd44049d1dbe8a57cbb4a6.png)
+![在这里插入图片描述](/img/fbd6a5a13fdd44049d1dbe8a57cbb4a6.png)
 
 ### 9\. pop() 删除数组的最后一个元素并返回删除的元素
 
@@ -447,7 +447,7 @@ array.push(item1, item2, ..., itemX)
 
 **4\. 参数值**
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/155ec9feeb7144a49f9dce917c694d32.png)
+![在这里插入图片描述](/img/155ec9feeb7144a49f9dce917c694d32.png)
 
 **5\. 返回值**
 
