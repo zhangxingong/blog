@@ -52,7 +52,7 @@ author = "zhangxingong"
 +   HashMap **继承于AbstractMap**，实现了 **Map**、**Cloneable**、**java.io.Serializable** 接口
     
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/066e6a384472430997a49b51cfc98524.png)
+![在这里插入图片描述](/img/066e6a384472430997a49b51cfc98524.png)
 
 +   HashMap 的 key 与 value 类型可以相同也可以不同，可以是字符串（String）类型的 key 和 value，也可以是整型（Integer）的 key 和字符串（String）类型的 value
 
@@ -79,7 +79,7 @@ author = "zhangxingong"
 +   **哈希值转换**：为了**确保哈希值适合作为数组的索引**，HashMap会对计算得到的哈希值进行一些转换操作。**常用**的转换方法是**使用哈希值与数组长度进行取模运算**，得到一个在数组范围内的索引值
     
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/415ca500f85144a39d4ffa529cacb581.png)
+![在这里插入图片描述](/img/415ca500f85144a39d4ffa529cacb581.png)
 
 **2. HashMap存储**
 
@@ -88,7 +88,7 @@ author = "zhangxingong"
 +   **动态扩容**：为了提高HashMap的性能，在存储的键值对数量达到一定阈值后，HashMap会自动进行扩容操作。**扩容过程涉及重新计算键的哈希值，并重新分配键值对到更大的数组中**。这样可以减少哈希冲突，提高操作效率
     
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/cb1c11ef182f47ba8d99eefc47907c42.png)
+![在这里插入图片描述](/img/cb1c11ef182f47ba8d99eefc47907c42.png)
 
 **3. HashMap冲突处理**
 
@@ -99,7 +99,7 @@ author = "zhangxingong"
 +   **红黑树**：从**JDK 8开始**，当**链表长度超过一个阈值（默认为8）时，链表会被自动转换为红黑树**，以提高操作效率。**红黑树的查找、插入和删除操作具有较低的时间复杂度**，可以在平均情况下保持对数时间复杂度
     
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/e6ff42f0663146fb8a8d7d25015ee38e.png)
+![在这里插入图片描述](/img/e6ff42f0663146fb8a8d7d25015ee38e.png)
 
 +   **Entry对象**：HashMap**使用Entry对象来表示键值对**。每个**Entry对象包含了键、值以及指向下一个Entry的引用（形成链表或红黑树结构）**。在JDK 8之前，每个Entry对象还包含了指向前一个Entry的引用，以支持快速删除操作
 
