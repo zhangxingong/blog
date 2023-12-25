@@ -48,7 +48,7 @@ enableRobotsTXT = true ## 允许爬虫抓取到搜索引擎，建议 true
 [[params.links]]
   title = "Ethan的博客"
   name = "Ethan"
-  url = "https://gcore.jsdelivr.net/gh/zhangxingong/blog@main/static/img/qrcode_for_weixin.jpg"
+  url = "https://gcore.jsdelivr.net/gh/zhangxingong/blog/static/img/qrcode_for_weixin.jpg"
   ## url = "https://zhangxingong.github.io/"
 
 [[params.links]]
@@ -156,7 +156,7 @@ enableRobotsTXT = true ## 允许爬虫抓取到搜索引擎，建议 true
 
 [params.image_cdn]
     enable = true
-    Host = "https://gcore.jsdelivr.net/gh/zhangxingong/blog@main/static"
+    Host = "https://gcore.jsdelivr.net/gh/zhangxingong/blog/static"
     ## "https://cdn.jsdelivr.net/gh/zhangxingong/zhangxingong.github.io"
 
 [params.sequenceDiagrams]
