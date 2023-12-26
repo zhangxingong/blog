@@ -20,7 +20,7 @@ enableRobotsTXT = true ## 允许爬虫抓取到搜索引擎，建议 true
 
 [author]
   name = "Ethan"
-
+ 
 [params]
   author = "Ethan"
   subtitle = "专注于Java、Elisp(Emacs)、移动互联网、项目管理、软件架构"
