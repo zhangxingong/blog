@@ -9,4 +9,4 @@ hiddenFromHomePage = false
 
 世纪公园
 
-![](/photo/2023-12-24 世纪0.jpg)![](/photo/2023-12-24 世纪1.jpg)![](/photo/2023-12-24 世纪2.jpg)![](/photo/2023-12-12 秋叶0.jpg)![](/photo/2023-12-12 秋叶2.jpg)
+![](https://zhangxingong.fun/photo/2023-12-24 世纪0.jpg)![](https://zhangxingong.fun/photo/2023-12-24 世纪1.jpg)![](https://zhangxingong.fun/photo/2023-12-24 世纪2.jpg)![](https://zhangxingong.fun/photo/2023-12-12 秋叶0.jpg)![](https://zhangxingong.fun/photo/2023-12-12 秋叶2.jpg)
