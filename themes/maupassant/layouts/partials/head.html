@@ -235,10 +235,12 @@ function applyPreferredColorScheme(scheme) {
         document.getElementById("icon-sun").style.display = 'none';
     }
 }
-
-document.addEventListener('DOMContentLoaded', () => {
+    
+if(document.getElementById("icon-sun")){
+    document.addEventListener('DOMContentLoaded', () => {
     applyPreferredColorScheme(getPreferredColorScheme());  
 });
+}
 </script>    
     
     {{ if .Site.Params.baiduAnalytics }}
