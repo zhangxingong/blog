@@ -236,11 +236,12 @@ function applyPreferredColorScheme(scheme) {
     }
 }
     
-if(document.getElementById("icon-sun")){
-    document.addEventListener('DOMContentLoaded', () => {
-    applyPreferredColorScheme(getPreferredColorScheme());  
+document.addEventListener('DOMContentLoaded', () => {
+    if(document.getElementById("icon-sun")){    
+        applyPreferredColorScheme(getPreferredColorScheme());  
+    }
 });
-}
+
 </script>    
     
     {{ if .Site.Params.baiduAnalytics }}
