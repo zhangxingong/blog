@@ -785,7 +785,7 @@ img.alignright {
 }
 @media print, screen and (max-width:860px) {
     #header {
-        text-align:center;
+        text-align:left;
     }
     #main {
         width:100%;
