@@ -36,8 +36,8 @@ enableRobotsTXT = true ## 允许爬虫抓取到搜索引擎，建议 true
   baiduAnalytics = "b4bf6ed501b47a5473e135e2b6e481f0"  # 百度统计
   # 这里我存放在了主题的static文件夹里，根目录的似乎也可以
   # customCSS = ['douban.css', 'other.css']
-  # if ['custom.css'], load '/static/css/custom.css' file
-  customJS = ['totop.js?v=0.0.0', 'lately.min.js', 'waterfall.min.js', 'imgStatus.min.js', 'view-image.js', 'snow.js']
+  # if ['custom.css'], load '/static/css/custom.css' file , 'snow.js'
+  customJS = ['totop.js?v=0.0.0', 'lately.min.js', 'waterfall.min.js', 'imgStatus.min.js', 'view-image.js']
   # if ['custom.js'], load '/static/js/custom.js' file
 
   # 全局开关，你也可以在每一篇内容的 front matter 中针对单篇内容关闭或开启某些功能
