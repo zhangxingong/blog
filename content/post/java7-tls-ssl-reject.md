@@ -3,7 +3,6 @@ title = "解决unable to find valid certification path to requested target"
 date = "2024-03-13T10:45:47+0800"
 draft = false
 weight = 2003
-author = "zhangxingong"
 hiddenFromHomePage = true
 +++
 
