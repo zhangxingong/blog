@@ -8,7 +8,7 @@ weight = 2001
 author = "zhangxingong"
 +++
 
-+最+近在使用Emacs作为超级终端，查看图片，播放音频，视频，
+最近在使用Emacs作为超级终端，查看图片，播放音频，视频，
 查阅PDF，office文档，使用终端
 
 用到的框加是EAF (Emac Application Framwork)
@@ -19,9 +19,9 @@ author = "zhangxingong"
 
 中间做了各种尝试
 
-1.  修改cmd编码
-2.  修改字符串编码
-3.  路径加密base64, URL加密, 16进制中文
+-   修改cmd编码 ::sssssss
+-   修改字符串编码
+-   路径加密base64, URL加密, 16进制中文
 
 都以失败告终。
 
