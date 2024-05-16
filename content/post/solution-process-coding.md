@@ -19,9 +19,9 @@ author = "zhangxingong"
 
 中间做了各种尝试
 
--   修改cmd编码 ::sssssss
--   修改字符串编码
--   路径加密base64, URL加密, 16进制中文
+1.  修改cmd编码
+2.  修改字符串编码
+3.  路径加密base64, URL加密, 16进制中文
 
 都以失败告终。
 
