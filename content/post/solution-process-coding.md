@@ -8,7 +8,7 @@ weight = 2001
 author = "zhangxingong"
 +++
 
-最近在使用Emacs作为超级终端，查看图片，播放音频，视频，
++最+近在使用Emacs作为超级终端，查看图片，播放音频，视频，
 查阅PDF，office文档，使用终端
 
 用到的框加是EAF (Emac Application Framwork)
@@ -31,22 +31,19 @@ author = "zhangxingong"
 
 Emacs查看到了罪魁祸首使用了gbk, 一直以为是utf-8没跳出来
 
-emacs coding = gbk  
-process coding = gbk  
-cmd coding = utf-8  
+emacs coding = gbk
+process coding = gbk
+cmd coding = utf-8
 
-最终解决。  
-
+最终解决。
 
 {{< highlight emacs-lisp >}}
-(set-language-environment 'chinese-gbk)
-
 (make-process
- :name "kkk"
- :buffer "*Messages*"
- :coding 'gbk
- :command (list "cmd" "/k" "chcp 65001" "&" "java" "-jar"
-                (string-replace "xxx-xxx.jar" "xxx-xxx2.jar"
-                                (my-post-blog-jar-path))
-                "D:/xx/xx/2022年7月-XXX/XXXX接入文档.doc"))
+:name "kkk"
+:buffer "*Messages*"
+:coding 'gbk
+:command (list "cmd" "/k" "chcp 65001" "&" "java" "-jar"
+(string-replace "xxx-xxx.jar" "xxx-xxx2.jar"
+(my-post-blog-jar-path))
+"D:/xx/xx/2022年7月-XXX/XXXX接入文档.doc"))
 {{< /highlight >}}
