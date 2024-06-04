@@ -1,5 +1,5 @@
 #+title: 飞一般的体验！Emacs让代码浏览如丝般流畅 【建议收藏】
-#+DATE: 2024-06-04T09:16:50+0800
+#+DATE: 2024-01-14T09:16:50+0800
 #+author: zhangxingong
 #+SLUG: emacs-view-code
 #+HUGO_AUTO_SET_LASTMOD: t
@@ -8,6 +8,7 @@
 #+tags:  学习 基础 工具
 #+weight: 2001
 #+draft: false
+#+hiddenFromHomePage: true
 #+STARTUP: noptag
 #+STARTUP: logdrawer
 #+STARTUP: indent
