@@ -1,0 +1,52 @@
+#+title: Git恢复宝典：化解代码危机，轻松驾驭历史版本！ 【建议收藏】
+#+DATE: 2024-01-14T10:49:50+0800
+#+author: zhangxingong
+#+SLUG: git-fastback
+#+HUGO_AUTO_SET_LASTMOD: t
+#+HUGO_CUSTOM_FRONT_MATTER: :toc true
+#+categories: subject
+#+tags:  学习 基础 工具
+#+weight: 2001
+#+draft: false
+#+hiddenFromHomePage: true
+#+STARTUP: noptag
+#+STARTUP: logdrawer
+#+STARTUP: indent
+#+STARTUP: overview
+#+STARTUP: showeverything
+
+#+begin_quote
+emacs天生代码利器，是伪装成编辑器的操作系统。
+能够无限扩展满足不同的需求
+最终达到 All in emacs
+#+end_quote
+
+* git撤销的各种情况
+  1) 未提交前撤销
+  2) 已提交撤销
+  3) 切换更改版本
+  4) 撤回某一个版本
+ 
+* git各种撤销需求命令
+  1) 撤销未进入缓存区的
+     #+begin_src shell
+       # Changes not staged for commit:
+       (use "git add <file>..." to update what will be committed)
+       (use "git checkout -- <file>..." to discard changes in working directory) 
+     #+end_src
+  2) 撤销缓存区的
+     #+begin_src shell
+       用命令git reset HEAD <file>可以把暂存区的修改撤销掉（unstage），重新放回工作区
+       $ git reset HEAD readme.txt
+       Unstaged changes after reset:
+       M	readme.txt
+     #+end_src
+  3) 撤销版本
+     #+begin_src shell
+       $ git reset --hard HEAD^
+       HEAD is now at e475afc add distributed
+     #+end_src
+  4) 撤回版本
+     #+begin_quote
+     Git revert 用于撤回某次提交的内容，同时再产生一个新的提交(commit)。原理就是在一个新的提交中，对之前提交的内容相反的操作
+     #+end_quote
