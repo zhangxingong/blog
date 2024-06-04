@@ -1,0 +1,56 @@
+#+title: 飞一般的体验！Emacs让代码浏览如丝般流畅 【建议收藏】
+#+DATE: 2024-06-04T09:16:50+0800
+#+author: zhangxingong
+#+SLUG: emacs-view-code
+#+HUGO_AUTO_SET_LASTMOD: t
+#+HUGO_CUSTOM_FRONT_MATTER: :toc true
+#+categories: subject
+#+tags:  学习 基础 工具
+#+weight: 2001
+#+draft: false
+#+STARTUP: noptag
+#+STARTUP: logdrawer
+#+STARTUP: indent
+#+STARTUP: overview
+#+STARTUP: showeverything
+
+#+begin_quote
+emacs天生代码利器，是伪装成编辑器的操作系统。
+能够无限扩展满足不同的需求
+最总达到 All in emacs
+#+end_quote
+
+* 代码浏览要满足的几个条件\\
+  1) 项目文件浏览
+  2) 搜索项目文件
+  3) 搜索符号（函数，类，接口）
+  4) 符号跳转
+  5) 符号引用
+  6) 代码搜索
+  7) 类方法解析
+ 
+* 满足浏览需求的几个插件\\
+  1) projecttile  项目管理
+  2) helm-imeu    项目文件浏览
+  3) gtags        符号搜索，跳转，引用
+  4) rg ag        代码搜索
+  5) find-file    查找文件
+  6) helm         命令提示 （非必须）
+  7) helm-projecttile 集成 (非必须)
+  8) helm-speed-bar (非必须)
+
+* 满足需求的命令
+  1) (helm-imeu) 显示项目文件
+  2) (project-find-file)，(helm-gtags-find-files) 搜索项目文件
+  3) (gtags-find-symbol) 搜索符号
+  4) (helm-gtags-find-rtag TAG) 搜索引用
+  5) (helm-gtags-parse-file) 类方法解析
+  6) (projecttile-ag) 代码搜索
+
+* 效果展示
+
+#+DOWNLOADED: screenshot @ 2024-06-04 10:18:48
+[[https://gcore.jsdelivr.net/gh/zhangxingong/blog@main/static/img/10-18-48_2_screenshot.png]]
+
+
+
