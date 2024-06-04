@@ -18,7 +18,7 @@
 #+begin_quote
 emacs天生代码利器，是伪装成编辑器的操作系统。
 能够无限扩展满足不同的需求
-最总达到 All in emacs
+最终达到 All in emacs
 #+end_quote
 
 * 代码浏览要满足的几个条件
