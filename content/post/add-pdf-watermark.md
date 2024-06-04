@@ -1,6 +1,6 @@
 +++
 title = "基于java技术实现word、pdf文件添加水印"
-date = "2024-0-15T11:47:22+0800"
+date = "2024-01-15T11:47:22+0800"
 tags = ["笔记","学习","编程"]
 categories = ["subject"]
 draft = false
@@ -105,7 +105,7 @@ author = "zhangxingong"
 
  **结果：**
  
- ![](https://img-blog.csdnimg.cn/direct/cf728f04f21b4efb8a84f69faa1284d9.png)
+ ![](https://gcore.jsdelivr.net/gh/zhangxingong/blog@main/static/img/cf728f04f21b4efb8a84f69faa1284d9.png)
 
 ### word文件添加水印：
 
@@ -185,7 +185,7 @@ author = "zhangxingong"
 
  **结果：**
  
- ![](https://img-blog.csdnimg.cn/direct/d07489c0cc244c458c0114f128540075.png)
+ ![](https://gcore.jsdelivr.net/gh/zhangxingong/blog@main/static/img/d07489c0cc244c458c0114f128540075.png)
 
 ### 参考
 
