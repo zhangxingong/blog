@@ -90,3 +90,24 @@ public class test_money {
     }
 }
 ```
+
+需求：从中提取成绩
+```java
+			if (EvaItemType.SCORE.equals(type)
+					&& (s.startsWith("最小值")
+					|| s.startsWith("中间值")
+					|| s.startsWith("最大值"))) {
+				Pattern pattern = Pattern.compile("[^\\d]");
+				Matcher matcher = pattern.matcher(s);
+				String val = matcher.replaceAll("").trim();
+				q.setHandwrite(EvaQuestion.DEFAULT_NUMBER);
+				if (s.startsWith("最小值")) {
+					q.setMinItems(NumUtils.parseInt(val));
+				} else if (s.startsWith("中间值")) {
+					q.setMastery(NumUtils.parseInt(val));
+				} else if (s.startsWith("最大值")) {
+					q.setMaxItems(NumUtils.parseInt(val));
+				}
+				continue;
+			}
+```
