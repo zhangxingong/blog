@@ -1,6 +1,6 @@
 +++
 title = "REPL for Emacs Lisp"
-date = 2024-06-06T14:45:00+08:00
+date = 2024-03-02T14:45:00+08:00
 draft = false
 weight = 2001
 author = "zhangxingong"
