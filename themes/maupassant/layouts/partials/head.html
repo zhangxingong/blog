@@ -226,6 +226,7 @@ function applyPreferredColorScheme(scheme) {
         }
     }
 
+if(document.getElementById("icon-sun")){   
     // Change the toggle button to be the opposite of the current scheme
     if (scheme === "dark") {
         document.getElementById("icon-sun").style.display = 'inline';
@@ -235,11 +236,10 @@ function applyPreferredColorScheme(scheme) {
         document.getElementById("icon-sun").style.display = 'none';
     }
 }
+}
     
 document.addEventListener('DOMContentLoaded', () => {
-    if(document.getElementById("icon-sun")){    
-        applyPreferredColorScheme(getPreferredColorScheme());  
-    }
+    applyPreferredColorScheme(getPreferredColorScheme());  
 });
 
 </script>    
