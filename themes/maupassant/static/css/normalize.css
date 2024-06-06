@@ -737,8 +737,8 @@ body.dark {
         filter: invert(90%) hue-rotate(180deg);
     }
 
-    img, canvas, video, svg, button, embed, audio, object, iframe, .github-badge {
-        filter: invert(101%) hue-rotate(180deg);
+    img, canvas, video, svg, button, embed, audio, object, iframe, .github-badge, .aplayer-pic {
+        filter: invert(110%) hue-rotate(180deg);
         opacity: 1;
     }
 
