@@ -87,17 +87,17 @@ enableRobotsTXT = true ## 允许爬虫抓取到搜索引擎，建议 true
 
 ## 侧边栏广告位
 [[params.ads]]
-  title = "【腾讯云】推广者专属福利，新客户无门槛领取总价值高达2860元代金券，每种代金券限量500张，先到先得。"
-  url = "https://cloud.tencent.com/act/cps/redirect?redirect=1040&cps_key=c7c743b60bfe454f8c8672e0aed0de92&from=console"
-  img = "https://upload-dianshi-1255598498.file.myqcloud.com/345x200--2953d058277cb63c6b1cd127285163335cd6751e.jpg"
+  title = "【腾讯云】云服务器、云数据库、COS、CDN、短信等云产品特惠热卖中"
+  url = "https://cloud.tencent.com/act/cps/redirect?redirect=2446&cps_key=c7c743b60bfe454f8c8672e0aed0de92&from=console"
+  img = "https://dscache.tencent-cloud.cn/upload//345_200-013e419e2b86ff48a531fabce2694bd3bb27f844.png"
 [[params.ads]]
+  title = "【腾讯云】2核2G云服务器新老同享99元/年续费同价，8888元代金券限时抢"
+  url = "https://cloud.tencent.com/act/cps/redirect?redirect=6094&cps_key=c7c743b60bfe454f8c8672e0aed0de92&from=console"
+  img = "https://dscache.tencent-cloud.cn/upload//rhino-design-560x300-ba5bb8c5084f870ec53c3dd6fbc828955ec756dd.png"
+[[params.ads]] 
   title = "【腾讯云】腾讯云图，像PPT一样简单的数据可视化工具。5元搞定数据可视化，模板丰富，拖拖拽拽就能做出好看的可视化大屏。"
   url = "https://cloud.tencent.com/act/cps/redirect?redirect=1046&cps_key=c7c743b60bfe454f8c8672e0aed0de92&from=console"
   img = "https://upload-dianshi-1255598498.file.myqcloud.com/345x200-89eeba55a2f49008e686e1a51e14bfe79f63af13.png"
-[[params.ads]] 
-  title = "【腾讯云】视频通信爆款 9.9 元起， 提供电商、教育、社交娱乐等多行业多场景的一站式解决方案，最快 1 天布局火爆赛道【腾讯云】云服务器、云数据库、COS、CDN、短信等云产品特惠热卖中"
-  url = "https://cloud.tencent.com/act/cps/redirect?redirect=2446&cps_key=c7c743b60bfe454f8c8672e0aed0de92&from=console"
-  img = "https://upload-dianshi-1255598498.file.myqcloud.com/upload/nodir/345X200-9ae456f58874df499adf7c331c02cb0fed12b81d.jpg"
 
 ## 配置 utteranc评论,教程参考 https://utteranc.es/
 [params.utteranc]
