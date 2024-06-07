@@ -89,7 +89,7 @@ enableRobotsTXT = true ## 允许爬虫抓取到搜索引擎，建议 true
 [[params.ads]]
   title = "【腾讯云】云服务器、云数据库、COS、CDN、短信等云产品特惠热卖中"
   url = "https://cloud.tencent.com/act/cps/redirect?redirect=2446&cps_key=c7c743b60bfe454f8c8672e0aed0de92&from=console"
-  img = "https://dscache.tencent-cloud.cn/upload//345_200-013e419e2b86ff48a531fabce2694bd3bb27f844.png"
+  img = "https://gcore.jsdelivr.net/gh/zhangxingong/blog@main/static/img/vcloudshow.png"
 [[params.ads]]
   title = "【腾讯云】2核2G云服务器新老同享99元/年续费同价，8888元代金券限时抢"
   url = "https://cloud.tencent.com/act/cps/redirect?redirect=6094&cps_key=c7c743b60bfe454f8c8672e0aed0de92&from=console"
