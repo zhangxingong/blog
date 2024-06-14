@@ -6,7 +6,6 @@ categories = ["subject"]
 draft = false
 weight = 2002
 author = "zhangxingong"
-hiddenFromHomePage = true
 +++
 
 # vim常用命令
