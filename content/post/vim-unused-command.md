@@ -1,6 +1,6 @@
 +++
 title = "vim常用命令 【vimer的世界】"
-date = "2024-06-14T14:17:34+0800"
+date = "2024-03-14T14:17:34+0800"
 tags = ["笔记","学习","编程"]
 categories = ["subject"]
 draft = false
