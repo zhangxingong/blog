@@ -10,6 +10,7 @@ author = "zhangxingong"
 
 
 # 文件操作
+
 C-x C-f 打开文件,出现提示时输入/username@host:filepath可编辑FTP文件
 C-x C-v 打开一个文件，取代当前缓冲区
 C-x C-s 保存文件
@@ -19,6 +20,7 @@ C-x C-q 切换为只读或者读写模式
 C-x C-c 退出Emacs
 
 # 编辑操作
+
 C-f 前进一个字符
 C-b 后退一个字符
 M-f 前进一个字
@@ -109,6 +111,7 @@ M-x gdb GDB排错
 M-x dbx DBX排错
 M-x xdb XDB排错
 M-x sdb SDB排错
+
 # 搜索模式
 C-s key 向前搜索
 C-s 查找下一个
@@ -126,6 +129,7 @@ C-M-x 退出迭代编辑模式，返回到查找/替换模式
 C-M-s 向前正则搜索
 C-M-r 向后正则搜索
 C-M-% 正则交互替换
+
 # SHELL模式
 C-c C-c 相当于Bash下的C-c
 C-c C-z 相当于Bash下的C-z
@@ -137,11 +141,13 @@ C-c C-r 屏幕滚动到最后一条命令输出的开头
 C-c C-e 屏幕滚动到最后一套命令输出的结尾
 C-c C-p 查看前一条命令的输出
 C-c C-n 查看后一条命令的输出
+
 # 打印资料
 M-x print-buffer 先使用pr,然后使用lpr
 M-x lpr-buffer 直接使用lpr
 M-x print-region
 M-x lpr-region
+
 # 收发邮件
 M-x mail 发送邮件, C-c C-s 发送,C-c C-c 发送并退出
 M-x rmail 接受邮件
@@ -152,8 +158,11 @@ Marchday's blog
 Add new comment 
 Comments
 Tue, 2007-01-23 02:41 — Marchday 
+
 # 一些FAQ
 Q:如何使用gdb设置断点的时侯让emacs高亮源代码那一行？
+
+```elisp
 A:设断点是 C-x space
 -------------------------------
 ecb可以到这里下载：
