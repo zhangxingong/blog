@@ -746,6 +746,10 @@ body.dark {
         color: #444 !important;
     }
 
+   .github-badge a {
+      color: #fff !important;
+   }
+
     .v[data-class="v"] .vbtn {
         color: rgb(178, 178, 181) !important;
     }
