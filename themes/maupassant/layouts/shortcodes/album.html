@@ -28,7 +28,7 @@ function ablumTitle(inputString){
 	
 function memoAlbum(numb){
   let limit = numb || 8;
-  var memoUrl = "http://60.204.137.117:5230/";
+  var memoUrl = "https://s.dusays.com/";
   var authorization = 'Bearer {{ .Site.Params.memosAuthorization }}';	
   var username = 'ethan';
   var galleryUrl = memoUrl+"api/v1/memo?creatorUsername="+username+"&rowStatus=NORMAL&limit="+limit+"&tag=相册";
