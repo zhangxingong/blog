@@ -32,7 +32,7 @@ enableRobotsTXT = true ## 允许爬虫抓取到搜索引擎，建议 true
   beian = "沪ICP备080293639号"
   fancybox = true
   # memosAuthorization = "eyJhbGciOiJIUzI1NiIsImtpZCI6InYxIiwidHlwIjoiSldUIn0.eyJuYW1lIjoiZXRoYW4iLCJpc3MiOiJtZW1vcyIsInN1YiI6Ijc5IiwiYXVkIjpbInVzZXIuYWNjZXNzLXRva2VuIl0sImlhdCI6MTcwMjYwOTI1MH0.a0IDD1Vl90buVjacwmKLgxQxcU_8YRyiuaIT4DcBI00"
-  memosAuthorization = "eyJhbGciOiJIUzI1NiIsImtpZCI6InYxIiwidHlwIjoiSldUIn0.eyJuYW1lIjoiIiwiaXNzIjoibWVtb3MiLCJzdWIiOiIyIiwiYXVkIjpbInVzZXIuYWNjZXNzLXRva2VuIl0sImV4cCI6NDg3MzI2OTE2MiwiaWF0IjoxNzE5NjY5MTYyfQ.qUqVa8m88U0ZXLZn7boJphKslaF9mxlhZn-Vbf-lIvA"
+  memosAuthorization = "eyJhbGciOiJIUzI1NiIsImtpZCI6InYxIiwidHlwIjoiSldUIn0.eyJuYW1lIjoiZXRoYW4iLCJpc3MiOiJtZW1vcyIsInN1YiI6IjIiLCJhdWQiOlsidXNlci5hY2Nlc3MtdG9rZW4iXSwiaWF0IjoxNzE5ODAwNjI2fQ.LQhGo5EC7DrcOSiK14rSoBppQoEqQ3a0mmszWmsvn9A"
   cdnJsSite = "cdn.bootcdn.net" # 默认：cdnjs.cloudflare.com
   baiduAnalytics = "b4bf6ed501b47a5473e135e2b6e481f0"  # 百度统计
   # 这里我存放在了主题的static文件夹里，根目录的似乎也可以
