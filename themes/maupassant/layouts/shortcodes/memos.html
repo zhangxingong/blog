@@ -10,7 +10,7 @@
 <script>
     //https://memos.nesxc.com/api/v1/memo?creatorId=79&rowStatus=NORMAL&limit=5 
     document.addEventListener("DOMContentLoaded", () => {
-      var bbUrl = "http://60.204.137.117:5230/api/v1/memo?creatorUsername=ethan&rowStatus=NORMAL&limit=5";
+      var bbUrl = "https://s.dusays.com/api/v1/memo?creatorUsername=ethan&rowStatus=NORMAL&limit=5";
       var authorization = 'Bearer {{ .Site.Params.memosAuthorization }}';	
 
       fetch(bbUrl,{
