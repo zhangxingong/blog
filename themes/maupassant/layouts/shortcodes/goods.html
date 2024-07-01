@@ -7,8 +7,8 @@ document.addEventListener("DOMContentLoaded", () => {
 function memoGoods(numb){
   let limit = numb || 6;
   var memoUrl = "http://60.204.137.117:5230/";
-  var creatorUsername = 'ethan';
-  var goodsUrl = memoUrl+"api/v1/memo?creatorUsername="+creatorUsername+"&rowStatus=NORMAL&limit="+limit+"&tag=好物";
+  var username = 'ethan';
+  var goodsUrl = memoUrl+"api/v1/memo?creatorUsername="+username+"&rowStatus=NORMAL&limit="+limit+"&tag=好物";
   var authorization = 'Bearer {{ .Site.Params.memosAuthorization }}';	
   
   //var goodsUrl = memoUrl+"api/memo/all?rowStatus=NORMAL&limit="+limit+"&tag=好物";
