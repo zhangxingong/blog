@@ -49,7 +49,7 @@
     {{ range .AlternativeOutputFormats -}}
         {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
     {{ end -}}
-    <script type="text/javascript" src="//cdn.bootcdn.net/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="{{ "js/jquery.min.js" | relURL }}"></script>
     <!--  <script src="https://cdn.nesxc.com/js/leaves.js"></script> -->
     <!-- <script type="text/javascript" src="https://blog.starysky.top/js/sakura.js"></script> -->
     <!-- <script type="text/javascript" src="https://blog.starysky.top/js/snowfall.js"></script> -->
