@@ -16,7 +16,7 @@
         {{ if not .PublishDate.IsZero }}<time datetime="{{ .PublishDate.UTC.Format "2006-01-02T15:04:05Z07:00" }}" class="post-meta meta-date dt-published">{{ time.Format $datetime_format .PublishDate }}</time>{{ end }}
         <div class="post-content">
             概要……
-            <p class="readmore"><a href="链接" target="_blank">{{ i18n "continueReading" }}</a></p>
+            <p class="readmore"><a href="链接" target="_blank" class="continueReading">{{ i18n "continueReading" }}</a></p>
         </div>
     </article>
 
