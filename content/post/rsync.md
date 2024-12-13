@@ -1,5 +1,5 @@
 +++
-title = "📚 Efficient File Synchronization & Stream Editing with rsync & sed"
+title = "文件同步和流编辑工具：rsync 和 sed 的简化指南"
 date = "2024-12-13T14:03:00+0800"
 tags = ["笔记","学习","编程"]
 categories = ["subject"]
