@@ -8,6 +8,161 @@ weight = 2002
 author = "zhangxingong"
 +++
 
+# 中文版
+
+# 📚 文件同步和流编辑工具：rsync 和 sed 的简化指南 📊
+
+高效的文件管理对于现代开发者和系统管理员来说至关重要。无论是同步文件还是编辑文本流，**rsync** ✨ 和 **sed** ⚖️ 是必备工具。本指南将详细讲解它们的基础、用例以及实际示例，帮助你优化工作流。
+
+---
+
+## 🚀 rsync：掌握文件同步
+
+### 🔎 什么是 rsync？
+`rsync` 是一个快速且多功能的工具，用于在系统之间同步文件和目录。它支持增量更新、在传输过程中压缩数据，并保留文件元数据。
+
+### 🔧 语法概述
+```bash
+rsync [options] source destination
+```
+
+### 🌟 常见用例
+
+#### **1. 基础同步**
+```bash
+rsync -av /source/ /destination/
+```
+- **`-a`**：归档模式（保留权限、时间戳等）。
+- **`-v`**：详细模式。
+
+#### **2. 远程文件传输**
+```bash
+rsync -avz /local/ user@remote:/remote/
+```
+- **`-z`**：在传输过程中压缩文件。
+
+#### **3. 过滤文件**
+```bash
+rsync -av --exclude '*.log' --include '*.conf' /src/ /dest/
+```
+- 排除日志文件，同时包括配置文件。
+
+#### **4. 目录镜像**
+```bash
+rsync -av --delete /src/ /dest/
+```
+- 删除目标目录中多余的文件。
+
+#### **5. 可恢复传输**
+```bash
+rsync -av --partial /src/ /dest/
+```
+- 恢复中断的文件传输。
+
+### 🛠️ 高级功能
+
+#### **文件过滤**
+```bash
+rsync -av --include-from=include.txt --exclude-from=exclude.txt /src/ /dest/
+```
+- 从文件中加载包含/排除规则。
+
+#### **权限管理**
+```bash
+rsync --chmod=a=rw,Da+x /src/ /dest/
+```
+- 调整文件和目录权限。
+
+#### **完整命令示例**
+```bash
+rsync -ruhi --include-from "include.txt" --exclude-from "exclude.txt" \
+      --chmod=a=rw,Da+x /cygdrive/d/context/ user@192.168.1.25::context/
+```
+- **`-r`**：递归复制。
+- **`-u`**：跳过目标中较新的文件。
+- **`-h`**：以人类可读的格式显示文件大小。
+- **`--chmod`**：设置特定权限。
+
+---
+
+## 🎨 sed：精确转换文本流
+
+### 🔎 什么是 sed？
+`sed`（流编辑器）是一个命令行工具，用于非交互式地编辑文件中的文本。无论是基本替换还是复杂的文本操作，`sed` 都不可或缺。
+
+### 🔧 语法概述
+```bash
+sed [options] script [file]
+```
+
+### 🌟 常见用例
+
+#### **1. 简单替换**
+```bash
+sed 's/old/new/' file.txt
+```
+- 替换每行中首次出现的“old”为“new”。
+
+#### **2. 全局替换**
+```bash
+sed 's/old/new/g' file.txt
+```
+- 加上 `g`，替换每行中所有出现的“old”。
+
+#### **3. 直接编辑文件**
+```bash
+sed -i 's/old/new/g' file.txt
+```
+- 直接更新文件。
+
+#### **4. 删除行**
+```bash
+sed '1,5d' file.txt
+```
+- 删除第 1 到第 5 行。
+
+#### **5. 在匹配行前插入文本**
+```bash
+sed '/pattern/i\
+新文本' file.txt
+```
+- 在匹配“pattern”的行前插入“新文本”。
+
+### 🛠️ 高级选项
+
+#### **使用脚本**
+```bash
+sed -f script.sed file.txt
+```
+- 应用 `script.sed` 中定义的多个转换。
+
+#### **脚本示例**
+**script.sed**:
+```bash
+s/foo/bar/g
+1,5d
+```
+- 将“foo”替换为“bar”，并删除第 1 到 5 行。
+
+#### **组合命令**
+```bash
+sed -e 's/foo/bar/g' -e 's/baz/qux/g' file.txt
+```
+- 链式应用多个转换。
+
+---
+
+## 🌐 总结
+
+**rsync** 和 **sed** 是开发者和管理员优化工作流的必备工具。从高效的文件传输到精确的文本操作，它们能帮助你轻松应对复杂任务。
+
+### 🔗 参考文档
+- [rsync 官方文档](https://rsync.samba.org/documentation.html)
+- [GNU sed 手册](https://www.gnu.org/software/sed/manual/sed.html)
+- `man rsync`
+- `man sed`
+
+# 英文版
 
 # 📚 Efficient File Synchronization & Stream Editing with rsync & sed 📊
 
