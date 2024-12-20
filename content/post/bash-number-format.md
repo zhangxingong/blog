@@ -1,6 +1,6 @@
 +++
 title = "Bash Shell 中处理数字时的常见陷阱及解决方案"
-date = "2024-0-12T16:54:10+0800"
+date = "2024-12-20T16:54:10+0800"
 tags = ["笔记","学习","编程","自动化"]
 categories = ["subject"]
 draft = false
