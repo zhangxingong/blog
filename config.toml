@@ -34,7 +34,7 @@ enableRobotsTXT = true ## 允许爬虫抓取到搜索引擎，建议 true
   # memosAuthorization = "eyJhbGciOiJIUzI1NiIsImtpZCI6InYxIiwidHlwIjoiSldUIn0.eyJuYW1lIjoiZXRoYW4iLCJpc3MiOiJtZW1vcyIsInN1YiI6Ijc5IiwiYXVkIjpbInVzZXIuYWNjZXNzLXRva2VuIl0sImlhdCI6MTcwMjYwOTI1MH0.a0IDD1Vl90buVjacwmKLgxQxcU_8YRyiuaIT4DcBI00"
   memosAuthorization = "eyJhbGciOiJIUzI1NiIsImtpZCI6InYxIiwidHlwIjoiSldUIn0.eyJuYW1lIjoiZXRoYW4iLCJpc3MiOiJtZW1vcyIsInN1YiI6IjEyNCIsImF1ZCI6WyJ1c2VyLmFjY2Vzcy10b2tlbiJdLCJpYXQiOjE3MTg4NzM5NjN9.iNwr7BmqJWoJQklDpJ2yyeugGVoo1NwHHtbtvClOVN8"
   cdnJsSite = "cdn.bootcdn.net" # 默认：cdnjs.cloudflare.com
-  baiduAnalytics = "b4bf6ed501b47a5473e135e2b6e481f0"  # 百度统计
+  baiduAnalytics = "360f0454b90efd8b6a095a82d8772f35"  # 百度统计
   # 这里我存放在了主题的static文件夹里，根目录的似乎也可以
   # customCSS = ['douban.css', 'other.css']
   # if ['custom.css'], load '/static/css/custom.css' file , 'snow.js'
