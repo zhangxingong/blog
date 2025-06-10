@@ -245,16 +245,15 @@ document.addEventListener('DOMContentLoaded', () => {
 </script>    
     
     {{ if .Site.Params.baiduAnalytics }}
-    <script>
-    var _hmt = _hmt || [];
-    (function() {
-      var hm = document.createElement("script");
-      hm.src = "https://hm.baidu.com/hm.js?{{ .Site.Params.baiduAnalytics }}";
-      hm.async = true;  
-      var s = document.getElementsByTagName("script")[0]; 
-      s.parentNode.insertBefore(hm, s);
-    })();
-    </script>    
+        <script>
+        var _hmt = _hmt || [];
+        (function() {
+          var hm = document.createElement("script");
+          hm.src = "https://hm.baidu.com/hm.js?{{ .Site.Params.baiduAnalytics }}";
+          var s = document.getElementsByTagName("script")[0]; 
+          s.parentNode.insertBefore(hm, s);
+        })();
+        </script> 
     {{ end }}  
     
     <script type="text/javascript" charset="utf-8"
