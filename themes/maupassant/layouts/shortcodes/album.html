@@ -4,6 +4,27 @@
 document.addEventListener("DOMContentLoaded", () => {
   memoAlbum()
 });
+function ablumTitle(inputString){
+	console.log(inputString);
+  let result = '';
+	// 输入字符串
+	// const inputString = "#相册 aaaa";
+	
+	// 定义正则表达式
+	const regex = /#相册\s(.+)/;
+	
+	// 使用正则表达式的 exec 方法匹配字符串
+	const match = regex.exec(inputString);
+	
+	// 如果匹配成功，提取捕获组中的内容
+	if (match && match[1]) {
+	    result = match[1];
+	} else {
+	    console.log("没有匹配到内容");
+	}	
+  console.log(result); // 输出: aaaa
+	return result;
+}	
 function memoAlbum(numb){
   // let limit = numb || 8;
   // var memoUrl = "https://me.edui.fun/"
@@ -22,10 +43,9 @@ function memoAlbum(numb){
   }}).then(res => res.json()).then( resdata =>{
       var result = '',resultAll="",data = resdata.data
       for(var i=0;i < data.length;i++){
-          var galleryTitle = data[i].content.replace("#相册 ",'')
-		  console.log("galleryTitle",galleryTitle)
+          var content = data[i].content;
+          var galleryTitle = ablumTitle(content.split('\n')[0])
           var imgs = galleryTitle.match(/\!\[(.*?)\s*(.*?)\]\((.*?)\)/g)
-		  console.log("imgs",imgs)
           //解析 content 内 md 格式图片
           if(imgs){
             imgs.forEach(item => {
