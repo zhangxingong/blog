@@ -36,12 +36,7 @@ function memoAlbum(numb){
   let nowNum = 1;
   fetch(galleryUrl,{method: "GET",  headers: {
     Authorization: authorization
-  }/**,
-  body: JSON.stringify({creatorId: creatorId,
-	rowStatus: 'NORMAL',
-	limit: limit,
-	tag: '相册' 
-})*/
+  }
 }).then(res => res.json()).then( resdata =>{
       //console.log(resdata);	  
       var result = '',resultAll="",data = resdata;
