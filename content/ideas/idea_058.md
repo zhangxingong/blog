@@ -8,21 +8,7 @@ hiddenFromHomePage = false
 +++
 
 
-
-<style>
-blockquote {
-    margin: 25px auto;
-    quotes: "“" "”" "‘" "’";
-    padding: 1.5rem;
-    color: #555555;
-    padding: 1rem 1.5rem;
-    border-left: 0.2rem solid #0077b8;
-    position: relative;
-    background: var(--haze);
-}
-</style>
-
-<blockquote>
+{{< customblockquote >}} 
 <p>如果缺乏深度思考，你的眼睛就是监狱。</p>
 
 <p>感官所提供的信息只是起点，</p>
@@ -44,5 +30,7 @@ blockquote {
 <p>所谓顿悟，</p>
 
 <p>往往就是在某一瞬间，突然发现某种曾经深信不疑的认知，其实是种错觉。</p>
-<p>&nbsp;</p></blockquote>
+<p>&nbsp;</p>
+{{< /customblockquote >}}
+
 
