@@ -47,6 +47,10 @@ body {
 
 {{ .Page.Scratch.Add "quote-anchors" (dict "id" $id "author" $author "preview" $preview) }}
 
+{{ $border := .Get "border" }}
+{{ $color := .Get "color" }}
+{{ $bg := .Get "bg" }}
+
 <blockquote id="{{ $id }}" 
   {{ if or $border $color $bg }}
     style="
