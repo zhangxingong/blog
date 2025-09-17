@@ -1,0 +1,34 @@
+<style>
+blockquote.idea_custom {
+    margin: 25px auto;
+    quotes: "“" "”" "‘" "’";
+    padding: 1rem 1.5rem;
+    border-left-width: 0.2rem;
+    border-left-style: solid;
+    border-left-color: var(--blockquote-border, #0077b8);
+    color: var(--blockquote-color, #555555);
+    background: var(--blockquote-bg, var(--haze));
+    position: relative;
+    font-style: italic;
+}
+
+blockquote.idea_custom .author {
+    display: block;
+    margin-top: 0.5rem;
+    text-align: right;
+    font-weight: bold;
+    font-style: normal;
+    color: var(--blockquote-author-color, #333333);
+}
+</style>
+
+<blockquote class="idea_custom" style="
+    border-left-color: {{ .Get "border" | default "#0077b8" }};
+    color: {{ .Get "color" | default "#555555" }};
+    background: {{ .Get "bg" | default "var(--haze)" }};
+">
+  {{ .Inner | markdownify }}
+  {{- if .Get "author" -}}
+    <span class="author">— {{ .Get "author" }}</span>
+  {{- end -}}
+</blockquote>
