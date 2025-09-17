@@ -1,4 +1,5 @@
 <div class="quote-sidebar">
+  <button class="quote-close" onclick="document.getElementById('quoteSidebar').style.display='none'">×</button>
   <details open>
     <summary>引用目录</summary>
     <ul class="quote-index">
@@ -24,7 +25,20 @@
     box-shadow: 0 0 8px rgba(0,0,0,0.1);
     z-index: 999;
 }
-
+/* 关闭按钮 */
+.quote-close {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    border: none;
+    background: transparent;
+    font-size: 18px;
+    cursor: pointer;
+    color: #666;
+}
+.quote-close:hover {
+    color: #000;
+}
 .quote-index {
     list-style: decimal inside;
     padding: 0.5rem 0;
