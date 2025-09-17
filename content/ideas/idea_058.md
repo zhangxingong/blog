@@ -8,7 +8,7 @@ hiddenFromHomePage = false
 +++
 
 
-@@html:
+
 <style>
 blockquote {
     margin: 25px auto;
@@ -45,4 +45,4 @@ blockquote {
 
 <p>往往就是在某一瞬间，突然发现某种曾经深信不疑的认知，其实是种错觉。</p>
 <p>&nbsp;</p></blockquote>
-@@
+
