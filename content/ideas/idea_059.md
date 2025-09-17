@@ -1,6 +1,6 @@
 +++
-title = "idea_058"
-date = "2025-09-17T11:43:16+0800"
+title = "idea_059"
+date = "2025-09-17T14:07:16+0800"
 draft = false
 weight = 2003
 author = "zhangxingong"
