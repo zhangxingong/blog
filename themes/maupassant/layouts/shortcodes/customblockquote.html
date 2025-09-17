@@ -49,7 +49,7 @@ blockquote .author {
 {{ $color := .Get "color" }}
 {{ $bg := .Get "bg" }}
 
-<blockquote id="{{ $id }}" 
+<blockquote 
   {{ if or $border $color $bg }}
     style="
       {{ with $border }}border-left-color: {{ . }};{{ end }}
