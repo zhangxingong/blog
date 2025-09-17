@@ -20,11 +20,15 @@ blockquote .author {
 }
 </style>
 
-<blockquote  style="
-    border-left-color: {{ .Get "border" | default "#0077b8" }};
-    color: {{ .Get "color" | default "#555555" }};
-    background: {{ .Get "bg" | default "var(--haze)" }};
-">
+<blockquote
+  {{ if or $border $color $bg }}
+    style="
+      {{ with $border }}border-left-color: {{ . }};{{ end }}
+      {{ with $color }}color: {{ . }};{{ end }}
+      {{ with $bg }}background: {{ . }};{{ end }}
+    "
+  {{ end }}
+>
   {{ .Inner | markdownify }}
   {{- if .Get "author" -}}
     <span class="author">— {{ .Get "author" }}</span>
