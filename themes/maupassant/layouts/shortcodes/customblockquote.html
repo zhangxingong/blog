@@ -1,5 +1,6 @@
 <style>
 blockquote {
+    counter-increment: quote-counter;
     margin: 25px auto;
     quotes: "“" "”" "‘" "’";
     padding: 1.5rem;
@@ -9,7 +10,14 @@ blockquote {
     position: relative;
     background: var(--haze);
 }
-
+blockquote::before {
+    content: counter(quote-counter) ".";
+    position: absolute;
+    top: 0.5rem;
+    left: -2rem;
+    font-weight: bold;
+    color: #0077b8;
+}
 blockquote .author {
     display: block;
     margin-top: 0.5rem;
@@ -18,9 +26,28 @@ blockquote .author {
     font-style: normal;
     color: #333333;
 }
+body {
+    counter-reset: quote-counter;
+}    
+
+/* fade-in 动画 */
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+}
+.fade-in.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
 </style>
 
-<blockquote
+{{ $author := .Get "author" | default "" }}
+{{ $id := .Get "id" | default (printf "quote-%d" (add (len (.Page.Scratch.Get "quote-anchors" | default (slice))) 1)) }}
+{{ $preview := .Inner | markdownify | plainify | truncate 50 }}
+
+{{ .Page.Scratch.Add "quote-anchors" (dict "id" $id "author" $author "preview" $preview) }}
+
+<blockquote id="{{ $id }}" 
   {{ if or $border $color $bg }}
     style="
       {{ with $border }}border-left-color: {{ . }};{{ end }}
@@ -34,3 +61,18 @@ blockquote .author {
     <span class="author">— {{ .Get "author" }}</span>
   {{- end -}}
 </blockquote>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    const blocks = document.querySelectorAll('blockquote.fade-in');
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if(entry.isIntersecting){
+                entry.target.classList.add('visible');
+                observer.unobserve(entry.target);
+            }
+        });
+    }, {threshold: 0.1});
+    blocks.forEach(block => observer.observe(block));
+});
+</script>
