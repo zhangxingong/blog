@@ -7,8 +7,6 @@ author = "zhangxingong"
 hiddenFromHomePage = false
 +++
 
-{{< quotelist-floating >}}
-
 {{< customblockquote author="纳瓦尔" >}}
 ∨  <br>
 <p>有一大批机器人可供我们免费使用。为了提高热效率、节约空间，这些机器人就集中放在数据中心。用起来吧。  </p>
