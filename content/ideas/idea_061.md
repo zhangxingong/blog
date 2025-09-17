@@ -7,6 +7,7 @@ author = "zhangxingong"
 hiddenFromHomePage = false
 +++
 
+{{< customblockquote author="纳瓦尔" >}} 
 # 如何致富（不靠运气）：
 
 ∨
@@ -104,3 +105,5 @@ hiddenFromHomePage = false
 ∨
 
 代码和媒体是不需要许可就能使用的杠杆。这两个杠杆是新富阶层背后的杠杆。你可以创建软件和媒体，让它们在你睡觉时为你工作。
+
+{{< /customblockquote >}}
