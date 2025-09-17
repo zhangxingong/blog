@@ -1,5 +1,5 @@
 <style>
-blockquote.idea_custom {
+blockquote {
     margin: 25px auto;
     quotes: "“" "”" "‘" "’";
     padding: 1.5rem;
@@ -10,7 +10,7 @@ blockquote.idea_custom {
     background: var(--haze);
 }
 
-blockquote.idea_custom .author {
+blockquote .author {
     display: block;
     margin-top: 0.5rem;
     text-align: right;
@@ -20,7 +20,7 @@ blockquote.idea_custom .author {
 }
 </style>
 
-<blockquote class="idea_custom" style="
+<blockquote  style="
     border-left-color: {{ .Get "border" | default "#0077b8" }};
     color: {{ .Get "color" | default "#555555" }};
     background: {{ .Get "bg" | default "var(--haze)" }};
