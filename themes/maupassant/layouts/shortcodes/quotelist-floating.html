@@ -1,0 +1,59 @@
+<div class="quote-sidebar">
+  <details open>
+    <summary>引用目录</summary>
+    <ul class="quote-index">
+    {{ range .Page.Scratch.Get "quote-anchors" }}
+      <li><a href="#{{ .id }}">{{ .author | default "引用" }}: {{ .preview }}</a></li>
+    {{ end }}
+    </ul>
+  </details>
+</div>
+
+<style>
+.quote-sidebar {
+    position: fixed;
+    top: 100px;
+    right: 20px;
+    width: 250px;
+    max-height: 70vh;
+    overflow-y: auto;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 0.5rem;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    z-index: 999;
+}
+
+.quote-index {
+    list-style: decimal inside;
+    padding: 0.5rem 0;
+    margin: 0;
+}
+.quote-index li {
+    margin-bottom: 0.5rem;
+}
+.quote-index a {
+    text-decoration: none;
+    color: #0077b8;
+}
+.quote-index a:hover {
+    text-decoration: underline;
+}
+
+details summary {
+    font-weight: bold;
+    cursor: pointer;
+    padding: 0.5rem;
+    background: #f0f0f0;
+    border-radius: 5px;
+}
+details[open] summary::after {
+    content: "▲";
+    float: right;
+}
+details summary::after {
+    content: "▼";
+    float: right;
+}
+</style>
