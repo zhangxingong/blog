@@ -1,13 +1,11 @@
-:PROPERTIES:
-:ID:       54e41914-64b8-48ac-a0b7-5e15bfd4f348
-:END:
 #+TITLE: idea_066
-#+DATE: 2025-09-19T15:56:51+0800
+#+DATE: 2025-09-19T16:07:50+0800
 #+SLUG: idea_066
 #+draft: false
 
 
 #+DOWNLOADED: screenshot @ 2025-09-19 15:57:04
 [[https://gcore.jsdelivr.net/gh/zhangxingong/blog@main/static/img/15-57-04_5_screenshot.png]]
+
 
 
