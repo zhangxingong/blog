@@ -1,9 +1,12 @@
----
-title: idea_078
-date: 2026-09-07T10:00:00+0800
-slug: idea_078
-draft: true
----
++++
+title = "idea_078"
+date = "2026-09-07T10:00:00+0800"
+draft = false
+weight = 2003
+author = "zhangxingong"
+hiddenFromHomePage = false
++++
+
 
 # 让赵长鹏明白或教会他的关键句子
 
